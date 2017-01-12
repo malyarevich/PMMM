@@ -1,5 +1,4 @@
 WordPress - Web publishing software
-
 Copyright 2011-2017 by the contributors
 
 This program is free software; you can redistribute it and/or modify
