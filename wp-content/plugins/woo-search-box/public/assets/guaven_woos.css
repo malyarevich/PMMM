@@ -1,0 +1,17 @@
+  .guaven_woos_suggestion {z-index:99990; position: absolute;display:none;background: white;padding:5px;border:3px solid white;}
+  .guaven_woos_selected {background: yellow}
+  .guaven_woos_suggestion>ul {margin:0; list-style-type:none !important; }
+  .guaven_woos_div {padding:5px;}
+  .guaven_woos_img {width:50px;position:absolute}
+  .guaven_woos_titlediv {padding-left:5px;margin-left:55px;font-size:12px}
+  .guaven_woos_thereissale {text-decoration: line-through;}
+.guaven_woos_pinnedtitle { margin: 3px 0;
+    font-weight: bold;}
+    .guaven_woos_suggestion_list {display:block;overflow: auto;min-height:50px;margin-bottom:3px}
+    .guaven_woos_pinnedtitle {padding-top: 10px}
+   .woos_sku {display: none}
+   .guaven_woos_hidden,   .guaven_woos_hidden_description {display: none;}
+
+.guaven_woos_titlediv_cat {font-size:14px;line-height: 15px}
+.guaven_woos_suggestion_listproduct_cat {margin-left: 5px;line-height: 20px}
+.gwshd {display: none !important}

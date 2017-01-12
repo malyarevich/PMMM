@@ -1,0 +1,196 @@
+/**
+ * Custom WC Germanized CSS for Flatsome
+ */
+
+/**
+ * LOOP
+ */
+
+ul.products li .price, div.products .product .price {
+	display: block;
+	margin: 0.5em 0;
+}
+
+ul.products li p.price-unit, div.products .product p.price-unit {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+ul.products li p.tax-info, ul.products li p.shipping-costs-info, div.products .product p.tax-info, div.products .product p.shipping-costs-info {
+	display: inline-block;
+}
+
+ul.products li.virtual .tax-info, ul.products li.downloadable .tax-info {
+	display: block;
+}
+
+ul.products li p.wc-gzd-additional-info, div.products .product p.wc-gzd-additional-info {
+	margin: 0.5em 0;
+}
+
+ul.products li span.product-units, div.products .product span.product-units {
+	display: block;
+	margin-top: 0;
+}
+
+/**
+ * SINGLE PRODUCT
+ */
+
+.single-product .wc-gzd-additional-info {
+	display: block;
+}
+
+.single-product .small-business-info {
+	font-size: 0.9em;
+	margin-bottom: 0.5em;
+}
+
+.single-product .shipping-costs-info, .single-product .tax-info {
+	display: inline-block;
+}
+
+.single-product p.price-unit {
+	font-size: 0.9em;
+}
+
+/**
+ * DROPDOWN CART
+ */
+
+.mini_cart_item .units-info, .mini_cart_item .delivery-time-info, .mini_cart_item .item-desc {
+	font-size: 12px;
+	margin: 5px 0;
+}
+
+.mini_cart_item .unit-price {
+	display: inline;
+	margin-left: 0.5em;
+}
+
+/**
+ * CART / CHECKOUT
+ */
+
+.woocommerce .price-shipping-costs-info {
+	font-size: 0.8em;
+	margin: 0.5em 0;
+}
+
+.woocommerce .cart_totals .small-business-info {
+	border: none;
+	width: 100%;
+	padding: 0;
+}
+
+.woocommerce .payment_methods .small {
+	font-size: 0.8em;
+}
+
+.woocommerce .shop_table tr td, .woocommerce .shop_table tr th {
+	padding: 0.5em;
+}
+
+.woocommerce .shop_table .cart_item .wc-gzd-product-name-right {
+	max-width: 75%;
+}
+
+#order_review p.data-download label {
+    font-weight: normal;
+}
+
+#order_review .wc-terms-and-conditions {
+  	border: none;
+  	margin-top: 10px;
+}	
+
+/**
+ * MULTISTEP CHECKOUT
+ */
+
+.woocommerce-multistep-checkout .wc-terms-and-conditions {
+  	margin: 0;
+}	
+
+.woocommerce-multistep-checkout #customer_details .col-1, .woocommerce-multistep-checkout #customer_details .col-2 {
+	width: 50%;
+}
+
+.woocommerce-multistep-checkout .woocommerce-billing-fields, .woocommerce-multistep-checkout .woocommerce-shipping-fields {
+	border: none;
+}
+
+.woocommerce-multistep-checkout #order_review {
+	border: none;
+	padding: 0;
+}
+
+.woocommerce-gzpd-checkout-verify-data a.edit {
+	font-size: 0.7em;
+	font-weight: normal;
+}
+
+.woocommerce-gzpd-checkout-verify-data .addresses address {
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+.woocommerce-gzpd-checkout-verify-data .row [class*="column"]:last-child {
+	float: left;
+}
+
+.woocommerce-gzpd-checkout-verify-data {
+	margin-bottom: 1.5em;
+}
+
+@media (max-width: 767px) {
+	.woocommerce-gzpd-checkout-verify-data h4 {
+		font-size: 100%;
+	}
+	.woocommerce-gzpd-checkout-verify-data .columns {
+		margin-bottom: 1em;
+	}
+	.woocommerce-gzpd-checkout-verify-data {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 420px) {
+	.woocommerce-multistep-checkout .step-buttons {
+		text-align: center;
+	}
+	.woocommerce-multistep-checkout .step-buttons .prev-step-button {
+		margin-bottom: 1em;
+		font-size: 80%;
+		display: block;
+	}
+	.woocommerce-multistep-checkout .step-buttons .next-step-button {
+		float: none;
+	}
+}
+
+/** 
+ * MYACCOUNT
+ */
+
+label[for=reg_data_privacy], label[for=createaccount] {
+	display: inline;
+    padding-left: 5px;
+}
+
+/**
+ * FOOTER
+ */
+
+p.footer-info {
+	text-align: left;
+}
+
+.copyright-footer p {
+	margin: 0;
+	padding: 0.5em 0 0;
+}
+
+.copyright-footer p.sale-info {
+	padding-top: 0;
+}

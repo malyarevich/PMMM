@@ -1,0 +1,8 @@
+.redirect-rule-icon {
+    background: url(../image/redirect_rules_icon.png) center no-repeat;
+    height: 45px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

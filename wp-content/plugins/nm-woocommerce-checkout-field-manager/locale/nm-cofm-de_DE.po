@@ -1,0 +1,1248 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Woo Checkout Field Manager\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Qamar Sheeraz <qsheeraz@yahoo.com>\n"
+"Language-Team: N-Media\n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/admin.class.php:171 classes/admin.class.php:172
+msgid "Checkout Manager"
+msgstr "Kasse-Manager"
+
+#: classes/admin.class.php:181 classes/admin.class.php:182
+msgid " Settings"
+msgstr "Einstellungen"
+
+#: classes/admin.class.php:218
+msgid "Provide API key below:"
+msgstr "Bieten Sie API-Schlüssel unten:"
+
+#: classes/admin.class.php:219
+msgid ""
+"If you don't know your API key, please login into your: <a target=\"_blank\" "
+"href=\"http://wordpresspoets.com/member-area\">Member area</a>"
+msgstr ""
+"Wenn Sie Ihren API-Schlüssel nicht kennen, gehen Sie bitte in Ihrem: <a "
+"target=\"_blank\" href=\"http://wordpresspoets.com/member-area"
+"\">Mitgliederbereich</a>"
+
+#: classes/admin.class.php:222
+msgid "Entery API key"
+msgstr "Szene sein API-Schlüssel"
+
+#: classes/inputs/input.checkbox.php:24
+msgid "Checkbox Input"
+msgstr "CheckBox Input"
+
+#: classes/inputs/input.checkbox.php:25
+msgid "regular checkbox input"
+msgstr "regelmäßige Checkbox Eingabe"
+
+#: classes/inputs/input.checkbox.php:38 classes/inputs/input.color.php:54
+#: classes/inputs/input.country.php:38 classes/inputs/input.date.php:42
+#: classes/inputs/input.email.php:38 classes/inputs/input.file.php:55
+#: classes/inputs/input.image.php:38 classes/inputs/input.instagram.php:65
+#: classes/inputs/input.masked.php:80 classes/inputs/input.number.php:38
+#: classes/inputs/input.radio.php:38 classes/inputs/input.section.php:43
+#: classes/inputs/input.select.php:38 classes/inputs/input.text.php:38
+#: classes/inputs/input.textarea.php:38
+msgid "Title"
+msgstr "Titel"
+
+#: classes/inputs/input.checkbox.php:39 classes/inputs/input.color.php:55
+#: classes/inputs/input.country.php:39 classes/inputs/input.date.php:43
+#: classes/inputs/input.email.php:39 classes/inputs/input.file.php:56
+#: classes/inputs/input.image.php:39 classes/inputs/input.instagram.php:66
+#: classes/inputs/input.masked.php:81 classes/inputs/input.number.php:39
+#: classes/inputs/input.radio.php:39 classes/inputs/input.select.php:39
+#: classes/inputs/input.text.php:39 classes/inputs/input.textarea.php:39
+msgid "It will be shown as field label"
+msgstr "Es wird als Bezeichnung des Felds angezeigt"
+
+#: classes/inputs/input.checkbox.php:43 classes/inputs/input.color.php:59
+#: classes/inputs/input.country.php:43 classes/inputs/input.date.php:47
+#: classes/inputs/input.email.php:43 classes/inputs/input.file.php:60
+#: classes/inputs/input.hidden.php:39 classes/inputs/input.image.php:43
+#: classes/inputs/input.instagram.php:70 classes/inputs/input.masked.php:85
+#: classes/inputs/input.number.php:43 classes/inputs/input.radio.php:43
+#: classes/inputs/input.select.php:43 classes/inputs/input.text.php:43
+#: classes/inputs/input.textarea.php:43
+msgid "Data name"
+msgstr "Datenname"
+
+#: classes/inputs/input.checkbox.php:44 classes/inputs/input.color.php:60
+#: classes/inputs/input.country.php:44 classes/inputs/input.date.php:48
+#: classes/inputs/input.email.php:44 classes/inputs/input.file.php:61
+#: classes/inputs/input.hidden.php:40 classes/inputs/input.image.php:44
+#: classes/inputs/input.instagram.php:71 classes/inputs/input.masked.php:86
+#: classes/inputs/input.number.php:44 classes/inputs/input.radio.php:44
+msgid ""
+"REQUIRED: The identification name of this field, that you can insert into "
+"body email configuration. Note:Use only lowercase characters and underscores."
+msgstr ""
+"ERFORDERLICH: Der ID-Name dieses Feldes, das Sie in der Konfiguration des e-"
+"Mail einfügen können. Hinweis: benutzen Sie nur Kleinbuchstaben und "
+"Unterstriche."
+
+#: classes/inputs/input.checkbox.php:50 classes/inputs/input.color.php:69
+#: classes/inputs/input.country.php:53 classes/inputs/input.date.php:57
+#: classes/inputs/input.email.php:53 classes/inputs/input.file.php:70
+#: classes/inputs/input.image.php:53 classes/inputs/input.instagram.php:80
+#: classes/inputs/input.masked.php:95 classes/inputs/input.number.php:53
+#: classes/inputs/input.radio.php:53 classes/inputs/input.select.php:53
+#: classes/inputs/input.text.php:53 classes/inputs/input.textarea.php:53
+msgid "Error message"
+msgstr "Fehlermeldung"
+
+#: classes/inputs/input.checkbox.php:51 classes/inputs/input.color.php:70
+#: classes/inputs/input.country.php:54 classes/inputs/input.date.php:58
+#: classes/inputs/input.email.php:54 classes/inputs/input.file.php:71
+#: classes/inputs/input.image.php:54 classes/inputs/input.instagram.php:81
+#: classes/inputs/input.masked.php:96 classes/inputs/input.number.php:54
+#: classes/inputs/input.radio.php:54 classes/inputs/input.select.php:54
+#: classes/inputs/input.text.php:54 classes/inputs/input.textarea.php:54
+msgid "Insert the error message for validation."
+msgstr "Legen Sie die Fehlermeldung für die Validierung fest"
+
+#: classes/inputs/input.checkbox.php:56 classes/inputs/input.radio.php:59
+#: classes/inputs/input.select.php:59
+msgid "Add options"
+msgstr "Optionen hinzufügen"
+
+#: classes/inputs/input.checkbox.php:57 classes/inputs/input.radio.php:60
+#: classes/inputs/input.select.php:60
+msgid "Type each option/line"
+msgstr "Geben Sie jede Option/Zeile"
+
+#: classes/inputs/input.checkbox.php:62 classes/inputs/input.color.php:75
+#: classes/inputs/input.country.php:61 classes/inputs/input.date.php:63
+#: classes/inputs/input.email.php:59 classes/inputs/input.file.php:76
+#: classes/inputs/input.image.php:71 classes/inputs/input.instagram.php:86
+#: classes/inputs/input.masked.php:101 classes/inputs/input.number.php:83
+#: classes/inputs/input.radio.php:71 classes/inputs/input.select.php:71
+#: classes/inputs/input.text.php:71 classes/inputs/input.textarea.php:59
+msgid "Required"
+msgstr "Erforderlich"
+
+#: classes/inputs/input.checkbox.php:63 classes/inputs/input.color.php:76
+#: classes/inputs/input.country.php:62 classes/inputs/input.date.php:64
+#: classes/inputs/input.email.php:60 classes/inputs/input.file.php:77
+#: classes/inputs/input.image.php:72 classes/inputs/input.instagram.php:87
+#: classes/inputs/input.masked.php:102 classes/inputs/input.number.php:84
+#: classes/inputs/input.radio.php:72 classes/inputs/input.select.php:72
+#: classes/inputs/input.text.php:72 classes/inputs/input.textarea.php:60
+msgid "Select this if it must be required."
+msgstr "Wählen Sie diese Option , wenn es erforderlich ist ."
+
+#: classes/inputs/input.checkbox.php:67 classes/inputs/input.date.php:68
+#: classes/inputs/input.email.php:64 classes/inputs/input.file.php:82
+#: classes/inputs/input.image.php:59 classes/inputs/input.instagram.php:92
+#: classes/inputs/input.masked.php:112 classes/inputs/input.number.php:88
+#: classes/inputs/input.radio.php:77 classes/inputs/input.select.php:77
+#: classes/inputs/input.text.php:76 classes/inputs/input.textarea.php:77
+msgid "Class"
+msgstr "Klasse"
+
+#: classes/inputs/input.checkbox.php:68 classes/inputs/input.date.php:69
+#: classes/inputs/input.email.php:65 classes/inputs/input.file.php:83
+#: classes/inputs/input.image.php:60 classes/inputs/input.instagram.php:93
+#: classes/inputs/input.masked.php:113 classes/inputs/input.number.php:89
+#: classes/inputs/input.radio.php:78 classes/inputs/input.select.php:78
+#: classes/inputs/input.text.php:77 classes/inputs/input.textarea.php:78
+msgid ""
+"Insert an additional class(es) (separateb by comma) for more personalization."
+msgstr ""
+"Legen Sie eine weitere Klasse (n) (separateb durch Komma) für mehr "
+"Personalisierung."
+
+#: classes/inputs/input.checkbox.php:79
+msgid "Checked option(s)"
+msgstr "Geprüfte Option(en)"
+
+#: classes/inputs/input.checkbox.php:80
+msgid "Type option(s) name (given above) if you want already checked."
+msgstr ""
+"Geben Sie Option(en) Namen (oben angegebenen), wenn Sie bereits überprüft."
+
+#: classes/inputs/input.checkbox.php:97 classes/inputs/input.color.php:99
+#: classes/inputs/input.date.php:93 classes/inputs/input.email.php:75
+#: classes/inputs/input.file.php:179 classes/inputs/input.image.php:108
+#: classes/inputs/input.instagram.php:131 classes/inputs/input.masked.php:122
+#: classes/inputs/input.number.php:98 classes/inputs/input.radio.php:87
+#: classes/inputs/input.select.php:87 classes/inputs/input.text.php:86
+#: classes/inputs/input.textarea.php:87
+msgid "Enable conditional logic"
+msgstr "Bedingungslogik aktivieren"
+
+#: classes/inputs/input.checkbox.php:98 classes/inputs/input.checkbox.php:103
+#: classes/inputs/input.color.php:100 classes/inputs/input.color.php:105
+#: classes/inputs/input.date.php:94 classes/inputs/input.date.php:99
+#: classes/inputs/input.email.php:76 classes/inputs/input.email.php:81
+#: classes/inputs/input.file.php:180 classes/inputs/input.file.php:185
+#: classes/inputs/input.image.php:109 classes/inputs/input.image.php:114
+#: classes/inputs/input.instagram.php:132
+#: classes/inputs/input.instagram.php:137 classes/inputs/input.masked.php:123
+#: classes/inputs/input.masked.php:128 classes/inputs/input.number.php:99
+#: classes/inputs/input.number.php:104 classes/inputs/input.radio.php:88
+#: classes/inputs/input.radio.php:93 classes/inputs/input.select.php:88
+#: classes/inputs/input.select.php:93 classes/inputs/input.text.php:87
+#: classes/inputs/input.text.php:92 classes/inputs/input.textarea.php:88
+#: classes/inputs/input.textarea.php:93
+msgid "Tick it to turn conditional logic to work below"
+msgstr "Kreuzen Sie es um die Bedingungslogik unten arbeiten zu deaktivieren"
+
+#: classes/inputs/input.checkbox.php:102 classes/inputs/input.color.php:104
+#: classes/inputs/input.date.php:98 classes/inputs/input.email.php:80
+#: classes/inputs/input.file.php:184 classes/inputs/input.image.php:113
+#: classes/inputs/input.instagram.php:136 classes/inputs/input.masked.php:127
+#: classes/inputs/input.number.php:103 classes/inputs/input.radio.php:92
+#: classes/inputs/input.select.php:92 classes/inputs/input.text.php:91
+#: classes/inputs/input.textarea.php:92
+msgid "Conditions"
+msgstr "Bedingungen"
+
+#: classes/inputs/input.color.php:24
+msgid "Color picker"
+msgstr "Farbauswahl"
+
+#: classes/inputs/input.color.php:25
+msgid "Color pallete input"
+msgstr "Farbe Palettenstellplatz Eingang"
+
+#: classes/inputs/input.color.php:64 classes/inputs/input.country.php:48
+#: classes/inputs/input.date.php:52 classes/inputs/input.email.php:48
+#: classes/inputs/input.file.php:65 classes/inputs/input.image.php:48
+#: classes/inputs/input.instagram.php:75 classes/inputs/input.masked.php:90
+#: classes/inputs/input.number.php:48 classes/inputs/input.radio.php:48
+#: classes/inputs/input.section.php:48 classes/inputs/input.select.php:48
+#: classes/inputs/input.text.php:48 classes/inputs/input.textarea.php:48
+msgid "Description"
+msgstr "Beschreibung"
+
+#: classes/inputs/input.color.php:65 classes/inputs/input.country.php:49
+#: classes/inputs/input.date.php:53 classes/inputs/input.email.php:49
+#: classes/inputs/input.file.php:66 classes/inputs/input.image.php:49
+#: classes/inputs/input.instagram.php:76 classes/inputs/input.masked.php:91
+#: classes/inputs/input.number.php:49 classes/inputs/input.radio.php:49
+#: classes/inputs/input.text.php:49 classes/inputs/input.textarea.php:49
+msgid "Small description, it will be diplay near name title."
+msgstr "Kleine Beschreibung Diplay nahe Name Titel werden."
+
+#: classes/inputs/input.color.php:81
+msgid "Dedfault color"
+msgstr "Dedfault Farbe"
+
+#: classes/inputs/input.color.php:82
+msgid "Define default color e.g: #effeff"
+msgstr "Standard Farbe z.B. definieren: #effeff"
+
+#: classes/inputs/input.color.php:87
+msgid "Show palletes"
+msgstr "Karte palletes"
+
+#: classes/inputs/input.color.php:88
+msgid "Tick if need to show a group of common colors beneath the square"
+msgstr ""
+"Ankreuzen, wenn eine Gruppe von gemeinsamen Farben unter dem Platz zeigen "
+"muss"
+
+#: classes/inputs/input.color.php:93
+msgid "Show color picker"
+msgstr "Karte-Farbauswahl"
+
+#: classes/inputs/input.color.php:94
+msgid ""
+"Display color picker by default, otherwise will show when field selected"
+msgstr "Display-Farbauswahl standardmäßig sonst zeigen wenn Feld ausgewählt"
+
+#: classes/inputs/input.country.php:24
+msgid "Country Input"
+msgstr "Land-Eingang"
+
+#: classes/inputs/input.country.php:25
+msgid "List of countries"
+msgstr "Liste der Länder"
+
+#: classes/inputs/input.date.php:24
+msgid "Date Input"
+msgstr "Datum-Eingabe"
+
+#: classes/inputs/input.date.php:25
+msgid "regular date input"
+msgstr "regelmäßige Datum Eingang"
+
+#: classes/inputs/input.date.php:73 classes/inputs/input.email.php:69
+#: classes/inputs/input.file.php:88 classes/inputs/input.image.php:65
+#: classes/inputs/input.instagram.php:97 classes/inputs/input.masked.php:117
+#: classes/inputs/input.number.php:93 classes/inputs/input.radio.php:82
+#: classes/inputs/input.select.php:82 classes/inputs/input.text.php:81
+#: classes/inputs/input.textarea.php:82
+msgid "Width"
+msgstr "Breite"
+
+#: classes/inputs/input.date.php:74 classes/inputs/input.email.php:70
+#: classes/inputs/input.file.php:89 classes/inputs/input.image.php:66
+#: classes/inputs/input.instagram.php:98 classes/inputs/input.masked.php:118
+#: classes/inputs/input.number.php:94 classes/inputs/input.radio.php:83
+#: classes/inputs/input.select.php:83 classes/inputs/input.text.php:82
+#: classes/inputs/input.textarea.php:83
+msgid "Type field width in % e.g: 50%"
+msgstr "Geben Sie Feldbreite in % z.B.: 50 %"
+
+#: classes/inputs/input.date.php:78
+msgid "Date formats"
+msgstr "Datumsformate"
+
+#: classes/inputs/input.date.php:79
+msgid "Select date format."
+msgstr "Wählen Sie Datumsformat."
+
+#: classes/inputs/input.email.php:24
+msgid "Email Input"
+msgstr "E-Mail-Eingang"
+
+#: classes/inputs/input.email.php:25
+msgid "regular email input"
+msgstr "regelmäßige e-Mail-Eingang"
+
+#: classes/inputs/input.file.php:25
+msgid "File Input"
+msgstr "Datei-Input"
+
+#: classes/inputs/input.file.php:26
+msgid "regular file input"
+msgstr "reguläre Datei-Eingabe"
+
+#: classes/inputs/input.file.php:94 classes/inputs/input.image.php:95
+msgid "Popup width"
+msgstr "Popup-Breite"
+
+#: classes/inputs/input.file.php:95
+msgid "(if image) Popup window width in px e.g: 750"
+msgstr "(wenn Bild) Popup Fensterbreite in Pixel z.B.: 750"
+
+#: classes/inputs/input.file.php:100 classes/inputs/input.image.php:101
+msgid "Popup height"
+msgstr "Popup-Höhe"
+
+#: classes/inputs/input.file.php:101
+msgid "(if image) Popup window height in px e.g: 550"
+msgstr "(wenn Bild) Popup Fensterhöhe in Pixel z.B.: 550"
+
+#: classes/inputs/input.file.php:106
+msgid "Button label (select files)"
+msgstr "Schaltflächenbezeichnung (Dateien auswählen)"
+
+#: classes/inputs/input.file.php:107
+msgid "Type button label e.g: Select Photos"
+msgstr "Geben Sie Schaltfläche Bezeichnung z.B.: Wählen Sie Fotos"
+
+#: classes/inputs/input.file.php:118 classes/inputs/input.instagram.php:108
+msgid "Button class"
+msgstr "Button Klasse:"
+
+#: classes/inputs/input.file.php:119
+msgid "Type class for both (select, upload) buttons"
+msgstr "Type-Klasse für beide (select, Upload) Tasten"
+
+#: classes/inputs/input.file.php:124
+msgid "Files allowed"
+msgstr "Dateien zulässig"
+
+#: classes/inputs/input.file.php:125
+msgid "Type number of files allowed per upload by user, e.g: 3"
+msgstr "Geben Sie Anzahl der Dateien pro Upload von Benutzer erlaubt z.B.: 3"
+
+#: classes/inputs/input.file.php:129
+msgid "File types"
+msgstr "Dateitypen"
+
+#: classes/inputs/input.file.php:130
+msgid "File types allowed seperated by comma, e.g: jpg,pdf,zip"
+msgstr "Dateitypen erlaubt getrennt durch Komma, z.B.: Jpg, Pdf, zip"
+
+#: classes/inputs/input.file.php:135
+msgid "File size"
+msgstr "Dateigröße:"
+
+#: classes/inputs/input.file.php:136
+msgid "Type size with units in kb|mb per file uploaded by user, e.g: 3mb"
+msgstr ""
+"Geben Sie Größe mit Einheiten in Kb|mb pro Datei hochgeladen von Benutzer, z."
+"B.: 3mb"
+
+#: classes/inputs/input.file.php:140
+msgid "chunk size"
+msgstr "Chunk-Größe"
+
+#: classes/inputs/input.file.php:141
+msgid "Enables you to chunk the large file into smaller pieces, e.g: 1mb"
+msgstr ""
+"Ermöglicht es Ihnen, die große Datei in kleinere Stücke aufteilen z.B.: 1mb"
+
+#: classes/inputs/input.file.php:206
+msgid "Drag file(s) in this box"
+msgstr "Ziehen Sie die Datei(en) in diesem Feld"
+
+#: classes/inputs/input.file.php:208
+msgid "Drag file(s) or directory in this box"
+msgstr "Ziehen Sie Dateien oder Verzeichnis in diesem Feld"
+
+#: classes/inputs/input.file.php:261
+msgid "are you sure to delete this file?"
+msgstr "Sind Sie sicher, das Sie diese Datei löschen wollen?"
+
+#: classes/inputs/input.hidden.php:24
+msgid "Hidden Input"
+msgstr "Verborgene Eingabe"
+
+#: classes/inputs/input.hidden.php:25
+msgid "regular hidden input"
+msgstr "reguläre versteckte Eingabe"
+
+#: classes/inputs/input.hidden.php:44
+msgid "Field value"
+msgstr "Feldwert"
+
+#: classes/inputs/input.hidden.php:45
+msgid "you can pre-set the value of this hidden input."
+msgstr "Sie können den Wert dieser versteckten Eingang vorprogrammieren."
+
+#: classes/inputs/input.image.php:24
+msgid "Images"
+msgstr "Bilder"
+
+#: classes/inputs/input.image.php:25
+msgid "Images selection"
+msgstr "Bilder-Auswahl"
+
+#: classes/inputs/input.image.php:77
+msgid "Select images"
+msgstr "Wählen Sie die Bilder"
+
+#: classes/inputs/input.image.php:78
+msgid "Select images from media library"
+msgstr "Wählen Sie Bilder aus der Medienbibliothek."
+
+#: classes/inputs/input.image.php:83
+msgid "Multiple selection?"
+msgstr "Mehrfachauswahl?"
+
+#: classes/inputs/input.image.php:84
+msgid "Allow users to select more then one images?."
+msgstr "Ermöglicht Benutzern, mehr als ein Bilder auszuwählen?"
+
+#: classes/inputs/input.image.php:89
+msgid "Selected image"
+msgstr "Ausgewähltes Bild"
+
+#: classes/inputs/input.image.php:90
+msgid "Type option title (given above) if you want it already selected."
+msgstr ""
+"Geben Sie Option Titel (oben angegebenen), falls es bereits ausgewählt "
+"gewünscht."
+
+#: classes/inputs/input.image.php:96
+msgid "Popup window width in px e.g: 750"
+msgstr "Popup Fensterbreite in Pixel z.B.: 750"
+
+#: classes/inputs/input.image.php:102
+msgid "Popup window height in px e.g: 550"
+msgstr "Popup Fensterhöhe in Pixel z.B.: 550"
+
+#: classes/inputs/input.instagram.php:50
+msgid "Instagram import"
+msgstr "Instagram-import"
+
+#: classes/inputs/input.instagram.php:51
+msgid "Import photo from Instagram"
+msgstr "Import-Foto von Instagram"
+
+#: classes/inputs/input.instagram.php:103
+msgid "Button label"
+msgstr "Schaltfläche Label:"
+
+#: classes/inputs/input.instagram.php:104
+msgid "Type button label e.g: Import Photos"
+msgstr "Geben Sie Schaltfläche Bezeichnung z.B.: Fotos importieren"
+
+#: classes/inputs/input.instagram.php:109
+msgid "Type class for import button"
+msgstr "Typklasse für Schaltfläche \"Importieren\""
+
+#: classes/inputs/input.instagram.php:114
+msgid "Client ID"
+msgstr "Kunden ID"
+
+#: classes/inputs/input.instagram.php:115
+msgid "Get client id from your Instagram app."
+msgstr "Client-Id von Ihrem Instagram-app zu erhalten."
+
+#: classes/inputs/input.instagram.php:119
+msgid "Client secret"
+msgstr "Client secret"
+
+#: classes/inputs/input.instagram.php:120
+msgid "Get client secret from your Instagram app."
+msgstr "Client geheim Ihre Instagram-app zu bekommen."
+
+#: classes/inputs/input.instagram.php:124
+msgid "Redirect URI"
+msgstr "Weiterleitungs-URL"
+
+#: classes/inputs/input.instagram.php:125
+msgid "Paste redirect uri you used in Instagram app page, it MUST be matched."
+msgstr ""
+"Fügen Sie Sie verwendete Umleitungs-Uri in Instagram-app-Seite, es muss "
+"ergänzt werden."
+
+#: classes/inputs/input.instagram.php:262
+msgid "Import photos from Instagram"
+msgstr "Importieren von Fotos aus Instagram"
+
+#: classes/inputs/input.masked.php:49
+msgid "Masked Input"
+msgstr "Maskierte Eingabe"
+
+#: classes/inputs/input.masked.php:50
+msgid "masked input"
+msgstr "maskierte Eingabe"
+
+#: classes/inputs/input.masked.php:107
+msgid "Input Mask"
+msgstr "Eingabemaske"
+
+#: classes/inputs/input.masked.php:108
+msgid ""
+"Input mask e.g:<br>a - Represents an alpha character (A-Z,a-z)<br>9 - "
+"Represents a numeric character (0-9)<br>* - Represents an alphanumeric "
+"character (A-Z,a-z,0-9)"
+msgstr ""
+"Eingabeformat-z.B.:<br>a - stellt ein Alpha Zeichen (A-Z, a-Z)<br>9 - stellt "
+"ein numerisches Zeichen (0-9)<br>* - Steht ein alphanumerisches Zeichen (A-"
+"Z, a-Z, 0-9)"
+
+#: classes/inputs/input.number.php:24
+msgid "Number Input"
+msgstr "Anzahl ein-"
+
+#: classes/inputs/input.number.php:25
+msgid "regular number input"
+msgstr "reguläre Nummer Eingabe"
+
+#: classes/inputs/input.number.php:59
+msgid "Max. values"
+msgstr "Max. Werte"
+
+#: classes/inputs/input.number.php:60
+msgid "Max. values allowed, leave blank for default"
+msgstr "Max. freilassen Sie Werte zulässig, für Standard"
+
+#: classes/inputs/input.number.php:65
+msgid "Min. values"
+msgstr "Min.-Werte"
+
+#: classes/inputs/input.number.php:66
+msgid "Min. values allowed, leave blank for default"
+msgstr "Min. Werte erlaubt, freilassen für Standard"
+
+#: classes/inputs/input.number.php:71
+msgid "Steps"
+msgstr "Schritte"
+
+#: classes/inputs/input.number.php:72
+msgid "specified legal number intervals"
+msgstr "gesetzliche Anzahl Intervalle angegeben"
+
+#: classes/inputs/input.number.php:77
+msgid "Set default value"
+msgstr "Standardwert"
+
+#: classes/inputs/input.number.php:78
+msgid "Pre-defined value for text input"
+msgstr "Vordefinierter Wert für die Texteingabe"
+
+#: classes/inputs/input.radio.php:24
+msgid "Radio Input"
+msgstr "Auswahlkästchen"
+
+#: classes/inputs/input.radio.php:25
+msgid "regular radio input"
+msgstr "regelmäßige Radioeingang"
+
+#: classes/inputs/input.radio.php:65 classes/inputs/input.select.php:65
+msgid "Selected option"
+msgstr "Ausgewählte option"
+
+#: classes/inputs/input.radio.php:66 classes/inputs/input.select.php:66
+msgid "Type option name (given above) if you want already selected."
+msgstr ""
+"Geben Sie Name der Option (oben angegebenen), falls bereits ausgewählten "
+"gewünscht."
+
+#: classes/inputs/input.section.php:29
+msgid "Section"
+msgstr "Bereich"
+
+#: classes/inputs/input.section.php:30
+msgid "Form section"
+msgstr "Formular-Abschnitt"
+
+#: classes/inputs/input.section.php:44
+msgid "It will as section heading wrapped in h2"
+msgstr "Es wird als Überschrift h2 umwickelt"
+
+#: classes/inputs/input.section.php:49
+msgid "Type description, it will be diplay under section heading."
+msgstr "Typbeschreibung, Diplay unter Überschrift werden."
+
+#: classes/inputs/input.select.php:24
+msgid "Select-box Input"
+msgstr "Select-Box-Eingang"
+
+#: classes/inputs/input.select.php:25
+msgid "regular select-box input"
+msgstr "reguläre Select-Box-Eingabe"
+
+#: classes/inputs/input.select.php:44 classes/inputs/input.text.php:44
+#: classes/inputs/input.textarea.php:44
+msgid ""
+"Note:Use only lowercase characters and underscores. <br>Do not remove prefix "
+"(billing_, shipping_)"
+msgstr ""
+"Hinweis: benutzen Sie nur Kleinbuchstaben und Unterstriche.<br>Entfernen Sie "
+"nicht Präfix (Billing_, Shipping_)"
+
+#: classes/inputs/input.select.php:49
+msgid "Small description, it will shown as first option"
+msgstr "Kleine Beschreibung, es wird angezeigt, als erste option"
+
+#: classes/inputs/input.select.php:114
+msgid "Select option"
+msgstr "Auswahloptionen"
+
+#: classes/inputs/input.text.php:24
+msgid "Text Input"
+msgstr "Texteingabe"
+
+#: classes/inputs/input.text.php:25
+msgid "regular text input"
+msgstr "regelmäßige Texteingabe"
+
+#: classes/inputs/input.text.php:59 classes/inputs/input.textarea.php:65
+msgid "Max. Length"
+msgstr "Maximale Länge"
+
+#: classes/inputs/input.text.php:60 classes/inputs/input.textarea.php:66
+msgid "Max. characters allowed, leave blank for default"
+msgstr "Max. Zeichenbegrenzung, freilassen für Standard"
+
+#: classes/inputs/input.textarea.php:24
+msgid "Textarea Input"
+msgstr "Textarea-Eingang"
+
+#: classes/inputs/input.textarea.php:25
+msgid "regular textarea input"
+msgstr "regelmäßige Textarea input"
+
+#: classes/plugin.class.php:374 classes/plugin.class.php:396
+#: classes/plugin.class.php:418 classes/plugin.class.php:452
+#: classes/plugin.class.php:492 classes/plugin.class.php:528
+#, php-format
+msgid "<label for=\"%1$s\">%2$s</label>"
+msgstr "<label for=\"%1$s\">%2$s</label><br>"
+
+#: classes/plugin.class.php:506
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:99
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:213
+msgid "Select files"
+msgstr "Escolher fotografias"
+
+#: classes/plugin.class.php:619
+msgid "<strong>"
+msgstr "<strong>"
+
+#: classes/plugin.class.php:771 classes/plugin.class.php:849
+#, php-format
+msgid "File attached %s:"
+msgstr "Datei beigefügten %s"
+
+#: classes/plugin.class.php:803 classes/plugin.class.php:865
+msgid "Download "
+msgstr "Download"
+
+#: classes/plugin.class.php:808
+msgid "Download edited image"
+msgstr "Bearbeitete Bild herunterladen:"
+
+#: classes/plugin.class.php:828
+msgid "Files attached/uploaded during Checkout"
+msgstr "Bei der Kasse angeschlossen/hochgeladenen Dateien"
+
+#: classes/plugin.class.php:833
+msgid "Selected images/designs"
+msgstr "Ausgewählte Bilder/designs"
+
+#: classes/plugin.class.php:872
+msgid "No file(s) attached/uploaded"
+msgstr "Keine Datei(en) befestigt/hochgeladen"
+
+#: classes/plugin.class.php:899
+msgid "Following files are selected by user"
+msgstr "Folgende Dateien werden vom Benutzer ausgewählt."
+
+#: classes/plugin.class.php:916
+#, php-format
+msgid "File selected by user: %s"
+msgstr "Vom Benutzer ausgewählte Datei: %s"
+
+#: classes/plugin.class.php:944 classes/plugin.class.php:945
+#: classes/plugin.class.php:1011 classes/plugin.class.php:1012
+msgid "First Name"
+msgstr "Vorname"
+
+#: classes/plugin.class.php:950 classes/plugin.class.php:951
+#: classes/plugin.class.php:1017 classes/plugin.class.php:1018
+msgid "Last Name"
+msgstr "Nachname"
+
+#: classes/plugin.class.php:956 classes/plugin.class.php:957
+#: classes/plugin.class.php:1023 classes/plugin.class.php:1024
+msgid "Company Name"
+msgstr "Firmenname"
+
+#: classes/plugin.class.php:961 classes/plugin.class.php:962
+#: classes/plugin.class.php:1028 classes/plugin.class.php:1029
+msgid "Address 1"
+msgstr "Adresszeile 1"
+
+#: classes/plugin.class.php:966 classes/plugin.class.php:967
+#: classes/plugin.class.php:1033 classes/plugin.class.php:1034
+msgid "Address 2"
+msgstr "Adresszeile 2"
+
+#: classes/plugin.class.php:971 classes/plugin.class.php:972
+#: classes/plugin.class.php:1038 classes/plugin.class.php:1039
+msgid "City"
+msgstr "Stadt"
+
+#: classes/plugin.class.php:976 classes/plugin.class.php:977
+#: classes/plugin.class.php:1043 classes/plugin.class.php:1044
+msgid "State / Country"
+msgstr "Staat / Land"
+
+#: classes/plugin.class.php:982 classes/plugin.class.php:983
+#: classes/plugin.class.php:1049 classes/plugin.class.php:1050
+msgid "Postcode / ZIP"
+msgstr "PLZ*"
+
+#: classes/plugin.class.php:988 classes/plugin.class.php:989
+#: classes/plugin.class.php:1055 classes/plugin.class.php:1056
+msgid "Country"
+msgstr "Land"
+
+#: classes/plugin.class.php:994 classes/plugin.class.php:995
+msgid "Email"
+msgstr "E-Mail"
+
+#: classes/plugin.class.php:999 classes/plugin.class.php:1000
+msgid "Phone"
+msgstr "Telefon"
+
+#: classes/plugin.class.php:1065
+msgid "Ordre Notes"
+msgstr "Ordre Notes"
+
+#: classes/plugin.class.php:1067
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr ""
+"Anmerkungen zu Deiner Bestellung, z.B. besondere Hinweise für die Lieferung."
+
+#: classes/plugin.class.php:1082
+msgid "Meta added successfully"
+msgstr "Meta erfolgreich hinzugefügt"
+
+#: classes/plugin.class.php:1210
+msgid "Fields updated successfully"
+msgstr "Felder, die erfolgreich aktualisiert"
+
+#: classes/plugin.class.php:1217
+msgid "Error while updating fields, please try again"
+msgstr "Fehler beim Aktualisieren der Felder, bitte versuchen Sie es erneut"
+
+#: classes/plugin.class.php:1258
+msgid "Meta updated successfully"
+msgstr "﻿Erfolgreich aktualisiert"
+
+#: classes/plugin.class.php:1337
+msgid "Error while creating directory"
+msgstr "Fehler beim Erstellen des Verzeichnisses"
+
+#: classes/plugin.class.php:1477
+msgid "File removed"
+msgstr "Datei entfernt"
+
+#: classes/plugin.class.php:1482
+msgid "Error while deleting file "
+msgstr "Fehler beim Löschen der Datei %s"
+
+#: classes/plugin.class.php:1584
+msgid "All options are updated"
+msgstr "Alle Optionen werden aktualisiert"
+
+#: templates/admin/field-manager.php:115
+msgid "Manage all checkout fields below."
+msgstr "Verwalten Sie alle Kasse Felder aus."
+
+#: templates/admin/field-manager.php:119
+msgid "Billing address fields"
+msgstr "Abrechnung-Adressfelder"
+
+#: templates/admin/field-manager.php:120
+msgid "Shipping address fields"
+msgstr "Versand-Adressfelder"
+
+#: templates/admin/field-manager.php:121
+msgid "Order fields"
+msgstr "Bestellung-Felder"
+
+#: templates/admin/field-manager.php:127
+msgid "Manage billing fields below:"
+msgstr "Verwaltung Abrechnung Felder aus:"
+
+#: templates/admin/field-manager.php:129
+msgid "Reset to default billing fields"
+msgstr "Setzen Sie auf Standardfelder Abrechnung"
+
+#: templates/admin/field-manager.php:130 templates/admin/field-manager.php:208
+#: templates/admin/field-manager.php:285
+msgid "Save all changes"
+msgstr "Alle Änderungen speichern"
+
+#: templates/admin/field-manager.php:138 templates/admin/field-manager.php:216
+#: templates/admin/field-manager.php:293
+msgid ""
+"select input type below and drag it on right side. Then set more options"
+msgstr ""
+"Wählen Sie Eingabetyp unten und ziehen Sie es auf der rechten Seite. Legen "
+"Sie weitere Optionen fest"
+
+#: templates/admin/field-manager.php:175 templates/admin/field-manager.php:254
+#: templates/admin/field-manager.php:327
+msgid "Drage form fields here"
+msgstr "Drage-Formularfelder hier"
+
+#: templates/admin/field-manager.php:177 templates/admin/field-manager.php:256
+#: templates/admin/field-manager.php:329
+msgid "Collapse all"
+msgstr "Alles zuklappen"
+
+#: templates/admin/field-manager.php:179 templates/admin/field-manager.php:258
+#: templates/admin/field-manager.php:331
+msgid "Expand all"
+msgstr "Alle Erweitern"
+
+#: templates/admin/field-manager.php:204
+msgid "Manage shipping fields below:"
+msgstr "Verwalten Sie Versand Felder aus:"
+
+#: templates/admin/field-manager.php:207
+msgid "Reset to default shipping fields"
+msgstr "Auf Standard Versand Felder zurücksetzen"
+
+#: templates/admin/field-manager.php:281
+msgid "Manage order fields below:"
+msgstr "Verwalten Sie Reihenfolge Felder aus:"
+
+#: templates/admin/field-manager.php:284
+msgid "Reset to efault order field"
+msgstr "Efault Reihenfolge Feld zurücksetzen"
+
+#: templates/admin/field-manager.php:352
+msgid "Are you sure?"
+msgstr "Sind Sie sicher?"
+
+#: templates/admin/field-manager.php:356
+msgid "Are you sure to remove this input field?"
+msgstr "Sind Sie sicher dieses Eingabefeld entfernen?"
+
+#: templates/admin/field-manager.php:432 templates/admin/field-manager.php:440
+msgid "option"
+msgstr "Option"
+
+#: templates/admin/field-manager.php:433 templates/admin/field-manager.php:441
+msgid "price (if any)"
+msgstr "Preis (falls vorhanden)"
+
+#: templates/admin/field-manager.php:482 templates/admin/field-manager.php:533
+msgid "Show"
+msgstr "Anzeigen"
+
+#: templates/admin/field-manager.php:483 templates/admin/field-manager.php:534
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: templates/admin/field-manager.php:487
+msgid "only if"
+msgstr "nur, wenn"
+
+#: templates/admin/field-manager.php:493 templates/admin/field-manager.php:538
+msgid "All"
+msgstr "Alle"
+
+#: templates/admin/field-manager.php:494 templates/admin/field-manager.php:539
+msgid "Any"
+msgstr "Alle"
+
+#: templates/admin/field-manager.php:497 templates/admin/field-manager.php:542
+msgid " of the following matches"
+msgstr "der folgenden Spiele"
+
+#: templates/admin/field-manager.php:505 templates/admin/field-manager.php:546
+msgid "Rule # "
+msgstr "Regel #"
+
+#: templates/admin/field-manager.php:516 templates/admin/field-manager.php:552
+msgid "is"
+msgstr "ist"
+
+#: templates/admin/field-manager.php:517 templates/admin/field-manager.php:553
+msgid "not"
+msgstr "nicht"
+
+#: templates/admin/field-manager.php:518 templates/admin/field-manager.php:554
+msgid "greater then"
+msgstr "dann größer"
+
+#: templates/admin/field-manager.php:519 templates/admin/field-manager.php:555
+msgid "less then"
+msgstr "weniger als"
+
+#: templates/admin/field-manager.php:572
+msgid "Select/Upload Image"
+msgstr "Bild auswählen/hochladen"
+
+#: templates/admin/options.php:3
+msgid "Allowed file types"
+msgstr "Erlaubte Dateitypen"
+
+#: templates/admin/options.php:8
+msgid "Enter the files types e.g: <strong>*.jpg;*.png</strong>"
+msgstr "Geben Sie den Dateien Typen z.B.: <strong>*.jpg, *.png</strong>"
+
+#: templates/admin/options.php:10
+msgid "Size limit"
+msgstr "Größenbeschränkung"
+
+#: templates/admin/options.php:11
+msgid "Enter size limit in Bytes, leave blank for server default"
+msgstr "Geben Sie die maximale Größe in Bytes, freilassen für Serverstandard"
+
+#: templates/admin/options.php:15
+msgid "102400"
+msgstr "102400"
+
+#: templates/admin/options.php:18
+msgid "Page limit"
+msgstr "Begrenzung-Seiten"
+
+#: templates/admin/options.php:19
+msgid "Enter File Limits to be shown per page"
+msgstr "Geben Sie Dateigrenzen pro Seite angezeigt werden"
+
+#: templates/admin/options.php:23
+msgid "e.g: 30"
+msgstr "Beispiel: 30"
+
+#: templates/admin/options.php:25
+msgid "Notify by Email"
+msgstr "Per E-Mail Benachrichtigen"
+
+#: templates/admin/options.php:26
+msgid "Send email to admin on each file uploaded/directory created by user"
+msgstr ""
+"Senden Sie e-Mail an Admin für jede Datei hochgeladen/Verzeichnis erstellt "
+"von Benutzer"
+
+#: templates/admin/options.php:30 templates/admin/options.php:39
+#: templates/admin/options.php:49 templates/admin/options.php:58
+#: templates/admin/options.php:83
+msgid "Yes"
+msgstr "Ja"
+
+#: templates/admin/options.php:31 templates/admin/options.php:40
+#: templates/admin/options.php:50 templates/admin/options.php:59
+#: templates/admin/options.php:84
+msgid "No"
+msgstr "Nein"
+
+#: templates/admin/options.php:34
+msgid "Allow Multi File Uploads"
+msgstr "Zulassen, dass Multi-Datei-Uploads"
+
+#: templates/admin/options.php:35
+msgid "Allow users to upload Multiple Files at a time"
+msgstr "Zulassen, dass Benutzer mehrere Dateien gleichzeitig hochladen"
+
+#: templates/admin/options.php:44
+msgid "Send file as attachment"
+msgstr "Datei als Anlage senden"
+
+#: templates/admin/options.php:45
+msgid "Send upload file as attachment to admin"
+msgstr "Upload-Datei als Anhang an Admin schicken"
+
+#: templates/admin/options.php:53
+msgid "Use additional input as file meta"
+msgstr "Verwenden Sie zusätzliche Eingabe als Datei meta"
+
+#: templates/admin/options.php:54
+msgid "Use additional fields with files meta"
+msgstr "Verwenden Sie zusätzliche Felder mit Dateien-meta"
+
+#: templates/admin/options.php:62
+msgid "Secuer download link"
+msgstr "Secuer-Download-link"
+
+#: templates/admin/options.php:63
+msgid "Enable/Disable secure download link"
+msgstr "Sichere Download-Link aktivieren/deaktivieren"
+
+#: templates/admin/options.php:67
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: templates/admin/options.php:68
+msgid "Disable"
+msgstr ""
+"Benutzerrolle Dateigröße Standardkontingent vorsehen. Freilassen Sie für "
+"Disable dies."
+
+#: templates/admin/options.php:71
+msgid "Download Link Expires"
+msgstr "Download-Link abläuft"
+
+#: templates/admin/options.php:72
+msgid "Enter expire time limit for download in minutes"
+msgstr "Geben Sie ablaufen der Frist zum Download in Minuten"
+
+#: templates/admin/options.php:76
+msgid "e.g: 5"
+msgstr "e.g: 5"
+
+#: templates/admin/options.php:78
+msgid "Show shared files"
+msgstr "Freigegebene Dateien anzeigen"
+
+#: templates/admin/options.php:79
+msgid "Show shared files to users in fron-end"
+msgstr "Zeigen Sie freigegebene Dateien für Benutzer in Fron-Ende"
+
+#: templates/admin/options.php:87
+msgid "Shared Roles"
+msgstr "Freigegebene Rollen"
+
+#: templates/admin/options.php:88
+msgid "Enter roles separated by comma to whom files should be shared"
+msgstr ""
+"Geben Sie Rollen getrennt durch Komma, denen Dateien freigegeben werden "
+"sollten"
+
+#: templates/admin/options.php:92
+msgid "leave blank for all or type: editor,subscriber,auther"
+msgstr "für alle leer, oder geben Sie: Editor, Abonnenten, Auther"
+
+#: templates/admin/options.php:96
+msgid "File saved message"
+msgstr "Meldung Datei gespeichert"
+
+#: templates/admin/options.php:97
+msgid "This message will be shown when file is saved"
+msgstr "Diese Meldung wird angezeigt, wenn die Datei gespeichert ist"
+
+#: templates/admin/options.php:103
+msgid "Directory created message"
+msgstr "Erstellte Verzeichnis Nachricht"
+
+#: templates/admin/options.php:104
+msgid "This message will be shown when directory is created"
+msgstr "Diese Meldung wird angezeigt, wenn Verzeichnis erstellt wird"
+
+#: templates/admin/options.php:111
+msgid "Receive uploaded file(s) in email as attachment"
+msgstr "Erhalten von hochgeladenen Dateien in e-Mail als Anlage"
+
+#: templates/admin/options.php:112
+msgid "Download all files and directories as zip for each user"
+msgstr ""
+"Alle Dateien und Verzeichnisse als Zip für jeden Benutzer herunterladen"
+
+#: templates/admin/options.php:113
+msgid "Attach umlimited additional input fields with file"
+msgstr "Fügen Sie zusätzliche Eingabefelder Umlimited mit Datei"
+
+#: templates/admin/options.php:114
+msgid "Search files and directory option"
+msgstr "Suche Dateien und Verzeichnis-option"
+
+#: templates/admin/options.php:115
+msgid "Secure files from unauthorised download"
+msgstr "Sichern Sie Dateien aus unerlaubten download"
+
+#: templates/admin/options.php:116
+msgid "Allow multiple file upload"
+msgstr "Mehrere Dateiupload nutzbar"
+
+#: templates/admin/options.php:128
+msgid "Basic Setting"
+msgstr "Grundeinstellung"
+
+#: templates/admin/options.php:130
+msgid "Set options as per your need"
+msgstr "SET-Optionen sowie Sie brauchen"
+
+#: templates/admin/options.php:134
+msgid "Dialog Messages"
+msgstr "Nachrichten des Dialogs"
+
+#: templates/admin/options.php:136
+msgid "Set message as per your need"
+msgstr "Set Nachricht nach Ihrem Bedarf"
+
+#: templates/admin/options.php:141
+msgid "Need more?"
+msgstr "Benötigen Sie weitere Hilfe? Bitte kontaktieren Sie:"
+
+#: templates/admin/options.php:143
+msgid "Contact us if you need more on top of this plugin"
+msgstr "Kontaktieren Sie uns, wenn Sie mehr über dieses Plugin benötigen"
+
+#: templates/admin/settings.php:197
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:100
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:214
+msgid "Add files to the upload queue and click the start button."
+msgstr ""
+"Hinzufügen von Dateien zu den Upload-Warteschlange und klicken Sie auf den "
+"Startknopf."
+
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:106
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:224
+msgid "Filename"
+msgstr "Dateiname"
+
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:108
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:225
+msgid "Status"
+msgstr "Status"
+
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:109
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:226
+msgid "Size"
+msgstr "Grösse"
+
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:118
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:241
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:241
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:843
+msgid "Add Files"
+msgstr "+ Dateien hinzufügen"
+
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:119
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:242
+msgid "Start Upload"
+msgstr "Hochladen starten"
+
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:194
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:814
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:935
+#, javascript-format
+msgid "Uploaded %d/%d files"
+msgstr "%d/%d Dateien hochgeladen."
+
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:243
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:845
+#, javascript-format
+msgid "%d files queued"
+msgstr "%d Dateien in der Warteschlange"
+
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:255
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:360
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:232
+msgid "Drag files here."
+msgstr "Ziehen Sie Dateien hierhin"
+
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:339
+msgid "Error: File too large:"
+msgstr "Fehler: Datei zu groß:"
+
+#: js/uploader/jquery.plupload.queue/jquery.plupload.queue.js:343
+msgid "Error: Invalid file extension:"
+msgstr "Fehler: Ungültige Dateierweiterung:"
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:216
+msgid "List"
+msgstr "Liste"
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:217
+msgid "Thumbnails"
+msgstr "Vorschaubilder"
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:243
+msgid "Stop Upload"
+msgstr "Stopp hochladen"
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:420
+#, javascript-format
+msgid "File: %s"
+msgstr "Datei: %s"
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:424
+msgid "File: %f, size: %s, max file size: %m"
+msgstr "Datei: %f, Größe: %s, maximale Dateigröße: %m"
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:428
+#, javascript-format
+msgid "%s already present in the queue."
+msgstr "%s bereits in der Warteschlange vorhanden sind."
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:432
+#, javascript-format
+msgid ""
+"Upload element accepts only %d file(s) at a time. Extra files were stripped."
+msgstr ""
+"Der Uploader gestattet nur max. %d Dateien gleichzeitig. Die darüber "
+"hinausgehenden Dateien werden verworfen."
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:436
+msgid "Image format either wrong or not supported."
+msgstr "Als Bildformat entweder falsch oder nicht unterstützt."
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:440
+msgid "Runtime ran out of available memory."
+msgstr "Laufzeitfehler: nicht genug Speicher."
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:449
+msgid "Upload URL might be wrong or doesn't exist."
+msgstr "Upload-Adresse könnte falsch sein oder nicht existieren."
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:525
+msgid "File count error."
+msgstr "Dateizählung Fehler."
+
+#: js/uploader/jquery.ui.plupload/jquery.ui.plupload.js:743
+msgid "Close"
+msgstr "Schliessen"

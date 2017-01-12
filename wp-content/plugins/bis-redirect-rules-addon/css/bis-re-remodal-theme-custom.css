@@ -1,0 +1,33 @@
+/* ################# Below are example classes to customization #################  */
+.redirect-popup-title-test {
+    font-size: 3em;
+}
+
+.redirect-popup-header-test {
+    color: #333333;
+    line-height: 1.3;
+    text-rendering: optimizelegibility;
+    font-family: Helvetica Neue,Arial !important;
+    font-size: 2em;
+    color: red;
+}
+.redirect-popup-sub-header-test {
+    color: #333333;
+    line-height: 1.3;
+    text-rendering: optimizelegibility;
+    font-family: Helvetica Neue,Arial !important;
+    font-size: 1.25em;
+    color: green;
+}
+
+.remodal-cancel-test {
+    background-color: graytext;
+    color: green;
+    border-color: green;
+}
+
+.remodal-confirm-test {
+    background-color: gold;
+    color: #fff;
+    border-color: green;
+}

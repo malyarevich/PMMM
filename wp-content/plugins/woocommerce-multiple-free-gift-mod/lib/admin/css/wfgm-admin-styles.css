@@ -1,0 +1,510 @@
+
+/**
+ * @file wfgm-admin-styles.css
+ *
+ * Style for Woocommerce Free Gift Mod plugin
+ * 
+ * Copyright (c) 2016, Yevgen <yevgen.slyuzkin@gmail.com>
+ */
+
+img.wfgm-logo {
+  width: 64px;
+}
+
+#wfgm_free_gift_tab .search-field input {
+  height: 25px !important;
+}
+
+#wfgm_free_gift_tab ._wfgm-repeat {
+  width: 90%;
+  margin-left: 10px;
+}
+
+#wfgm_free_gift_tab {
+	padding: 0 5px;
+}
+
+.wfgm-input-large {
+	width: 80%;
+}
+
+.wfgm-adjust-form-field-gap {
+	padding: 5px 20px 0 162px !important;
+}
+
+.woocommerce_options_panel p.form-field.wfgm_form_field {
+	padding: 10px !important;
+}
+
+.woocommerce_options_panel p.form-field.wfgm_form_field label.description {
+	font-style: normal;
+	position: relative;
+	top: -4px;
+	width: auto;
+	float: none;
+	font-size: 13px;
+	margin-left: 0;
+    display: inline-block;
+}
+
+.wfgm-remove-gift-product,
+.wfgm-remove-option-condition {
+	margin: 5px 0 0 5px;
+}
+
+.wfgm-inputs {
+	padding: 0 10px !important;
+}
+
+.wfgm_form_field input[type=text] {
+	float: none !important;
+}
+
+.wfgm_form_field .input-small {
+	width: 10% !important;
+	margin-left: 1%;
+	text-align: center;
+}
+
+.wfgm-settings-repeater {
+	margin-bottom: 20px;
+	padding-top: 15px !important;
+}
+
+.wfgm-settings-repeater .wfgm-inputs {
+	padding: 0 !important;
+}
+
+.adjust-right-gap {
+	margin-right: 50px;
+}
+
+.wfgm-error,
+.wfgm-updated {
+  width: 93%;
+}
+
+.wfgm-hr {
+	left: -30px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	overflow: hidden;
+	position: relative;
+	width: 106%;
+	border-color: #f5f5f5;
+}
+
+/* Criteria css */
+.wfgm-criteria-clone,
+.wfgm-settings-clone {
+	display: none;
+}
+
+.wfgm-criteria-item,
+.wfgm-settings-repeater {
+	padding: 30px;
+	background-color: #fff;
+	margin-top: 20px;
+	width: 90%;
+	border: 1px solid #dedede;
+}
+
+.wfgm-criteria-options-wrap,
+.wfgm-criteria-name {
+	margin-bottom: 10px;
+}
+
+.wfgm-input-full {
+	width: 100%;
+	padding: 7px;
+}
+
+.wfgm-input-small {
+	width: 80px;
+}
+
+.wfgm-adjust-position {
+	position: relative;
+	top: 3px;
+}
+
+.wfgm-remove-option-condition,
+.wfgm-remove-condition-criteria {
+	margin-top: 17px;
+}
+
+.wfgm-remove-criteria,
+.wfgm-remove-condition {
+	float: right;
+	position: relative;
+	top: -20px;
+	left: 20px;
+}
+
+.wfgm-remove-condition {
+	top: 0;
+}
+
+.wfgm-criteria input[readOnly] {
+	cursor: text;
+	background-color: #fff;
+}
+
+
+
+/*-------------------------------------------------------------------
+
+RESET & STUFF
+
+-------------------------------------------------------------------*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+#wfgm_setting .left{
+	 float: left;
+}
+
+#wfgm_setting .right{
+	 float: left;
+}
+
+
+/*-------------------------------------------------------------------
+
+WFGM Setting Global
+
+-------------------------------------------------------------------*/
+#wfgm_setting .header{
+	  padding-top: 20px;
+}
+#wfgm_setting .header p.title {
+  line-height: 35px;
+  padding-left: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#wfgm_setting .shadow {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+
+
+/*-------------------------------------------------------------------
+
+WFGM form
+
+-------------------------------------------------------------------*/
+#wfgm_free_gift_global_settings input,
+#wfgm_free_gift_global_settings select,
+#wfgm_free_gift_global_settings button,
+#wfgm_free_gift_global_settings textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  color: inherit;
+}
+#wfgm_free_gift_global_settings select{
+  background-image: url("../img/ddown.png");
+  background-image: url("../img/ddown.svg"), none;
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1rem;
+  background-position: right center;
+}
+#wfgm_free_gift_global_settings .wfgm-inputs select {
+  border: 1px solid #c0c8c9;
+  border-radius: 4px;
+}
+#wfgm_free_gift_global_settings select,
+#wfgm_free_gift_global_settings .button,
+#wfgm_free_gift_global_settings .input-text,
+#wfgm_free_gift_global_settings .wfgm-input-small,
+#wfgm_free_gift_global_settings .wfgm-criteria-name,
+#wfgm_setting .regular-text
+{
+  padding: 10px 21px 10px 15px !important;
+  background-color: transparent;
+  border-radius: 4px;
+  height: auto;
+  line-height: 21px;
+}
+#wfgm_free_gift_global_settings .button  {
+  border: 2px solid #C0C8C9 !important;
+  line-height: 1.375;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  height: auto !important;
+  font-weight: 700;
+  color: #666666;
+  cursor: pointer;
+  -webkit-animation: hue 60s infinite linear;
+  box-shadow: none;
+}
+#wfgm_free_gift_global_settings .wp-core-ui .button-primary {
+	background: transparent;
+}
+
+/* Buttons */
+
+#wfgm_setting button,
+#wfgm_setting .button,
+#wfgm_setting input[type="button"],
+#wfgm_setting input[type="reset"],
+#wfgm_setting input[type="submit"] {
+	background-color: #24890d;
+	border: 0;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 10px 30px 11px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	height:auto;
+}
+
+#wfgm_setting button:hover,
+#wfgm_setting button:focus,
+#wfgm_setting .button:hover,
+#wfgm_setting .button:focus,
+#wfgm_setting input[type="button"]:hover,
+#wfgm_setting input[type="button"]:focus,
+#wfgm_setting input[type="reset"]:hover,
+#wfgm_setting input[type="reset"]:focus,
+#wfgm_setting input[type="submit"]:hover,
+#wfgm_setting input[type="submit"]:focus {
+	background-color: #41a62a;
+	color: #fff;
+}
+
+#wfgm_setting button:active,
+#wfgm_setting .button:active,
+#wfgm_setting input[type="button"]:active,
+#wfgm_setting input[type="reset"]:active,
+#wfgm_setting input[type="submit"]:active {
+	background-color: #55d737;
+}
+
+
+
+/*-------------------------------------------------------------------
+
+SWITCH
+
+-------------------------------------------------------------------*/
+
+.container > .switch {
+  display: block;
+  margin: 12px auto;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 56px;
+  height: 20px;
+  padding: 3px;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(top, #eeeeee, white 25px);
+  background-image: -moz-linear-gradient(top, #eeeeee, white 25px);
+  background-image: -o-linear-gradient(top, #eeeeee, white 25px);
+  background-image: linear-gradient(to bottom, #eeeeee, white 25px);
+}
+
+.switcher {
+    background-color: #fbc02d;
+  padding: 14px 32px;
+    width: 90%;
+
+}
+
+.switcher span {
+  line-height: 25px;
+}
+.switch-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.switch-label {
+  position: relative;
+  display: block;
+  height: inherit;
+  font-size: 10px;
+  text-transform: uppercase;
+  background: #eceeef;
+  border-radius: inherit;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+  -webkit-transition-property: opacity background;
+  -moz-transition-property: opacity background;
+  -o-transition-property: opacity background;
+  transition-property: opacity background;
+}
+
+.switch-label:before, .switch-label:after {
+  position: absolute;
+  top: 50%;
+  margin-top: -.5em;
+  line-height: 1;
+  -webkit-transition: inherit;
+  -moz-transition: inherit;
+  -o-transition: inherit;
+  transition: inherit;
+}
+
+.switch-label:before {
+  content: attr(data-off);
+  right: 11px;
+  color: #aaa;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.switch-label:after {
+  content: attr(data-on);
+  left: 11px;
+  color: white;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+}
+
+.switch-input:checked ~ .switch-label {
+  background: #47a8d8;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.switch-input:checked ~ .switch-label:before {
+  opacity: 0;
+}
+
+.switch-input:checked ~ .switch-label:after {
+  opacity: 1;
+}
+
+.switch-handle {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 18px;
+  height: 18px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  background-image: -webkit-linear-gradient(top, white 40%, #f0f0f0);
+  background-image: -moz-linear-gradient(top, white 40%, #f0f0f0);
+  background-image: -o-linear-gradient(top, white 40%, #f0f0f0);
+  background-image: linear-gradient(to bottom, white 40%, #f0f0f0);
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+}
+
+.switch-handle:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -6px 0 0 -6px;
+  width: 12px;
+  height: 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+  background-image: -webkit-linear-gradient(top, #eeeeee, white);
+  background-image: -moz-linear-gradient(top, #eeeeee, white);
+  background-image: -o-linear-gradient(top, #eeeeee, white);
+  background-image: linear-gradient(to bottom, #eeeeee, white);
+}
+
+.switch-input:checked ~ .switch-handle {
+  left: 40px;
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.switch-green > .switch-input:checked ~ .switch-label {
+  background: #4fb845;
+}
+
+.wfgm-info-wrapper {
+  color: #fff;
+  font-size: 14px;
+}
+
+.wfgm-info-wrapper a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.wfgm-info-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+/* Selectize js css fixes */
+
+#wfgm_free_gift_tab .selectize-control {
+  width: 90%;
+  margin-left: 10px;
+}
+
+.selectize-input input {
+  float: none !important;
+}
+
+.selectize-dropdown.multi.wfgm-ajax-select {
+  position: relative;
+  top: 0 !important;
+}
+
+.wfgm-selectize-loading:after {
+  content: url("../img/loading.gif");
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+/* General Setting*/
+.form-table {
+    width: auto;
+}
+
+.form-table tbody {
+    width: auto;
+}
+
+.form-table tbody tr{
+    width: auto;
+}
+
+.wfgm-border-bottom {
+    border-bottom: 1px double;
+    border-color: #ccc;
+}

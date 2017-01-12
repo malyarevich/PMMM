@@ -1,0 +1,1222 @@
+# Copyright (C) 2016 WooThemes / SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Reviews Pro 1.6.5\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/tickets/\n"
+"POT-Creation-Date: 2015-08-03 23:45:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/abstract-wc-contribution.php:462
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:1142
+msgid "You must be logged in to vote"
+msgstr ""
+
+#: includes/abstract-wc-contribution.php:468
+msgid "You can't vote for yourself"
+msgstr ""
+
+#: includes/abstract-wc-contribution.php:536
+msgid "You have already flagged this contribution"
+msgstr ""
+
+#: includes/abstract-wc-contribution.php:542
+msgid "You can't flag your own contributions!"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:107
+#. translators: Placeholders: %s contribution flagged n times
+msgid ""
+"Flagged <span class=\"count\">(<span "
+"class=\"flagged-count\">%s</span>)</span>"
+msgid_plural ""
+"Flagged <span class=\"count\">(<span "
+"class=\"flagged-count\">%s</span>)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:161
+#: includes/admin/class-wc-product-reviews-pro-admin.php:865
+#: templates/myaccount/contribution-list.php:66
+#: templates/myaccount/contribution-list.php:141
+msgid "Type"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:162
+msgid "Votes"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:208
+#: includes/class-wc-product-reviews-pro-contribution-type.php:64
+#: includes/class-wc-product-reviews-pro-contribution-type.php:509
+msgid "Review"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:208
+#: includes/class-wc-product-reviews-pro-contribution-type.php:81
+#: includes/class-wc-product-reviews-pro-contribution-type.php:650
+#: templates/myaccount/contribution-list.php:112
+msgid "Comment"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:219
+#. translators: Placeholders: %1$s - Contribution type (CSS class), %2$s -
+#. Contribution type name
+msgid "Positive votes"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:220
+msgid "Negative votes"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:260
+msgid "Are you sure you want to remove the attachment from this contribution?"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:261
+msgid "There was an error removing the attachment. Please try again later."
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:287
+msgid "All contribution types"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:328
+msgid "All media"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:329
+#: includes/class-wc-product-reviews-pro-contribution-type.php:72
+#: includes/class-wc-product-reviews-pro-contribution-type.php:664
+msgid "Photo"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:330
+#: includes/class-wc-product-reviews-pro-contribution-type.php:76
+#: includes/class-wc-product-reviews-pro-contribution-type.php:665
+msgid "Video"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:446
+msgid "Oops, no comment with this ID."
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:446
+msgid "Go back"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:526
+#. translators: Placeholders: %s count of contributions flagged
+msgid "%s contribution flagged"
+msgid_plural "%s contributions flagged"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:613
+msgid "Contributions types"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:614
+msgid "Select which contribution types to enable"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:622
+msgid "Enable all contribution types"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:623
+msgid "Enable specific contribution types only"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:627
+msgid "Specific contribution types"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:637
+msgid "Admin Badges"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:639
+msgid "Leave blank to disable badges."
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:640
+msgid ""
+"Enter the text to use on badges displayed on admin and shop manager "
+"contributions."
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:645
+msgid "Sorting order"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:646
+msgid "Choose how contributions are sorted on product pages"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:654
+msgid "Most helpful first"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:655
+msgid "Newest first"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:659
+msgid "Minimum word count"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:660
+msgid ""
+"Users need to enter at least this amount of words when posting a "
+"contribution"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:665
+msgid "Maximum word count"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:666
+msgid "Maximum number of words users can enter when posting a contribution"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:671
+msgid "Moderation"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:672
+msgid "Contributions must be manually approved"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:692
+#: includes/admin/views/html-report-product-reviews.php:11
+#: includes/class-wc-product-reviews-pro-contribution-type.php:64
+msgid "Reviews"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:695
+msgid "Most Reviews"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:701
+#: includes/admin/views/html-report-product-reviews.php:12
+msgid "Highest Rating"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:707
+#: includes/admin/views/html-report-product-reviews.php:13
+msgid "Lowest Rating"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:781
+#: includes/class-wc-product-reviews-pro-contribution-type.php:645
+#: includes/widgets/wc-product-reviews-pro-recent-photos-widget.php:50
+#: includes/widgets/wc-product-reviews-pro-recent-questions-widget.php:50
+#: includes/widgets/wc-product-reviews-pro-recent-reviews-widget.php:50
+#: includes/widgets/wc-product-reviews-pro-recent-videos-widget.php:50
+msgid "Title"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:784
+msgid "Stats"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:785
+#: includes/admin/class-wc-product-reviews-pro-admin.php:873
+msgid "Flags"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:788
+msgid "Attached media"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:867
+#: includes/admin/views/html-report-product-reviews.php:10
+msgid "Product"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:869
+msgid "Upvotes"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:871
+msgid "Downvotes"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:891
+msgid "Qualifiers"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:919
+msgid "No flag reasons given"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:944
+msgid "Source:"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:946
+msgid "Edit attachment"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:948
+msgid "Remove attachment"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:967
+msgid "Attachment has been removed"
+msgstr ""
+
+#: includes/admin/views/html-report-product-reviews.php:14
+msgid "Average Rating"
+msgstr ""
+
+#: includes/admin/views/html-report-product-reviews.php:15
+#: templates/myaccount/contribution-list.php:197
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/views/html-report-product-reviews.php:32
+msgid "View Product"
+msgstr ""
+
+#: includes/admin/views/html-report-product-reviews.php:35
+msgid "View Reviews"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:82
+msgid "You have taken too long, please go back and try again."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:102
+msgid "You need to be logged in to vote."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:109
+#: includes/class-wc-product-reviews-pro-ajax.php:155
+#: includes/class-wc-product-reviews-pro-ajax.php:206
+#: includes/class-wc-product-reviews-pro-ajax.php:435
+msgid "Invalid request."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:118
+#: includes/class-wc-product-reviews-pro-ajax.php:164
+#: includes/class-wc-product-reviews-pro-ajax.php:215
+#: includes/class-wc-product-reviews-pro-ajax.php:444
+msgid "Invalid request. Contribution not found."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:128
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:289
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:786
+msgid "Could not cast your vote. Please try again later."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:134
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:781
+msgid "Vote has been cast. Thanks!"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:176
+msgid "You'll be notified when there are replies."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:180
+msgid "You are no longer following replies."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:189
+#: includes/class-wc-product-reviews-pro-emails.php:151
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:288
+msgid "An error occurred. Your request could not be processed."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:225
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:287
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:738
+msgid "Could not flag contribution. Please try again later."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:230
+msgid "Contribution has been flagged. Thanks!"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:341
+msgid "Error"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-ajax.php:463
+msgid "Attachment successfully removed."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:68
+msgid "Questions"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:68
+#: includes/class-wc-product-reviews-pro-contribution-type.php:519
+#: templates/single-product/contributions/contribution-question.php:50
+msgid "Question"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:72
+msgid "Photos"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:76
+msgid "Videos"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:81
+msgid "Comments"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:114
+msgid "Leave a Review"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:118
+msgid "Ask a Question"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:122
+msgid "Post a Photo"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:126
+msgid "Post a Video"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:158
+msgid "One review with a %2$d-star rating"
+msgid_plural "%1$d reviews with a %2$d-star rating"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:160
+msgid "One review"
+msgid_plural "%d reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:166
+msgid "One question"
+msgid_plural "%d questions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:170
+msgid "One photo"
+msgid_plural "%d photos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:174
+msgid "One video"
+msgid_plural "%d videos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:203
+msgid "Reviews (%d)"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:207
+msgid "Questions (%d)"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:211
+msgid "Photos (%d)"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:215
+msgid "Videos (%d)"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:219
+msgid "Discussion (%d)"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:248
+msgid "Show all reviews"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:252
+msgid "Show all questions"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:256
+msgid "Show all photos"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:260
+msgid "Show all videos"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:287
+msgid "Save Review"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:291
+msgid "Save Question"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:295
+msgid "Save Photo"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:299
+msgid "Save Video"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:303
+msgid "Save %s"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:326
+#: includes/class-wc-product-reviews-pro-contribution-type.php:347
+msgid "There are no reviews yet"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:336
+msgid "There are no helpful reviews yet"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:339
+msgid "There are no helpful positive reviews yet"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:341
+msgid "There are no helpful negative reviews yet"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:345
+msgid " There are no reviews with a %d-star rating yet"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:355
+msgid "There are no unanswered questions"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:357
+msgid "There are no questions yet"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:363
+msgid "There are no photos yet"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:367
+msgid "There are no videos yet"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:394
+msgid "Edit Review"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:398
+msgid "Edit Question"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:402
+msgid "Edit Photo"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:406
+msgid "Edit Video"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:410
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:437
+msgid "Moderate Review"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:441
+msgid "Moderate Question"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:445
+msgid "Moderate Photo"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:449
+msgid "Moderate Video"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:453
+msgid "Moderate %s"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:491
+msgid "How would you rate this product?"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:494
+msgid "Perfect"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:495
+msgid "Good"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:496
+msgid "Average"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:497
+msgid "Mediocre"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:498
+msgid "Poor"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:506
+msgid "What is the title of your review?"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:522
+msgid "What is your question?"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:529
+msgid "What is the title of your photo?"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:532
+#: includes/class-wc-product-reviews-pro-contribution-type.php:560
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:535
+msgid "Your photo's description"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:557
+msgid "What is the title of your video?"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:563
+msgid "Your video's description"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:589
+msgid "What is your comment?"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:651
+msgid "Tell us what you think of this product..."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:661
+msgid "Attach a photo or video"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:671
+msgid "Enter a URL"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-contribution-type.php:678
+msgid "Choose a file"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-emails-new-comment.php:56
+msgid "Contribution reply"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-emails-new-comment.php:57
+msgid ""
+"Email users that wish to be notified whenever there is a new comment on a "
+"product contribution they subscribed to."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-emails-new-comment.php:62
+msgid "New reply posted on a {product_name} {contribution_type}"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-emails-new-comment.php:63
+msgid "A reply has been added to a {contribution_type} on {site_title}"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-emails.php:149
+msgid ""
+"You will be no longer receiving email notifications for comments on the "
+"review you had subscribed to."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:68
+msgid "Search Review Qualifiers"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:69
+msgid "All Review Qualifiers"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:70
+msgid "Edit Review Qualifier"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:71
+msgid "View Review Qualifier"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:72
+msgid "Update Review Qualifier"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:73
+msgid "Add New Review Qualifier"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:74
+msgid "New Review Qualifier Name"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:75
+msgid "Separate qualifiers with commas"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:76
+msgid "Add or remove review qualifiers"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:77
+msgid "Choose from the most used review qualifiers"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:78
+msgid "No review qualifiers found."
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:79
+msgid "Review Qualifiers"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:80
+msgid "Most used Qualifiers"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:118
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:139
+msgid "List review qualifier options above (1 per line)."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:280
+msgid "Loading..."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:281
+msgid "Attach a photo"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:282
+msgid "Attach a video"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:283
+msgid "Rather attach photo from another website?"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:284
+msgid "Rather attach photo from your computer?"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:285
+msgid "Rather attach video from another website?"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:286
+msgid "Rather attach video from your computer?"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:290
+msgid "%1$d out of %2$d people found this helpful"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:292
+msgid "Please attach a file."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:293
+msgid "This is a required field."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:294
+msgid "Please enter at least %d words."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:295
+msgid "Please enter less than %d words."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:296
+msgid "Only jpg, png, gif, bmp and tiff files, please"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:298
+#. translators: Placeholders: %s Size of file in human readable format (e.g.
+#. 2M, 200Kb, etc.)
+msgid "File is too large. Size must be less than %s."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:299
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:326
+msgid "required"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:474
+msgid "%s is a required field."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:485
+msgid "is not a valid email address."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:495
+msgid "Please rate the product."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:530
+#. translators: Placeholders: %s - error description
+msgid "Unable to upload file: %s"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:541
+msgid "Only photo uploads are supported at the moment"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:551
+msgid "Please attach a photo."
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-frontend.php:733
+msgid "Contribution was flagged. Thanks!"
+msgstr ""
+
+#: includes/frontend/class-wc-product-reviews-pro-my-account-contributions.php:67
+#: templates/myaccount/contribution-list.php:46
+#. translators: Placeholders: %s contribution type name (e.g. 'My Reviews' or
+#. 'My Contributions')
+msgid "My %s"
+msgstr ""
+
+#: includes/wc-product-reviews-pro-template-functions.php:296
+msgid "What others are saying"
+msgstr ""
+
+#: includes/wc-product-reviews-pro-template-functions.php:316
+msgid "There are no contributions yet."
+msgstr ""
+
+#: includes/wc-product-reviews-pro-template-functions.php:473
+msgid "contributions"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-photos-widget.php:43
+msgid ""
+"Display a list of most recent photo contributions from Product Reviews Pro "
+"on your site."
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-photos-widget.php:45
+msgid "WooCommerce Product Reviews Pro: Photos"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-photos-widget.php:49
+msgid "Recent Photos"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-photos-widget.php:58
+msgid "Number of photo contributions to show"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-questions-widget.php:43
+msgid ""
+"Display a list of most recent questions from Product Reviews Pro on your "
+"site."
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-questions-widget.php:45
+msgid "WooCommerce Product Reviews Pro: Questions"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-questions-widget.php:49
+msgid "Recent Questions"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-questions-widget.php:58
+msgid "Number of questions to show"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-reviews-widget.php:43
+msgid "Display a list of most recent reviews from Product Reviews Pro on your site."
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-reviews-widget.php:45
+msgid "WooCommerce Product Reviews Pro: Reviews"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-reviews-widget.php:49
+msgid "Recent Reviews"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-reviews-widget.php:58
+msgid "Number of reviews to show"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-videos-widget.php:43
+msgid ""
+"Display a list of most recent video contributions from Product Reviews Pro "
+"on your site."
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-videos-widget.php:45
+msgid "WooCommerce Product Reviews Pro: Videos"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-videos-widget.php:49
+msgid "Recent Videos"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-videos-widget.php:58
+msgid "Number of video contributions to show"
+msgstr ""
+
+#: templates/emails/contribution-comment-notification.php:51
+#: templates/emails/plain/contribution-comment-notification.php:47
+#. translators: Placeholders: %1$s user name - %2$s product title - %3$s
+#. contribution type - %4$s site title
+msgid ""
+"Hello %1$s, a new comment has been posted to a %2$s %3$s you are watching "
+"on %4$s."
+msgstr ""
+
+#: templates/emails/contribution-comment-notification.php:63
+msgid "View new comment."
+msgstr ""
+
+#: templates/emails/contribution-comment-notification.php:72
+#. translators: Placeholders: %1$s contribution type - %2$s <a> html opening
+#. tag - %3$s </a> html closing tag
+msgid ""
+"If you no longer wish to receive notifications for new replies to this "
+"%1$s, please %2$sfollow this link%3$s."
+msgstr ""
+
+#: templates/emails/plain/contribution-comment-notification.php:58
+#. translators: Placeholders: %s - url to go to a product comment
+msgid "Comment link: %s"
+msgstr ""
+
+#: templates/emails/plain/contribution-comment-notification.php:64
+#. translators: Placeholders: %1$s url to unsubscribe from email notifications
+#. - %2$s contribution type
+msgid "Stop notifications for this %1$s: %2$s"
+msgstr ""
+
+#: templates/myaccount/contribution-list.php:60
+#: templates/myaccount/contribution-list.php:133
+#. translators: Placeholders: %s - contribution type name for product
+#. translators: Placeholder: %s - contribution type name (e.g. 'Review')
+msgid "%s for"
+msgstr ""
+
+#: templates/myaccount/contribution-list.php:72
+msgid "Left on"
+msgstr ""
+
+#: templates/myaccount/contribution-list.php:78
+#: templates/myaccount/contribution-list.php:155
+msgid "Rating"
+msgstr ""
+
+#: templates/myaccount/contribution-list.php:84
+msgid "Content"
+msgstr ""
+
+#: templates/myaccount/contribution-list.php:125
+msgid "Product photo"
+msgstr ""
+
+#: templates/myaccount/contribution-list.php:149
+#. translators: Placeholder: %s - contribution date
+msgid "%s date"
+msgstr ""
+
+#: templates/myaccount/contribution-list.php:162
+#. translators: Placeholders: %s - rating (e.g. 4.2 out of 5)
+msgid "%s out of 5"
+msgstr ""
+
+#: templates/myaccount/contribution-list.php:167
+msgid "none"
+msgstr ""
+
+#: templates/myaccount/contribution-list.php:183
+#. translators: Placeholder: %s contribution type name
+msgid "%s content"
+msgstr ""
+
+#: templates/myaccount/contribution-list.php:204
+msgid "View"
+msgstr ""
+
+#: templates/myaccount/contribution-list.php:239
+#. translators: Placeholders: %1$s - contribution type name, %2$s - opening <a>
+#. link tag, %3$s - closing </a> link tag
+msgid "You have not added any %1$s yet. %2$sAdd one now%3$s"
+msgstr ""
+
+#: templates/single-product/contributions/actions.php:39
+msgid "Upvote if this was helpful"
+msgstr ""
+
+#: templates/single-product/contributions/actions.php:43
+msgid "Downvote if this was not helpful"
+msgstr ""
+
+#: templates/single-product/contributions/actions.php:48
+msgid "Receive email notifications when there are replies"
+msgstr ""
+
+#: templates/single-product/contributions/actions.php:51
+msgid "Stop receiving email notifications when there are replies"
+msgstr ""
+
+#: templates/single-product/contributions/actions.php:57
+#: templates/single-product/form-flag-contribution.php:47
+msgid "Flag for removal"
+msgstr ""
+
+#: templates/single-product/contributions/attachments.php:50
+msgid "Photo has been removed"
+msgstr ""
+
+#: templates/single-product/contributions/attachments.php:63
+msgid "Video has been removed"
+msgstr ""
+
+#: templates/single-product/contributions/contribution-review.php:60
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: templates/single-product/contributions/contribution-review.php:62
+msgid "<strong itemprop=\"ratingValue\">%d</strong> out of 5"
+msgstr ""
+
+#: templates/single-product/contributions/karma.php:40
+#. translators: Number of users that found a contibution useful - %1$d number
+#. of users, %2$d - total number of users that found the contribution useful
+msgid "One person found this helpful"
+msgid_plural "%1$d out of %2$d people found this helpful"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/single-product/contributions/meta.php:39
+msgid "Your contribution is awaiting approval"
+msgstr ""
+
+#: templates/single-product/contributions/meta.php:55
+msgid "verified owner"
+msgstr ""
+
+#: templates/single-product/contributions.php:51
+msgid "Share your thoughts!"
+msgstr ""
+
+#: templates/single-product/contributions.php:59
+#. translators: Placeholders: %s - average rating stars count, %d - 5 stars
+#. total (e.g "4.2 out of 5 stars")
+msgid "%s out of %d stars"
+msgstr ""
+
+#: templates/single-product/contributions.php:107
+msgid "Let us know what you think..."
+msgstr ""
+
+#: templates/single-product/contributions.php:140
+#: templates/single-product/form-contribution.php:107
+msgid "You must be <a href=\"%s\">logged in</a> to join the discussion."
+msgstr ""
+
+#: templates/single-product/contributions.php:153
+msgid "Show everything"
+msgstr ""
+
+#: templates/single-product/contributions.php:175
+msgid "Show all reviews that said %s is \"%s\""
+msgstr ""
+
+#: templates/single-product/contributions.php:181
+msgid "Show helpful positive reviews"
+msgstr ""
+
+#: templates/single-product/contributions.php:182
+msgid "Show helpful negative reviews"
+msgstr ""
+
+#: templates/single-product/contributions.php:183
+msgid "Show unanswered questions"
+msgstr ""
+
+#: templates/single-product/contributions.php:203
+msgid "Click to clear filters"
+msgstr ""
+
+#: templates/single-product/contributions.php:203
+msgid "(clear)"
+msgstr ""
+
+#: templates/single-product/contributions.php:207
+msgid "Go"
+msgstr ""
+
+#: templates/single-product/contributions.php:227
+#. translators: Placeholders: %1$s - opening <a> link tag, %2$s - closing </a>
+#. link tag
+msgid "Already have an account? %1$sLog In%2$s"
+msgstr ""
+
+#: templates/single-product/contributions.php:229
+#. translators: Placeholders: %1$s - opening <a> link tag, %2$s - closing </a>
+#. link tag
+msgid "Don't have an account? %1$sSign Up%2$s"
+msgstr ""
+
+#: templates/single-product/form-contribution.php:75
+msgid "Name"
+msgstr ""
+
+#: templates/single-product/form-contribution.php:76
+msgid "Email"
+msgstr ""
+
+#: templates/single-product/form-contribution.php:93
+msgid "Notify me of replies"
+msgstr ""
+
+#: templates/single-product/form-contribution.php:114
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: templates/single-product/form-contribution.php:115
+msgid "Log in now"
+msgstr ""
+
+#: templates/single-product/form-contribution_comment.php:53
+msgid "Save Comment"
+msgstr ""
+
+#: templates/single-product/form-flag-contribution.php:39
+msgid ""
+"Something wrong with this post? Thanks for letting us know. If you can "
+"point us in the right direction..."
+msgstr ""
+
+#: templates/single-product/form-flag-contribution.php:42
+msgid "This post was..."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Product Reviews Pro"
+msgstr ""
+
+#: woocommerce-product-reviews-pro.php:529
+#. translators: Placeholders: %1$s opening <a> html tag - %2$s closing </a>
+#. html tag - %3$s opening <a> html tag - %4$s closing </a> html tag - %5$s
+#. opening <a> html tag - %6$s closing </a> html tag
+msgid ""
+"Thanks for installing Product Reviews Pro! Before getting started, please "
+"take a moment to %1$sread the documentation%2$s, configure %3$ssettings%4$s "
+"or %5$semails%6$s :) "
+msgstr ""
+
+#: woocommerce-product-reviews-pro.php:737
+#. translators: Placeholders: %1$s - plugin name, %2$s - error message(s)
+msgid "Error activating and installing %1$s: %2$s"
+msgstr ""
+
+#: woocommerce-product-reviews-pro.php:740
+msgid "&laquo; Go Back"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woothemes.com/products/woocommerce-product-reviews-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Extend WooCommerce product reviews to add video, photo, comment, and "
+"question contribution types, as well as review filtering, voting, and "
+"flagging."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooThemes / SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.woothemes.com"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:163
+msgctxt "number of times contribution has been flagged"
+msgid "Flags"
+msgstr ""
+
+#: includes/admin/class-wc-product-reviews-pro-admin.php:555
+msgctxt "[contribution type] by [author name]"
+msgid "%1$s by %2$s"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:66
+msgctxt "taxonomy general name"
+msgid "Review Qualifiers"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:67
+msgctxt "taxonomy singular name"
+msgid "Review Qualifier"
+msgstr ""
+
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:116
+#: includes/class-wc-product-reviews-pro-review-qualifiers.php:137
+msgctxt "Review qualifier options"
+msgid "Options"
+msgstr ""
+
+#: includes/widgets/wc-product-reviews-pro-recent-photos-widget.php:154
+#: includes/widgets/wc-product-reviews-pro-recent-questions-widget.php:139
+#: includes/widgets/wc-product-reviews-pro-recent-reviews-widget.php:159
+#: includes/widgets/wc-product-reviews-pro-recent-videos-widget.php:154
+msgctxt "by comment author"
+msgid "by %1$s"
+msgstr ""
+
+#: templates/single-product/contributions/actions.php:49
+msgctxt "Subscribe to contribution thread"
+msgid "Watch"
+msgstr ""
+
+#: templates/single-product/contributions/actions.php:52
+msgctxt "Unsubscribe from contribution thread"
+msgid "Unwatch"
+msgstr ""
+
+#: templates/single-product/contributions.php:62
+msgctxt "noun"
+msgid "%d review"
+msgid_plural "%d reviews"
+msgstr[0] ""
+msgstr[1] ""

@@ -1,0 +1,499 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Quickview\n"
+"POT-Creation-Date: 2015-08-12 20:08+0100\n"
+"PO-Revision-Date: 2015-08-12 20:08+0100\n"
+"Last-Translator: James Kemp <me@jckemp.com>\n"
+"Language-Team: James Kemp <me@jckemp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: jck-woo-quickview.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/options/jckqv_settings.php:7
+msgid "Quickview Trigger Settings"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:11
+msgid "Popup Settings"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:23
+msgid "Quickview Method"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:29
+msgid "Hover Quickview Button"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:30
+msgid "Click Quickview Button"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:43
+msgid "Automatically insert Button?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:44
+msgid ""
+"Would you like Quickview to attempt to automatically insert the Quickview "
+"button?<br><br> For alternative insertion options, please see <a href="
+"\"http://www.jckemp.com/plugins/woocommerce-quickview/"
+"#manually_insert_the_quickview_button\" target=\"_blank\">the documentation</"
+"a>."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:51
+msgid "Button Position"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:52
+msgid ""
+"If you chose to automatically insert the button, where should it be "
+"displayed?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:57
+msgid "Before Item"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:58
+msgid "Before Title"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:59
+msgid "After Title"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:60
+msgid "After Item"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:65
+msgid "Button Align"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:70
+msgid "Left"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:71
+msgid "Centre"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:72
+msgid "Right"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:73 assets/options/jckqv_settings.php:141
+#: assets/options/jckqv_settings.php:301
+msgid "None"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:78
+msgid "Margins"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:80
+msgid "Enter a pixel value (positive/negative) to offset the quickview button."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:99
+msgid "Auto-hide Button?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:100
+msgid "Should the quickview button only show when the product is hovered?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:107
+msgid "Button Parent"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:109
+msgid ""
+"If the button is set to autohide, enter a parent class, id, or element that "
+"should display the quickview button when hovered."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:110
+msgid ".product"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:115
+msgid "Icon"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:116
+msgid "Choose the Icon to use on the Quickview button"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:121
+msgid "No Icon"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:122
+msgid "Magnifier"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:123
+msgid "Eye"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:124
+msgid "Plus Symbol"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:129
+msgid "Quickview Text"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:131
+msgid "Quickview"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:136
+msgid "Button Style"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:142
+msgid "Border"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:143
+msgid "Flat"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:148
+msgid "Padding"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:150
+msgid "Enter a pixel value (positive/negative) to pad the quickview button."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:161 assets/options/jckqv_settings.php:401
+msgid "Button Colour"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:162
+msgid ""
+"If your button is \"Flat\" style, this is the background colour. If it's "
+"\"Border\" style, this is the border colour."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:169 assets/options/jckqv_settings.php:408
+msgid "Button Hover Colour"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:170
+msgid ""
+"If your button is \"Flat\" style, this is the background colour on hover. If "
+"it's \"Border\" style, this is the border colour on hover."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:177 assets/options/jckqv_settings.php:415
+msgid "Button Text Colour"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:184 assets/options/jckqv_settings.php:422
+msgid "Button Text Hover Colour"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:191
+msgid "Border Radius"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:193
+msgid "Enter a border radius in pixels."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:212
+msgid "Enable Gallery?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:213
+msgid ""
+"Should the popup allow you to navigate between the other products on the "
+"page?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:220
+msgid "Overlay Colour"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:227
+msgid "Overlay Opacity"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:229
+msgid "Enter a value where 0 = transparent, and 1 = opaque."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:243
+msgid "Image Transition"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:248
+msgid "Horizontal Slide"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:249
+msgid "Fade"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:254
+msgid "Transition Speed"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:256
+msgid "The speed in milliseconds at which the image gallery transition occurs."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:262
+msgid "Autoplay?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:263
+msgid "Automatically scroll through the product imagery?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:270
+msgid "Autoplay Speed"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:272
+msgid "The duration in milliseconds that each image is displayed."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:278
+msgid "Infinite Scroll?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:279
+msgid "Infnitely scroll through the product imagery?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:286
+msgid "Show Navigation Arrows?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:287
+msgid "Show previous/next arrows on the image gallery?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:294
+msgid "Thumbnail type"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:299
+msgid "Sliding Thumbnails"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:300
+msgid "Bullets"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:314
+msgid "Show Title?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:321
+msgid "Show Price?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:328
+msgid "Show Rating?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:335
+msgid "Show Banner?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:336
+msgid "E.g: \"Sale!\""
+msgstr ""
+
+#: assets/options/jckqv_settings.php:343
+msgid "Show Description?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:348
+msgid "No"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:349
+msgid "Full"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:350
+msgid "Short"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:355
+msgid "Show Product Options / Add to Cart?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:362
+msgid "Enable AJAX Add to Cart?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:363
+msgid "Add products to cart from the quickview without reloading the page."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:370
+msgid "Hide Popup After Add to Cart?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:371
+msgid ""
+"Once a product has been added to the cart via ajax, hide the modal popup.."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:378
+msgid "Show Qty Field?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:385
+msgid "Show Product Meta?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:386
+msgid "E.g: Categories, Tags, etc."
+msgstr ""
+
+#: assets/options/jckqv_settings.php:393
+msgid "Try to use your Theme's Button Styling?"
+msgstr ""
+
+#: assets/options/jckqv_settings.php:394
+msgid ""
+"Check this if you'd like to attempt to use the button styling from your "
+"theme. If this fails, use the styling tools below, or add your own CSS."
+msgstr ""
+
+#: jck-woo-quickview.php:169
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: jck-woo-quickview.php:226 jck-woo-quickview.php:327
+msgid "Adding to Cart..."
+msgstr ""
+
+#: jck-woo-quickview.php:283
+msgid "Sorry, that item can only be added once."
+msgstr ""
+
+#: jck-woo-quickview.php:288
+msgid "Sorry, something went wrong. Please try again."
+msgstr ""
+
+#: jck-woo-quickview.php:326
+msgid "Added!"
+msgstr ""
+
+#: jck-woo-quickview.php:328
+msgid "Loading..."
+msgstr ""
+
+#: templates/add-to-cart-old.php:16
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: templates/add-to-cart-old.php:17 templates/add-to-cart.php:34
+msgid "Please select a rating"
+msgstr ""
+
+#: templates/add-to-cart-old.php:18 templates/add-to-cart.php:58
+msgid ""
+"Sorry, no products matched your selection. Please choose a different "
+"combination."
+msgstr ""
+
+#: templates/add-to-cart-old.php:19
+msgid "required"
+msgstr ""
+
+#: templates/add-to-cart-old.php:20
+msgid "View Cart &rarr;"
+msgstr ""
+
+#: templates/add-to-cart.php:5
+msgid "View products"
+msgstr ""
+
+#: templates/add-to-cart.php:24
+msgid "View Cart"
+msgstr ""
+
+#: templates/add-to-cart.php:59
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: templates/meta.php:11
+msgid "SKU:"
+msgstr ""
+
+#: templates/meta.php:11
+msgid "n/a"
+msgstr ""
+
+#: templates/meta.php:15
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/meta.php:17
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/rating.php:15
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: templates/rating.php:17
+msgid "out of 5"
+msgstr ""
+
+#: templates/rating.php:20
+#, php-format
+msgid "%s rating"
+msgid_plural "%s ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/sale-flash.php:5
+msgid "Sale!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Quickview"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.jckemp.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Quickview plugin for WooCommerce"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "James Kemp"
+msgstr ""

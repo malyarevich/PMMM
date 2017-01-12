@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Yevgen <yevgen.slyuzkin@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: de_DE\n"
+
+msgid "WooCommerce Multiple Free Gift Mod"
+msgstr "WooCommerce Mehrfache freie Geschenk-Mod"
+
+msgid "Woo Free Gift Mod"
+msgstr "Woo freies Geschenk Mod"
+
+msgid "Gift Criteria"
+msgstr "Geschenk-Kriterien"
+
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+msgid "Enable/Disable free gift"
+msgstr "Aktivieren/Deaktivieren Sie kostenloses Geschenk"
+
+msgid "Number of gifts allowed"
+msgstr "Anzahl der erlaubten Geschenke"
+
+msgid "Select Gift criteria"
+msgstr "Wählen Sie Geschenkkriterien"
+
+msgid "None"
+msgstr "Keiner"
+
+msgid "Select Gift Products"
+msgstr "Wählen Sie Geschenkartikel"
+
+msgid "Add new gift"
+msgstr "Neues Geschenk hinzufügen"
+
+msgid "Save"
+msgstr "Sparen"
+
+msgid "Create Criteria"
+msgstr "Erstellen von Kriterien"
+
+msgid "Name this criteria"
+msgstr "Benennen Sie dieses Kriterium"
+
+msgid "Total number of items in cart"
+msgstr "Anzahl der Artikel im Warenkorb"
+
+msgid "is not equal to"
+msgstr "Ist nicht gleich"
+
+msgid "Popup Overlay"
+msgstr "Popup-Überlagerung"
+
+msgid "Popup Heading Text"
+msgstr "Popupüberschrifttext"
+
+msgid "Add Gift Text"
+msgstr "Addieren Sie Geschenk-Text"
+
+msgid "Cancel Text"
+msgstr "Text abbrechen"
+
+msgid "Invalid Gift Condition Text"
+msgstr "Ungültiger Geschenktext"
+
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+msgid "Free Gift Options"
+msgstr "Kostenlose Geschenkoptionen"
+
+msgid "Enable free gift for this product."
+msgstr "Ermöglichen Sie freies Geschenk für dieses Produkt."
+
+msgid "Enabling single gift settings will overwrite global settings."
+msgstr "Wenn Sie die Einstellungen für einzelne Geschenke aktivieren, werden die globalen Einstellungen überschrieben."
+
+msgid "Select single/multiple gift items you want to giveaway for free."
+msgstr "Wählen Sie einzelne/mehrfache Geschenkartikel, die Sie frei geben möchten."
+
+msgid "Note that duplicate items are saved only once."
+msgstr "Beachten Sie, dass doppelte Elemente nur einmal gespeichert werden."
+
+msgid "Number of items user are allowed to select as a gift"
+msgstr "Anzahl der Elemente, die Benutzer als Geschenk auswählen dürfen"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Gift conditions emptied successfully"
+msgstr "Geschenkkonditionen leer geleert"
+
+msgid "Gift conditions saved successfully"
+msgstr "Die Geschenkkonditionen wurden erfolgreich gespeichert"
+
+msgid "There was a problem. Please try again."
+msgstr "Es gab ein Problem. Bitte versuche es erneut."
+
+msgid "No gift conditions to save. You can add conditions by clicking <em>Add new gift condition</em> button"
+msgstr "Keine Geschenk-Bedingungen zu speichern. Sie können Bedingungen hinzufügen, indem Sie auf <em>Neue Geschenk-Bedingung</em> klicken"
+
+msgid "Criteria saved successfully"
+msgstr "Kriterien wurden erfolgreich gespeichert"
+
+msgid "No criteria to save. You can add criteria by clicking <em>Add New Criteria</em> button"
+msgstr "Keine Kriterien zu speichern. Sie können Kriterien hinzufügen, indem Sie auf <em>Add New Criteria</em> klicken"
+
+msgid "On this product active special offer. For every {X} item we give {Y} free gift."
+msgstr "Auf diesem Produkt aktives Angebot. Für jedes {X} Einzelteil geben wir {Y} freies Geschenk."
+
+msgid "Special offer. add more for gift."
+msgstr "Sonderangebot. Addieren mehr für Geschenk."
+
+msgid "Congratulations! We added a free gift(s). You save {sum(N*Y*price)}{currency}."
+msgstr "Herzliche Glückwünsche! Wir haben ein Geschenk(e) hinzugefügt. Sie sparen {sum(N*Y*price)}{currency}."
+
+msgid "Congratulations! We added {N*Y} free gifts. You save {N*Y*price}{currency}."
+msgstr "Herzliche Glückwünsche! Wir haben {N*Y} Geschenke hinzugefügt. Du sparst {N*Y*price}{currency}."
+
+msgid "We delete {oldN*Y-newN*Y} gift(s). Now you have {newN*Y} free bottle."
+msgstr "Wir löschen {oldN*Y-newN*Y} Geschenk(e). Jetzt haben Sie {newN*Y} freie Flasche."
+
+msgid "Free Item"
+msgstr "Freies Einzelteil"
+
+msgid "Gift items removed as gift criteria isnt fulfilled"
+msgstr "Geschenkgüter, die als Geschenkkriterien entfernt wurden, werden nicht erfüllt"
+
+msgid "Take your free gift"
+msgstr "Nehmen Sie Ihr freies Geschenk"
+
+msgid "Message for you!"
+msgstr "Nachricht für Sie!"
+
+msgid "Add Gifts"
+msgstr "Addieren Sie Geschenke"
+
+msgid "Okay"
+msgstr "Gut!"
+
+msgid "Settings saved successfully"
+msgstr "Einstellungen wurden erfolgreich gespeichert"
+
+msgid "No changes to save."
+msgstr "Keine Änderungen am Speichern."
+
+msgid "Number of items user are allowed to select as a gift. Value zero or less will allow unlimited selection."
+msgstr "Anzahl der Elemente, die Benutzer als Geschenk auswählen dürfen. Der Wert Null oder weniger erlaubt eine unbegrenzte Auswahl."
+
+msgid "SO on this product"
+msgstr "Sonderangebot zu diesem Produkt"
+
+msgid "SO add more"
+msgstr "Sonderangebot fügen Sie mehr hinzu"
+
+msgid "SO congratulation"
+msgstr "Sonderangebot Glückwunsch"
+
+msgid "SO congratulations and you save"
+msgstr "Sonderangebot Glückwünsche und Sie sparen"
+
+msgid "SO deleted gift"
+msgstr "Sonderangebot deleted Geschenk"
+
+msgid "Select Gift Products, press Space key and press and hold Enter key"
+msgstr "Wählen Sie Geschenkprodukte aus, drücken Sie die Space key und drücken Sie die Enter key"
+
+msgid "Add new products to list"
+msgstr "Fügen Sie neue Produkte zur Liste hinzu"
+
+msgid "products"
+msgstr "Erzeugnisse"
+
+msgid "first."
+msgstr "zuerst."

@@ -1,0 +1,438 @@
+[17-Apr-2013 00:58:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php:24) in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/Image.php on line 198
+[17-Apr-2013 00:58:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php:24) in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/Image.php on line 198
+[17-Apr-2013 01:24:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php:24) in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/Image.php on line 198
+[17-Apr-2013 01:24:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php:24) in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/Image.php on line 198
+[17-Apr-2013 01:28:43] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:28:43] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:28:43] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:28:43] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:28:43] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:28:43] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:28:43] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:28:43] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 40
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 41
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 42
+[17-Apr-2013 01:37:07] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:37:07] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 43
+[17-Apr-2013 01:39:20] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'DirectoryIterator::__construct(/home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/demos/) [<a href='directoryiterator.--construct'>directoryiterator.--construct</a>]: failed to open dir: No such file or directory' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php:15
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php(15): DirectoryIterator->__construct('/home/nmedia82/...')
+#1 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 15
+[17-Apr-2013 01:40:29] PHP Warning:  usort() [<a href='function.usort'>function.usort</a>]: Invalid comparison function in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 20
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 44
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 45
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 46
+[17-Apr-2013 01:40:29] PHP Notice:  Undefined variable: activeDemo in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:40:29] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 47
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 67
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 68
+[17-Apr-2013 01:43:19] PHP Notice:  Undefined variable: top_form in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 69
+[17-Apr-2013 01:43:19] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:43:19] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 70
+[17-Apr-2013 01:44:35] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Notice:  Trying to get property of non-object in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:44:37] PHP Warning:  Invalid argument supplied for foreach() in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 85
+[17-Apr-2013 01:53:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php:27) in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/Image.php on line 198
+[17-Apr-2013 01:53:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php:27) in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/Image.php on line 198
+[17-Apr-2013 02:11:07] PHP Warning:  file_get_contents(images/1-rainbow.png) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 195
+[17-Apr-2013 02:11:07] PHP Warning:  unpack() [<a href='function.unpack'>function.unpack</a>]: Type c: not enough input, need 1, have 0 in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/vendor/de77/TGA.php on line 93
+[17-Apr-2013 02:11:07] PHP Fatal error:  Uncaught exception 'WideImage_InvalidImageSourceException' with message 'File 'images/1-rainbow.png' appears to be an invalid image source.' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php:226
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php(184): WideImage::loadFromFile('images/1-rainbo...')
+#1 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/image-processor.php(11): WideImage::load(Array, 'images/1-rainbo...')
+#2 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 226
+[17-Apr-2013 02:11:46] PHP Warning:  file_get_contents(images/1-rainbow.png) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 195
+[17-Apr-2013 02:11:46] PHP Warning:  unpack() [<a href='function.unpack'>function.unpack</a>]: Type c: not enough input, need 1, have 0 in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/vendor/de77/TGA.php on line 93
+[17-Apr-2013 02:11:46] PHP Fatal error:  Uncaught exception 'WideImage_InvalidImageSourceException' with message 'File 'images/1-rainbow.png' appears to be an invalid image source.' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php:226
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php(184): WideImage::loadFromFile('images/1-rainbo...')
+#1 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/image-processor.php(11): WideImage::load(Array, 'images/1-rainbo...')
+#2 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 226
+[17-Apr-2013 02:16:05] PHP Warning:  file_get_contents(images/1-rainbow.png) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 195
+[17-Apr-2013 02:16:05] PHP Warning:  unpack() [<a href='function.unpack'>function.unpack</a>]: Type c: not enough input, need 1, have 0 in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/vendor/de77/TGA.php on line 93
+[17-Apr-2013 02:16:05] PHP Fatal error:  Uncaught exception 'WideImage_InvalidImageSourceException' with message 'File 'images/1-rainbow.png' appears to be an invalid image source.' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php:226
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php(184): WideImage::loadFromFile('images/1-rainbo...')
+#1 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/image-processor.php(11): WideImage::load(Array, 'images/1-rainbo...')
+#2 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 226
+[17-Apr-2013 02:27:40] PHP Fatal error:  Class 'WideImage' not found in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 11
+[17-Apr-2013 02:27:43] PHP Fatal error:  Class 'WideImage' not found in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/test.php on line 11
+[17-Apr-2013 02:55:47] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid demo: ' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php:25
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/image-processor.php(10): Demo::create(NULL)
+#1 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php on line 25
+[17-Apr-2013 02:56:52] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid demo: ' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php:25
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/image-processor.php(10): Demo::create(NULL)
+#1 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php on line 25
+[17-Apr-2013 02:56:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid demo: ' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php:25
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/image-processor.php(10): Demo::create(NULL)
+#1 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php on line 25
+[17-Apr-2013 02:57:06] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid demo: ' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php:25
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/image-processor.php(10): Demo::create(NULL)
+#1 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php on line 25
+[17-Apr-2013 03:05:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid demo: ' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php:25
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/image-processor.php(10): Demo::create(NULL)
+#1 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php on line 25
+[17-Apr-2013 03:08:16] PHP Fatal error:  Uncaught exception 'Exception' with message 'Invalid demo: ' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php:25
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/image-processor.php(10): Demo::create(NULL)
+#1 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/helpers/Demo.php on line 25
+[17-Apr-2013 03:25:43] PHP Fatal error:  Uncaught exception 'WideImage_InvalidImageSourceException' with message 'File 'http://www.theproductionarea.net/lib/php-image-processing/wide-image/images/' appears to be an invalid image source.' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php:226
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php(184): WideImage::loadFromFile('http://www.thep...')
+#1 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/sendimage.php(8): WideImage::load(Array, 'http://www.thep...')
+#2 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 226
+[17-Apr-2013 03:53:54] PHP Warning:  file_get_contents(http://www.theproductionarea.net/lib/php-image-processing/wide-image/images/poort.jpg) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 195
+[17-Apr-2013 03:53:55] PHP Warning:  unpack() [<a href='function.unpack'>function.unpack</a>]: Type c: not enough input, need 1, have 0 in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/vendor/de77/TGA.php on line 93
+[17-Apr-2013 03:53:55] PHP Fatal error:  Uncaught exception 'WideImage_InvalidImageSourceException' with message 'File 'http://www.theproductionarea.net/lib/php-image-processing/wide-image/images/poort.jpg' appears to be an invalid image source.' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php:226
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php(184): WideImage::loadFromFile('http://www.thep...')
+#1 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/sendimage.php(8): WideImage::load(Array, 'http://www.thep...')
+#2 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 226
+[17-Apr-2013 03:54:04] PHP Warning:  file_get_contents(http://www.theproductionarea.net/lib/php-image-processing/wide-image/images/poort.jpg) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 195
+[17-Apr-2013 03:54:05] PHP Warning:  unpack() [<a href='function.unpack'>function.unpack</a>]: Type c: not enough input, need 1, have 0 in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/vendor/de77/TGA.php on line 93
+[17-Apr-2013 03:54:05] PHP Fatal error:  Uncaught exception 'WideImage_InvalidImageSourceException' with message 'File 'http://www.theproductionarea.net/lib/php-image-processing/wide-image/images/poort.jpg' appears to be an invalid image source.' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php:226
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php(184): WideImage::loadFromFile('http://www.thep...')
+#1 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/sendimage.php(8): WideImage::load(Array, 'http://www.thep...')
+#2 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 226
+[17-Apr-2013 03:56:09] PHP Fatal error:  Uncaught exception 'WideImage_InvalidImageSourceException' with message 'File 'http://www.theproductionarea.net/lib/php-image-processing/wide-image/images/' appears to be an invalid image source.' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php:226
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php(184): WideImage::loadFromFile('http://www.thep...')
+#1 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/sendimage.php(11): WideImage::load(Array, 'http://www.thep...')
+#2 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 226
+[17-Apr-2013 03:56:17] PHP Warning:  file_get_contents(http://www.theproductionarea.net/lib/php-image-processing/wide-image/images/poort.jpg) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 195
+[17-Apr-2013 03:56:18] PHP Warning:  unpack() [<a href='function.unpack'>function.unpack</a>]: Type c: not enough input, need 1, have 0 in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/vendor/de77/TGA.php on line 93
+[17-Apr-2013 03:56:18] PHP Fatal error:  Uncaught exception 'WideImage_InvalidImageSourceException' with message 'File 'http://www.theproductionarea.net/lib/php-image-processing/wide-image/images/poort.jpg' appears to be an invalid image source.' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php:226
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php(184): WideImage::loadFromFile('http://www.thep...')
+#1 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/sendimage.php(11): WideImage::load(Array, 'http://www.thep...')
+#2 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 226
+[17-Apr-2013 03:59:07] PHP Warning:  file_get_contents(http://www.theproductionarea.net/lib/php-image-processing/wide-image/images/poort.jpg) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 195
+[17-Apr-2013 03:59:07] PHP Warning:  unpack() [<a href='function.unpack'>function.unpack</a>]: Type c: not enough input, need 1, have 0 in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/vendor/de77/TGA.php on line 93
+[17-Apr-2013 03:59:07] PHP Fatal error:  Uncaught exception 'WideImage_InvalidImageSourceException' with message 'File 'http://www.theproductionarea.net/lib/php-image-processing/wide-image/images/poort.jpg' appears to be an invalid image source.' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php:226
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php(184): WideImage::loadFromFile('http://www.thep...')
+#1 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/sendimage.php(11): WideImage::load(Array, 'http://www.thep...')
+#2 {main}
+  thrown in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 226
+[17-Apr-2013 04:02:10] PHP Warning:  imagerotate() expects parameter 3 to be long, string given in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/Operation/Rotate.php on line 62
+[17-Apr-2013 04:02:10] PHP Fatal error:  Uncaught exception 'WideImage_InvalidImageHandleException' with message ' is not a valid image handle.' in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php:369
+Stack trace:
+#0 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/Image.php(76): WideImage::assertValidImageHandle(false)
+#1 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/TrueColorImage.php(37): WideImage_Image->__construct(false)
+#2 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/Operation/Rotate.php(62): WideImage_TrueColorImage->__construct(false)
+#3 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/Image.php(532): WideImage_Operation_Rotate->execute(Object(WideImage_TrueColorImage), 35, 'fff', true)
+#4 /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/sendimage.php(20): WideImage_Image->rotate(35, 'fff', true)
+#5 {main}
+  in /home/nmedia82/public_html/theproductionarea.net/lib/php-image-processing/wide-image/WideImage.php on line 369

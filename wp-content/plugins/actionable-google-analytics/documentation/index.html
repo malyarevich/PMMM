@@ -1,0 +1,629 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Actionable Google Analytics</title>
+	
+	<meta name="description" content="Actionable Google Analytics is a WooCommerce Plugin which allows you to use some of the most important features of Universal Analytics including Enhanced Ecommerce & User ID Tracking. Additionally, the Plugin supports I.P Anonymization, Product Refund, Content Grouping, Form Field Tracking & 15+ Custom Dimensions & Metrics.
+
+By using our Plugin you save hours of time in implementing complex Google Analytics code and instead focus on generating Actionable insights from your data.
+">
+	<meta name="author" content="Tatvic">
+	<meta name="copyright" content="Tatvic">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-12-29T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='450',easing='easeOutExpo';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#EEEEEE;color:#383838;}
+		::-moz-selection{background:#333636;color:#00DFFC;}
+		::selection{background:#333636;color:#00DFFC;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_4.png);}
+		a{color:#008C9E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #008C9E, #006673);
+			  background-image: -ms-linear-gradient(top, #008C9E, #006673);
+			  background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+			  background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+			  background-image: -o-linear-gradient(top, #008C9E, #006673);
+			  background-image: linear-gradient(top, #008C9E, #006673);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+			  border-color: #006673 #006673 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #008C9E #008C9E #bfbfbf;
+		  background-color: #006673;
+		}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;http://static.revaxarts-themes.com/noise.gif}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+		#documenter_sidebar ul{border-top:1px solid #212424;}
+		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-actionable-google-analytics">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#introduction" title="Introduction">Introduction</a></li>
+			<li><a href="#benefits_of_extension" title="Benefits of Extension">Benefits of Extension</a></li>
+			<li><a href="#our_extension_tracks_following_custom_dimensions_metrics_in_your_ga" title="Our Extension tracks following Custom Dimensions & Metrics in your GA">Our Extension tracks following Custom Dimensions & Metrics in your GA</a></li>
+			<li><a href="#prerequisites" title="Prerequisites">Prerequisites</a></li>
+			<li><a href="#understanding_the_setting_options" title="Understanding the Setting Options">Understanding the Setting Options</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+			<li><a href="#resources" title="Resources">Resources</a></li>
+			<li><a href="#faq" title="FAQ">FAQ</a></li>
+			<li><a href="#author" title="Author">Author</a></li>
+			
+
+		</ul>
+		<div id="documenter_copyright">Copyright Tatvic 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Actionable Google Analytics</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 12/29/2014</li>
+	<li>latest update: 02/05/2014</li>
+	<li>by: Tatvic</li>
+	<li><a href="http://www.tatvic.com/">www.tatvic.com/</a></li>
+	<li>email: <a href="mailto:&#106;&#105;&#103;&#97;&#114;&#64;&#116;&#97;&#116;&#118;&#105;&#99;&#46;&#99;&#111;&#109;">&#106;&#105;&#103;&#97;&#114;&#64;&#116;&#97;&#116;&#118;&#105;&#99;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="introduction">
+	<div class="page-header"><h3>Introduction</h3><hr class="notop"></div>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9600-3e5b-da2d-346ddc552252"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Actionable Google Analytics is a WooCommerce Plugin which allows you to use some of the most important features of Universal Analytics including Enhanced Ecommerce &amp; User ID Tracking. Additionally, the Plugin supports I.P Anonymization, Product Refund, Content Grouping, Form Field Tracking &amp; 15+ Custom Dimensions &amp; Metrics.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9600-3e5b-da2d-346ddc552252"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">By using our Plugin you </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">save hours of time</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> in implementing complex Google Analytics code and instead focus on generating Actionable insights from your data.</span></span></p>
+<div>
+	&nbsp;</div>
+</section>
+<section id="benefits_of_extension">
+	<div class="page-header"><h3>Benefits of Extension</h3><hr class="notop"></div>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Quick &amp; Easy Installation </span></span></p>
+	</li>
+</ul>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Access to 9 Reports of </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Enhanced Ecommerce</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> </span></span></p>
+		<ul style="margin-top:0pt;margin-bottom:0pt;">
+			<li style="list-style-type: circle; vertical-align: baseline; background-color: transparent;">
+				<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+					<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Shopping Behaviour Report</span></span></p>
+			</li>
+			<li style="list-style-type: circle; vertical-align: baseline; background-color: transparent;">
+				<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+					<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Checkout Behaviour Report</span></span></p>
+			</li>
+			<li style="list-style-type: circle; vertical-align: baseline; background-color: transparent;">
+				<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+					<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Product Performance Report</span></span></p>
+			</li>
+			<li style="list-style-type: circle; vertical-align: baseline; background-color: transparent;">
+				<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+					<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Sales Performance Report</span></span></p>
+			</li>
+			<li style="list-style-type: circle; vertical-align: baseline; background-color: transparent;">
+				<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+					<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Product List Performance Report</span></span></p>
+			</li>
+			<li style="list-style-type: circle; vertical-align: baseline; background-color: transparent;">
+				<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+					<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Internal Promotion Report</span></span></p>
+			</li>
+			<li style="list-style-type: circle; vertical-align: baseline; background-color: transparent;">
+				<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+					<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Order Coupon Report</span></span></p>
+			</li>	
+			<li style="list-style-type: circle; vertical-align: baseline; background-color: transparent;">
+				<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+					<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Affiliate Code Report</span></span></p>
+			</li>
+		</ul>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn about how </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">different devices are used by same user</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> &amp; how it </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">drives purchase </span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn more about </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">which products are refunded </span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">more often &amp; take action for such products</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Be in legal compliance by using </span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">I.P Anonymization </span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">which is important for EU countries</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn more about which type of &amp; what level of </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">discounts generates conversion</span></span></p>
+	</li>
+</ul>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Understand which </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">payment methods are most widely used</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> ?</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn more about </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">time taken to make purchase decision by customer</span></span></p>
+	</li>
+</ul>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<span id="docs-internal-guid-7512bc17-9600-a9b9-be81-c63c49f5d964"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">And much more</span></span></li>
+</ul>
+</section>
+<section id="our_extension_tracks_following_custom_dimensions_metrics_in_your_ga">
+	<div class="page-header"><h3>Our Extension tracks following Custom Dimensions & Metrics in your GA</h3><hr class="notop"></div>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Custom Dimensions:</span></span></p>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="font-family: Calibri; font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Stock Status: </span><span style="font-family: Calibri; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn whether the product is in stock or out of stock. &nbsp;Keeping track of out of stock products will prevent you from acquiring traffic on the out of stock product URLs.</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Page Type:</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> Identifies the type of the page. Example - Category Page, Product Page, etc. Helps you to compare the performance of different site sections.</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Product Discount:</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">. Getting Discount data in GA can actually help you in strategizing the discounts by analyzing the impact it is causing on the product demand and other key metrics</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Payment Method:</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> Get insights into which Payment method (paypal, credit card, etc) &nbsp;is most popular for your store, which generates higher AOV and Transactions</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Shipping City &amp; Billing city:</span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> Integrates the billing city &amp; shipping city data directly into your GA. It Helps you learn about product demand using insights on Shipping &amp; billing cities.</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Weekday: </span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn whether a transactions was completed on weekday/ weekend. Helps you in comparing Weekdays v/s Weekend Performance</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Local timeslot of the day: </span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn the local time slot during which maximum transactions happens on your store. This can help you improve your marketing activities across different geo locations.</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">User Type:</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> Using this custom Dimension you will be able to differentiate users based on their checkout method. It will help you understand the popular checkout method of your store.</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Sequence at Product Page: </span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Tracks the sequence in which products pages are viewed in a session. It will give you the idea as to which products are viewed can be offered as a part of recommendation.</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Add to Cart Button Position: </span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">The following dimension helps you understand how &lsquo;Add to Cart&rsquo; button&rsquo;s position impacts your CTR. Compare &lsquo;Add to Cart&rsquo; buttons position above the fold &amp; below the fold to take important design decisions.</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">No. of Product in Stock:</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> &nbsp;Using this custom dimensions you will be able to learn the stock availability of the product right into your Google Analytics. &nbsp;Understand how showing stock quantity of the products is impacting its sales. </span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Time Taken to make Purchase: &nbsp;</span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn the time taken by users to make purchase after landing on your store. It will help you make real time offers to users.</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Time Take to add Product to Add to Cart: </span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn the time taken by users to add product to cart after arriving on the product page. &nbsp;Insights generated from the data will help you strategize the promotional offers.</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Product Size: </span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Track the size of the product in Google Analytics. This will help you analyze the product sales in terms of its size. </span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Product Review Count: </span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn no. of reviews provided by users for each product. It will help you understand the relation between review count &amp; product demand.</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Product Review Score: &nbsp;</span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn average review score for each product in Google Analytics. Understand if a review score of a product increases the conversion rate or not? Additionally, compare the performance of products with low review score &amp; high review score.</span></span></p>
+	</li>
+</ul>
+<div dir="ltr" style="margin-left:0pt;">
+	<table style="border: none; border-collapse: collapse;">
+		<colgroup>
+			<col width="328">
+		</colgroup>
+		<tbody>
+			<tr style="height:0px">
+				<td style="border-left:solid #000000 0px;border-right:solid #000000 0px;border-bottom:solid #000000 0px;border-top:solid #000000 0px;vertical-align:top;padding:7px 7px 7px 7px">
+					&nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Custom Metrics:</span></span></p>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Total monetary value of products viewed: </span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Learn total monetary value of product viewed by a user in a single session. It helps you understand total monetary value of products users generally view &amp; what value of product they end up buying.</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> </span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9600-e507-8d7e-d34a91bc7dd3"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">No of clicks on Category Pages &amp; Product Pages: </span><span style="font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Tracks numbers of clicks that happens on Category Page &amp; Product Page. It helps you to understand the user engagement.</span></span></p>
+	</li>
+</ul>
+</section>
+<section id="prerequisites">
+	<div class="page-header"><h3>Prerequisites</h3><hr class="notop"></div>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-136d-5146-6a1497d43d53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Actionable Google Analytics Supports tons of Universal Analytics Features. Hence to use our Plugin it is mandatory that your Google Analytics Property is upgraded to </span><a href="https://support.google.com/analytics/answer/2790010?hl=en" style="text-decoration:none;"><span style="font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Universal Analytics</span></a><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">. Additionally, our Plugin supports Enhanced Ecommerce feature of Universal Analytics and hence your Universal Analytics profile must have Enhanced Ecommerce Enabled.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	&nbsp;</p>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9601-136d-5146-6a1497d43d53"><span style="text-decoration: underline; color: rgb(17, 85, 204); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"><a href="http://www.tatvic.com/blog/upgrade-to-universal-analytics/#three" style="text-decoration:none;">Learn How to &nbsp;Upgrade to Universal Analytics?</a></span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">To </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Enable Enhanced Ecommerce</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> for your Google Analytics Profile, follow the </span><a href="http://www.tatvic.com/blog/enhanced-ecommerce/#steps" style="text-decoration: none; background-color: transparent;"><span style="color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">step 1 of the blogpost.</span></a></p>
+	</li>
+</ul>
+<p dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	&nbsp;</p>
+</section>
+<section id="understanding_the_setting_options">
+	<div class="page-header"><h3>Understanding the Setting Options</h3><hr class="notop"></div>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Actionable Google Analytics supports tons of new features of Universal Analytics. Using our Plugin settings page you can enable/ disable these features. </span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">While most of the features are configured automatically you may need to make some configuration changes in your Google Analytics Account to use </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">User ID Tracking, Content Grouping, Set up Custom Dimensions/ Metrics &amp; Product Refund</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">. Take a this </span><a href="http://plugins.tatvic.com/enhanced-ecommerce-installation-wizard/?store_type=woocommerce" style="text-decoration:none;"><span style="font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); font-weight: bold; font-style: italic; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Quick Tour</span></a><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> to learn how to make these Configuration Changes.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 19px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Explanation of each options of settings page:</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">1) Email Address: Enter Your Email Address in the field. </span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Add your email address so that you can:</span></span></p>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Receive plugin enhancement update</span></span></p>
+	</li>
+</ul>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Receive Quick Email Course on How to generate insights using Enhanced Ecommerce?</span></span></p>
+	</li>
+</ul>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">2) GA Account ID: Enter Your Google Analytics ID Here.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">You can find your Google Analytics ID by logging in to your Google Analytics Account. Your Google Analytics ID Code should look like &ldquo;UA-XXXXXXXX-X&rdquo;. </span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Check out the </span><a href="https://support.google.com/analytics/answer/1032385?hl=en" style="text-decoration:none;"><span style="font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">document</span></a><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> to learn how to find your Google Analytics ID.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">3) Use our Extension with Your Google Tag Manager (GTM)</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">If you are using GTM &amp; wants to configure our Plugin with your GTM, </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">check </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">the box</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">&amp; later follow the steps mention in the </span><a href="http://plugins.tatvic.com/downloads/woo-plugin-GTM-steps.pdf" style="text-decoration:none;"><span style="font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">document</span></a><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> to configure. </span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Alternately, if you do not wish to configure our Plugin with your GTM keep the option uncheck.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Note:</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> This option is only application to users who are using GTM. If you are not using GTM, keep the option uncheck.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">4) GA Authentication Token</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">The following step will authenticate your Google Analytics account. When you authenticate your Google Analytics account, we will be able to verify your Enhanced Ecommerce Implementation. &nbsp;Additionally, it also allows us to add the Product Refund data in your Google Analytics.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Follow the steps below to Authenticate your GA:</span></span></p>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Click on </span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">&ldquo;Click Here&rdquo;</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> as shown in the image below</span></span></p>
+	</li>
+</ul>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<img alt="Google Analytics Authentication" src="assets/images/image_3.png" style="width: 849px; height: 97px;"></p>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Sign in</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> to your Google Analytics Account</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">In the next step, Click &ldquo;</span><span style="font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Accept</span><span style="vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">&rdquo; &amp; your Authentication Token will be automatically generated &amp; saved in your field.</span></span></p>
+	</li>
+</ul>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Example:</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"><img alt="Google Analytics Authentication" src="assets/images/image_2.png" style="width: 814px; height: 84px;"></span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">5) Enhanced Ecommerce Tracking Code</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">: </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Check the Box</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> to add the Enhanced Ecommerce Tracking code on your store. </span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9615-23f3-a99c-5d513d01fb78"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">6) User ID Tracking</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> </span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9615-23f3-a99c-5d513d01fb78"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">The User ID lets you associate engagement data from multiple devices and different sessions with unique IDs. Enable this feature to get more accurate user count &amp; better analyze the signed-in user experience. </span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9615-23f3-a99c-5d513d01fb78"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">To use the feature </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Check the Box. </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Additionally, you will have to </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Create New Google Analytics View</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> as explained in the </span><a href="http://plugins.tatvic.com/enhanced-ecommerce-installation-wizard/?store_type=woocommerce#1" style="text-decoration:none;"><span style="font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Step 1 of the Wizard</span></a><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9615-23f3-a99c-5d513d01fb78"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">7) Content Grouping</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9615-23f3-a99c-5d513d01fb78"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Content Grouping lets you group content into a logical structure that reflects how you think about your store, and then view and compare aggregated metrics by group name in addition to being able to drill down to the individual URL, page title, or screen name.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<br>
+	<span id="docs-internal-guid-7512bc17-9615-23f3-a99c-5d513d01fb78"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">To use the feature </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Check the Box.. </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Additionally, you will have to </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Create Content Grouping in Your Google Analytics</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> as explained in the </span><a href="http://plugins.tatvic.com/enhanced-ecommerce-installation-wizard/?store_type=woocommerce#2" style="text-decoration:none;"><span style="font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Step 2 of the Wizard</span></a><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">8) Form Field Tracking</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Form field tracking helps you analyze the usage of the different fields of your form. Here&rsquo;s a </span><a href="http://www.tatvic.com/case-studies/increase-in-lead-submissions/" style="text-decoration:none;"><span style="font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">case study</span></a><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> that explains use case of form field tracking analysis.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">To use the feature </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Check the Box.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">9) I.P Anonymization</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Use this feature to anonymize or stop collecting the I.P. Address of your users. Be in legal compliance by using I.P Anonymization which is important for EU Countries. </span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<br>
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">10) 404 Error Tracking</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Enable this feature to track whenever a user lands on your 404 Error Page of your store. &nbsp;</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Check the box</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> to start using this feature. </span></span></p>
+<div dir="ltr" style="margin-left:0pt;">
+	<table style="border: none; border-collapse: collapse;">
+		<colgroup>
+			<col width="323">
+		</colgroup>
+		<tbody>
+			<tr style="height:28px">
+				<td style="border-left:solid #000000 0px;border-right:solid #000000 0px;border-bottom:solid #000000 0px;border-top:solid #000000 0px;vertical-align:top;padding:5px 7px 5px 7px">
+					&nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">11) Internal Promotion:</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Internal Promotion feature of Enhanced Ecommerce lets you see your Internal Promotion data in your Google Analytics. To use the feature, </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">check the box</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">. </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Additionally, you will have to add the internal promotion data in the following format:</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">FIxed Format: </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Image Path, Promo ID, Name, Creative, Position of the Banner</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	<img alt="Internal Promotion enhanced ecommerce feature" src="assets/images/image_1.png"  ></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Example:</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><a href="http://estore.tatvic.com/wp-content/uploads/2014/10/promo1.png,self_promo1,promotion,new_year_sale,top_banner" style="text-decoration:none;"><span style="font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">http://estore.tatvic.com/wp-content/uploads/2014/10/promo1.png,self_promo1,promotion,new_year_sale,top_banner</span></a></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Where,</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Image Path:</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> http://estore.tatvic.com/wp-content/uploads/2014/10/promo1.png</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-family: Calibri; color: rgb(0, 0, 0); font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">//Add here the URL of the image</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Promo ID: </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">self_promo1</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-family: Calibri; color: rgb(0, 0, 0); font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">// Add here the unique id of the &nbsp;promotion</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Name:</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> promotion</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-family: Calibri; color: rgb(0, 0, 0); font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">// Add here the campaign name of the promotion, &nbsp;e.g. New Year</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Creative:</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> new_year_sale</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-family: Calibri; color: rgb(0, 0, 0); font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">// Add here content of the banner, e.g. deals</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Position of the Banner:</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> top_banner</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-family: Calibri; color: rgb(0, 0, 0); font-style: italic; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">// Add here the position of the banner, e,g. top</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9601-982c-73b1-e0dd579efe53"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Alternatively, if you do not run any internal promotions, you can simply mark it as uncheck.</span></span></p>
+<div>
+	&nbsp;</div>
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<p>
+	<span id="docs-internal-guid-7512bc17-9601-e8e0-eef1-4544ae5d6361"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">If you have any questions or query visit us at </span><a href="http://www.tatvic.com/contact" style="text-decoration:none;"><span style="font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">http://www.tatvic.com/contact</span></a><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> &amp; and we&rsquo;ll &nbsp;get in touch with you in 24 hours. </span></span></p>
+</section>
+<section id="resources">
+	<div class="page-header"><h3>Resources</h3><hr class="notop"></div>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">To help you better Understand the features of our Plugin we&rsquo;ve produced tons of new content, feel free to browse &amp; learn how you can use Universal Analytics &amp; Enhanced Ecommerce to generate great insights for your store:</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Blogpost:</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	&nbsp;</p>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><a href="http://www.tatvic.com/blog/enhanced-ecommerce/#features" style="text-decoration:none;"><span style="color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Quick Walkthrough of 10 New Reports of Enhanced Ecommerce</span></a></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><a href="http://www.tatvic.com/blog/5-enhanced-ecommerce-reports-need-understand-now/" style="text-decoration:none;"><span style="color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">5 Enhanced Ecommerce Reports You Need to Know Now</span></a></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><a href="http://www.tatvic.com/blog/enhanced-ecommerce-analysis/" style="text-decoration:none;"><span style="color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">How to Use Enhanced Ecommerce of Google Analytics to Measure Product Demand?</span></a></span></p>
+	</li>
+</ul>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Video:</span></span></p>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><a href="http://www.tatvic.com/webinar/enhanced-ecommerce/" style="text-decoration:none;"><span style="color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">How Online Retailers Can Benefit from Enhanced Ecommerce with Mike &amp; Snehal of Google</span></a></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><a href="https://www.youtube.com/watch?v=pHZRkEr7BDQ" style="text-decoration:none;"><span style="color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">How to Generate Insights from Enhanced Ecommerce</span></a></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><a href="http://www.tatvic.com/webinar/universal-analytics/" style="text-decoration:none;"><span style="color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">How Universal Analytics Can Help You Grow Your Business?</span></a></span></p>
+	</li>
+</ul>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<br>
+	<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Additionally, we produce ton of useful content on our blog - </span><a href="http://www.tatvic.com/blog/" style="text-decoration:none;"><span style="font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">tatvic.com/blog</span></a><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> around web analytics &amp; e-commerce.</span></span></p>
+</section>
+
+<!-- code for FAQ-->
+<section id="faq">
+	<div class="page-header"><h3>FAQ</h3><hr class="notop"></div>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><b>How to verify if you have implemented the Plugin well?</b></span> <br/><br/>
+			To verify if you have implemented the plugin well, just log in to your Google Analytics account & check if the data is coming well in your Enhanced Ecommerce Reports.
+			</p>
+	</li><br/>
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><b>How much time will it take to see the data in Google Analytics?</b></span> <br/><br/>
+			It generally depends upon the traffic of the store. But in general it may take max up to 24 hours & min 4 hours to see the data in Google Analytics.
+
+			</p>
+	</li><br/>
+	
+	<li dir="ltr" style="list-style-type: disc; font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; background-color: transparent;">
+		<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-7512bc17-9602-13e3-ead3-98fc831cf5fd"><b>Why the plugin does not sent data when I am logged in as Admin?</b></span> <br/><br/>
+			To avoid sending your own transaction data or sessions data in Google Analytics, our plugin doesn't sent the data to GA when you are logged in. Having said, if you are logged in as Shop Manager, plugin will send the data to GA. 
+			</p>
+	</li>
+</ul>
+	
+	
+	<div>
+	&nbsp;</div>
+</section>
+
+<section id="author">
+	<div class="page-header"><h3>Author</h3><hr class="notop"></div>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9602-5e72-167e-3870c078b58f"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">The Plugin is developed &amp; maintained by Tatvic.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9602-5e72-167e-3870c078b58f"><a href="http://www.tatvic.com/" style="text-decoration:none;"><span style="font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); text-decoration: underline; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Tatvic </span></a><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">is a </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Web Analytics Consulting Company</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"> with Core Competences in Website Analysis, Mobile App Analytics &amp; Conversion Rate Optimization. &nbsp;Tatvic is also a </span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); font-weight: bold; vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Google Analytics Certified Partner, Google Tag Manager Certified Partner, Google Analytics Premium Certified Partner &amp; Google Adsense Partner</span><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">.</span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9602-5e72-167e-3870c078b58f"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">Our Mission is to help online business optimize their online marketing efforts by collecting right information and making it actionable. </span></span></p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.15;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-7512bc17-9602-5e72-167e-3870c078b58f"><span style="font-size: 15px; font-family: Calibri; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">If you are interested in any of our services please feel free to reach out to us at </span><span style="text-decoration: underline; font-size: 15px; font-family: Calibri; color: rgb(17, 85, 204); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;"><a href="http://www.tatvic.com/contact/?ref=contact_us" style="text-decoration:none;">http://www.tatvic.com/contact/</a></span></span></p>
+<div>
+	&nbsp;</div>
+</section>
+
+
+
+
+	</div>
+</body>
+</html>

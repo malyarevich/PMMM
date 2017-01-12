@@ -1,0 +1,30 @@
+#gfield_settings_choices_container li input.field-choice-text {
+    width: 300px !important;
+}
+
+#gfield_settings_choices_container.choice_with_value li input.field-choice-value {
+    width: 145px !important;
+}
+
+#gfield_settings_choices_container.choice_with_value li input.field-choice-text {
+    width: 145px !important;
+}
+
+#gfield_settings_choices_container .gfield_choice_header_label {
+    padding-left: 70px !important;
+}
+
+#gfield_settings_choices_container .gfield_choice_header_value {
+    padding-left: 115px !important;
+}
+
+.pq-choice-media-upload {
+    margin-top: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.gfield_image_label img, .gfield_radio img, .gfield_checkbox img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,253 @@
+.bis-table-scroll {
+    overflow: auto;
+    min-height: 380px;
+}
+
+@-moz-document url-prefix() {
+    .bis-table-scroll {
+        overflow: auto;
+    }
+}
+
+.bis-label-align {
+    padding-top:6px;
+}
+.bis-icon-red {
+    color: red;
+    font-size: 10px;
+}
+
+.add-criteria-icon-blue {
+    color: green;
+    font-size: 25px;
+}
+
+.delete-criteria-icon-red {
+    color: red;
+    font-size: 25px;
+}
+
+.bis-icon-modal-black-close {
+    color: #000000;
+    font-size: 25px;
+}
+
+.bis-icon-green {
+    color: green;
+}
+
+.bis-row-actions {
+    color: #ddd;
+    font-size: 13px;
+    padding: 2px 0 0;
+}
+
+.bis-message-position {
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+
+.bis-search-position {
+    padding-right: 10px;
+}
+
+.bis-glyphi-position {
+    padding-right: 5px;
+}
+
+.bis-no-results-message {
+    text-align: center;
+    color: #3399cc;
+}
+
+@media (max-width: 767px) {
+    .modal-dialog {
+        width: 100%;
+    }
+}
+
+@-moz-document url-prefix() {
+    fieldset {
+        display: table-cell;
+    }
+}
+
+.multiselect-container {
+    padding-top: 10px !important;
+}
+
+.bis-rows-count {
+    color: #127bb8;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+
+.logical-rule-icon {
+    background: url(../image/logicalrules_icon.png) center no-repeat;
+    height: 45px;
+  
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+
+.page-rule-icon {
+    background: url(../image/pagerules_icon.png) center no-repeat;
+    height: 45px;
+
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+.category-rule-icon {
+    background: url(../image/category_rules_icon.png) center no-repeat;
+    height: 45px;
+
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+.post-rule-icon {
+    background: url(../image/postrules_icon.png) center no-repeat;
+    height: 45px;
+
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+.redirect-rule-icon {
+    background: url(../image/redirect_rules_icon.png) center no-repeat;
+    height: 45px;
+
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+.settings-rule-icon {
+    background: url(../image/settings_icon.png) center no-repeat;
+    height: 45px;
+
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+.theme-rule-icon {
+    background: url(../image/theme_rules_icon.png) center no-repeat;
+    height: 45px;
+
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+.widget-rule-icon {
+    background: url(../image/widget_rules_icon.png) center no-repeat;
+    height: 45px;
+
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+
+.language-rule-icon {
+    background: url(../image/language_rules_icon.png) center no-repeat;
+    height: 45px;
+
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+
+.icon-placeholder{
+    border: 1px solid #DFD9D9;
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-placeholder-disable{
+    border: 1px solid #DFD9D9;
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color:#ddd;
+}
+
+.icon-placeholder:hover{ background: #F0F0F0;}
+
+input[type=checkbox], input[type=radio] {
+    margin: 0px 0 0;
+}
+
+.pcode-button {
+    margin-top: 10px;
+}
+
+#c3 chart customizations
+
+.c3-axis-y text {
+    fill: green;
+    font-size:12px;
+}
+.c3-axis-x text {
+    font-size:12px;
+    fill:purple;
+}
+
+.c3-xgrid, .c3-ygrid {
+    stroke-dasharray: 1 1 !important; 
+}
+
+.c3-line {
+    stroke-width: 2px !important; 
+}
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.page-loader {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+        url('images/pre_loader.gif') 
+        50% 50% 
+        no-repeat;
+}
+
+.loading {
+    overflow: hidden;
+}
+
+.checkbox-align {
+    padding-top: 7px;
+}

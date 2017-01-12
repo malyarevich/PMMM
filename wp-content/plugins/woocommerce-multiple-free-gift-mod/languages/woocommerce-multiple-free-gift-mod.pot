@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Yevgen <yevgen.slyuzkin@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 0.1\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Language: English\n"
+
+msgid "WooCommerce Multiple Free Gift Mod"
+msgstr ""
+
+msgid "Woo Free Gift Mod"
+msgstr ""
+
+msgid "Gift Criteria"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Enable/Disable free gift"
+msgstr ""
+
+msgid "Number of gifts allowed"
+msgstr ""
+
+msgid "Select Gift criteria"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Select Gift Products"
+msgstr ""
+
+msgid "Add new gift"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Create Criteria"
+msgstr ""
+
+msgid "Name this criteria"
+msgstr ""
+
+msgid "Total number of items in cart"
+msgstr ""
+
+msgid "is not equal to"
+msgstr ""
+
+msgid "Popup Overlay"
+msgstr ""
+
+msgid "Popup Heading Text"
+msgstr ""
+
+msgid "Add Gift Text"
+msgstr ""
+
+msgid "Cancel Text"
+msgstr ""
+
+msgid "Invalid Gift Condition Text"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Free Gift Options"
+msgstr ""
+
+msgid "Enable free gift for this product."
+msgstr ""
+
+msgid "Enabling single gift settings will overwrite global settings."
+msgstr ""
+
+msgid "Select single/multiple gift items you want to giveaway for free."
+msgstr ""
+
+msgid "Note that duplicate items are saved only once."
+msgstr ""
+
+msgid "Number of items user are allowed to select as a gift"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Gift conditions emptied successfully"
+msgstr ""
+
+msgid "Gift conditions saved successfully"
+msgstr ""
+
+msgid "There was a problem. Please try again."
+msgstr ""
+
+msgid "No gift conditions to save. You can add conditions by clicking <em>Add new gift condition</em> button"
+msgstr ""
+
+msgid "Criteria saved successfully"
+msgstr ""
+
+msgid "No criteria to save. You can add criteria by clicking <em>Add New Criteria</em> button"
+msgstr ""
+
+msgid "On this product active special offer. For every {X} item we give {Y} free gift."
+msgstr ""
+
+msgid "Special offer. add more for gift."
+msgstr ""
+
+msgid "Congratulations! We added a free gift(s). You save {sum(N*Y*price)}{currency}."
+msgstr ""
+
+msgid "Congratulations! We added {N*Y} free gifts. You save {N*Y*price}{currency}."
+msgstr ""
+
+msgid "We delete {oldN*Y-newN*Y} gift(s). Now you have {newN*Y} free bottle."
+msgstr ""
+
+msgid "Free Item"
+msgstr ""
+
+msgid "Gift items removed as gift criteria isnt fulfilled"
+msgstr ""
+
+msgid "Take your free gift"
+msgstr ""
+
+msgid "Message for you!"
+msgstr ""
+
+msgid "Add Gifts"
+msgstr ""
+
+msgid "Okay"
+msgstr ""
+
+msgid "Settings saved successfully"
+msgstr ""
+
+msgid "No changes to save."
+msgstr ""
+
+msgid "Number of items user are allowed to select as a gift. Value zero or less will allow unlimited selection."
+msgstr ""
+
+msgid "SO on this product"
+msgstr ""
+
+msgid "SO add more"
+msgstr ""
+
+msgid "SO congratulation"
+msgstr ""
+
+msgid "SO congratulations and you save"
+msgstr ""
+
+msgid "SO deleted gift"
+msgstr ""
+
+msgid "Select Gift Products, press Space key and press and hold Enter key"
+msgstr ""
+
+msgid "Add new products to list"
+msgstr ""
+
+msgid "products"
+msgstr ""
+
+msgid "first."
+msgstr ""

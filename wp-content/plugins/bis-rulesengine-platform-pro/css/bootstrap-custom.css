@@ -1,0 +1,57 @@
+/** Bootstrap override ****************************** */
+
+.panel-default > .panel-heading {
+    background-color: #F0F0F0;
+    border-color: #E9E3E3;
+    color: #127bb8;
+}
+
+.table-striped > thead > tr > th {
+    background-color: #F0F0F0 !important;
+    color: #337AB7;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n) {
+    background-color: #f4f7fa;
+}
+
+/* CSS file is used to customize bootstrap css for end user site */
+.modal-dialog {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.modal-body {
+    overflow-y: auto;
+}
+
+.modal-footer {
+    margin-top: 0;
+}
+
+.bis-icon-modal-close {
+    color: #FFD4AA;
+    font-size: 25px;
+}
+
+.search-container{
+    background-color: #F0F0F0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+}
+
+.action-icons{  
+    float: right;
+    margin: -20px 0px;
+}
+
+.content-rule-name{
+    width: 265px;
+}

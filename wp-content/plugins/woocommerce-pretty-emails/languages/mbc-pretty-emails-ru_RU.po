@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Pretty Emails\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: Mon Aug 10 2015 00:20:47 GMT+0400 (Московское время "
+"(зима))\n"
+"Last-Translator: octopus Firm <dev.firmoctopus@gmail.com>\n"
+"Language-Team: \n"
+"Language: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ru_RU"
+
+msgid "<a href=\"%s\" target=\"_blank\">'.__('New order template"
+msgstr "<a href=\"%s\" target=\"_blank\">'.__('Шаблон Новый заказ"
+
+msgid "Body font size"
+msgstr "Размер шрифта тела"
+
+msgid "Body font size in pixels. Default <code>12</code>."
+msgstr "Размер шрифта тело в пикселях. По умолчанию <code>12</code>."
+
+msgid "Border color"
+msgstr "Цвет границы"
+
+msgid "Company Logo"
+msgstr "Логотип компании"
+
+msgid "Customer completed order template"
+msgstr "Шаблон завершения заказа"
+
+msgid "Customer invoice order template"
+msgstr "Customer invoice order template"
+
+msgid "Customer note order template"
+msgstr "Примечание клиента"
+
+msgid "Customer processing order template"
+msgstr "Customer processing order"
+
+msgid "Display a link in your email header."
+msgstr "Отображать ссылку в Вашем почтовом заголовке."
+
+msgid "Display product thumbnails in email"
+msgstr "Показать миниатюры (фотографии) в письме"
+
+msgid "Download link font color"
+msgstr "Цвет шрифта ссылки скачивания."
+
+msgid "Download link font color. Default <code>#000</code>."
+msgstr "Цвет шрифта ссылки скачивания. По умолчанию <code>#000</code>."
+
+msgid "Download link font size"
+msgstr "Размер шрифта ссылки скачивания"
+
+msgid "Download link font size in pixels. Default <code>12</code>."
+msgstr "Ссылка для скачивания размер шрифта в пикселях. По умолчанию <code>12</code>."
+
+msgid "Email Preview"
+msgstr "Предпросмотр E-mail письма"
+
+msgid "Email Template Width"
+msgstr "Ширина Шаблона электронного письма "
+
+msgid ""
+"Enter a URL to display your logo. Upload your image using the <a "
+"href=\"%s\">media uploader</a>."
+msgstr ""
+"Введите URL для отображения вашего логотипа.  Загрузите логотип с помощью<a "
+"href=\"%s\">Медизайгрузчика</a>."
+
+msgid "Enter your Facebook page url to display your Facebook logo in footer"
+msgstr ""
+"Введите URL профиля Facebook страницы для отображения логотипа Facebook в "
+"нижнего колонтитуле"
+
+msgid "Enter your Google+ profile page url to display Google+ logo in footer"
+msgstr ""
+"Введите URL профиля Google+ страницы для отображения логотипа Google+ в "
+"нижнего колонтитуле"
+
+msgid "Enter your Instagram profile page url to display Instagram logo in footer"
+msgstr ""
+"Введите URL профиля Instagram страницы для отображения логотипа Instagram в "
+"нижнего колонтитуле\n"
+" "
+
+msgid "Enter your Pinterest profile page url to display Pinterest logo in footer"
+msgstr ""
+"Введите URL профиля Twitter страницы для отображения логотипа Twitter в "
+"нижнего колонтитуле"
+
+msgid "Enter your Twitter profile page url to display your Twitter logo in footer"
+msgstr ""
+"Введите URL профиля Twitter страницы для отображения логотипа Twitter в "
+"нижнего колонтитуле"
+
+msgid "Extra link one"
+msgstr "Дополнительное link один"
+
+msgid "Extra link three"
+msgstr "Дополнительное link три"
+
+msgid "Extra link two"
+msgstr "Дополнительное link два"
+
+msgid "Facebook page URL"
+msgstr "URL страницы Facebook "
+
+msgid "Footer Logo width"
+msgstr "Ширина Логотипа в подвале"
+
+msgid "Google+ profile URL"
+msgstr "URL ПрофилИ в Google+"
+
+msgid "H1 tag font size in pixels. Default <code>18</code>."
+msgstr "Размер шрифта Н1 в пикселях. По умолчанию <code>18</code>."
+
+msgid "H2 tag font size in pixels. Default <code>18</code>."
+msgstr "Размер шрифта Н2 в пикселях. По умолчанию <code>16</code>."
+
+msgid "H3 tag font size in pixels. Default <code>18</code>."
+msgstr "Размер шрифта Н3 в пикселях. По умолчанию <code>14</code>."
+
+msgid "Heading 1 font size"
+msgstr "Заголовок 1 размер шрифта"
+
+msgid "Heading 2 font size"
+msgstr "Заголовок 2  размер шрифта"
+
+msgid "Heading 3 font size"
+msgstr "Заголовок 3 размер шрифта"
+
+msgid "Instagram profile URL"
+msgstr "URL Профили Instagram"
+
+msgid "Introduction for customer completed order email"
+msgstr "Введение для обработки заказа клиента электронной почты"
+
+msgid "Introduction for customer processing order email"
+msgstr "Введение для обработки заказа клиента электронной почты"
+
+msgid "Pinterest profile URL"
+msgstr "URL Профили Pinterest "
+
+msgid ""
+"Please feel free to send us an email if you have any issue at "
+"support@mbcreation.net"
+msgstr ""
+"Пожалуйста, не стесняйтесь, присылайте нам свои вопросы по электронной почте,"
+" если они у вас возникли support@mbcreation.net"
+
+msgid "Product Thumbnails"
+msgstr "Миниатюра Товара"
+
+msgid "Product Thumbnails Size"
+msgstr "Размер Миниатюры Товара"
+
+msgid "Product Thumbnails Size. Default <code>32</code>."
+msgstr "Размер Миниатюры Товаров . По умолчанию<code>32</code>."
+
+msgid ""
+"Surrounding the main table, blockquote and order tables. Default "
+"<code>#EEE</code>."
+msgstr ""
+"Фон основной таблицы, блок цитаты и таблицы заказа. По умолчанию "
+"<code>#EEE</code>."
+
+msgid "The email template width. Default <code>700</code>."
+msgstr "Ширина шаблона электронной почты. По умолчанию <code>700</code>."
+
+msgid "The footer logo width. Default <code>175</code>."
+msgstr "Ширина  логотипа в подвале в пикселях. По умолчанию<code>175</code>."
+
+msgid "The text to appear in the introduction for the customer completed order email"
+msgstr "Текст появится в введении для обработки заказа клиента электронной почты"
+
+msgid ""
+"The text to appear in the introduction for the customer processing order "
+"email"
+msgstr "Текст появится в введении для обработки заказа клиента электронной почты"
+
+msgid "Twitter Profil URL"
+msgstr "URL Профиля Twitter"
+
+msgid "WooCommerce Pretty Emails"
+msgstr "WooCommerce Pretty Emails"

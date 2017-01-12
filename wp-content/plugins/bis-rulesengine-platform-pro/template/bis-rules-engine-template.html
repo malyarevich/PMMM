@@ -1,0 +1,398 @@
+<script id="bis-pageRulesListTemplate" type="text/x-handlebars-template">
+    {{#pagerules}}
+
+    {{#compare status 1 operator="=="}}
+    <tr class="assetRow">
+        {{/compare}}
+        {{#compare status 0 operator="=="}}
+    <tr class="assetRow warning">
+        {{/compare}}
+    
+        <td>
+            <div>{{name}}</div>
+            <div class="bis-row-actions action-icons">
+                <input type="hidden" value="{{id}}" id="bis_rule_id"/>
+ 							<span class="edit">
+								<a href="#" id="bis-page-rule-edit-{{id}}" class="bis-page-rule-edit"><?php _e("Edit", "rulesengine");?></a> |
+							</span>
+							<span class="delete">
+									<a href="#" id="bis-page-rule-delete-{{id}}" class="bis-page-rule-delete"><?php _e("Delete", "rulesengine");?></a>
+							</span>
+            </div>
+        </td>
+        <td>{{ruleTypeValue}}</td>
+        <td>
+            {{#compare logical_rule.status 1 operator="=="}}
+            <span title="Logical rule is active" class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            {{/compare}}
+            {{#compare logical_rule.status 0 operator="=="}}
+            <span title="Logical rule is inactive" class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            {{/compare}}
+            {{logical_rule.name}}
+        </td>
+        <td>{{escape description}}</td>
+        <td><div><label>Action:</label> {{action}}</div>
+            {{#compare general_col2.value "pos_cust_scode_page" operator="!="}}
+            <div><label>Location:</label> {{general_col2.name}}</div>
+            {{/compare}}
+            {{#compare general_col2.value "pos_cust_scode_page" operator="=="}}
+            <div style="color: brown"><label>Shortcode:</label><br/> {{short_code}}</div>
+            {{/compare}}
+        </td>
+        <td>
+            {{#compare status 1 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            <?php _e("Active", "rulesengine");?>
+            {{/compare}}
+            {{#compare status 0 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            <?php _e("Deactive", "rulesengine");?>
+            {{/compare}}
+        </td>
+    </tr>
+
+    {{/pagerules}}
+</script>
+
+<script id="bis-postRulesListTemplate" type="text/x-handlebars-template">
+    {{#postrules}}
+
+    {{#compare status 1 operator="=="}}
+    <tr class="assetRow">
+        {{/compare}}
+        {{#compare status 0 operator="=="}}
+    <tr class="assetRow warning">
+        {{/compare}}
+
+        <td>
+            <div>{{name}}</div>
+            <div class="bis-row-actions action-icons">
+                <input type="hidden" value="{{id}}" id="bis_rule_id"/>
+ 							<span class="edit">
+								<a href="#" id="bis-post-rule-edit" class="bis-post-rule-edit"><?php _e("Edit", "rulesengine");?></a> | 
+							</span>
+							<span class="delete">
+									<a href="#" id="bis-post-rule-delete" class="bis-post-rule-delete"><?php _e("Delete", "rulesengine");?></a>
+							</span>
+            </div>
+        </td>
+        <td>{{ruleTypeValue}}</td>
+        <td>
+            {{#compare logical_rule.status 1 operator="=="}}
+            <span title="Logical rule is active" class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            {{/compare}}
+            {{#compare logical_rule.status 0 operator="=="}}
+            <span title="Logical rule is inactive" class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            {{/compare}}
+            {{logical_rule.name}}
+        </td>
+        <td>{{escape description}}</td>
+        <td><div><label>Action:</label>{{action}}</div>
+            {{#compare general_col2.value "pos_cust_scode_post" operator="!="}}
+            <div><label>Location:</label> {{general_col2.name}}</div>
+            {{/compare}}
+            {{#compare general_col2.value "pos_cust_scode_post" operator="=="}}
+            <div style="color: brown;"><label>Shortcode:</label><br/>    {{short_code}}</div>
+            {{/compare}}
+        </td>
+        <td>
+            {{#compare status 1 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            <?php _e("Active", "rulesengine");?>
+            {{/compare}}
+            {{#compare status 0 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            <?php _e("Deactive", "rulesengine");?>
+            {{/compare}}
+        </td>
+    </tr>
+
+    {{/postrules}}
+</script>
+
+<script id="bis-categoryRulesListTemplate" type="text/x-handlebars-template">
+    {{#categoryrules}}
+
+    {{#compare status 1 operator="=="}}
+    <tr class="assetRow">
+        {{/compare}}
+        {{#compare status 0 operator="=="}}
+    <tr class="assetRow warning">
+        {{/compare}}
+
+        <td width="20%">
+            <div>{{name}}</div>
+            <div class="bis-row-actions action-icons">
+                <input type="hidden" value="{{id}}" id="bis_rule_id"/>
+ 							<span class="edit">
+								<a href="#" id="bis-category-rule-edit-{{id}}" class="bis-category-rule-edit"><?php _e("Edit", "rulesengine");?></a> |
+							</span>
+							<span class="delete">
+									<a href="#" id="bis-category-rule-delete-{{id}}" class="bis-category-rule-delete"><?php _e("Delete", "rulesengine");?></a>
+							</span>
+            </div>
+        </td>
+        <td width="10%">{{ruleTypeValue}}</td>
+        <td width="15%">
+            {{#compare logical_rule.status 1 operator="=="}}
+            <span title="Logical rule is active" class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            {{/compare}}
+            {{#compare logical_rule.status 0 operator="=="}}
+            <span title="Logical rule is inactive" class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            {{/compare}}
+            {{logical_rule.name}}
+        </td>
+        <td>{{escape description}}</td>
+        <td> {{action}}</td>
+        <td width="10%">
+            {{#compare status 1 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            <?php _e("Active", "rulesengine");?>
+            {{/compare}}
+            {{#compare status 0 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            <?php _e("Deactive", "rulesengine");?>
+            {{/compare}}
+        </td>
+    </tr>
+
+    {{/categoryrules}}
+</script>
+
+
+<script id="bis-themeRulesListTemplate" type="text/x-handlebars-template">
+    {{#themerules}}
+
+    {{#compare status 1 operator="=="}}
+    <tr class="assetRow">
+        {{/compare}}
+        {{#compare status 0 operator="=="}}
+    <tr class="assetRow warning">
+        {{/compare}}
+        <td width="20%">
+            <div>{{name}}</div>
+            <div class="bis-row-actions action-icons">
+                <input type="hidden" value="{{id}}" id="bis_rule_id"/>
+ 							<span class="edit">
+								<a href="#" id="bis-theme-rule-edit" class="bis-theme-rule-edit"><?php _e("Edit", "rulesengine");?></a> |
+							</span>
+							<span class="delete">
+									<a href="#" id="bis-theme-rule-delete" class="bis-theme-rule-delete"><?php _e("Delete", "rulesengine");?></a>
+							</span>
+            </div>
+        </td>
+        <td width="10%">{{ruleTypeValue}}</td>
+        <td width="15%">
+            {{#compare logical_rule.status 1 operator="=="}}
+            <span title="Logical rule is active" class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            {{/compare}}
+            {{#compare logical_rule.status 0 operator="=="}}
+            <span title="Logical rule is inactive" class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            {{/compare}}
+            {{logical_rule.name}}
+        </td>
+        <td>{{escape description}}</td>
+        <td width="10%">
+            {{#compare status 1 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            <?php _e("Active", "rulesengine");?>
+            {{/compare}}
+            {{#compare status 0 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            <?php _e("Deactive", "rulesengine");?>
+            {{/compare}}
+        </td>
+    </tr>
+
+    {{/themerules}}
+</script>
+
+<script id="bis-widgetRulesListTemplate" type="text/x-handlebars-template">
+
+    {{#widgetrules}}
+    {{#compare status 1 operator="=="}}
+    <tr class="assetRow">
+        {{/compare}}
+        {{#compare status 0 operator="=="}}
+    <tr class="assetRow warning">
+        {{/compare}}
+        <td width="20%">
+            <div>{{name}}</div>
+            <div class="bis-row-actions action-icons">
+                <input type="hidden" value="{{id}}" id="bis_rule_id"/>
+ 							<span class="edit">
+								<a href="#" id="bis-widget-rule-edit" class="bis-widget-rule-edit"><?php _e("Edit", "rulesengine");?></a> | 
+							</span>
+							<span class="delete">
+									<a href="#" id="bis-widget-rule-delete" class="bis-widget-rule-delete"><?php _e("Delete", "rulesengine");?></a>
+							</span>
+            </div>
+        </td>
+        <td width="10%">{{parentTypeValue}}</td>
+        <td width="10%">{{ruleTypeValue}}</td>
+        <td width="15%">
+            {{#compare logical_rule.status 1 operator="=="}}
+            <span title="Logical rule is active" class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            {{/compare}}
+            {{#compare logical_rule.status 0 operator="=="}}
+            <span title="Logical rule is inactive" class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            {{/compare}}
+            {{logical_rule.name}}
+        </td>
+        <td>{{escape description}}</td>
+        <td> {{action}}</td>
+        <td width="10%">
+            {{#compare status 1 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            <?php _e("Active", "rulesengine");?>
+            {{/compare}}
+            {{#compare status 0 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            <?php _e("Deactive", "rulesengine");?>
+            {{/compare}}
+        </td>
+    </tr>
+
+    {{/widgetrules}}
+</script>
+
+<script id="bis-logicalRulesTemplate" type="text/x-handlebars-template">
+
+    {{#logicalrules}}
+
+    {{#compare status 1 operator="=="}}
+    <tr class="assetRow">
+    {{/compare}}
+    {{#compare status 0 operator="=="}}
+    <tr class="assetRow warning">
+    {{/compare}}
+        <td>
+            <div class="content-rule-name">{{name}}</div>
+            <div class="bis-row-actions action-icons">
+                <input type="hidden" value="{{rcId}}" id="bis_rule_id"/>
+                <span class="edit">
+                        <a href="#" id="bis_rule_edit" class="bis-rule-edit"><?php _e("Edit", "rulesengine");?></a> | 
+                </span>
+                <span class="delete">
+                        <a href="#" id="bis_deleteRule" class="bis-rule-delete"><?php _e("Delete", "rulesengine");?></a>
+                </span>
+            </div>
+        </td>
+        <td>{{escape description}}</td>
+        <td>
+            {{#compare status 1 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            <?php _e("Active", "rulesengine");?>
+            {{/compare}}
+            {{#compare status 0 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            <?php _e("Deactive", "rulesengine");?>
+            {{/compare}}
+        </td>
+    </tr>
+
+    {{/logicalrules}}
+
+
+</script>
+
+<script id="bis-redirectRulesListTemplate" type="text/x-handlebars-template">
+
+    {{#redirectrules}}
+
+    {{#compare status 1 operator="=="}}
+    <tr class="assetRow">
+        {{/compare}}
+        {{#compare status 0 operator="=="}}
+    <tr class="assetRow warning">
+        {{/compare}}
+        <td>
+            <div>{{name}}</div>
+            <div class="bis-row-actions action-icons">
+                <input type="hidden" value="{{id}}" id="bis_rule_id"/>
+ 							<span class="edit">
+								<a href="#" id="bis_redirect_rule_edit" class="bis-redirect-rule-edit"><?php _e("Edit", "rulesengine");?></a> | 
+							</span>
+							<span class="delete">
+								<a href="#" id="bis_redirect_rule_delete" class="bis-redirect-rule-delete"><?php _e("Delete", "rulesengine");?></a>
+							</span>
+            </div>
+        </td>
+
+        <td> {{action.target_url}}</td>
+        <td width="15%">
+            {{#compare logical_rule.status 1 operator="=="}}
+            <span title="Logical rule is active" class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            {{/compare}}
+            {{#compare logical_rule.status 0 operator="=="}}
+            <span title="Logical rule is inactive" class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            {{/compare}}
+            {{logical_rule.name}}
+        </td>
+        <td>{{escape description}}</td>
+        <td width="10%">
+            {{#compare status 1 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-up bis-icon-green"></span>
+            <?php _e("Active", "rulesengine");?>
+            {{/compare}}
+            {{#compare status 0 operator="=="}}
+            <span class="glyphicon glyphicon-thumbs-down bis-icon-red"></span>
+            <?php _e("Deactive", "rulesengine");?>
+            {{/compare}}
+        </td>
+    </tr>
+
+    {{/redirectrules}}
+
+
+</script>
+
+
+<script id="bis-selectComponent" type="text/x-handlebars-template">
+    <div class="input-group btn-group">
+        <select class="bis-multiselect" name="{{compName}}" id="{{compId}}" size="4">
+            {{#suboptions}}
+            <option value={{id}}> {{name}}</option>
+            {{/suboptions}}
+        </select>
+    </div>
+</script>
+
+<script id="bis-selectComponent-multiple" type="text/x-handlebars-template">
+    <div class="input-group btn-group">
+        <select class="bis-multiselect" multiple="multiple" name="{{compName}}" id="{{compId}}" size="4">
+            {{#suboptions}}
+            <option value={{id}}> {{name}}</option>
+            {{/suboptions}}
+        </select>
+    </div>
+</script>
+
+<script id="bis-logical-component" type="text/x-handlebars-template">
+    <div class="input-group btn-group">
+        <span class="input-group-addon input-group-remove"><b class="glyphicon glyphicon-remove"></b></span>
+        <select class="bis-multiselect" id="bis_re_operator" name="bis_re_operator">
+
+
+            {{#compare option "OR" operator = "=="}}
+            <option value="or" selected> OR</option>
+            <option value="and"> AND</option>
+            {{/compare}}
+
+            {{#compare option "And" operator = "=="}}
+            <option value="and" selected> AND</option>
+            <option value="or"> OR</option>
+            {{/compare}}
+
+        </select>
+    </div>
+</script>
+
+<script id="bis-logical-textbox-component" type="text/x-handlebars-template">
+    <input type="text" class="form-control" autocomplete="off" id="{{id}}"
+           name="{{name}}" placeholder="{{placeholder}}"/>
+</script>
+
+<script id="bis-logical-hidden-component" type="text/x-handlebars-template">
+    <input type="hidden" id="{{id}}" name="{{name}}" value="{{value}}"/>
+</script>

@@ -1,0 +1,168 @@
+<?php 
+/*
+ * using WideImage library
+ */
+?>
+
+<html>
+<head>
+<title>Showing Image</title>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css"/>
+
+<script src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
+<script>
+
+var file_name = 'poor.jpg';
+var overlay_left=0;
+var overlay_top=0;
+var new_width='';
+var new_height='';
+var new_rotate=0;
+jQuery(function($){
+
+	$('#resize').resizable({handles: 'ne, se, sw, nw',
+		stop: function( event, ui ) {
+			//console.log(ui.size);
+			var the_image = $(this).find('img');
+			$(the_image).attr('width', ui.size.width);
+			$(the_image).attr('height', ui.size.height);			
+		},
+		aspectRatio: true,
+	});
+	
+	$('#resize').draggable({cursor: "move", containment: "parent", 
+		stop: function() {
+			var parent_pos = $(this).parent().position();
+			var img_pos = $(this).position();
+			
+			overlay_left = img_pos.left - parent_pos.left;
+			overlay_top = img_pos.top - parent_pos.top;
+			//console.log('left '+overlay_left+' top '+overlay_top);
+			},
+			
+			stack: "div"
+	});
+	
+	
+});
+
+function load_image(filter){
+
+	jQuery('#preview').html('Generating ... preview');
+	
+	new_width = jQuery('#resize').find('img').css('width');
+	new_height = jQuery('#resize').find('img').css('height');
+	
+	
+	var data = {image_name: file_name, 
+				filter: filter, 
+				left: overlay_left, 
+				top:overlay_top, 
+				width: new_width, 
+				height: new_height, 
+				rotate: new_rotate};
+		
+	jQuery.get('sendimage.php', data, function(resp){
+
+		console.log(resp);
+		
+		file_name = resp.rev_name;
+		var image_path = 'images/'+file_name;
+		
+		jQuery('#preview').html('<img src='+image_path+' />'); 
+	},'json');
+	
+}
+
+var value = 0;
+function rotate_image(deg){
+	
+	value = value + deg;
+	$("#resize").rotate({ animateTo:value});
+	new_rotate = value;
+	
+}
+</script>
+
+<style>
+#resize{
+width: 150px;
+height: 150px;
+border: 1px solid #ccc;
+position: relative;
+}
+
+.ui-resizable-se{
+ width: 7px;
+ height: 7px;
+ background-color: #D0F2F0;
+ border-color:#45C1B1;
+ border-style:solid;
+ border-width:1px;
+ bottom:0px;
+ right:0px;
+}
+
+.ui-resizable-sw{
+ width: 7px;
+ height: 7px;
+ background-color: #D0F2F0;
+ border-color:#45C1B1;
+ border-style:solid;
+ border-width:1px;
+ bottom:0px;
+ left:0px;
+}
+.ui-resizable-nw{
+ width: 7px;
+ height: 7px;
+ background-color: #D0F2F0;
+ border-color:#45C1B1;
+ border-style:solid;
+ border-width:1px;
+ top:0px;
+ left:0px;
+}
+.ui-resizable-ne{
+ width: 7px;
+ height: 7px;
+ background-color: #D0F2F0;
+ border-color:#45C1B1;
+ border-style:solid;
+ border-width:1px;
+ top:0px;
+ right:0px;
+}
+</style>
+</head>
+
+<body>
+<h1>Image filters -  by N-Media</h1>
+<p>This scrip is writtent to integrate with WooCommerce personalize product, so users can upload images and personalized it.
+Printing on shirts, Mugs, Mobiles cases etc. contact us: <a href="mailto:ceo@najeebmedia.com">ceo@najeebmedia.com</a></p>
+
+<div></div>
+<table border="1">
+<tr>
+<td>
+<div style="height: 450px; width:241px; border:1px solid #000; background: url(images/template-shell-2.png)">
+<div id="resize">
+	<img src="http://www.theproductionarea.net/lib/php-image-processing/wide-image/images/1-rainbow.png">
+</div>
+</div>
+<a href="javascript:load_image('merge')">Preview image</a> |
+<a href="javascript:rotate_image(45)">Rotate by 45 degree</a>
+</td>
+
+<td>
+<div id="preview">
+</div>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

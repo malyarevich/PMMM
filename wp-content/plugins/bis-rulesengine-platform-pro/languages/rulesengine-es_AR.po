@@ -1,0 +1,1345 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RulesEngine v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-10 15:11:17+0000\n"
+"Last-Translator: rulesengine <rules4wp@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: ARGENTINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: common/bis-rules-engine-localization.php:14
+#: includes/category-rules-add.php:25
+#: includes/category-rules-edit.php:41
+#: includes/logical-rules-add.php:21
+#: includes/logical-rules-edit.php:38
+#: includes/page-rules-edit.php:92
+#: includes/post-rules-edit.php:95
+#: includes/theme-rules-edit.php:43
+#: includes/widget-rules-edit.php:45
+#@ rulesengine
+#@ ruleengine
+msgid "Enter rule name"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:15
+#@ rulesengine
+msgid "Enter logical rule name"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:16
+#@ rulesengine
+msgid "Action hook should not contain spaces, use single word"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:17
+#@ rulesengine
+msgid "Action hook should not contain special characters."
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:18
+#@ rulesengine
+msgid "Select value for criteria "
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:19
+#@ rulesengine
+msgid "Select value for sub criteria "
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:20
+#@ rulesengine
+msgid "Select value for condition "
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:21
+#@ rulesengine
+msgid "Enter criteria value"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:22
+#@ rulesengine
+msgid "Missing right brackets"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:23
+#@ rulesengine
+msgid "Missing left brackets"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:24
+#@ rulesengine
+msgid "Rule name should not contain special characters."
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:27
+#@ rulesengine
+msgid "Enter Target URL"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:28
+#@ rulesengine
+msgid "Select logical rule"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:29
+#@ rulesengine
+msgid "Select theme"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:30
+#@ rulesengine
+msgid "Select widgets"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:31
+#@ rulesengine
+msgid "Select sidebar"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:32
+#: includes/category-rules-add.php:167
+#: includes/category-rules-edit.php:196
+#: includes/page-rules-add.php:280
+#: includes/page-rules-edit.php:354
+#: includes/post-rules-add.php:252
+#: includes/post-rules-edit.php:338
+#: includes/theme-rules-add.php:154
+#: includes/theme-rules-edit.php:186
+#: includes/widget-rules-add.php:244
+#: includes/widget-rules-edit.php:263
+#@ rulesengine
+msgid "Select action"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:33
+#@ rulesengine
+msgid "Select category"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:34
+#: includes/page-rules-add.php:257
+#: includes/page-rules-edit.php:319
+#: includes/post-rules-add.php:271
+#: includes/post-rules-edit.php:321
+#@ rulesengine
+msgid "Select image"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:35
+#@ rulesengine
+msgid "Select image size"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:36
+#: includes/page-rules-add.php:248
+#: includes/page-rules-edit.php:331
+#: includes/post-rules-add.php:238
+#: includes/post-rules-edit.php:328
+#@ rulesengine
+msgid "Select location"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:37
+#@ rulesengine
+msgid "Enter shortcode"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:38
+#@ rulesengine
+msgid "Enter content body"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:39
+#@ rulesengine
+msgid "Enter posts"
+msgstr ""
+
+#: common/bis-rules-engine-localization.php:40
+#@ rulesengine
+msgid "Select pages"
+msgstr ""
+
+#: includes/category-rules-add.php:7
+#@ rulesengine
+msgid "Add Category Rule"
+msgstr ""
+
+#: includes/category-rules-add.php:16
+#: includes/category-rules-edit.php:31
+#: includes/logical-rules-add.php:11
+#: includes/logical-rules-edit.php:30
+#: includes/page-rules-add.php:16
+#: includes/page-rules-edit.php:82
+#: includes/post-rules-add.php:16
+#: includes/post-rules-edit.php:85
+#: includes/redirect-rule-edit.php:32
+#: includes/redirect-rules-add.php:22
+#: includes/theme-rules-add.php:15
+#: includes/widget-rules-add.php:21
+#: includes/widget-rules-edit.php:35
+#@ rulesengine
+msgid "Rule Name"
+msgstr ""
+
+#: includes/category-rules-add.php:19
+#: includes/category-rules-edit.php:34
+#: includes/logical-rules-add.php:14
+#: includes/logical-rules-edit.php:33
+#: includes/page-rules-add.php:19
+#: includes/page-rules-edit.php:85
+#: includes/post-rules-add.php:19
+#: includes/redirect-rule-edit.php:35
+#: includes/redirect-rules-add.php:25
+#: includes/theme-rules-add.php:18
+#: includes/widget-rules-edit.php:38
+#@ rulesengine
+msgid "Name is required and should be unique."
+msgstr ""
+
+#: includes/category-rules-add.php:31
+#: includes/category-rules-edit.php:47
+#: includes/category-rules-list.php:24
+#: includes/category-rules-list.php:64
+#: includes/logical-rules-add.php:49
+#: includes/logical-rules-edit.php:84
+#: includes/logical-rules-list.php:23
+#: includes/logical-rules-list.php:65
+#: includes/page-rules-add.php:67
+#: includes/page-rules-edit.php:123
+#: includes/page-rules-list.php:25
+#: includes/page-rules-list.php:67
+#: includes/post-rules-add.php:82
+#: includes/post-rules-edit.php:126
+#: includes/post-rules-list.php:26
+#: includes/post-rules-list.php:69
+#: includes/redirect-rule-edit.php:47
+#: includes/redirect-rules-add.php:36
+#: includes/redirect-rules-list.php:24
+#: includes/redirect-rules-list.php:65
+#: includes/theme-rules-add.php:30
+#: includes/theme-rules-edit.php:49
+#: includes/theme-rules-list.php:25
+#: includes/theme-rules-list.php:66
+#: includes/widget-rules-add.php:35
+#: includes/widget-rules-edit.php:51
+#: includes/widget-rules-list.php:25
+#: includes/widget-rules-list.php:67
+#@ rulesengine
+msgid "Description"
+msgstr ""
+
+#: includes/category-rules-add.php:34
+#: includes/category-rules-edit.php:50
+#@ rulesengine
+msgid "Enter category rule description"
+msgstr ""
+
+#: includes/category-rules-add.php:39
+#: includes/category-rules-add.php:154
+#: includes/category-rules-edit.php:55
+#@ rulesengine
+msgid "Select Category"
+msgstr ""
+
+#: includes/category-rules-add.php:60
+#: includes/page-rules-add.php:29
+#: includes/post-rules-add.php:29
+#: includes/post-rules-edit.php:99
+#: includes/widget-rules-add.php:71
+#: includes/widget-rules-edit.php:90
+#@ rulesengine
+msgid "Select Logical Rule"
+msgstr ""
+
+#: includes/category-rules-add.php:83
+#: includes/category-rules-edit.php:99
+#: includes/page-rules-add.php:92
+#: includes/post-rules-add.php:105
+#: includes/widget-rules-add.php:92
+#: includes/widget-rules-edit.php:106
+#@ rulesengine
+msgid "Select Action"
+msgstr ""
+
+#: includes/category-rules-add.php:87
+#: includes/category-rules-edit.php:104
+#@ rulesengine
+msgid "Hide category"
+msgstr ""
+
+#: includes/category-rules-add.php:92
+#: includes/theme-rules-add.php:83
+#: includes/widget-rules-add.php:107
+#@ rulesengine
+msgid "Select Status"
+msgstr ""
+
+#: includes/category-rules-add.php:96
+#: includes/category-rules-edit.php:115
+#: includes/category-rules-list.php:36
+#: includes/logical-rules-add.php:41
+#: includes/logical-rules-edit.php:69
+#: includes/logical-rules-edit.php:72
+#: includes/logical-rules-list.php:35
+#: includes/page-rules-add.php:58
+#: includes/page-rules-edit.php:114
+#: includes/page-rules-list.php:38
+#: includes/post-rules-add.php:73
+#: includes/post-rules-edit.php:116
+#: includes/post-rules-list.php:38
+#: includes/redirect-rule-edit.php:106
+#: includes/redirect-rules-add.php:93
+#: includes/redirect-rules-list.php:37
+#: includes/theme-rules-add.php:87
+#: includes/theme-rules-edit.php:100
+#: includes/theme-rules-list.php:38
+#: includes/widget-rules-add.php:112
+#: includes/widget-rules-edit.php:127
+#: includes/widget-rules-list.php:37
+#@ rulesengine
+msgid "Active"
+msgstr ""
+
+#: includes/category-rules-add.php:97
+#: includes/category-rules-edit.php:116
+#: includes/category-rules-list.php:37
+#: includes/logical-rules-add.php:42
+#: includes/logical-rules-edit.php:70
+#: includes/logical-rules-edit.php:73
+#: includes/logical-rules-list.php:36
+#: includes/page-rules-add.php:59
+#: includes/page-rules-edit.php:115
+#: includes/page-rules-list.php:39
+#: includes/post-rules-add.php:74
+#: includes/post-rules-edit.php:117
+#: includes/post-rules-list.php:39
+#: includes/redirect-rule-edit.php:107
+#: includes/redirect-rules-add.php:94
+#: includes/redirect-rules-list.php:38
+#: includes/theme-rules-add.php:88
+#: includes/theme-rules-edit.php:101
+#: includes/theme-rules-list.php:39
+#: includes/widget-rules-add.php:113
+#: includes/widget-rules-edit.php:128
+#: includes/widget-rules-list.php:38
+#@ rulesengine
+msgid "Deactive"
+msgstr ""
+
+#: includes/category-rules-add.php:109
+#: includes/page-rules-add.php:200
+#: includes/post-rules-add.php:195
+#: includes/redirect-rules-add.php:107
+#: includes/theme-rules-add.php:99
+#: includes/widget-rules-add.php:128
+#@ rulesengine
+msgid "Save Rule"
+msgstr ""
+
+#: includes/category-rules-add.php:114
+#: includes/category-rules-edit.php:132
+#: includes/logical-rules-add.php:207
+#: includes/logical-rules-edit.php:276
+#: includes/page-rules-add.php:205
+#: includes/page-rules-edit.php:261
+#: includes/post-rules-add.php:200
+#: includes/post-rules-edit.php:254
+#: includes/redirect-rule-edit.php:127
+#: includes/redirect-rules-add.php:113
+#: includes/theme-rules-add.php:104
+#: includes/theme-rules-edit.php:117
+#: includes/widget-rules-add.php:134
+#: includes/widget-rules-edit.php:147
+#@ rulesengine
+msgid "Go Back"
+msgstr ""
+
+#: includes/category-rules-add.php:162
+#: includes/category-rules-edit.php:80
+#: includes/category-rules-edit.php:191
+#: includes/page-rules-add.php:275
+#: includes/page-rules-edit.php:96
+#: includes/page-rules-edit.php:349
+#: includes/post-rules-add.php:247
+#: includes/post-rules-edit.php:312
+#: includes/redirect-rule-edit.php:146
+#: includes/redirect-rules-add.php:133
+#: includes/theme-rules-add.php:57
+#: includes/theme-rules-add.php:149
+#: includes/theme-rules-edit.php:74
+#: includes/theme-rules-edit.php:181
+#: includes/widget-rules-add.php:239
+#: includes/widget-rules-edit.php:258
+#@ rulesengine
+msgid "Select Rule"
+msgstr ""
+
+#: includes/category-rules-add.php:184
+#: includes/category-rules-edit.php:212
+#: includes/page-rules-add.php:292
+#: includes/page-rules-edit.php:365
+#: includes/post-rules-add.php:263
+#: includes/post-rules-edit.php:350
+#: includes/theme-rules-add.php:159
+#: includes/theme-rules-edit.php:191
+#: includes/widget-rules-add.php:249
+#: includes/widget-rules-edit.php:268
+#@ rulesengine
+msgid "Select status"
+msgstr ""
+
+#: includes/category-rules-add.php:194
+#: includes/post-rules-add.php:288
+#@ rulesengine
+msgid "Duplicate Post Rule name, Post Rule exists with same name"
+msgstr ""
+
+#: includes/category-rules-add.php:196
+#: includes/post-rules-add.php:294
+#@ rulesengine
+msgid "Error occurred while creating post rule"
+msgstr ""
+
+#: includes/category-rules-edit.php:22
+#@ rulesengine
+msgid "Edit Category Rule"
+msgstr ""
+
+#: includes/category-rules-edit.php:109
+#: includes/category-rules-list.php:33
+#: includes/category-rules-list.php:66
+#: includes/logical-rules-add.php:37
+#: includes/logical-rules-edit.php:57
+#: includes/logical-rules-list.php:32
+#: includes/logical-rules-list.php:66
+#: includes/page-rules-add.php:54
+#: includes/page-rules-edit.php:109
+#: includes/page-rules-list.php:35
+#: includes/page-rules-list.php:69
+#: includes/post-rules-add.php:69
+#: includes/post-rules-edit.php:111
+#: includes/post-rules-list.php:35
+#: includes/post-rules-list.php:71
+#: includes/redirect-rule-edit.php:102
+#: includes/redirect-rules-add.php:89
+#: includes/redirect-rules-list.php:33
+#: includes/redirect-rules-list.php:66
+#: includes/theme-rules-edit.php:95
+#: includes/theme-rules-list.php:34
+#: includes/theme-rules-list.php:67
+#: includes/widget-rules-edit.php:122
+#: includes/widget-rules-list.php:34
+#: includes/widget-rules-list.php:69
+#@ rulesengine
+msgid "Status"
+msgstr ""
+
+#: includes/category-rules-edit.php:127
+#: includes/logical-rules-edit.php:271
+#: includes/page-rules-edit.php:256
+#: includes/post-rules-edit.php:249
+#: includes/redirect-rule-edit.php:122
+#: includes/theme-rules-edit.php:112
+#: includes/widget-rules-edit.php:142
+#@ rulesengine
+msgid "Update Rule"
+msgstr ""
+
+#: includes/category-rules-edit.php:169
+#@ rulesengine
+msgid "Duplicate category rule name, Category Rule exists with same name"
+msgstr ""
+
+#: includes/category-rules-edit.php:171
+#@ rulesengine
+msgid "Error occurred while creating category rule"
+msgstr ""
+
+#: includes/category-rules-edit.php:183
+#@ rulesengine
+msgid "Select Categories"
+msgstr ""
+
+#: includes/category-rules-list.php:10
+#: rules-engine-index.php:74
+#@ rulesengine
+msgid "Category Rules"
+msgstr ""
+
+#: includes/category-rules-list.php:21
+#: includes/logical-rules-list.php:20
+#: includes/page-rules-list.php:22
+#: includes/post-rules-list.php:23
+#: includes/redirect-rules-list.php:20
+#: includes/theme-rules-list.php:21
+#: includes/widget-rules-list.php:22
+#@ rulesengine
+msgid "Search by "
+msgstr ""
+
+#: includes/category-rules-list.php:23
+#: includes/category-rules-list.php:61
+#: includes/logical-rules-list.php:22
+#: includes/logical-rules-list.php:63
+#: includes/page-rules-list.php:24
+#: includes/page-rules-list.php:64
+#: includes/post-rules-list.php:25
+#: includes/post-rules-list.php:66
+#: includes/redirect-rules-list.php:23
+#: includes/redirect-rules-list.php:62
+#: includes/theme-rules-edit.php:33
+#: includes/theme-rules-list.php:24
+#: includes/theme-rules-list.php:63
+#: includes/widget-rules-list.php:24
+#: includes/widget-rules-list.php:63
+#@ rulesengine
+msgid "Name"
+msgstr ""
+
+#: includes/category-rules-list.php:29
+#: includes/logical-rules-list.php:28
+#: includes/page-rules-list.php:31
+#: includes/post-rules-list.php:31
+#: includes/redirect-rules-list.php:29
+#: includes/theme-rules-list.php:30
+#: includes/widget-rules-list.php:30
+#@ rulesengine
+msgid "Enter search criteria"
+msgstr ""
+
+#: includes/category-rules-list.php:35
+#: includes/logical-rules-list.php:34
+#: includes/page-rules-list.php:37
+#: includes/post-rules-list.php:37
+#: includes/redirect-rules-list.php:36
+#: includes/theme-rules-list.php:37
+#: includes/widget-rules-list.php:36
+#@ rulesengine
+msgid "All"
+msgstr ""
+
+#: includes/category-rules-list.php:42
+#: includes/logical-rules-list.php:42
+#: includes/post-rules-list.php:45
+#: includes/redirect-rules-list.php:43
+#: includes/theme-rules-list.php:44
+#: includes/widget-rules-list.php:43
+#@ rulesengine
+msgid "Search Rules"
+msgstr ""
+
+#: includes/category-rules-list.php:62
+#@ rulesengine
+msgid "Category"
+msgstr ""
+
+#: includes/category-rules-list.php:63
+#: includes/page-rules-list.php:66
+#: includes/post-rules-list.php:68
+#: includes/redirect-rules-list.php:64
+#: includes/theme-rules-list.php:65
+#: includes/widget-rules-list.php:66
+#@ rulesengine
+msgid "Logical Rule Name"
+msgstr ""
+
+#: includes/category-rules-list.php:65
+#: includes/page-rules-edit.php:149
+#: includes/post-rules-edit.php:156
+#: includes/widget-rules-list.php:68
+#@ rulesengine
+msgid "Action"
+msgstr ""
+
+#: includes/category-rules-list.php:80
+#@ rulesengine
+msgid "Category Rule"
+msgstr ""
+
+#: includes/category-rules-list.php:84
+#: includes/logical-rules-list.php:85
+#: includes/page-rules-list.php:85
+#: includes/post-rules-list.php:88
+#: includes/redirect-rules-list.php:81
+#: includes/theme-rules-list.php:82
+#: includes/widget-rules-list.php:85
+#@ rulesengine
+msgid "Number of Rules"
+msgstr ""
+
+#: includes/config-rules.php:24
+#@ rulesengine
+msgid "Click here to know more about rules engine."
+msgstr ""
+
+#: includes/config-rules.php:25
+#: includes/config-rules.php:26
+#@ rulesengine
+msgid "Help"
+msgstr ""
+
+#: includes/logical-rules-add.php:5
+#@ rulesengine
+msgid "New Logical Rule"
+msgstr ""
+
+#: includes/logical-rules-add.php:26
+#: includes/logical-rules-edit.php:42
+#: includes/logical-rules-list.php:64
+#@ rulesengine
+msgid "Action Hook"
+msgstr ""
+
+#: includes/logical-rules-add.php:28
+#@ rulesengine
+msgid "Hook will be called if rule criteria is satisfied. Before entering action hook, please define a function with action hook.Action hook should not contain any spaces."
+msgstr ""
+
+#: includes/logical-rules-add.php:34
+#: includes/logical-rules-edit.php:53
+#@ rulesengine
+msgid "Enter action hook"
+msgstr ""
+
+#: includes/logical-rules-add.php:52
+#: includes/redirect-rule-edit.php:50
+#: includes/redirect-rules-add.php:38
+#@ rulesengine
+msgid "Enter rule description"
+msgstr ""
+
+#: includes/logical-rules-add.php:73
+#@ rulesengine
+msgid "Add Criteria"
+msgstr ""
+
+#: includes/logical-rules-add.php:75
+#@ rulesengine
+msgid "All fields are required except operator field. Operator field is used to define more complex rules. Click to know more about how to define simple and complex rules."
+msgstr ""
+
+#: includes/logical-rules-add.php:89
+#: includes/logical-rules-add.php:94
+#: includes/logical-rules-edit.php:118
+#: includes/logical-rules-edit.php:123
+#@ rulesengine
+msgid "Operator"
+msgstr ""
+
+#: includes/logical-rules-add.php:90
+#: includes/logical-rules-edit.php:119
+#@ rulesengine
+msgid "Criteria"
+msgstr ""
+
+#: includes/logical-rules-add.php:91
+#: includes/logical-rules-edit.php:120
+#@ rulesengine
+msgid "Sub Criteria"
+msgstr ""
+
+#: includes/logical-rules-add.php:92
+#: includes/logical-rules-edit.php:121
+#@ rulesengine
+msgid "Condition"
+msgstr ""
+
+#: includes/logical-rules-add.php:93
+#: includes/logical-rules-edit.php:122
+#@ rulesengine
+msgid "Value"
+msgstr ""
+
+#: includes/logical-rules-add.php:96
+#@ rulesengine
+msgid "Remove criteria"
+msgstr ""
+
+#: includes/logical-rules-add.php:168
+#@ rulesengine
+msgid "And"
+msgstr ""
+
+#: includes/logical-rules-add.php:169
+#: includes/logical-rules-edit.php:247
+#@ rulesengine
+msgid "OR"
+msgstr ""
+
+#: includes/logical-rules-add.php:202
+#@ rulesengine
+msgid " Save Rule"
+msgstr ""
+
+#: includes/logical-rules-add.php:225
+#: includes/logical-rules-add.php:236
+#@ rulesengine
+msgid "More Criteria"
+msgstr ""
+
+#: includes/logical-rules-add.php:230
+#@ rulesengine
+msgid "None"
+msgstr ""
+
+#: includes/logical-rules-add.php:244
+#@ rulesengine
+msgid "Select Criteria"
+msgstr ""
+
+#: includes/logical-rules-add.php:252
+#: includes/logical-rules-add.php:323
+#: includes/logical-rules-add.php:390
+#: includes/logical-rules-add.php:440
+#: includes/logical-rules-add.php:600
+#: includes/logical-rules-add.php:601
+#@ rulesengine
+msgid "None Selected"
+msgstr ""
+
+#: includes/logical-rules-add.php:283
+#: includes/logical-rules-edit.php:400
+#@ rulesengine
+msgid "Duplicate rule name, Name should be unique."
+msgstr ""
+
+#: includes/logical-rules-add.php:285
+#: includes/logical-rules-edit.php:402
+#@ rulesengine
+msgid "Action hook method does not exist, Please define method with name"
+msgstr ""
+
+#: includes/logical-rules-add.php:288
+#@ rulesengine
+msgid "Error occurred while creating rule."
+msgstr ""
+
+#: includes/logical-rules-add.php:483
+#: includes/logical-rules-add.php:533
+#@ rulesengine
+msgid "Enter a value"
+msgstr ""
+
+#: includes/logical-rules-add.php:499
+#@ rulesengine
+msgid "Enter date"
+msgstr ""
+
+#: includes/logical-rules-edit.php:23
+#@ rulesengine
+msgid "Edit Logical Rule"
+msgstr ""
+
+#: includes/logical-rules-edit.php:44
+#@ rulesengine
+msgid ""
+"Hook will be called if rule criteria is satisfied. Before entering action hook\n"
+"                               please define a function with action hook.Action hook should not contain any spaces."
+msgstr ""
+
+#: includes/logical-rules-edit.php:60
+#@ rulesengine
+msgid "Activating and deactiving logical rule will impact all dependent child rules"
+msgstr ""
+
+#: includes/logical-rules-edit.php:102
+#@ rulesengine
+msgid "Edit Criteria"
+msgstr ""
+
+#: includes/logical-rules-edit.php:104
+#@ rulesengine
+msgid ""
+"All fields are required except operator field.\n"
+"                               Operator field is used to define more complex rules. Click to know more about how to define\n"
+"                               simple and complex rules."
+msgstr ""
+
+#: includes/logical-rules-edit.php:124
+#@ rulesengine
+msgid "Operation"
+msgstr ""
+
+#: includes/logical-rules-edit.php:211
+#@ rulesengine
+msgid "Enter rule value"
+msgstr ""
+
+#: includes/logical-rules-edit.php:245
+#@ rulesengine
+msgid "AND"
+msgstr ""
+
+#: includes/logical-rules-edit.php:297
+#@ rulesengine
+msgid "Dependent child rules will become inactive, if logical rule is deactivated"
+msgstr ""
+
+#: includes/logical-rules-edit.php:405
+#@ rulesengine
+msgid "Error occurred while updating rule."
+msgstr ""
+
+#: includes/logical-rules-list.php:10
+#: rules-engine-index.php:71
+#@ rulesengine
+msgid "Logical Rules"
+msgstr ""
+
+#: includes/logical-rules-list.php:82
+#: includes/redirect-rule-edit.php:56
+#: includes/redirect-rules-add.php:44
+#@ rulesengine
+msgid "Logical Rule"
+msgstr ""
+
+#: includes/page-rules-add.php:7
+#@ rulesengine
+msgid "Add Page Rule"
+msgstr ""
+
+#: includes/page-rules-add.php:25
+#@ rulesengine
+msgid "Enter page rule name"
+msgstr ""
+
+#: includes/page-rules-add.php:73
+#: includes/page-rules-add.php:266
+#: includes/page-rules-edit.php:130
+#: includes/page-rules-edit.php:340
+#@ rulesengine
+msgid "Select Pages"
+msgstr ""
+
+#: includes/page-rules-add.php:112
+#: includes/page-rules-edit.php:166
+#@ rulesengine
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/page-rules-add.php:125
+#: includes/page-rules-edit.php:179
+#: includes/post-rules-add.php:122
+#: includes/post-rules-edit.php:175
+#@ rulesengine
+msgid "Location"
+msgstr ""
+
+#: includes/page-rules-add.php:146
+#: includes/page-rules-edit.php:59
+#: includes/post-rules-add.php:144
+#: includes/post-rules-edit.php:33
+#@ rulesengine
+msgid "Content Body"
+msgstr ""
+
+#: includes/page-rules-add.php:160
+#: includes/page-rules-edit.php:218
+#: includes/post-rules-add.php:159
+#: includes/post-rules-edit.php:214
+#@ rulesengine
+msgid "Image"
+msgstr ""
+
+#: includes/page-rules-add.php:177
+#: includes/page-rules-edit.php:235
+#: includes/post-rules-add.php:173
+#: includes/post-rules-edit.php:229
+#@ rulesengine
+msgid "Image Size"
+msgstr ""
+
+#: includes/page-rules-add.php:242
+#: includes/page-rules-edit.php:325
+#: includes/post-rules-add.php:277
+#: includes/post-rules-edit.php:334
+#@ rulesengine
+msgid "Select size"
+msgstr ""
+
+#: includes/page-rules-add.php:301
+#: includes/page-rules-edit.php:301
+#@ rulesengine
+msgid "Duplicate Page Rule name, Page Rule exists with same name"
+msgstr ""
+
+#: includes/page-rules-add.php:303
+#: includes/page-rules-edit.php:303
+#: includes/post-rules-add.php:292
+#: includes/post-rules-edit.php:296
+#@ rulesengine
+msgid "Shortcode not found, Please enter an existing Shortcode."
+msgstr ""
+
+#: includes/page-rules-add.php:305
+#: includes/page-rules-edit.php:305
+#: includes/post-rules-add.php:290
+#: includes/post-rules-edit.php:298
+#@ rulesengine
+msgid "Invalid Shortcode, Please enter a valid Shortcode."
+msgstr ""
+
+#: includes/page-rules-add.php:307
+#: includes/page-rules-edit.php:307
+#@ rulesengine
+msgid "Error occurred while creating page rule"
+msgstr ""
+
+#: includes/page-rules-edit.php:60
+#: includes/post-rules-add.php:147
+#: includes/post-rules-edit.php:34
+#@ rulesengine
+#@ default
+msgid "This field is required and supports html tags and inline style"
+msgstr ""
+
+#: includes/page-rules-edit.php:62
+#: includes/post-rules-edit.php:63
+#@ rulesengine
+msgid "Shortcode"
+msgstr ""
+
+#: includes/page-rules-edit.php:63
+#: includes/post-rules-edit.php:64
+#@ rulesengine
+msgid "This field is required, Use an existing Third-party shortcode"
+msgstr ""
+
+#: includes/page-rules-edit.php:73
+#@ rulesengine
+msgid "Edit Page Rule"
+msgstr ""
+
+#: includes/page-rules-edit.php:126
+#@ rulesengine
+msgid "Enter page rule description"
+msgstr ""
+
+#: includes/page-rules-edit.php:169
+#@ rulesengine
+msgid "Redirect url is used to prevent the hack from direct access of page using page url."
+msgstr ""
+
+#: includes/page-rules-edit.php:176
+#@ rulesengine
+msgid "Enter url for redirection"
+msgstr ""
+
+#: includes/page-rules-edit.php:210
+#: includes/post-rules-add.php:153
+#: includes/post-rules-edit.php:32
+#@ rulesengine
+#@ default
+msgid "Enter dynamic content, HTML tags also supported."
+msgstr ""
+
+#: includes/page-rules-list.php:11
+#: rules-engine-index.php:72
+#@ rulesengine
+msgid "Page Rules"
+msgstr ""
+
+#: includes/page-rules-list.php:65
+#@ rulesengine
+msgid "Pages"
+msgstr ""
+
+#: includes/page-rules-list.php:68
+#: includes/post-rules-list.php:70
+#@ rulesengine
+msgid "Action / Location"
+msgstr ""
+
+#: includes/page-rules-list.php:82
+#@ rulesengine
+msgid "Page Rule"
+msgstr ""
+
+#: includes/post-rules-add.php:7
+#@ rulesengine
+msgid "Add Post Rule"
+msgstr ""
+
+#: includes/post-rules-add.php:84
+#: includes/post-rules-edit.php:129
+#@ rulesengine
+msgid "Enter post rule description"
+msgstr ""
+
+#: includes/post-rules-add.php:88
+#: includes/post-rules-edit.php:133
+#@ rulesengine
+msgid "Select Posts"
+msgstr ""
+
+#: includes/post-rules-add.php:91
+#: includes/post-rules-edit.php:136
+#@ rulesengine
+msgid "Type two letters in text box and select post from the list. You can select multiple posts."
+msgstr ""
+
+#: includes/post-rules-add.php:99
+#: includes/post-rules-edit.php:145
+#@ rulesengine
+msgid "Enter post name"
+msgstr ""
+
+#: includes/post-rules-edit.php:65
+#@ rulesengine
+msgid "Enter a Third-Party shortcode"
+msgstr ""
+
+#: includes/post-rules-edit.php:76
+#@ rulesengine
+msgid "Edit Post Rule"
+msgstr ""
+
+#: includes/post-rules-edit.php:88
+#: includes/theme-rules-edit.php:36
+#@ rulesengine
+msgid "Rule Name is required and should be unique."
+msgstr ""
+
+#: includes/post-rules-edit.php:294
+#@ rulesengine
+msgid "Duplicate Post Rule name, Post Rule exists with same name."
+msgstr ""
+
+#: includes/post-rules-edit.php:300
+#@ rulesengine
+msgid "Error occurred while creating post rule."
+msgstr ""
+
+#: includes/post-rules-list.php:12
+#: rules-engine-index.php:73
+#@ rulesengine
+msgid "Post Rules"
+msgstr ""
+
+#: includes/post-rules-list.php:67
+#@ rulesengine
+msgid "Posts"
+msgstr ""
+
+#: includes/post-rules-list.php:85
+#@ rulesengine
+msgid "Post Rule"
+msgstr ""
+
+#: includes/redirect-rule-edit.php:16
+#@ rulesengine
+msgid "Edit Redirect Rule"
+msgstr ""
+
+#: includes/redirect-rule-edit.php:26
+#@ rulesengine
+msgid "Warning: Be careful while updating redirect rule. Make sure that your rule update do not create redirect loop with existing redirect rules."
+msgstr ""
+
+#: includes/redirect-rule-edit.php:76
+#: includes/redirect-rules-add.php:63
+#@ rulesengine
+msgid "Target URL"
+msgstr ""
+
+#: includes/redirect-rule-edit.php:79
+#: includes/redirect-rules-add.php:66
+#@ rulesengine
+msgid "Target URL is required and is used for redirection if rule is satisfied."
+msgstr ""
+
+#: includes/redirect-rule-edit.php:85
+#: includes/redirect-rules-add.php:72
+#@ rulesengine
+msgid "Enter Redirect URL"
+msgstr ""
+
+#: includes/redirect-rule-edit.php:92
+#: includes/redirect-rules-add.php:79
+#@ rulesengine
+msgid "Redirect Type"
+msgstr ""
+
+#: includes/redirect-rule-edit.php:179
+#: includes/redirect-rules-add.php:166
+#@ rulesengine
+msgid "Duplicate Redirect Rule name, Redirect Rule name should be unique."
+msgstr ""
+
+#: includes/redirect-rule-edit.php:181
+#: includes/redirect-rules-add.php:168
+#@ rulesengine
+msgid "Error occurred while creating Redirect rule"
+msgstr ""
+
+#: includes/redirect-rules-add.php:7
+#@ rulesengine
+msgid "New Redirect Rule"
+msgstr ""
+
+#: includes/redirect-rules-add.php:16
+#@ rulesengine
+msgid "Warning: Be careful while creating new redirect rule. Make sure that your new redirect rule do not create redirect loop with existing redirect rules."
+msgstr ""
+
+#: includes/redirect-rules-list.php:11
+#: rules-engine-index.php:77
+#@ rulesengine
+msgid "Redirect Rules"
+msgstr ""
+
+#: includes/redirect-rules-list.php:63
+#@ rulesengine
+msgid "Redirect Path"
+msgstr ""
+
+#: includes/redirect-rules-list.php:78
+#@ rulesengine
+msgid "Redirect Rule"
+msgstr ""
+
+#: includes/rules-settings.php:21
+#@ rulesengine
+msgid "Rules Engine Settings"
+msgstr ""
+
+#: includes/rules-settings.php:36
+#@ rulesengine
+msgid "Delete plugin-in tables on plugin uninstall or delete. Uncheck checkbox before plugin-in upgrade."
+msgstr ""
+
+#: includes/rules-settings.php:48
+#@ rulesengine
+msgid "Version"
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: includes/rules-settings.php:48
+#: rules-engine-index.php:0
+#@ rulesengine
+msgid "RulesEngine"
+msgstr ""
+
+#: includes/rules-settings.php:57
+#@ rulesengine
+msgid "Allowable tags"
+msgstr ""
+
+#: includes/rules-settings.php:59
+#@ rulesengine
+msgid "Enter allowable tags"
+msgstr ""
+
+#: includes/rules-settings.php:73
+#@ rulesengine
+msgid "Save Settings"
+msgstr ""
+
+#: includes/rules-settings.php:105
+#@ rulesengine
+msgid "Plugin settings saved successfully"
+msgstr ""
+
+#: includes/rules-settings.php:107
+#@ rulesengine
+msgid "Error occured while saving Plugin settings"
+msgstr ""
+
+#: includes/theme-rules-add.php:6
+#@ rulesengine
+msgid "Add Theme Rule"
+msgstr ""
+
+#: includes/theme-rules-add.php:24
+#@ rulesengine
+msgid "Enter theme rule name"
+msgstr ""
+
+#: includes/theme-rules-add.php:32
+#: includes/theme-rules-edit.php:52
+#@ rulesengine
+msgid "Enter theme rule description"
+msgstr ""
+
+#: includes/theme-rules-add.php:37
+#: includes/theme-rules-add.php:140
+#: includes/theme-rules-edit.php:57
+#: includes/theme-rules-edit.php:172
+#@ rulesengine
+msgid "Select Theme"
+msgstr ""
+
+#: includes/theme-rules-add.php:171
+#: includes/theme-rules-edit.php:158
+#@ rulesengine
+msgid "Duplicate theme rule name, Theme Rule name should be unique."
+msgstr ""
+
+#: includes/theme-rules-add.php:173
+#@ rulesengine
+msgid "Error occurred while creating theme rule."
+msgstr ""
+
+#: includes/theme-rules-edit.php:24
+#@ rulesengine
+msgid "Edit Theme Rule"
+msgstr ""
+
+#: includes/theme-rules-edit.php:160
+#@ rulesengine
+msgid "Error occurred while updating theme rule."
+msgstr ""
+
+#: includes/theme-rules-list.php:11
+#: rules-engine-index.php:76
+#@ rulesengine
+msgid "Theme Rules"
+msgstr ""
+
+#: includes/theme-rules-list.php:64
+#@ rulesengine
+msgid "Themes"
+msgstr ""
+
+#: includes/theme-rules-list.php:79
+#@ rulesengine
+msgid "Theme Rule"
+msgstr ""
+
+#: includes/widget-rules-add.php:12
+#@ rulesengine
+msgid "Add widget Rule"
+msgstr ""
+
+#: includes/widget-rules-add.php:43
+#: includes/widget-rules-edit.php:59
+#@ rulesengine
+msgid "Select Sidebar"
+msgstr ""
+
+#: includes/widget-rules-add.php:58
+#@ rulesengine
+msgid "Select Widgets"
+msgstr ""
+
+#: includes/widget-rules-add.php:97
+#: includes/widget-rules-edit.php:111
+#@ rulesengine
+msgid "Hide Widget"
+msgstr ""
+
+#: includes/widget-rules-add.php:178
+#: includes/widget-rules-add.php:194
+#: includes/widget-rules-edit.php:73
+#: includes/widget-rules-edit.php:197
+#: includes/widget-rules-edit.php:210
+#@ rulesengine
+msgid "Select Widget"
+msgstr ""
+
+#: includes/widget-rules-add.php:230
+#@ rulesengine
+msgid "Select Page"
+msgstr ""
+
+#: includes/widget-rules-add.php:261
+#: includes/widget-rules-edit.php:244
+#@ rulesengine
+msgid "Duplicate widget rule name, Widget Rule name should be unique."
+msgstr ""
+
+#: includes/widget-rules-add.php:263
+#@ rulesengine
+msgid "Error occurred while creating widget rule."
+msgstr ""
+
+#: includes/widget-rules-edit.php:26
+#@ rulesengine
+msgid "Edit Widget Rule"
+msgstr ""
+
+#: includes/widget-rules-edit.php:54
+#@ rulesengine
+msgid "Enter widget rule description"
+msgstr ""
+
+#: includes/widget-rules-edit.php:187
+#@ rulesengine
+msgid "No widgets found"
+msgstr ""
+
+#: includes/widget-rules-edit.php:246
+#@ rulesengine
+msgid "Error occurred while updating widget rule."
+msgstr ""
+
+#: includes/widget-rules-list.php:11
+#: rules-engine-index.php:75
+#@ rulesengine
+msgid "Widget Rules"
+msgstr ""
+
+#: includes/widget-rules-list.php:64
+#@ rulesengine
+msgid "Sidebar"
+msgstr ""
+
+#: includes/widget-rules-list.php:65
+#@ rulesengine
+msgid "Widgets"
+msgstr ""
+
+#: includes/widget-rules-list.php:82
+#@ rulesengine
+msgid "Widget Rule"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: rules-engine-index.php:0
+#@ rulesengine
+msgid "http://wiki-rulesengine.wc.lt/"
+msgstr "http://wiki-rulesengine.wc.lt/"
+
+#. translators: plugin header field 'Description'
+#: rules-engine-index.php:0
+#@ rulesengine
+msgid "RulesEngine is designed for defining rules for wordpress components, such as <strong> Pages, Posts, Categories, Themes, Widgets and URL Redirection.</strong> Read <a target=\"_blank\" href=\"http://wiki-rulesengine.wc.lt/\">documentation</a> or watch quick start <a target=\"_blank\"  href=\"http://wiki-rulesengine.wc.lt/video-tutorials/\">video tutorials </a>."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: rules-engine-index.php:0
+#: rules-engine-index.php:70
+#@ rulesengine
+msgid "Rules Engine"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: rules-engine-index.php:0
+#@ rulesengine
+msgid "2.0"
+msgstr ""
+
+#: rules-engine-index.php:78
+#@ rulesengine
+msgid "Settings"
+msgstr ""
+
+#: rules-engine-index.php:278
+#@ rulesengine
+msgid "Could not load the localization file: "
+msgstr ""
+

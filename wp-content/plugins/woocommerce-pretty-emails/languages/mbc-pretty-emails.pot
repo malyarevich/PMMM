@@ -1,0 +1,414 @@
+#mbc-pretty-emails
+
+#:emailplus.php
+msgid "WooCommerce Pretty Emails"
+msgstr ""
+
+#:emailplus.php
+msgid "Please feel free to send us an email if you have any issue at support@mbcreation.net"
+msgstr ""
+
+#:emailplus.php
+msgid "Email Preview"
+msgstr ""
+
+#:emailplus.php
+msgid "! Email Preview is disabled !"
+msgstr ""
+
+#:emailplus.php
+msgid "You need to have at least one completed order to enable the preview mode."
+msgstr ""
+
+#:emailplus.php
+msgid "Header Image Link"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter here an url to make your banner clickable."
+msgstr ""
+
+#:emailplus.php
+msgid "Company Logo"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter a URL to display your logo. Upload your image using the <a href=\"%s\">media uploader</a>."
+msgstr ""
+
+#:emailplus.php
+msgid "Logo Link"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter here an url to make your logo clickable."
+msgstr ""
+
+#:emailplus.php
+msgid "Footer Logo width"
+msgstr ""
+
+#:emailplus.php
+msgid "The footer logo width. Default <code>175</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Set this value to 0 if you want to remove the logo from the footer"
+msgstr ""
+
+#:emailplus.php
+msgid "Email Template Width"
+msgstr ""
+
+#:emailplus.php
+msgid "The email template width. Default <code>700</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Logo display template"
+msgstr ""
+
+#:emailplus.php
+msgid "Header template (default) or centered logo (with menu above)"
+msgstr ""
+
+#:emailplus.php
+msgid "Default"
+msgstr ""
+
+#:emailplus.php
+msgid "Centered Logo"
+msgstr ""
+
+#:emailplus.php
+msgid "This setting only apply on every emails"
+msgstr ""
+
+#:emailplus.php
+msgid "Body font size"
+msgstr ""
+
+#:emailplus.php
+msgid "Body font size in pixels. Default <code>12</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Body font family"
+msgstr ""
+
+#:emailplus.php
+msgid "Font family that will be used everywhere but heading tags"
+msgstr ""
+
+#:emailplus.php
+msgid "Heading 1 font size"
+msgstr ""
+
+#:emailplus.php
+msgid "H1 tag font size in pixels. Default <code>18</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Heading 1 font color"
+msgstr ""
+
+#:emailplus.php
+msgid "Heading 1 font color. Default <code>#FFFFFF</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Heading 2 font size"
+msgstr ""
+
+#:emailplus.php
+msgid "H2 tag font size in pixels. Default <code>18</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Heading 2 font color"
+msgstr ""
+
+#:emailplus.php
+msgid "Heading 2 font color. Default <code>#505050</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Heading 3 font size"
+msgstr ""
+
+#:emailplus.php
+msgid "H3 tag font size in pixels. Default <code>18</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Heading 3 font color"
+msgstr ""
+
+#:emailplus.php
+msgid "Heading 3 font color. Default <code>#505050</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Headings font family"
+msgstr ""
+
+#:emailplus.php
+msgid "Font family that will be used in every heading tags"
+msgstr ""
+
+#:emailplus.php
+msgid "Download link font size"
+msgstr ""
+
+#:emailplus.php
+msgid "Download link font size in pixels. Default <code>12</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Download link font color"
+msgstr ""
+
+#:emailplus.php
+msgid "Download link font color. Default <code>#000</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Main border color"
+msgstr ""
+
+#:emailplus.php
+msgid "Surrounding the main table. Default <code>#EEE</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Order table border color"
+msgstr ""
+
+#:emailplus.php
+msgid "Surrounding order tables. Default <code>#EEE</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Product Thumbnails"
+msgstr ""
+
+#:emailplus.php
+msgid "Display product thumbnails in email"
+msgstr ""
+
+#:emailplus.php
+msgid "Product Thumbnails Size"
+msgstr ""
+
+#:emailplus.php
+msgid "Product Thumbnails Size. Default <code>32</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Product SKU"
+msgstr ""
+
+#:emailplus.php
+msgid "Display sku in email"
+msgstr ""
+
+#:emailplus.php
+msgid "Extra link one"
+msgstr ""
+
+#:emailplus.php emailplus.php emailplus.php
+msgid "Display a link in your email header."
+msgstr ""
+
+#:emailplus.php
+msgid "Extra link two"
+msgstr ""
+
+#:emailplus.php
+msgid "Extra link three"
+msgstr ""
+
+#:emailplus.php
+msgid "Extra link colors"
+msgstr ""
+
+#:emailplus.php
+msgid "I you add nav menu in your header (extra links), then you can set a color. Default <code>#0000EE</code>."
+msgstr ""
+
+#:emailplus.php
+msgid "Facebook page URL"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter your Facebook page url to display your Facebook logo in footer"
+msgstr ""
+
+#:emailplus.php
+msgid "Facebook custom logo"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter your Facebook custom image url to display your own Facebook logo in footer"
+msgstr ""
+
+#:emailplus.php
+msgid "Twitter Profil URL"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter your Twitter profile page url to display your Twitter logo in footer"
+msgstr ""
+
+#:emailplus.php
+msgid "Twitter custom logo"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter your Twitter custom image url to display your own Twitter logo in footer"
+msgstr ""
+
+#:emailplus.php
+msgid "Instagram profile URL"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter your Instagram profile page url to display Instagram logo in footer"
+msgstr ""
+
+#:emailplus.php
+msgid "Instagram custom logo"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter your Instagram custom image url to display your own Instagram logo in footer"
+msgstr ""
+
+#:emailplus.php
+msgid "Pinterest profile URL"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter your Pinterest profile page url to display Pinterest logo in footer"
+msgstr ""
+
+#:emailplus.php
+msgid "Pinterest custom logo"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter your Pinterest custom image url to display your own Pinterest logo in footer"
+msgstr ""
+
+#:emailplus.php
+msgid "Google+ profile URL"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter your Google+ profile page url to display Google+ logo in footer"
+msgstr ""
+
+#:emailplus.php
+msgid "Google + custom logo"
+msgstr ""
+
+#:emailplus.php
+msgid "Enter your Google + custom image url to display your own Google + logo in footer"
+msgstr ""
+
+#:emailplus.php
+msgid "Specific settings for the \"customer processing order\" email"
+msgstr ""
+
+#:emailplus.php
+msgid "The text to appear in the introduction for the customer processing order email"
+msgstr ""
+
+#:emailplus.php emailplus.php
+msgid "Enter an image URL to display a banner on the processing order email. Upload your image using the <a href=\"%s\">media uploader</a>."
+msgstr ""
+
+#:emailplus.php emailplus.php emailplus.php emailplus.php
+msgid "This setting only apply on the \"Customer Processing Order email\""
+msgstr ""
+
+#:emailplus.php emailplus.php
+msgid "Display the banner before or after the order table"
+msgstr ""
+
+#:emailplus.php emailplus.php
+msgid "After order table"
+msgstr ""
+
+#:emailplus.php emailplus.php
+msgid "Before order table"
+msgstr ""
+
+#:emailplus.php emailplus.php
+msgid "Enter an url to make that banner clickable"
+msgstr ""
+
+#:emailplus.php
+msgid "Add an attachment (absolute url of a WordPress uploads file ), i.e. https://www.yoursite.com/wp-content/uploads/terms-and-conditions.pdf"
+msgstr ""
+
+#:emailplus.php
+msgid "Specific settings for the \"customer completed order\" email"
+msgstr ""
+
+#:emailplus.php
+msgid "The text to appear in the introduction for the customer completed order email"
+msgstr ""
+
+#:emailplus.php emailplus.php emailplus.php emailplus.php
+msgid "This setting only apply on the \"Customer Completed Order email\""
+msgstr ""
+
+#:emailplus.php
+msgid "Add an attachment (absolute url of a WordPress uploads file ), i.e. https://www.yoursite.com/uploads/terms-and-conditions.pdf"
+msgstr ""
+
+#:emailplus.php
+msgid "Introduction for customer new account email"
+msgstr ""
+
+#:emailplus.php
+msgid "The text to appear in the introduction for the customer new account email"
+msgstr ""
+
+#:emailplus.php
+msgid "Introduction for customer on-hold order email"
+msgstr ""
+
+#:emailplus.php
+msgid "The text to appear in the introduction for the customer on-hold order email"
+msgstr ""
+
+#:emailplus.php
+msgid "Introduction for customer note email"
+msgstr ""
+
+#:emailplus.php
+msgid "The text to appear in the introduction for the customer note email"
+msgstr ""
+
+#:emailplus.php emailplus.php
+msgid "Do not forget to include {{customer_note}} in your text where you want to display the actual note"
+msgstr ""
+
+#:emailplus.php
+msgid "Introduction for customer invoice email"
+msgstr ""
+
+#:emailplus.php
+msgid "The text to appear in the introduction for the customer invoice email"
+msgstr ""
+
+#:emailplus.php
+msgid "Override new user email notification"
+msgstr ""
+
+#:emailplus.php
+msgid "New user notication email will be styled using Pretty email template"
+msgstr ""
+

@@ -1,0 +1,580 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Product Badge Manager\n"
+"POT-Creation-Date: 2015-06-28 10:29+0600\n"
+"PO-Revision-Date: 2015-06-28 10:34+0600\n"
+"Last-Translator: Robin Islam <contact@gmail.com>\n"
+"Language-Team: Codefairbd <contact@codefairbd.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/badges_cat_metabox.php:7
+msgid "Select Category To Assign With This Badge"
+msgstr "Selecteer categorie toewijzen Met deze badge"
+
+#: ../admin/badges_cat_metabox.php:8
+msgid ""
+"Select product category to show this badge for all product with this "
+"category."
+msgstr ""
+"Selecteer een productcategorie om deze badge voor alle product met deze "
+"categorie tonen."
+
+#: ../admin/badges_cat_metabox.php:21
+msgid "Select Author To Assign With This Badge"
+msgstr "Selecteer Auteur toewijzen Met deze badge"
+
+#: ../admin/badges_cat_metabox.php:22
+msgid ""
+"Select product author to show this badge for all product published by this "
+"author."
+msgstr ""
+"Selecteer auteur product om deze badge voor alle productgroepen gepubliceerd "
+"door deze auteur zien."
+
+#: ../admin/badges_cat_metabox.php:35
+#, fuzzy
+msgid "Badge Custom Description Page Link"
+msgstr "Badge Beschrijving Pagina / Kenteken Linking"
+
+#: ../admin/option.php:4 ../config.php:38
+msgid "Woo Product Badge Manager Settings"
+msgstr "Woo Goederen Badge Manager Instellingen"
+
+#: ../admin/option.php:8
+msgid "Badge Options"
+msgstr "badge Opties"
+
+#: ../admin/option.php:13
+msgid "Show Badge In Single Product Page"
+msgstr "Toon badge in één product pagina"
+
+#: ../admin/option.php:19
+msgid "Enable/Disable"
+msgstr "Inschakelen / uitschakelen"
+
+#: ../admin/option.php:25
+msgid "Show Badge"
+msgstr "Toon badge"
+
+#: ../admin/option.php:30
+msgid "Before Product Title"
+msgstr "Voordat Producttitel"
+
+#: ../admin/option.php:34
+msgid "After Product Title"
+msgstr "Na Producttitel"
+
+#: ../admin/option.php:38
+msgid "Before Product Price"
+msgstr "Voordat Artikel Prijs"
+
+#: ../admin/option.php:42
+msgid "After Product Price"
+msgstr "Na Artikel Prijs"
+
+#: ../admin/option.php:46
+msgid "Before Product Excerpt"
+msgstr "Voor het product Uittreksel"
+
+#: ../admin/option.php:50
+msgid "After Product Excerpt"
+msgstr "Na Goederen Uittreksel"
+
+#: ../admin/option.php:54
+msgid "Before Product Cart Button"
+msgstr "Voordat Goederen winkelwagen Button"
+
+#: ../admin/option.php:58
+msgid "After Product Cart Button"
+msgstr "Na Goederen winkelwagen Button"
+
+#: ../admin/option.php:62
+msgid "Before Product Sharing Button"
+msgstr "Voordat Goederen Button Sharing"
+
+#: ../admin/option.php:66
+msgid "After Product Sharing Button"
+msgstr "Na Goederen Button Sharing"
+
+#: ../admin/option.php:70
+msgid "Before Product Meta"
+msgstr "Voor het product Meta"
+
+#: ../admin/option.php:74
+msgid "After Product Meta"
+msgstr "Na Goederen Meta"
+
+#: ../admin/option.php:78
+msgid "Before Product Tabs"
+msgstr "Voor het product Tabs"
+
+#: ../admin/option.php:85 ../admin/option.php:194 ../admin/option.php:324
+msgid "Margin Top (Use px or %)"
+msgstr "Margin Top (Gebruik px of%)"
+
+#: ../admin/option.php:91 ../admin/option.php:200 ../admin/option.php:330
+msgid "Margin Bottom (Use px or %)"
+msgstr "Marge Bottom (Gebruik px of%)"
+
+#: ../admin/option.php:97 ../admin/option.php:206 ../admin/option.php:336
+msgid "Badge Width"
+msgstr "badge Breedte"
+
+#: ../admin/option.php:105 ../admin/option.php:214 ../admin/option.php:344
+msgid "Show Tool Tip"
+msgstr "Toon tooltip"
+
+#: ../admin/option.php:110 ../admin/option.php:150 ../admin/option.php:219
+#: ../admin/option.php:259 ../admin/option.php:349
+msgid "Yes Please"
+msgstr "Ja Graag"
+
+#: ../admin/option.php:114 ../admin/option.php:154 ../admin/option.php:223
+#: ../admin/option.php:263 ../admin/option.php:353
+msgid "No Please"
+msgstr "geen aub"
+
+#: ../admin/option.php:121 ../admin/option.php:230 ../admin/option.php:360
+msgid "Tool Tip Animation"
+msgstr "tooltip animatie"
+
+#: ../admin/option.php:126 ../admin/option.php:235 ../admin/option.php:365
+msgid "Grow Up"
+msgstr "opgroeien"
+
+#: ../admin/option.php:130 ../admin/option.php:239 ../admin/option.php:369
+msgid "Fade In"
+msgstr "fade in"
+
+#: ../admin/option.php:134 ../admin/option.php:243 ../admin/option.php:373
+msgid "Swing Up"
+msgstr "Swing up"
+
+#: ../admin/option.php:138 ../admin/option.php:247 ../admin/option.php:377
+msgid "Slide"
+msgstr "glijbaan"
+
+#: ../admin/option.php:145 ../admin/option.php:254
+msgid "Badge Description Page / Badge Linking"
+msgstr "Badge Beschrijving Pagina / Kenteken Linking"
+
+#: ../admin/option.php:163
+msgid "Badge Shortcode"
+msgstr "badge Shortcode"
+
+#: ../admin/option.php:168
+msgid "Create Badge Shortcode"
+msgstr "Maak Badge Shortcode"
+
+#: ../admin/option.php:174
+msgid "Select ShortCode For Author / Product"
+msgstr "Selecteer shortcode Voor Auteur / Goederen"
+
+#: ../admin/option.php:179
+msgid "Product Page ShortCode"
+msgstr "Productpagina shortcode"
+
+#: ../admin/option.php:183
+msgid "Author Page ShortCode"
+msgstr "Auteur pagina shortcode"
+
+#: ../admin/option.php:187
+#, fuzzy
+msgid "Badge Filter Shortcode"
+msgstr "badge Shortcode"
+
+#: ../admin/option.php:270
+msgid "Shortcode Here"
+msgstr "shortcode Hier"
+
+#: ../admin/option.php:271
+msgid "User Above Options and generate a short code."
+msgstr "Gebruiker bovenstaande opties en het genereren van een shortcode."
+
+#: ../admin/option.php:282
+#, fuzzy
+msgid "Badge Archive Options"
+msgstr "badge Opties"
+
+#: ../admin/option.php:288
+msgid "Enable Product Archive On Badge Page"
+msgstr "Inschakelen Productarchief Op Badge Pagina"
+
+#: ../admin/option.php:293
+msgid "Archive Page Settings"
+msgstr "Archief Pagina-instellingen"
+
+#: ../admin/option.php:299
+#, fuzzy
+msgid "Show Badge Filter On Archive Page"
+msgstr "Toon badge in één product pagina"
+
+#: ../admin/option.php:305
+msgid "Show Badge Filters Title"
+msgstr "Show Badge filters Titel"
+
+#: ../admin/option.php:311
+msgid "Cart Button Background Color"
+msgstr "Winkelwagen Button Achtergrond Kleur"
+
+#: ../admin/option.php:319
+#, fuzzy
+msgid "Archive Badge Settings"
+msgstr "Woo Goederen Badge Manager Instellingen"
+
+#: ../admin/option.php:386
+msgid "Archive Page Product List"
+msgstr "Archive Pagina Product List"
+
+#: ../admin/option.php:391
+msgid "Show Product Per Row On Large Desktop"
+msgstr "Laat product per rij op Large Desktop"
+
+#: ../admin/option.php:396 ../admin/option.php:428 ../admin/option.php:460
+#: ../admin/option.php:492
+msgid "12 Per Row"
+msgstr "12 per rij"
+
+#: ../admin/option.php:400 ../admin/option.php:432 ../admin/option.php:464
+#: ../admin/option.php:496
+msgid "6 Per Row"
+msgstr "6 Per Row"
+
+#: ../admin/option.php:404 ../admin/option.php:436 ../admin/option.php:468
+#: ../admin/option.php:500
+msgid "4 Per Row"
+msgstr "4 Per Row"
+
+#: ../admin/option.php:408 ../admin/option.php:440 ../admin/option.php:472
+#: ../admin/option.php:504
+msgid "3 Per Row"
+msgstr "3 per rij"
+
+#: ../admin/option.php:412 ../admin/option.php:444 ../admin/option.php:476
+#: ../admin/option.php:508
+msgid "2 Per Row"
+msgstr "2 per rij"
+
+#: ../admin/option.php:416 ../admin/option.php:448 ../admin/option.php:480
+#: ../admin/option.php:512
+msgid "1 Per Row"
+msgstr "1 per rij"
+
+#: ../admin/option.php:423
+msgid "Show Product Per Row On Medium Desktop"
+msgstr "Laat product per rij op Medium Desktop"
+
+#: ../admin/option.php:455
+msgid "Show Product Per Row On Tablet"
+msgstr "Laat product per rij op Tablet"
+
+#: ../admin/option.php:487
+msgid "Show Product Per Row On Mobile"
+msgstr "Laat product per rij op Mobile"
+
+#: ../admin/product_metabox.php:7
+msgid "Select Badges"
+msgstr "Selecteer badges"
+
+#: ../admin/product_metabox.php:8
+msgid "Select Product Badges to show for this product."
+msgstr "Selecteer Product badges om te laten zien voor dit product."
+
+#: ../config.php:39
+msgid "Woo Product Badge Manager"
+msgstr "Woo Goederen Badge Manager"
+
+#: ../config.php:50
+msgid "Product Badges Manager"
+msgstr "Goederen Banners Manager"
+
+#: ../config.php:58
+msgid "Assign Badges To Category"
+msgstr "Banners Om Categorie toewijzen"
+
+#: ../config.php:112
+msgid "Settings"
+msgstr "instellingen"
+
+#: ../inc/create_badge.php:11 ../inc/create_badge.php:22
+msgid "WOO Product Badges"
+msgstr "WOO Goederen Banners"
+
+#: ../inc/create_badge.php:12
+msgid "Product Badge"
+msgstr "Goederen Badge"
+
+#: ../inc/create_badge.php:13 ../inc/create_badge.php:14
+msgid "Add New Product Badge"
+msgstr "Voeg Nieuw product badge"
+
+#: ../inc/create_badge.php:15
+msgid "Edit Badge"
+msgstr "bewerken Badge"
+
+#: ../inc/create_badge.php:16
+msgid "New Product Badge"
+msgstr "Nieuw product badge"
+
+#: ../inc/create_badge.php:17
+msgid "View Badge"
+msgstr "Bekijk Badge"
+
+#: ../inc/create_badge.php:18
+msgid "Search Product Badges"
+msgstr "Product zoeken Badges"
+
+#: ../inc/create_badge.php:19
+msgid "No Product Badges Found"
+msgstr "Nee Eigen Banners gevonden"
+
+#: ../inc/create_badge.php:20
+msgid "No Product Badges Found In Trash"
+msgstr "Nee Eigen Banners gevonden in Trash"
+
+#: ../inc/create_badge.php:21
+msgid "Parent Badge"
+msgstr "Parent badge"
+
+#: ../inc/product_list.php:86
+#, fuzzy
+msgid "Add To Cart"
+msgstr "Meer toevoegen"
+
+#: ../inc/short_badge.php:19
+msgid "Sort Product Badge"
+msgstr "Sorteer Goederen Badge"
+
+#: ../inc/short_badge.php:19
+msgid "Sort Product Badges"
+msgstr "Sorteer Goederen Banners"
+
+#: ../inc/short_badge.php:34
+msgid "Sort Woo Product Badges"
+msgstr "Sorteer Woo Goederen Banners"
+
+#: ../inc/short_badge.php:36
+msgid "Drag and Drop the badges to order them"
+msgstr "Sleep de badges om ze te bestellen"
+
+#: ../vafpress-framework/bootstrap.php:88
+#: ../vafpress-framework/classes/option.php:364
+#: ../vafpress-framework/classes/option.php:389
+msgid "Successful"
+msgstr "geslaagd"
+
+#: ../vafpress-framework/bootstrap.php:99
+msgid "Unauthorized function"
+msgstr "ongeautoriseerde functie"
+
+#: ../vafpress-framework/classes/metabox.php:35
+msgid "[Development Mode] "
+msgstr ""
+
+#: ../vafpress-framework/classes/metabox.php:566
+#: ../vafpress-framework/classes/metabox/alchemy.php:493
+msgid "Remove"
+msgstr "verwijderen"
+
+#: ../vafpress-framework/classes/metabox.php:588
+#: ../vafpress-framework/classes/metabox/alchemy.php:515
+msgid "Add More"
+msgstr "Meer toevoegen"
+
+#: ../vafpress-framework/classes/option.php:47
+#: ../vafpress-framework/classes/option.php:48
+msgid "Vafpress Options"
+msgstr "Vafpress Opties"
+
+#: ../vafpress-framework/classes/option.php:61
+msgid "Option Key is required"
+msgstr "Option Key is nodig"
+
+#: ../vafpress-framework/classes/option.php:63
+msgid "Template Array/File is required"
+msgstr "Template Array / File is vereist"
+
+#: ../vafpress-framework/classes/option.php:65
+msgid "Page Slug is required"
+msgstr "Pagina Slug is vereist"
+
+#: ../vafpress-framework/classes/option.php:167
+msgid ""
+"Development Mode is Active, options' values won't be saved into database."
+msgstr ""
+"Development actief is, de waarden opties 'worden niet opgeslagen in de "
+"database."
+
+#: ../vafpress-framework/classes/option.php:306
+msgid "Can not be empty"
+msgstr "Kan niet leeg zijn"
+
+#: ../vafpress-framework/classes/option.php:331
+msgid "Invalid data"
+msgstr "ongeldige data"
+
+#: ../vafpress-framework/classes/option.php:394
+msgid "Unverified Access"
+msgstr "geverifieerde Toegang"
+
+#: ../vafpress-framework/classes/option.php:460
+msgid "Invalid template supplied"
+msgstr "Ongeldige template geleverd"
+
+#: ../vafpress-framework/classes/option.php:473
+msgid "Utility"
+msgstr "utility"
+
+#: ../vafpress-framework/classes/option.php:479
+msgid "Restore Default"
+msgstr "standaard herstellen"
+
+#: ../vafpress-framework/classes/option.php:488
+msgid "Export/Import"
+msgstr "Export / import"
+
+#: ../vafpress-framework/classes/option/control/set.php:359
+msgid "Saving successful"
+msgstr "succesvolle opslaan"
+
+#: ../vafpress-framework/classes/option/control/set.php:370
+msgid "Saving failed"
+msgstr "Saving is mislukt"
+
+#: ../vafpress-framework/classes/option/control/set.php:376
+msgid "No changes made"
+msgstr "Geen wijzigingen"
+
+#: ../vafpress-framework/config/messages.php:13
+msgid "Value needs to be Alphabet"
+msgstr "Waarde moet Alphabet zijn"
+
+#: ../vafpress-framework/config/messages.php:14
+msgid "Value needs to be Alphanumeric"
+msgstr "Waarde moet alfanumeriek zijn"
+
+#: ../vafpress-framework/config/messages.php:15
+msgid "Value needs to be Numeric"
+msgstr "Waarde moet numeriek zijn"
+
+#: ../vafpress-framework/config/messages.php:16
+msgid "Value needs to be Valid Email"
+msgstr "Waarde moet geldig e-zijn"
+
+#: ../vafpress-framework/config/messages.php:17
+msgid "Value needs to be Valid URL"
+msgstr "Waarde moet Geldige URL"
+
+#: ../vafpress-framework/config/messages.php:18
+msgid "Length needs to be less than {0} characters"
+msgstr "Lengte moet kleiner zijn dan {0} tekens"
+
+#: ../vafpress-framework/config/messages.php:19
+msgid "Length needs to be more than {0} characters"
+msgstr "Lengte moet meer dan {0} tekens"
+
+#: ../vafpress-framework/config/messages.php:20
+msgid "Select no more than {0} items"
+msgstr "Selecteer niet meer dan {0} artikelen"
+
+#: ../vafpress-framework/config/messages.php:21
+msgid "Select at least {0} items"
+msgstr "Kies ten minste {0} artikelen"
+
+#: ../vafpress-framework/config/messages.php:22
+msgid "This is required"
+msgstr "Dit is vereist"
+
+#: ../vafpress-framework/config/messages.php:29
+msgid "Import succeed, option page will be refreshed.."
+msgstr "Import slagen, optie pagina wordt vernieuwd .."
+
+#: ../vafpress-framework/config/messages.php:30
+msgid "Import failed"
+msgstr "import is mislukt"
+
+#: ../vafpress-framework/config/messages.php:31
+msgid "Export succeed, copy the JSON formatted options"
+msgstr "Export slagen, kopieert u de JSON geformatteerde opties"
+
+#: ../vafpress-framework/config/messages.php:32
+msgid "Export failed"
+msgstr "export is mislukt"
+
+#: ../vafpress-framework/config/messages.php:33
+msgid "Restoration succeed, option page will be refreshed.."
+msgstr "Restauratie slagen, optie pagina wordt vernieuwd .."
+
+#: ../vafpress-framework/config/messages.php:34
+msgid "Options identical to default"
+msgstr "Opties identiek aan de standaard"
+
+#: ../vafpress-framework/config/messages.php:35
+msgid "Restoration failed"
+msgstr "restauratie is mislukt"
+
+#: ../vafpress-framework/config/messages.php:43
+msgid "Select option(s)"
+msgstr "Selecteer de optie (s)"
+
+#: ../vafpress-framework/config/messages.php:45
+msgid "Select an Icon"
+msgstr "Kies een icoon"
+
+#: ../vafpress-framework/views/option/set.php:93
+#, php-format
+msgid ""
+"This option panel is built using <a href=\"http://vafpress.com/vafpress-"
+"framework\">Vafpress Framework %s</a> powered by <a href=\"http://vafpress."
+"com\">Vafpress</a>"
+msgstr ""
+"Deze optie paneel is gebouwd met behulp van <a href=\"http://vafpress.com/"
+"vafpress-framework\">Vafpress Framework %s</a> mede mogelijk gemaakt door <a "
+"href=\"http://vafpress.com\">Vafpress</a>"
+
+#: ../widget/badge_filter_fields.php:2
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../widget/badge_filter_fields.php:7
+#, fuzzy
+msgid "Badge Size:"
+msgstr "badge Breedte"
+
+#: ../widget/badge_filter_fields.php:12
+#, fuzzy
+msgid "Show Tooltip:"
+msgstr "Toon tooltip"
+
+#: ../widget/badge_filter_fields.php:17
+#, fuzzy
+msgid "Tooltip Animation:"
+msgstr "tooltip animatie"
+
+#: ../widget/badge_filter_widget.php:9
+#, fuzzy
+msgid "Badge Product Filter"
+msgstr "Voordat Producttitel"
+
+#: ../widget/badge_filter_widget.php:12
+msgid "Product filters using badge list."
+msgstr "Goederen filters gebruiken badge lijst."
+
+#: ../woocommerce-product-badge-manager.php:32
+#, php-format
+msgid ""
+"<strong>%s</strong> You must install <strong><a href=\"http://goo.gl/04An3t"
+"\" target=\"_blank\">WooCommerce - excelling eCommerce</a></strong> plugin "
+"to use Woo Product Badge Manager."
+msgstr ""
+"<strong>%s</strong> U moet installeren <strong><a href=\"http://goo.gl/04An3t"
+"\" target=\"_blank\">WooCommerce - excelling eCommerce</a></strong> plugin "
+"te gebruiken Woo Product Badge Manager."

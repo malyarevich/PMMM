@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "prdctfltr";
+  src:url("fonts/prdctfltr.eot");
+  src:url("fonts/prdctfltr.svg#prdctfltr") format("svg"),
+    url("fonts/prdctfltr.eot?#iefix") format("embedded-opentype"),
+    url("fonts/prdctfltr.woff") format("woff"),
+    url("fonts/prdctfltr.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="prdctfltr-"]:before,
+[class*=" prdctfltr-"]:before {
+  font-family: "prdctfltr" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  vertical-align:middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.prdctfltr-bars:before {
+  content: "\f001";
+}
+.prdctfltr-delete:before {
+  content: "\f002";
+}
+.prdctfltr-sale:before {
+  content: "\f003";
+}
+.prdctfltr-down:before {
+  content: "\f004";
+}
+.prdctfltr-up:before {
+  content: "\f005";
+}
+.prdctfltr-filter:before {
+  content: "\f006";
+}
+.prdctfltr-plus:before {
+  content: "\f007";
+}
+.prdctfltr-minus:before {
+  content: "\f008";
+}
+.prdctfltr-eye:before {
+  content: "\f009";
+}
+.prdctfltr-eye-disabled:before {
+  content: "\f010";
+}
+.prdctfltr-move:before {
+  content: "\f011";
+}
+.prdctfltr-instock:before {
+  content: "\f012";
+}
+.prdctfltr-clear:before {
+  content: "\f013";
+}
+.prdctfltr-check:before {
+  content: "\f014";
+}
+.prdctfltr-minus-1:before {
+  content: "\f015";
+}
+.prdctfltr-plus-1:before {
+  content: "\f016";
+}
+.prdctfltr-minus-2:before {
+  content: "\f017";
+}
+.prdctfltr-plus-2:before {
+  content: "\f018";
+}
+.prdctfltr-search:before {
+  content: "\f019";
+}
+.prdctfltr-style:before {
+  content: "\f020";
+}
+.prdctfltr-terms:before {
+  content: "\f021";
+}
+.prdctfltr-overrides:before {
+  content: "\f022";
+}
+.prdctfltr-analytics:before {
+  content: "\f023";
+}
+.prdctfltr-update:before {
+  content: "\f024";
+}

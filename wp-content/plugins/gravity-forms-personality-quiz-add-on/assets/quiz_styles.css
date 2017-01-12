@@ -1,0 +1,72 @@
+.gfield_image_label .gfield_required {
+    display: none;
+}
+
+.gform_wrapper li.pq-question-field {
+    margin-bottom: 50px !important;
+}
+
+.gform_wrapper li.pq-question-field .ginput_container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gform_wrapper li.pq-question-field ul.gfield_radio > li img,
+.gform_wrapper li.pq-question-field ul.gfield_checkbox > li img {
+    background-color: #FFF;
+    display: block;
+    margin: 5px auto 0;
+}
+
+.gform_wrapper li.pq-question-field ul.gfield_radio > li,
+.gform_wrapper li.pq-question-field ul.gfield_checkbox > li {
+    box-sizing: border-box;
+    padding: 5px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    text-align: center;
+    position: relative;
+}
+
+.gform_wrapper li.pq-question-field.gfield.gf_list_2col ul.gfield_checkbox li:nth-child(2n + 1),
+.gform_wrapper li.pq-question-field.gfield.gf_list_2col ul.gfield_radio li:nth-child(2n + 1),
+.gform_wrapper li.pq-question-field.gfield.gf_2col ul.gfield_checkbox li:nth-child(2n + 1),
+.gform_wrapper li.pq-question-field.gfield.gf_2col ul.gfield_radio li:nth-child(2n + 1) {
+    clear: left;
+}
+
+.gform_wrapper li.pq-question-field.gfield.gf_list_3col ul.gfield_checkbox li:nth-child(3n + 1),
+.gform_wrapper li.pq-question-field.gfield.gf_list_3col ul.gfield_radio li:nth-child(3n + 1),
+.gform_wrapper li.pq-question-field.gfield.gf_3col ul.gfield_checkbox li:nth-child(3n + 1),
+.gform_wrapper li.pq-question-field.gfield.gf_3col ul.gfield_radio li:nth-child(3n + 1) {
+    clear: left;
+}
+
+
+.gform_wrapper li.pq-question-field ul.gfield_radio > li label,
+.gform_wrapper li.pq-question-field ul.gfield_checkbox > li label {
+    background-color: rgb(240,240,240);
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 35px !important;
+    margin: 0;
+    cursor: pointer;
+    display: block;
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.4);
+}
+
+.gform_wrapper li.pq-question-field ul.gfield_radio > li input[type="radio"],
+.gform_wrapper li.pq-question-field ul.gfield_checkbox > li input[type="checkbox"] {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.gform_wrapper li.pq-question-field ul.gfield_radio label:hover,
+.gform_wrapper li.pq-question-field ul.gfield_radio input:checked + label,
+.gform_wrapper li.pq-question-field ul.gfield_checkbox label:hover,
+.gform_wrapper li.pq-question-field ul.gfield_checkbox input:checked + label {
+    background-color: rgb(210,210,210);
+}

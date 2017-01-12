@@ -1,0 +1,2 @@
+<h1 class="quiz_header">SYOU HAVE SUCCESSFULLY COMPLETED THIS WINE COURSE</h1>
+<h4>Your certificate has been emailed to you, but you can also <a href='<?php echo generate_quiz_certificate()?>'>click here</a> to download the document.</h4>

@@ -1,0 +1,21 @@
+1.7 On-hold email template added. Centered logo option added. Compatibily check. Attachments options.
+1.6.3 Bug fix on variations meta display in email
+1.6.2 H2 and H3 color options.
+1.6.1 WooCommerce 2.6 compatibility check. PHP7 Compatibility check. "Customer on hold" template added. Option for invoice email text added.
+1.6 Fallback support for WooCommerce < 2.4 on product meta. WPML compatibility improved. RTL support improved. Banners management for customer processing and customer completed order emails. New placeholders for text email.
+1.5.6 Bug fix on wp_new_user_notification
+1.5.5 billing_first_name and billing_last_name can be added to text template. wp_new_user_notification can be overrided
+1.5.4 fix filters for text introduction formatting.
+1.5.3 child theme template overide
+1.5.2 wpml-config.xml added for wpml compatibility
+1.5.1 Allow templates override througt theme.
+1.5 Add automatic updater.
+1.4.4 H1 color option. Logo Link Option. Main border option. Add support for version below 2.3 (customer details). Russian translation added. Support WooCommerce 2.4 includind refunded order email template.
+1.4.3 Bufix. Logo doesn't show in footer.
+1.4.2 Custom logo options for social networks. Menu link color option added. Footer in logo can be disabled with size 0. Header image can be clickable with an URL option. New customer account introduction text is now customizable. Fix translation issue.
+1.4.1 Footer Bug fix. Adding custom text for customer email (processing & completed orders). Css option for download & meta links. WooCommerce 2.3 compatibility check (beta 2).
+1.4 Adding preview for email templates
+1.3 Adding option for footer logo custom width. Adding option for product thumbnail custom size.
+1.2 Improve Outlook 2007-2010 support.
+1.1 Bug Fix for gmail client. Add 3 new social profiles logo / url options.
+1.0 Initial release.

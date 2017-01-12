@@ -1,0 +1,1105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooChimp\n"
+"POT-Creation-Date: 2015-10-14 16:52+0300\n"
+"PO-Revision-Date: 2015-10-14 16:52+0300\n"
+"Last-Translator: \n"
+"Language-Team: RightPress <info@rightpress.net>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/woochimp-mailchimp-subscription.class.php:21
+msgid "MailChimp Signup"
+msgstr ""
+
+#: ../classes/woochimp-mailchimp-subscription.class.php:23
+msgid ""
+"Widget displays newsletter signup form, if enabled under MailChimp settings."
+msgstr ""
+
+#: ../classes/woochimp-mailchimp-subscription.class.php:153
+#, php-format
+msgid ""
+"Renders MailChimp signup form. You can edit settings <a href=\"%s\">here</a>."
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:12
+#: ../includes/woochimp-plugin-structure.inc.php:13
+msgid "MailChimp"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:18
+msgid "Integration"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:22
+msgid "General"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:25
+msgid "Enable Integration"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:32
+msgid ""
+"<p>Enable or disable integration. If disabled, none of the features will be "
+"active.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:35
+msgid "MailChimp API key"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:42
+msgid ""
+"<p>API key is required for this plugin to communicate with MailChimp servers."
+"</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:47 ../woochimp.php:1915
+msgid "Settings"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:50
+msgid "Enable Webhooks"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:57
+msgid ""
+"<p>If enabled and configured, MailChimp will send this plugin instant "
+"updates about changes on your account.</p> <p>This is useful as it extends "
+"functionality of this plugin. For example, you can configure this plugin not "
+"to auto-subscribe user who has just manually unsubscribed from your list.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:60
+msgid "Your Webhook URL"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:67
+msgid ""
+"<p>Webhook must be set up on MailChimp side as well. Login to your MailChimp "
+"account, go to one of your lists, click on Settings / Webhooks and add this "
+"URL as a Callback URL for a new Webhook.</p> <p>You can repeat the same "
+"process for all lists that you are going to use.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:70
+msgid "Enable Woochimp Log"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:77
+msgid ""
+"<p>If enabled, Woochimp will write a log of MailChimp errors (latest 50 "
+"error entries will be saved).</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:82
+msgid "Status"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:89
+#: ../includes/woochimp-plugin-structure.inc.php:93
+msgid "Ecommerce 360"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:96
+msgid "Enable Ecommerce 360"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:103
+msgid ""
+"<p>If enabled, order data will be sent to MailChimp as soon as order is "
+"marked as completed.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:106
+msgid "Delete Cancelled Order Data"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:113
+msgid ""
+"<p>Delete order data from MailChimp if order is cancelled or refunded.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:120
+msgid "Checkbox"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:124
+msgid "Subscribe On Checkout with Checkbox"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:127
+#: ../includes/woochimp-plugin-structure.inc.php:276
+msgid "Subscribe on"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:135
+#: ../includes/woochimp-plugin-structure.inc.php:284
+msgid "Disabled"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:136
+#: ../includes/woochimp-plugin-structure.inc.php:285
+msgid "Order placed"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:137
+#: ../includes/woochimp-plugin-structure.inc.php:286
+msgid "Payment received"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:138
+#: ../includes/woochimp-plugin-structure.inc.php:287
+msgid "Order completed"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:140
+#: ../includes/woochimp-plugin-structure.inc.php:289
+msgid ""
+"<p>Choose whether to subscribe user as soon as order is placed (better for "
+"marketing) or wait until payment received or order is marked as completed "
+"(better for providing access to premium content delivered by email).</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:143
+msgid "Label"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:145
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:150
+msgid "<p>Text to display to customers next to singup checkbox.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:153
+msgid "Checkbox position"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:161
+msgid "Above customer details"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:162
+msgid "Below customer details"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:163
+msgid "Order review above submit"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:164
+msgid "Order review below submit"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:165
+msgid "Order review above total"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:166
+msgid "Above billing details"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:167
+msgid "Above shipping details"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:168
+msgid "Below Checkout billing form"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:170
+msgid ""
+"<p>Select checkbox position. Not all positions may be available on all "
+"themes and some may perform badly with some themes.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:173
+msgid "Default state"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:181
+msgid "Checked"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:182
+msgid "Not checked"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:184
+msgid ""
+"<p>Select default state of the signup checkbox.</p> <p>If you select "
+"<strong>Checked</strong>, customers will have to unselect the checkbox in "
+"order not to be subscribed to the list.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:187
+msgid "Add to groups"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:196
+msgid "Automatically"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:198
+msgid "All groups selected below"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:202
+msgid "Allow users to select (optional)"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:204
+msgid "Checkbox group for each grouping"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:205
+#: ../includes/woochimp-plugin-structure.inc.php:212
+msgid "Radio button group for each grouping"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:206
+#: ../includes/woochimp-plugin-structure.inc.php:213
+msgid "Select field (dropdown) for each grouping"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:210
+msgid "Require users to select (required)"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:217
+msgid ""
+"<p>Select how you would like interest groups to work with this form - you "
+"can either add all selected interest groups to subscribers profile by "
+"default or allow your visitors to manually select some.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:220
+#: ../includes/woochimp-plugin-structure.inc.php:292
+msgid "Don't resubscribe unsubscribed"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:227
+#: ../includes/woochimp-plugin-structure.inc.php:299
+msgid ""
+"<p>If selected, users who have unsubscribed from the selected list in the "
+"past, will not be automatically subscribed again.</p> <p>This requires "
+"MailChimp Webhook integration to be active.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:230
+#: ../includes/woochimp-plugin-structure.inc.php:302
+#: ../includes/woochimp-plugin-structure.inc.php:358
+#: ../includes/woochimp-plugin-structure.inc.php:485
+msgid "Replace groups on MailChimp"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:237
+#: ../includes/woochimp-plugin-structure.inc.php:309
+#: ../includes/woochimp-plugin-structure.inc.php:365
+#: ../includes/woochimp-plugin-structure.inc.php:492
+msgid ""
+"<p>If selected, interest groups provided above will replace any other "
+"interest groups for existing users.</p> <p>Otherwise, provided groups will "
+"be merged with existing interest groups on subscriber profile.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:240
+#: ../includes/woochimp-plugin-structure.inc.php:312
+#: ../includes/woochimp-plugin-structure.inc.php:368
+#: ../includes/woochimp-plugin-structure.inc.php:495
+msgid "Double opt-in"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:247
+#: ../includes/woochimp-plugin-structure.inc.php:319
+#: ../includes/woochimp-plugin-structure.inc.php:375
+#: ../includes/woochimp-plugin-structure.inc.php:502
+msgid ""
+"<p>Enable standard MailChimp double opt-in functionality. Customers will be "
+"sent an email and required to confirm subscription.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:250
+#: ../includes/woochimp-plugin-structure.inc.php:322
+#: ../includes/woochimp-plugin-structure.inc.php:378
+#: ../includes/woochimp-plugin-structure.inc.php:505
+msgid "Send welcome email"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:257
+#: ../includes/woochimp-plugin-structure.inc.php:329
+#: ../includes/woochimp-plugin-structure.inc.php:385
+#: ../includes/woochimp-plugin-structure.inc.php:512
+msgid ""
+"<p>If enabled, customers will receive welcome email as configured in "
+"MailChimp settings.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:262
+#: ../includes/woochimp-plugin-structure.inc.php:334
+msgid "Lists, Groups And Fields"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:269
+msgid "Automatic"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:273
+msgid "Automatically Subscribe On Checkout"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:341
+msgid "Widget"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:345
+msgid "Signup Form Widget"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:348
+#: ../includes/woochimp-plugin-structure.inc.php:475
+msgid "Enable"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:355
+msgid ""
+"<p>If enabled, a signup form will be displayed in a widget.</p> <p>You still "
+"must insert <strong>MailChimp Signup</strong> widget to one of the sidebars."
+"</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:390
+#: ../includes/woochimp-plugin-structure.inc.php:517
+msgid "List & Groups"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:393
+#: ../includes/woochimp-plugin-structure.inc.php:520 ../woochimp.php:763
+msgid "Mailing list"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:401
+#: ../includes/woochimp-plugin-structure.inc.php:528
+msgid ""
+"<p>Select a MailChimp list to subscribe users to. You must choose a valid "
+"list to enable this feature.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:404
+#: ../includes/woochimp-plugin-structure.inc.php:531 ../woochimp.php:764
+msgid "Groups"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:412
+#: ../includes/woochimp-plugin-structure.inc.php:539
+msgid ""
+"<p>Select one or multiple MailChimp groups to add subscribers to. Mailing "
+"list must be chosen for a list of groups to appear.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:417
+#: ../includes/woochimp-plugin-structure.inc.php:544
+msgid "Fields"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:422
+#: ../includes/woochimp-plugin-structure.inc.php:549
+msgid "Style"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:425
+#: ../includes/woochimp-plugin-structure.inc.php:552
+msgid "Show field labels inline"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:432
+#: ../includes/woochimp-plugin-structure.inc.php:559
+msgid ""
+"<p>If enabled, field labels will be shown as placeholders for fields. "
+"Otherwise, they will be displayed separately before fields.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:435
+#: ../includes/woochimp-plugin-structure.inc.php:562
+msgid "Signup form style"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:443
+msgid "Inherit theme style"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:444
+msgid "WooChimp General"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:446
+#: ../includes/woochimp-plugin-structure.inc.php:573
+msgid ""
+"<p>Select a style to apply to your signup form. If you choose to inherit the "
+"style from your current theme, styling will completely depend on it - in "
+"some cases you may get undesired results.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:449
+#: ../includes/woochimp-plugin-structure.inc.php:576
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:456
+msgid ""
+"<p>You can further customize the appearance of the signup form by adding "
+"custom CSS to this field.</p> <p>To make changes to the style, simply use "
+"CSS class <strong>woochimp_wg</strong> as a basis.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:461
+#: ../includes/woochimp-plugin-structure.inc.php:588
+msgid "Usage"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:468
+msgid "Shortcode"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:472
+msgid "Signup Shortcode"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:482
+msgid ""
+"<p>If enabled, a signup form will be displayed wherever you place a "
+"shortcode.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:583
+msgid ""
+"You can further customize the appearance of the signup form by adding custom "
+"CSS to this field.</p> <p>To make changes to the style, simply use CSS class "
+"<strong>woochimp_sc</strong> as a basis.</p>"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:595
+msgid "Labels"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:599
+msgid "Frontend forms"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:602
+msgid "Widget form title"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:604
+msgid "Newsletter"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:611
+msgid "Shortcode form title"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:613
+msgid "Sign up for our newsletter!"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:620
+msgid "Button label"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:622
+msgid "Sign up"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:629
+#: ../includes/woochimp-plugin-structure.inc.php:631
+msgid "Email"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:638
+msgid "Error"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:640
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:647
+msgid "Success"
+msgstr ""
+
+#: ../includes/woochimp-plugin-structure.inc.php:649
+msgid "Thank you for signing up!"
+msgstr ""
+
+#: ../woochimp.php:132
+msgid "Billing First Name"
+msgstr ""
+
+#: ../woochimp.php:133
+msgid "Billing Last Name"
+msgstr ""
+
+#: ../woochimp.php:134
+msgid "Billing Company"
+msgstr ""
+
+#: ../woochimp.php:135
+msgid "Billing Address 1"
+msgstr ""
+
+#: ../woochimp.php:136
+msgid "Billing Address 2"
+msgstr ""
+
+#: ../woochimp.php:137
+msgid "Billing City"
+msgstr ""
+
+#: ../woochimp.php:138
+msgid "Billing State"
+msgstr ""
+
+#: ../woochimp.php:139
+msgid "Billing Postcode"
+msgstr ""
+
+#: ../woochimp.php:140
+msgid "Billing Country"
+msgstr ""
+
+#: ../woochimp.php:141
+msgid "Billing Phone"
+msgstr ""
+
+#: ../woochimp.php:142
+msgid "Shipping First Name"
+msgstr ""
+
+#: ../woochimp.php:143
+msgid "Shipping Last Name"
+msgstr ""
+
+#: ../woochimp.php:144
+msgid "Shipping Address 1"
+msgstr ""
+
+#: ../woochimp.php:145
+msgid "Shipping Address 2"
+msgstr ""
+
+#: ../woochimp.php:146
+msgid "Shipping City"
+msgstr ""
+
+#: ../woochimp.php:147
+msgid "Shipping State"
+msgstr ""
+
+#: ../woochimp.php:148
+msgid "Shipping Postcode"
+msgstr ""
+
+#: ../woochimp.php:149
+msgid "Shipping Country"
+msgstr ""
+
+#: ../woochimp.php:150
+msgid "Shipping Method Title"
+msgstr ""
+
+#: ../woochimp.php:151
+msgid "Payment Method Title "
+msgstr ""
+
+#: ../woochimp.php:152
+msgid "User ID"
+msgstr ""
+
+#: ../woochimp.php:153
+msgid "User First Name"
+msgstr ""
+
+#: ../woochimp.php:154
+msgid "User Last Name"
+msgstr ""
+
+#: ../woochimp.php:155
+msgid "User Nickname"
+msgstr ""
+
+#: ../woochimp.php:156
+msgid "User Is Paying Customer"
+msgstr ""
+
+#: ../woochimp.php:157
+msgid "User Completed Order Count"
+msgstr ""
+
+#: ../woochimp.php:453
+#, php-format
+msgid ""
+"Warning: PHP cURL extension is not enabled on this server. cURL is required "
+"for this plugin to function correctly. You can read more about cURL <a href="
+"\"%s\">here</a>."
+msgstr ""
+
+#: ../woochimp.php:636 ../woochimp.php:757 ../woochimp.php:806
+#: ../woochimp.php:820 ../woochimp.php:989 ../woochimp.php:995
+#: ../woochimp.php:1222 ../woochimp.php:1226
+msgid "Connecting to MailChimp..."
+msgstr ""
+
+#: ../woochimp.php:641
+msgid "To activate a singup widget:"
+msgstr ""
+
+#: ../woochimp.php:643
+#, php-format
+msgid "go to <a href=\"%s\">Widgets</a> page"
+msgstr ""
+
+#: ../woochimp.php:644
+msgid "locate a widget named MailChimp Signup"
+msgstr ""
+
+#: ../woochimp.php:645
+msgid "drag and drop it to the sidebar of your choise"
+msgstr ""
+
+#: ../woochimp.php:649
+msgid ""
+"Widget will not be displayed to customers if it is not enabled here or if "
+"the are issues with configuration."
+msgstr ""
+
+#: ../woochimp.php:652
+msgid ""
+"To avoid potential conflicts, we recommend to use at most one MailChimp "
+"Signup widget per page."
+msgstr ""
+
+#: ../woochimp.php:660
+msgid ""
+"You can display a signup form anywhere in your pages, posts and WooCommerce "
+"product descriptions."
+msgstr ""
+
+#: ../woochimp.php:661
+msgid ""
+"To do this, simply insert the following shortcode to the desired location:"
+msgstr ""
+
+#: ../woochimp.php:664
+msgid ""
+"Shorcode will not be displayed to customers if it is not enabled here or if "
+"there are issues with configuration."
+msgstr ""
+
+#: ../woochimp.php:667
+msgid ""
+"To avoid potential conflicts, we recommend to place at most one shortcode "
+"per page."
+msgstr ""
+
+#: ../woochimp.php:718
+msgid "Billing Fields"
+msgstr ""
+
+#: ../woochimp.php:719
+msgid "Shipping Fields"
+msgstr ""
+
+#: ../woochimp.php:720
+msgid "Order Properties"
+msgstr ""
+
+#: ../woochimp.php:721
+msgid "User Properties"
+msgstr ""
+
+#: ../woochimp.php:722
+msgid "Advanced"
+msgstr ""
+
+#: ../woochimp.php:727
+msgid "Enter Order Field Key"
+msgstr ""
+
+#: ../woochimp.php:728
+msgid "Enter Static Value"
+msgstr ""
+
+#: ../woochimp.php:749
+msgid "No results match"
+msgstr ""
+
+#: ../woochimp.php:750
+msgid "Select a mailing list"
+msgstr ""
+
+#: ../woochimp.php:751
+msgid "Select a tag"
+msgstr ""
+
+#: ../woochimp.php:752
+msgid "Select a checkout field"
+msgstr ""
+
+#: ../woochimp.php:753
+msgid "Select some groups (optional)"
+msgstr ""
+
+#: ../woochimp.php:754
+msgid "Select some products"
+msgstr ""
+
+#: ../woochimp.php:755
+msgid "Select some roles"
+msgstr ""
+
+#: ../woochimp.php:756
+msgid "Select some categories"
+msgstr ""
+
+#: ../woochimp.php:758 ../woochimp.php:1151
+msgid "Still connecting to MailChimp..."
+msgstr ""
+
+#: ../woochimp.php:759
+msgid "Field Name"
+msgstr ""
+
+#: ../woochimp.php:760
+msgid "MailChimp Tag"
+msgstr ""
+
+#: ../woochimp.php:761
+msgid "Add Field"
+msgstr ""
+
+#: ../woochimp.php:762 ../woochimp.php:1151
+msgid "Add Set"
+msgstr ""
+
+#: ../woochimp.php:765 ../woochimp.php:983
+msgid "Set #"
+msgstr ""
+
+#: ../woochimp.php:766
+msgid "Custom Order Field"
+msgstr ""
+
+#: ../woochimp.php:767
+msgid "Static Value"
+msgstr ""
+
+#: ../woochimp.php:769
+#, php-format
+msgid ""
+"%s Response received from your server is <a href=\"%s\" target=\"_blank"
+"\">malformed</a>."
+msgstr ""
+
+#: ../woochimp.php:771
+msgid "View Log"
+msgstr ""
+
+#: ../woochimp.php:772
+msgid "Please enable the logging first."
+msgstr ""
+
+#: ../woochimp.php:805 ../woochimp.php:819
+#, php-format
+msgid ""
+"Email address field is always displayed, however, you may wish to set up "
+"additional fields here and associate them with MailChimp's <a href=\"%s\" "
+"target=\"_blank\">merge tags</a>."
+msgstr ""
+
+#: ../woochimp.php:829
+msgid ""
+"Use this if you wish to add a checkbox to your Checkout page so users can "
+"opt-in to receive your newsletters."
+msgstr ""
+
+#: ../woochimp.php:838
+msgid ""
+"Use this if you wish to subscribe all customers to one of your lists without "
+"asking for their consent."
+msgstr ""
+
+#: ../woochimp.php:847
+#, php-format
+msgid ""
+"Ecommerce 360 is MailChimp feature, which gives you the ability to track "
+"individual visitors from your MailChimp campaigns and capture order "
+"information (<a href=\"%s\" target=\"_blank\">read more in documentation</"
+"a>).<br>If enabled, after subscribing new user it sends order data to "
+"MailChimp. It is also possible to remove the order from MailChimp if it was "
+"cancelled or refunded on your site."
+msgstr ""
+
+#: ../woochimp.php:848
+msgid ""
+"For this feature to work correctly, make sure you activate this on both "
+"sides - WooChimp's settings and MailChimp's campaign settings. Also note "
+"that if you set up to subscribe user only after payment received or order "
+"marked completed, no data will be sent until that."
+msgstr ""
+
+#: ../woochimp.php:925
+msgid "No condition"
+msgstr ""
+
+#: ../woochimp.php:926
+msgid "Products in cart"
+msgstr ""
+
+#: ../woochimp.php:927
+msgid "Product variations in cart"
+msgstr ""
+
+#: ../woochimp.php:928
+msgid "Product categories in cart"
+msgstr ""
+
+#: ../woochimp.php:929 ../woochimp.php:1098
+msgid "Order total"
+msgstr ""
+
+#: ../woochimp.php:930 ../woochimp.php:1125
+msgid "Custom field value"
+msgstr ""
+
+#: ../woochimp.php:931 ../woochimp.php:1129
+msgid "Customer roles"
+msgstr ""
+
+#: ../woochimp.php:977
+msgid ""
+"Select mailing list and groups that customers will be added to. Multiple "
+"sets of list and groups with conditional selection are supported.<br /"
+">Please note that if criteria of more than one set is matched, user will be "
+"subscribed multiple times to multiple lists/groups."
+msgstr ""
+
+#: ../woochimp.php:983
+msgid "Remove"
+msgstr ""
+
+#: ../woochimp.php:1001
+msgid "Condition"
+msgstr ""
+
+#: ../woochimp.php:1014 ../woochimp.php:1022 ../woochimp.php:1030
+#: ../woochimp.php:1038 ../woochimp.php:1049 ../woochimp.php:1106
+msgid "Operator"
+msgstr ""
+
+#: ../woochimp.php:1017 ../woochimp.php:1025 ../woochimp.php:1033
+#: ../woochimp.php:1112
+msgid "Contains"
+msgstr ""
+
+#: ../woochimp.php:1018 ../woochimp.php:1026 ../woochimp.php:1034
+#: ../woochimp.php:1113
+msgid "Does not contain"
+msgstr ""
+
+#: ../woochimp.php:1041 ../woochimp.php:1116
+msgid "Less than"
+msgstr ""
+
+#: ../woochimp.php:1042 ../woochimp.php:1117
+msgid "Less than or equal to"
+msgstr ""
+
+#: ../woochimp.php:1043 ../woochimp.php:1118
+msgid "Equal to"
+msgstr ""
+
+#: ../woochimp.php:1044 ../woochimp.php:1119
+msgid "Greater than or equal to"
+msgstr ""
+
+#: ../woochimp.php:1045 ../woochimp.php:1120
+msgid "Greater than"
+msgstr ""
+
+#: ../woochimp.php:1052 ../woochimp.php:1110
+msgid "Is"
+msgstr ""
+
+#: ../woochimp.php:1053 ../woochimp.php:1111
+msgid "Is not"
+msgstr ""
+
+#: ../woochimp.php:1057
+msgid "Products"
+msgstr ""
+
+#: ../woochimp.php:1071
+msgid "Variations"
+msgstr ""
+
+#: ../woochimp.php:1085
+msgid "Product categories"
+msgstr ""
+
+#: ../woochimp.php:1102
+msgid "Custom field key"
+msgstr ""
+
+#: ../woochimp.php:1788
+msgid "Your settings have been saved."
+msgstr ""
+
+#: ../woochimp.php:1794
+msgid "must be numeric"
+msgstr ""
+
+#: ../woochimp.php:1795
+msgid "must be either 0 or 1"
+msgstr ""
+
+#: ../woochimp.php:1796
+msgid "is not allowed"
+msgstr ""
+
+#: ../woochimp.php:1797
+msgid "is not a valid email address"
+msgstr ""
+
+#: ../woochimp.php:1798
+msgid "is not a valid URL"
+msgstr ""
+
+#: ../woochimp.php:1799
+msgid "is not a valid text string"
+msgstr ""
+
+#: ../woochimp.php:1805
+msgid "Reverted to a previous state."
+msgstr ""
+
+#: ../woochimp.php:1810
+msgid "Value of"
+msgstr ""
+
+#: ../woochimp.php:1913
+msgid "Support"
+msgstr ""
+
+#: ../woochimp.php:1960
+msgid "Unable to load lists"
+msgstr ""
+
+#: ../woochimp.php:1966
+msgid "No lists found"
+msgstr ""
+
+#: ../woochimp.php:1997
+msgid "Unable to load groups"
+msgstr ""
+
+#: ../woochimp.php:2005
+msgid "No groups found"
+msgstr ""
+
+#: ../woochimp.php:2079
+msgid "Unable to load merge vars"
+msgstr ""
+
+#: ../woochimp.php:2085
+msgid "No merge vars found"
+msgstr ""
+
+#: ../woochimp.php:2122
+msgid "No API key provided"
+msgstr ""
+
+#: ../woochimp.php:2127
+msgid "PHP Curl extension not loaded on your server"
+msgstr ""
+
+#: ../woochimp.php:2139
+msgid "Unable to initialize MailChimp class"
+msgstr ""
+
+#: ../woochimp.php:2157
+msgid "Something went wrong..."
+msgstr ""
+
+#: ../woochimp.php:2218
+msgid "Integration not enabled or API key not set"
+msgstr ""
+
+#: ../woochimp.php:2233
+msgid "Successfully connected to MailChimp"
+msgstr ""
+
+#: ../woochimp.php:2235
+msgid "Account name"
+msgstr ""
+
+#: ../woochimp.php:2237
+msgid "Industry"
+msgstr ""
+
+#: ../woochimp.php:2239
+msgid "Plan type"
+msgstr ""
+
+#: ../woochimp.php:2241
+msgid "Is trial"
+msgstr ""
+
+#: ../woochimp.php:2241 ../woochimp.php:2243
+msgid "Yes"
+msgstr ""
+
+#: ../woochimp.php:2241 ../woochimp.php:2243
+msgid "No"
+msgstr ""
+
+#: ../woochimp.php:2243
+msgid "Ecommerce360 enabled"
+msgstr ""
+
+#: ../woochimp.php:2243
+msgid "Unknown"
+msgstr ""
+
+#: ../woochimp.php:2247
+msgid "Connection to MailChimp failed."
+msgstr ""
+
+#: ../woochimp.php:2251
+msgid "Reason"
+msgstr ""
+
+#: ../woochimp.php:3175
+msgid "Grouping"
+msgstr ""
+
+#: ../woochimp.php:3565
+msgid "Nothing found."
+msgstr ""
+
+#: ../woochimp.php:3571
+msgid "No query was sent."
+msgstr ""

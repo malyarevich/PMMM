@@ -1,0 +1,410 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+
+# mbc-pretty-emails
+msgid "WooCommerce Pretty Emails"
+msgstr "WooCommerce Pretty Emails"
+
+msgid ""
+"Please feel free to send us an email if you have any issue at "
+"support@mbcreation.net"
+msgstr ""
+"Please feel free to send us an email if you have any issue at "
+"support@mbcreation.net"
+
+msgid "Email Preview"
+msgstr "Email Preview"
+
+msgid "! Email Preview is disabled !"
+msgstr "! Email Preview is disabled !"
+
+msgid ""
+"You need to have at least one completed order to enable the preview mode."
+msgstr ""
+"You need to have at least one completed order to enable the preview mode."
+
+msgid "Header Image Link"
+msgstr "Header Image Link"
+
+msgid "Enter here an url to make your banner clickable."
+msgstr "Enter here an url to make your banner clickable."
+
+msgid "Company Logo"
+msgstr "Company Logo"
+
+msgid ""
+"Enter a URL to display your logo. Upload your image using the <a href=\"%s"
+"\">media uploader</a>."
+msgstr ""
+"Enter a URL to display your logo. Upload your image using the <a href=\"%s"
+"\">media uploader</a>."
+
+msgid "Logo Link"
+msgstr "Logo Link"
+
+msgid "Enter here an url to make your logo clickable."
+msgstr "Enter here an url to make your logo clickable."
+
+msgid "Footer Logo width"
+msgstr "Footer Logo width"
+
+msgid "The footer logo width. Default <code>175</code>."
+msgstr "The footer logo width. Default <code>175</code>."
+
+msgid "Set this value to 0 if you want to remove the logo from the footer"
+msgstr "Set this value to 0 if you want to remove the logo from the footer"
+
+msgid "Email Template Width"
+msgstr "Email Template Width"
+
+msgid "The email template width. Default <code>700</code>."
+msgstr "The email template width. Default <code>700</code>."
+
+msgid "Logo display template"
+msgstr "Logo display template"
+
+msgid "Header template (default) or centered logo (with menu above)"
+msgstr "Header template (default) or centered logo (with menu above)"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Centered Logo"
+msgstr "Centered Logo"
+
+msgid "This setting only apply on every emails"
+msgstr "This setting only apply on every emails"
+
+msgid "Body font size"
+msgstr "Body font size"
+
+msgid "Body font size in pixels. Default <code>12</code>."
+msgstr "Body font size in pixels. Default <code>12</code>."
+
+msgid "Body font family"
+msgstr "Body font family"
+
+msgid "Font family that will be used everywhere but heading tags"
+msgstr "Font family that will be used everywhere but heading tags"
+
+msgid "Heading 1 font size"
+msgstr "Heading 1 font size"
+
+msgid "H1 tag font size in pixels. Default <code>18</code>."
+msgstr "H1 tag font size in pixels. Default <code>18</code>."
+
+msgid "Heading 1 font color"
+msgstr "Heading 1 font color"
+
+msgid "Heading 1 font color. Default <code>#FFFFFF</code>."
+msgstr "Heading 1 font color. Default <code>#FFFFFF</code>."
+
+msgid "Heading 2 font size"
+msgstr "Heading 2 font size"
+
+msgid "H2 tag font size in pixels. Default <code>18</code>."
+msgstr "H2 tag font size in pixels. Default <code>16</code>."
+
+msgid "Heading 2 font color"
+msgstr "Heading 2 font color"
+
+msgid "Heading 2 font color. Default <code>#505050</code>."
+msgstr "Heading 2 font color. Default <code>#505050</code>."
+
+msgid "Heading 3 font size"
+msgstr "Heading 3 font size"
+
+msgid "H3 tag font size in pixels. Default <code>18</code>."
+msgstr "H3 tag font size in pixels. Default <code>14</code>."
+
+msgid "Heading 3 font color"
+msgstr "Heading 3 font color"
+
+msgid "Heading 3 font color. Default <code>#505050</code>."
+msgstr "Heading 3 font color. Default <code>#505050</code>."
+
+msgid "Headings font family"
+msgstr "Headings font family"
+
+msgid "Font family that will be used in every heading tags"
+msgstr "Font family that will be used in every heading tags"
+
+msgid "Download link font size"
+msgstr "Download link font size"
+
+msgid "Download link font size in pixels. Default <code>12</code>."
+msgstr "Download link font size in pixels. Default <code>12</code>."
+
+msgid "Download link font color"
+msgstr "Download link font color"
+
+msgid "Download link font color. Default <code>#000</code>."
+msgstr "Download link font color. Default <code>#000</code>."
+
+msgid "Main border color"
+msgstr "Main border color"
+
+msgid "Surrounding the main table. Default <code>#EEE</code>."
+msgstr "Surrounding the main table. Default <code>#EEE</code>."
+
+msgid "Order table border color"
+msgstr "Order table border color"
+
+msgid "Surrounding order tables. Default <code>#EEE</code>."
+msgstr "Surrounding order tables. Default <code>#EEE</code>."
+
+msgid "Product Thumbnails"
+msgstr "Product Thumbnails"
+
+msgid "Display product thumbnails in email"
+msgstr "Display product thumbnails in email"
+
+msgid "Product Thumbnails Size"
+msgstr "Product Thumbnails Size"
+
+msgid "Product Thumbnails Size. Default <code>32</code>."
+msgstr "Product Thumbnails Size. Default <code>32</code>."
+
+msgid "Product SKU"
+msgstr "Product SKU"
+
+msgid "Display sku in email"
+msgstr "Display sku in email"
+
+msgid "Extra link one"
+msgstr "Extra link one"
+
+msgid "Display a link in your email header."
+msgstr "Display a link in your email header."
+
+msgid "Extra link two"
+msgstr "Extra link two"
+
+msgid "Extra link three"
+msgstr "Extra link three"
+
+msgid "Extra link colors"
+msgstr "Extra link colors"
+
+msgid ""
+"I you add nav menu in your header (extra links), then you can set a color. "
+"Default <code>#0000EE</code>."
+msgstr ""
+"I you add nav menu in your header (extra links), then you can set a color. "
+"Default <code>#0000EE</code>."
+
+msgid "Facebook page URL"
+msgstr "Facebook page URL"
+
+msgid "Enter your Facebook page url to display your Facebook logo in footer"
+msgstr "Enter your Facebook page url to display your Facebook logo in footer"
+
+msgid "Facebook custom logo"
+msgstr "Facebook custom logo"
+
+msgid ""
+"Enter your Facebook custom image url to display your own Facebook logo in "
+"footer"
+msgstr ""
+"Enter your Facebook custom image url to display your own Facebook logo in "
+"footer"
+
+msgid "Twitter Profil URL"
+msgstr "Twitter Profil URL"
+
+msgid ""
+"Enter your Twitter profile page url to display your Twitter logo in footer"
+msgstr ""
+"Enter your Twitter profile page url to display your Twitter logo in footer"
+
+msgid "Twitter custom logo"
+msgstr "Twitter custom logo"
+
+msgid ""
+"Enter your Twitter custom image url to display your own Twitter logo in "
+"footer"
+msgstr ""
+"Enter your Twitter custom image url to display your own Twitter logo in "
+"footer"
+
+msgid "Instagram profile URL"
+msgstr "Instagram profile URL"
+
+msgid ""
+"Enter your Instagram profile page url to display Instagram logo in footer"
+msgstr ""
+"Enter your Instagram profile page url to display Instagram logo in footer"
+
+msgid "Instagram custom logo"
+msgstr "Instagram custom logo"
+
+msgid ""
+"Enter your Instagram custom image url to display your own Instagram logo in "
+"footer"
+msgstr ""
+"Enter your Instagram custom image url to display your own Instagram logo in "
+"footer"
+
+msgid "Pinterest profile URL"
+msgstr "Pinterest profile URL"
+
+msgid ""
+"Enter your Pinterest profile page url to display Pinterest logo in footer"
+msgstr ""
+"Enter your Pinterest profile page url to display Pinterest logo in footer"
+
+msgid "Pinterest custom logo"
+msgstr "Pinterest custom logo"
+
+msgid ""
+"Enter your Pinterest custom image url to display your own Pinterest logo in "
+"footer"
+msgstr ""
+"Enter your Pinterest custom image url to display your own Pinterest logo in "
+"footer"
+
+msgid "Google+ profile URL"
+msgstr "Google+ profile URL"
+
+msgid "Enter your Google+ profile page url to display Google+ logo in footer"
+msgstr "Enter your Google+ profile page url to display Google+ logo in footer"
+
+msgid "Google + custom logo"
+msgstr "Google + custom logo"
+
+msgid ""
+"Enter your Google + custom image url to display your own Google + logo in "
+"footer"
+msgstr ""
+"Enter your Google + custom image url to display your own Google + logo in "
+"footer"
+
+msgid "Specific settings for the \"customer processing order\" email"
+msgstr "Specific settings for the \"customer processing order\" email"
+
+msgid ""
+"The text to appear in the introduction for the customer processing order "
+"email"
+msgstr ""
+"The text to appear in the introduction for the customer processing order "
+"email"
+
+msgid ""
+"Enter an image URL to display a banner on the processing order email. Upload "
+"your image using the <a href=\"%s\">media uploader</a>."
+msgstr ""
+"Enter an image URL to display a banner on the processing order email. Upload "
+"your image using the <a href=\"%s\">media uploader</a>."
+
+msgid "This setting only apply on the \"Customer Processing Order email\""
+msgstr "This setting only apply on the \"Customer Processing Order email\""
+
+msgid "Display the banner before or after the order table"
+msgstr "Display the banner before or after the order table"
+
+msgid "After order table"
+msgstr "After order table"
+
+msgid "Before order table"
+msgstr "Before order table"
+
+msgid "Enter an url to make that banner clickable"
+msgstr "Enter an url to make that banner clickable"
+
+msgid ""
+"Add an attachment (absolute url of a WordPress uploads file ), i.e. https://"
+"www.yoursite.com/wp-content/uploads/terms-and-conditions.pdf"
+msgstr ""
+"Add an attachment (absolute url of a WordPress uploads file ), i.e. https://"
+"www.yoursite.com/wp-content/uploads/terms-and-conditions.pdf"
+
+msgid "Specific settings for the \"customer completed order\" email"
+msgstr "Specific settings for the \"customer completed order\" email"
+
+msgid ""
+"The text to appear in the introduction for the customer completed order email"
+msgstr ""
+"The text to appear in the introduction for the customer completed order email"
+
+msgid "This setting only apply on the \"Customer Completed Order email\""
+msgstr "This setting only apply on the \"Customer Completed Order email\""
+
+msgid ""
+"Add an attachment (absolute url of a WordPress uploads file ), i.e. https://"
+"www.yoursite.com/uploads/terms-and-conditions.pdf"
+msgstr ""
+"Add an attachment (absolute url of a WordPress uploads file ), i.e. https://"
+"www.yoursite.com/uploads/terms-and-conditions.pdf"
+
+msgid "Introduction for customer new account email"
+msgstr "Introduction for customer new account email"
+
+msgid ""
+"The text to appear in the introduction for the customer new account email"
+msgstr ""
+"The text to appear in the introduction for the customer new account email.  "
+"{{blogname}}, {{user_login}} and {{user_pass}} can be used as variables"
+
+msgid "Introduction for customer on-hold order email"
+msgstr "Introduction for customer on-hold order email"
+
+msgid ""
+"The text to appear in the introduction for the customer on-hold order email"
+msgstr ""
+"The text to appear in the introduction for the customer on-hold order email"
+
+msgid "Introduction for customer note email"
+msgstr "Introduction for customer note email"
+
+msgid "The text to appear in the introduction for the customer note email"
+msgstr "The text to appear in the introduction for the customer note email"
+
+msgid ""
+"Do not forget to include {{customer_note}} in your text where you want to "
+"display the actual note"
+msgstr ""
+"Do not forget to include {{customer_note}} in your text where you want to "
+"display the actual note"
+
+msgid "Introduction for customer invoice email"
+msgstr "Introduction for customer invoice email"
+
+msgid "The text to appear in the introduction for the customer invoice email"
+msgstr ""
+"The text to appear in the introduction for the customer invoice email (don't "
+"forget to include {{pay_url}} to display the link to the payment of the "
+"order)"
+
+msgid "Override new user email notification"
+msgstr "Override new user email notification"
+
+msgid "New user notication email will be styled using Pretty email template"
+msgstr "New user notication email will be styled using Pretty email template"
+
+#~ msgid "Customer processing order template"
+#~ msgstr "Customer processing order"
+
+#~ msgid "Customer completed order template"
+#~ msgstr "Customer completed order"
+
+#~ msgid "Customer invoice order template"
+#~ msgstr "Customer invoice"
+
+#~ msgid "Customer note order template"
+#~ msgstr "Customer note"
+
+#~ msgid "Customer new account"
+#~ msgstr "Customer new account"
+
+#~ msgid "<a href=\"%s\" target=\"_blank\">'.__('New order template"
+#~ msgstr "<a href=\"%s\" target=\"_blank\">'.__('Admin new order"

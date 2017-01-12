@@ -1,0 +1,249 @@
+4.4.1:
+- Sendgrid api v3.0 fix,
+4.4.0:
+- Sendgrid api v3.0 integration,
+- minor bug fixed,
+4.3.9:
+- minor bug fixed,
+4.3.8:
+- fix for Map element,
+4.3.7:
+- fix for old PHP versions,
+4.3.6:
+- fix for old PHP versions,
+4.3.5:
+- Different cookies for each popups added,
+- Sendlane support,
+- minor bug fixed,
+4.3.4:
+- E-goi fix,
+4.3.3:
+- Builder: added Map element,
+- minor bug fixed,
+4.3.2:
+- E-goi fix,
+- E-goi double opt-in support,
+- Minor bugs fixed,
+- Customer.io support,
+- Link on Theme Image added,
+- MailChimp field selector added,
+- MailerLite Bug fix,
+- Builder: added Youtube element,
+- Subscribe2 support,
+4.3.1:
+- MailRelay Support,
+4.3.0:
+- Mailchimp Bug fix,
+- MailUp Support,
+4.2.9:
+- Subscription Log added,
+- Custom Fields names fixed,
+4.2.8:
+- exclude urls from exit popup by css class (noexitpopup),
+4.2.7:
+- ActiveCampaign double opt-in Support,
+- Fix for AWeber API (ip address),
+- Fix for ActiveCampaign API,
+4.2.6:
+- Sendreach Support,
+- Newsletter Support,
+- Ontraport Support,
+- Minor bugs fixed,
+4.2.5:
+- Minor bugs fixed,
+- MailChimp API Fixes,
+4.2.4:
+- SalesManago Support,
+- SendPulse Support,
+4.2.3:
+- MailJet Support,
+- Minor bugs fixed,
+4.2.2:
+- Fixes for Widget Add-on,
+- Minor bugs fixed,
+- SendGrid Support,
+- BenchmarkEmail Support,
+- Added Cookie Prefix in Advanced Settings,
+4.2.1:
+- AgileCRM Support,
+4.2:
+- MyEmma Support,
+- SalesAutopilot Support,
+- ElasticEmail Support,
+4.1.5:
+- Drag&Drop Builder: added pointlist,
+- Drag&Drop Builder: aspect radio in image element,
+- Fixes in Preview,
+- MailerLite Support,
+4.1.1:
+- RocketResponder Support,
+- fixed problem with 4.1 and Bars Add-on,
+- fixed problem with popup import (WXR_Parser_SimpleXML),
+4.1:
+- fixes in Drag&Drop Builder,
+- fixes in Popup Library,
+- fix for cookie path,
+4.0:
+- Drag&Drop Builder,
+- Popups Library,
+- ActiveCampaign Support,
+- FreshMail Support,
+- SendInBlue Support,
+- Minor bugs fixed,
+- Infusionsoft API fix,
+- Performance fix,
+- Referer url in mail footer,
+3.9:
+- minor bugs fixes,
+- Infusionsoft API fix,
+3.8.2:
+- Fix in Constant Contact integration, 
+3.8.1:
+- Improved WPML Support,
+3.8:
+- e-goi support,
+- better compatibility with CloudFlare,
+3.7:
+- JS Performance fix,
+- PHP fixes
+3.6.4:
+- minor bug fixed,
+3.6.3:
+- Fix in Auto Updates,
+3.6.2:
+- PHP bug fixed,
+3.6:
+- Auto Updates,
+- SendPress Support,
+- Select Popups by Taxonomies,
+- MyMail: double/single optin setting,
+- Added New Theme 8,
+- PNGs optimalization,
+- Performance updates,
+- Minor bugs fixed,
+3.5:
+- MyMail 2.0 Support,
+- better Custom Fields validation,
+- minor bugs fixed,
+3.4:
+- statistics reset link,
+- setting Popups by Categories,
+- better WooCommerce support,
+- MailChimp: send welcome message setting,
+- Constant Contact: send welcome message setting,
+3.3.1:
+- fix in Analytics,
+3.3:
+- Google Analytics Event Tracking,
+- Open Popup on Scroll,
+- Open Popup after X sec of User Inactivity,
+- JS and CSS fixes and optimization,
+- fixes in A/B testing,
+- Cloning popups feature,
+- One button mode in New Theme 6 and 7,
+3.2.3:
+- fix for Sendy API,
+3.2.2:
+- hidden field fix,
+3.2:
+- 2 New Themes,
+- sendy.co API Support,
+- hidden type in custom fields,
+- added GET/POST/COOKIE variable to prevent loading popup (http://domain/page?nphide=1)
+- selftest warning (check curl, safe mode, wp version),
+- FB locale settings,
+- css fixes in themes,
+3.1.1:
+- css fixes in themes,
+3.1:
+- A/B Testing,
+- Analytics,
+- Improving performance (JS, CSS),
+- Double/Single Optin option for MailChimp,
+3.0.3:
+- fix for Constant Contact API,
+3.0.2:
+- fix in sidebar scrolling,
+3.0.1:
+- fixes in new themes,
+3.0:
+- 5 New Themes,
+- MadMimi support,
+- Infusionsoft support,
+- Custom Fields support,
+- Exit Intent, 
+- Success message after submit,
+- Fixed many small bugs,
+2.5:
+- fix dor new mailchimp api,
+2.4:
+- new mailchimp api,
+2.3:
+- fix for exit popup with long alert text,
+2.2:
+- fix for files paths,
+- better HTML Forms support,
+- directmail support,
+2.1:
+- fixes in responsive layouts,
+- option for open popup by link in menu,
+2.0:
+- support for themes pack,
+- general fixes,
+- fixes in responsive layouts,
+1.9:
+- responsive,
+1.8:
+- added: disabled welcome/exit popup for logged users,
+- added: exit popup for external links in menu, sidebars, footer etc.
+- fixed minor bugs,
+1.7.1:
+- fix for campaing monitor,
+1.7:
+- added button for shortcodes,
+- fix for last/first name in opt-ins,
+1.6.2:
+- Loading text on submit button,
+- renamed jquery.cookie.js to jquery.ck.js,
+- general fixes,
+1.6.1:
+- new media uploader,
+1.6:
+- new themes,
+- general fixes,
+1.5.2:
+- disable close timer after start typing name or email,
+1.5.1:
+- new fancybox 2.1.4,
+1.5:
+- option for disable plugin column in posts/pages list,
+- fixed minor bugs,
+1.4.1:
+- MyMail support,
+1.4:
+- wysija support,
+- fixed minor bugs,
+- fixed conflict with fancybox 1.3.4,
+1.3.1:
+- fixed options for disable fancybox js loading,
+- fixed css reset for twenty twelve theme,
+1.3:
+- AWeber support,
+- fixed conflict with themes based on nhp framework,
+- fixed problem with shortcode and content builder plugins,
+- added autoopen param to shortcode,
+- fix for links with singles quotes,
+- better catching when user is leaving website  in exit popups,
+1.2:
+- fixed bugs in JS,
+- fixed bugs in CSS,
+- fix for windows server,
+- updated fancybox to  2.1.3,
+- added Google Maps Popup,
+- fixed bug in preview,
+1.1:
+- fixed placeholder in IE,
+- added shortcode for open popup by link in content,
+- added "Redirect after opt-in",
+- added column Ninja Popups in posts/pages list,
+- added cookie settings

@@ -1,0 +1,4 @@
+ul#woo-bage-sort-list li{background:#B670A9;color:#fff;width:60%;padding:8px;overflow:hidden;cursor:move}ul#woo-bage-sort-list li.ui-sortable-helper{background:#CC99C2}img.woo_pro_badges_admin_sort_image{float:left;margin-right:10px;width:35px;height:35px}span.woo_pro_badges_admin_sort_title{line-height:30px}#loading-animation{display:none}
+.woo_pro_meta_box span.select2, .woo_pro_meta_box.rwmb-text-wrapper input {
+    width: 100%;
+}

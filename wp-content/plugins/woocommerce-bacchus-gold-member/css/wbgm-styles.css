@@ -1,0 +1,26 @@
+.wbgm-gold-member-add-to-cart {
+    background-color: #ebb566;
+    width: 265px;
+    height: 60px;
+    padding: 20px;
+    color: #fefaf5;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+.wbgm-gold-member-add-to-cart:hover {
+    color: #ffffff;
+    border: 0px;
+}
+
+.wbgm-gift-item {
+    height: auto;
+}
+#mobile-header>.col-sm-6.tb-left {
+    top: -20px;
+    position: relative;
+}
+
+.woocommerce-info {
+    display: block!important;
+}

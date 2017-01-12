@@ -1,0 +1,2590 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RulesEngine v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-06-09 08:05+0530\n"
+"Last-Translator: RulesEngine <rules4wp@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ rulesengine
+#: includes/category-rules-add.php:7
+msgid "Add Category Rule"
+msgstr "Add Category Rule"
+
+# @ rulesengine
+#: includes/category-rules-add.php:16 includes/category-rules-edit.php:31
+#: includes/logical-rules-add.php:11 includes/logical-rules-edit.php:30
+#: includes/page-rules-add.php:16 includes/page-rules-edit.php:82
+#: includes/post-rules-add.php:16 includes/post-rules-edit.php:85
+#: includes/redirect-rule-edit.php:32 includes/redirect-rules-add.php:23
+#: includes/theme-rules-add.php:15 includes/widget-rules-add.php:21
+#: includes/widget-rules-edit.php:35
+msgid "Rule Name"
+msgstr "Rule Name"
+
+# @ rulesengine
+#: includes/category-rules-add.php:31 includes/category-rules-edit.php:47
+#: includes/category-rules-list.php:24 includes/category-rules-list.php:64
+#: includes/logical-rules-add.php:50 includes/logical-rules-edit.php:84
+#: includes/logical-rules-list.php:23 includes/logical-rules-list.php:65
+#: includes/page-rules-add.php:67 includes/page-rules-edit.php:123
+#: includes/page-rules-list.php:25 includes/page-rules-list.php:67
+#: includes/post-rules-add.php:82 includes/post-rules-edit.php:126
+#: includes/post-rules-list.php:26 includes/post-rules-list.php:69
+#: includes/redirect-rule-edit.php:47 includes/redirect-rules-add.php:37
+#: includes/redirect-rules-list.php:24 includes/redirect-rules-list.php:65
+#: includes/theme-rules-add.php:30 includes/theme-rules-edit.php:49
+#: includes/theme-rules-list.php:25 includes/theme-rules-list.php:66
+#: includes/widget-rules-add.php:35 includes/widget-rules-edit.php:51
+#: includes/widget-rules-list.php:25 includes/widget-rules-list.php:67
+msgid "Description"
+msgstr "Description"
+
+# @ rulesengine
+#: includes/category-rules-add.php:39 includes/category-rules-add.php:154
+#: includes/category-rules-edit.php:55
+msgid "Select Category"
+msgstr "Select Category"
+
+# @ rulesengine
+#: includes/category-rules-add.php:60 includes/page-rules-add.php:29
+#: includes/post-rules-add.php:29 includes/post-rules-edit.php:99
+#: includes/widget-rules-add.php:71 includes/widget-rules-edit.php:90
+msgid "Select Logical Rule"
+msgstr "Select Logical Rule"
+
+# @ rulesengine
+#: includes/category-rules-add.php:83 includes/category-rules-edit.php:99
+#: includes/page-rules-add.php:92 includes/post-rules-add.php:105
+#: includes/widget-rules-add.php:92 includes/widget-rules-edit.php:106
+msgid "Select Action"
+msgstr "Select Action"
+
+# @ rulesengine
+#: includes/category-rules-add.php:87 includes/category-rules-edit.php:104
+msgid "Hide category"
+msgstr "Hide category"
+
+# @ rulesengine
+#: includes/category-rules-add.php:92 includes/theme-rules-add.php:83
+#: includes/widget-rules-add.php:107
+msgid "Select Status"
+msgstr "Select Status"
+
+# @ rulesengine
+#: includes/category-rules-add.php:96 includes/category-rules-edit.php:115
+#: includes/category-rules-list.php:36 includes/logical-rules-add.php:42
+#: includes/logical-rules-edit.php:69 includes/logical-rules-edit.php:72
+#: includes/logical-rules-list.php:35 includes/page-rules-add.php:58
+#: includes/page-rules-edit.php:114 includes/page-rules-list.php:38
+#: includes/post-rules-add.php:73 includes/post-rules-edit.php:116
+#: includes/post-rules-list.php:38 includes/redirect-rule-edit.php:106
+#: includes/redirect-rules-add.php:94 includes/redirect-rules-list.php:37
+#: includes/theme-rules-add.php:87 includes/theme-rules-edit.php:100
+#: includes/theme-rules-list.php:38 includes/widget-rules-add.php:112
+#: includes/widget-rules-edit.php:127 includes/widget-rules-list.php:37
+msgid "Active"
+msgstr "Active"
+
+# @ rulesengine
+#: includes/category-rules-add.php:97 includes/category-rules-edit.php:116
+#: includes/category-rules-list.php:37 includes/logical-rules-add.php:43
+#: includes/logical-rules-edit.php:70 includes/logical-rules-edit.php:73
+#: includes/logical-rules-list.php:36 includes/page-rules-add.php:59
+#: includes/page-rules-edit.php:115 includes/page-rules-list.php:39
+#: includes/post-rules-add.php:74 includes/post-rules-edit.php:117
+#: includes/post-rules-list.php:39 includes/redirect-rule-edit.php:107
+#: includes/redirect-rules-add.php:95 includes/redirect-rules-list.php:38
+#: includes/theme-rules-add.php:88 includes/theme-rules-edit.php:101
+#: includes/theme-rules-list.php:39 includes/widget-rules-add.php:113
+#: includes/widget-rules-edit.php:128 includes/widget-rules-list.php:38
+msgid "Deactive"
+msgstr "Deactive"
+
+# @ rulesengine
+#. translators: plugin header field 'Name'
+#: includes/rules-settings.php:48 rules-engine-index.php:0
+msgid "RulesEngine"
+msgstr "RulesEngine"
+
+# @ rulesengine
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: rules-engine-index.php:0
+msgid "http://wiki-rulesengine.wc.lt/"
+msgstr "http://wiki-rulesengine.wc.lt/"
+
+# @ rulesengine
+#. translators: plugin header field 'Description'
+#: rules-engine-index.php:0
+msgid "RulesEngine is designed for defining rules for wordpress components, such as <strong> Pages, Posts, Categories, Themes, Widgets and URL Redirection.</strong> Read <a target=\"_blank\" href=\"http://wiki-rulesengine.wc.lt/\">documentation</a> or watch quick start <a target=\"_blank\"  href=\"http://wiki-rulesengine.wc.lt/video-tutorials/\">video tutorials </a>."
+msgstr "RulesEngine is designed for defining rules for wordpress components, such as <strong> Pages, Posts, Categories, Themes, Widgets and URL Redirection.</strong> Read <a target=\"_blank\" href=\"http://wiki-rulesengine.wc.lt/\">documentation</a> or watch quick start <a target=\"_blank\"  href=\"http://wiki-rulesengine.wc.lt/video-tutorials/\">video tutorials </a>."
+
+# @ rulesengine
+#. translators: plugin header field 'Author'
+#: rules-engine-index.php:0 rules-engine-index.php:70
+msgid "Rules Engine"
+msgstr "Rules Engine"
+
+# @ rulesengine
+#. translators: plugin header field 'Version'
+#: rules-engine-index.php:0
+msgid "1.1"
+msgstr "1.1"
+
+# @ rulesengine
+#: rules-engine-index.php:280
+msgid "Could not load the localization file: "
+msgstr "Could not load the localization file: "
+
+# @ rulesengine
+#: includes/category-rules-add.php:109 includes/page-rules-add.php:200
+#: includes/post-rules-add.php:195 includes/redirect-rules-add.php:108
+#: includes/theme-rules-add.php:99 includes/widget-rules-add.php:128
+msgid "Save Rule"
+msgstr "Save Rule"
+
+# @ rulesengine
+#: includes/category-rules-add.php:114 includes/category-rules-edit.php:132
+#: includes/logical-rules-add.php:209 includes/logical-rules-edit.php:276
+#: includes/page-rules-add.php:205 includes/page-rules-edit.php:261
+#: includes/post-rules-add.php:200 includes/post-rules-edit.php:254
+#: includes/redirect-rule-edit.php:127 includes/redirect-rules-add.php:114
+#: includes/theme-rules-add.php:104 includes/theme-rules-edit.php:117
+#: includes/widget-rules-add.php:134 includes/widget-rules-edit.php:147
+msgid "Go Back"
+msgstr "Go Back"
+
+# @ rulesengine
+#: includes/category-rules-add.php:162 includes/category-rules-edit.php:80
+#: includes/category-rules-edit.php:191 includes/page-rules-add.php:275
+#: includes/page-rules-edit.php:96 includes/page-rules-edit.php:349
+#: includes/post-rules-add.php:247 includes/post-rules-edit.php:312
+#: includes/redirect-rule-edit.php:146 includes/redirect-rules-add.php:134
+#: includes/theme-rules-add.php:57 includes/theme-rules-add.php:149
+#: includes/theme-rules-edit.php:74 includes/theme-rules-edit.php:181
+#: includes/widget-rules-add.php:239 includes/widget-rules-edit.php:258
+msgid "Select Rule"
+msgstr "Select Rule "
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:32
+#: includes/category-rules-add.php:167 includes/category-rules-edit.php:196
+#: includes/page-rules-add.php:280 includes/page-rules-edit.php:354
+#: includes/post-rules-add.php:252 includes/post-rules-edit.php:338
+#: includes/theme-rules-add.php:154 includes/theme-rules-edit.php:186
+#: includes/widget-rules-add.php:244 includes/widget-rules-edit.php:263
+msgid "Select action"
+msgstr "Select action"
+
+# @ rulesengine
+#: includes/category-rules-add.php:184 includes/category-rules-edit.php:212
+#: includes/page-rules-add.php:292 includes/page-rules-edit.php:365
+#: includes/post-rules-add.php:263 includes/post-rules-edit.php:350
+#: includes/theme-rules-add.php:159 includes/theme-rules-edit.php:191
+#: includes/widget-rules-add.php:249 includes/widget-rules-edit.php:268
+msgid "Select status"
+msgstr "Select status"
+
+# @ rulesengine
+#: includes/category-rules-add.php:194 includes/post-rules-add.php:288
+msgid "Duplicate Post Rule name, Post Rule exists with same name"
+msgstr "Duplicate Post Rule name, Post Rule exists with same name"
+
+# @ rulesengine
+#: includes/category-rules-add.php:196 includes/post-rules-add.php:294
+msgid "Error occurred while creating post rule"
+msgstr "Error occurred while creating post rule"
+
+# @ rulesengine
+# @ ruleengine
+#: common/bis-rules-engine-localization.php:14
+#: includes/category-rules-add.php:25 includes/category-rules-edit.php:41
+#: includes/logical-rules-add.php:21 includes/logical-rules-edit.php:38
+#: includes/page-rules-edit.php:92 includes/post-rules-edit.php:95
+#: includes/theme-rules-edit.php:43 includes/widget-rules-edit.php:45
+msgid "Enter rule name"
+msgstr "Enter rule name"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:15
+msgid "Enter logical rule name"
+msgstr "Enter logical rule name"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:5
+msgid "New Logical Rule"
+msgstr "New Logical Rule"
+
+# @ rulesengine
+#: includes/category-rules-add.php:19 includes/category-rules-edit.php:34
+#: includes/logical-rules-add.php:14 includes/logical-rules-edit.php:33
+#: includes/page-rules-add.php:19 includes/page-rules-edit.php:85
+#: includes/post-rules-add.php:19 includes/redirect-rule-edit.php:35
+#: includes/redirect-rules-add.php:26 includes/theme-rules-add.php:18
+#: includes/widget-rules-edit.php:38
+msgid "Name is required and should be unique."
+msgstr "Name is required and should be unique."
+
+# @ rulesengine
+#: includes/logical-rules-add.php:26 includes/logical-rules-edit.php:42
+#: includes/logical-rules-list.php:64
+msgid "Action Hook"
+msgstr "Action Hook"
+
+msgid "Action hook method does not exist, Please define method with name"
+msgstr "Action hook method does not exist, Please define method with name"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:28 includes/logical-rules-edit.php:44
+msgid "Hook will be called if rule criteria is satisfied. Before entering action hook, please define a function with action hook.Action hook should not contain any spaces."
+msgstr "Hook will be called if rule criteria is satisfied. Before entering action hook, please define a function with action hook.Action hook should not contain any spaces."
+
+# @ rulesengine
+#: includes/logical-rules-add.php:35 includes/logical-rules-edit.php:53
+msgid "Enter action hook"
+msgstr "Enter action hook"
+
+# @ rulesengine
+#: includes/category-rules-edit.php:109 includes/category-rules-list.php:33
+#: includes/category-rules-list.php:66 includes/logical-rules-add.php:38
+#: includes/logical-rules-edit.php:57 includes/logical-rules-list.php:32
+#: includes/logical-rules-list.php:66 includes/page-rules-add.php:54
+#: includes/page-rules-edit.php:109 includes/page-rules-list.php:35
+#: includes/page-rules-list.php:69 includes/post-rules-add.php:69
+#: includes/post-rules-edit.php:111 includes/post-rules-list.php:35
+#: includes/post-rules-list.php:71 includes/redirect-rule-edit.php:102
+#: includes/redirect-rules-add.php:90 includes/redirect-rules-list.php:33
+#: includes/redirect-rules-list.php:66 includes/theme-rules-edit.php:95
+#: includes/theme-rules-list.php:34 includes/theme-rules-list.php:67
+#: includes/widget-rules-edit.php:122 includes/widget-rules-list.php:34
+#: includes/widget-rules-list.php:69
+msgid "Status"
+msgstr "Status"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:53 includes/redirect-rule-edit.php:50
+#: includes/redirect-rules-add.php:39
+msgid "Enter rule description"
+msgstr "Enter rule description"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:74
+msgid "Add Criteria"
+msgstr "Add Criteria"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:76 includes/logical-rules-edit.php:104
+msgid "All fields are required except operator field. Operator field is used to define more complex rules. Click to know more about how to define simple and complex rules."
+msgstr "All fields are required except operator field. Operator field is used to define more complex rules. Click to know more about how to define simple and complex rules."
+
+# @ rulesengine
+#: includes/logical-rules-add.php:91 includes/logical-rules-add.php:96
+#: includes/logical-rules-edit.php:118 includes/logical-rules-edit.php:123
+msgid "Operator"
+msgstr "Operator"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:92 includes/logical-rules-edit.php:119
+msgid "Criteria"
+msgstr "Criteria"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:93 includes/logical-rules-edit.php:120
+msgid "Sub Criteria"
+msgstr "Sub Criteria"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:94 includes/logical-rules-edit.php:121
+msgid "Condition"
+msgstr "Condition"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:95 includes/logical-rules-edit.php:122
+msgid "Value"
+msgstr "Value"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:98
+msgid "Remove criteria"
+msgstr "Remove criteria"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:170
+msgid "And"
+msgstr "And"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:171 includes/logical-rules-edit.php:247
+msgid "OR"
+msgstr "OR"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:204
+msgid " Save Rule"
+msgstr " Save Rule"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:227 includes/logical-rules-add.php:238
+msgid "More Criteria"
+msgstr "More Criteria"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:246
+msgid "Select Criteria"
+msgstr "Select Criteria"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:254 includes/logical-rules-add.php:325
+#: includes/logical-rules-add.php:392 includes/logical-rules-add.php:442
+#: includes/logical-rules-add.php:602 includes/logical-rules-add.php:603
+msgid "None Selected"
+msgstr "None Selected"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:285 includes/logical-rules-edit.php:401
+msgid "Duplicate rule name, Name should be unique."
+msgstr "Duplicate rule name, Name should be unique."
+
+# @ rulesengine
+#: includes/logical-rules-add.php:290
+msgid "Error occurred while creating rule."
+msgstr "Error occurred while creating rule."
+
+# @ rulesengine
+#: includes/logical-rules-edit.php:406
+msgid "Error occurred while updating rule."
+msgstr "Error occurred while updating rule."
+
+# @ rulesengine
+#: includes/category-rules-add.php:34 includes/category-rules-edit.php:50
+msgid "Enter category rule description"
+msgstr "Enter category rule description"
+
+# @ rulesengine
+#: includes/category-rules-edit.php:22
+msgid "Edit Category Rule"
+msgstr "Edit Category Rule"
+
+# @ rulesengine
+#: includes/category-rules-edit.php:127 includes/logical-rules-edit.php:271
+#: includes/page-rules-edit.php:256 includes/post-rules-edit.php:249
+#: includes/redirect-rule-edit.php:122 includes/theme-rules-edit.php:112
+#: includes/widget-rules-edit.php:142
+msgid "Update Rule"
+msgstr "Update Rule"
+
+# @ rulesengine
+#: includes/category-rules-edit.php:169
+msgid "Duplicate category rule name, Category Rule exists with same name"
+msgstr "Duplicate category rule name, Category Rule exists with same name"
+
+# @ rulesengine
+#: includes/category-rules-edit.php:171
+msgid "Error occurred while creating category rule"
+msgstr "Error occurred while creating category rule"
+
+# @ rulesengine
+#: includes/category-rules-edit.php:183
+msgid "Select Categories"
+msgstr "Select Categories"
+
+# @ rulesengine
+#: includes/category-rules-list.php:10 rules-engine-index.php:74
+msgid "Category Rules"
+msgstr "Category Rules"
+
+# @ rulesengine
+#: includes/category-rules-list.php:21 includes/logical-rules-list.php:20
+#: includes/page-rules-list.php:22 includes/post-rules-list.php:23
+#: includes/redirect-rules-list.php:20 includes/theme-rules-list.php:21
+#: includes/widget-rules-list.php:22
+msgid "Search by "
+msgstr "Search by"
+
+# @ rulesengine
+#: includes/category-rules-list.php:23 includes/category-rules-list.php:61
+#: includes/logical-rules-list.php:22 includes/logical-rules-list.php:63
+#: includes/page-rules-list.php:24 includes/page-rules-list.php:64
+#: includes/post-rules-list.php:25 includes/post-rules-list.php:66
+#: includes/redirect-rules-list.php:23 includes/redirect-rules-list.php:62
+#: includes/theme-rules-edit.php:33 includes/theme-rules-list.php:24
+#: includes/theme-rules-list.php:63 includes/widget-rules-list.php:24
+#: includes/widget-rules-list.php:63
+msgid "Name"
+msgstr "Name"
+
+# @ rulesengine
+#: includes/category-rules-list.php:29 includes/logical-rules-list.php:28
+#: includes/page-rules-list.php:31 includes/post-rules-list.php:31
+#: includes/redirect-rules-list.php:29 includes/theme-rules-list.php:30
+#: includes/widget-rules-list.php:30
+msgid "Enter search criteria"
+msgstr "Enter search criteria"
+
+# @ rulesengine
+#: includes/category-rules-list.php:35 includes/logical-rules-list.php:34
+#: includes/page-rules-list.php:37 includes/post-rules-list.php:37
+#: includes/redirect-rules-list.php:36 includes/theme-rules-list.php:37
+#: includes/widget-rules-list.php:36
+msgid "All"
+msgstr "All"
+
+# @ rulesengine
+#: includes/category-rules-list.php:42 includes/logical-rules-list.php:42
+#: includes/post-rules-list.php:45 includes/redirect-rules-list.php:43
+#: includes/theme-rules-list.php:44 includes/widget-rules-list.php:43
+msgid "Search Rules"
+msgstr "Search Rules"
+
+# @ rulesengine
+#: includes/category-rules-list.php:62
+msgid "Category"
+msgstr "Category"
+
+# @ rulesengine
+#: includes/category-rules-list.php:63 includes/page-rules-list.php:66
+#: includes/post-rules-list.php:68 includes/redirect-rules-list.php:64
+#: includes/theme-rules-list.php:65 includes/widget-rules-list.php:66
+msgid "Logical Rule Name"
+msgstr "Logical Rule Name"
+
+# @ rulesengine
+#: includes/category-rules-list.php:65 includes/page-rules-edit.php:149
+#: includes/post-rules-edit.php:156 includes/widget-rules-list.php:68
+msgid "Action"
+msgstr "Action"
+
+# @ rulesengine
+#: includes/category-rules-list.php:80
+msgid "Category Rule"
+msgstr "Category Rule"
+
+# @ rulesengine
+#: includes/category-rules-list.php:84 includes/logical-rules-list.php:85
+#: includes/page-rules-list.php:85 includes/post-rules-list.php:88
+#: includes/redirect-rules-list.php:81 includes/theme-rules-list.php:82
+#: includes/widget-rules-list.php:85
+msgid "Number of Rules"
+msgstr "Number of Rules"
+
+# @ rulesengine
+#: includes/logical-rules-edit.php:23
+msgid "Edit Logical Rule"
+msgstr "Edit Logical Rule"
+
+# @ rulesengine
+#: includes/logical-rules-edit.php:60
+msgid "Activating and deactiving logical rule will impact all dependent child rules"
+msgstr "Activating and deactiving logical rule will impact all dependent child rules"
+
+# @ rulesengine
+#: includes/logical-rules-edit.php:102
+msgid "Edit Criteria"
+msgstr "Edit Criteria"
+
+# @ rulesengine
+#: includes/logical-rules-edit.php:124
+msgid "Operation"
+msgstr "Operation"
+
+# @ rulesengine
+#: includes/logical-rules-edit.php:211
+msgid "Enter rule value"
+msgstr "Enter rule value"
+
+# @ rulesengine
+#: includes/logical-rules-edit.php:245
+msgid "AND"
+msgstr "AND"
+
+# @ rulesengine
+#: includes/logical-rules-edit.php:297
+msgid "Dependent child rules will become inactive, if logical rule is deactivated"
+msgstr "Dependent child rules will become inactive, if logical rule is deactivated"
+
+# @ rulesengine
+#: includes/logical-rules-list.php:10 rules-engine-index.php:71
+msgid "Logical Rules"
+msgstr "Logical Rules"
+
+# @ rulesengine
+#: includes/logical-rules-list.php:82 includes/redirect-rule-edit.php:56
+#: includes/redirect-rules-add.php:45
+msgid "Logical Rule"
+msgstr "Logical Rule"
+
+# @ rulesengine
+#: includes/page-rules-add.php:7
+msgid "Add Page Rule"
+msgstr "Add Page Rule"
+
+# @ rulesengine
+#: includes/page-rules-add.php:25
+msgid "Enter page rule name"
+msgstr "Enter page rule name"
+
+# @ rulesengine
+#: includes/page-rules-add.php:73 includes/page-rules-add.php:266
+#: includes/page-rules-edit.php:130 includes/page-rules-edit.php:340
+msgid "Select Pages"
+msgstr "Select Pages"
+
+# @ rulesengine
+#: includes/page-rules-add.php:112 includes/page-rules-edit.php:166
+msgid "Redirect URL"
+msgstr "Redirect URL"
+
+# @ rulesengine
+#: includes/page-rules-add.php:125 includes/page-rules-edit.php:179
+#: includes/post-rules-add.php:122 includes/post-rules-edit.php:175
+msgid "Location"
+msgstr "Location"
+
+# @ rulesengine
+#: includes/page-rules-add.php:146 includes/page-rules-edit.php:59
+#: includes/post-rules-add.php:144 includes/post-rules-edit.php:33
+msgid "Content Body"
+msgstr "Content Body"
+
+# @ rulesengine
+#: includes/page-rules-add.php:160 includes/page-rules-edit.php:218
+#: includes/post-rules-add.php:159 includes/post-rules-edit.php:214
+msgid "Image"
+msgstr "Image"
+
+# @ rulesengine
+#: includes/page-rules-add.php:177 includes/page-rules-edit.php:235
+#: includes/post-rules-add.php:173 includes/post-rules-edit.php:229
+msgid "Image Size"
+msgstr "Image Size"
+
+# @ rulesengine
+msgid "This field is required and supports html tags and inline style"
+msgstr "This field is required and supports html tags and inline style"
+
+# @ rulesengine
+#: includes/page-rules-edit.php:62 includes/post-rules-edit.php:63
+msgid "Shortcode"
+msgstr "Shortcode"
+
+# @ rulesengine
+#: includes/page-rules-edit.php:63 includes/post-rules-edit.php:64
+msgid "This field is required, Use an existing Third-party shortcode"
+msgstr "This field is required, Use an existing Third-party shortcode"
+
+# @ rulesengine
+#: includes/page-rules-edit.php:73
+msgid "Edit Page Rule"
+msgstr "Edit Page Rule"
+
+# @ rulesengine
+#: includes/page-rules-edit.php:126
+msgid "Enter page rule description"
+msgstr "Enter page rule description"
+
+# @ rulesengine
+#: includes/page-rules-edit.php:169
+msgid "Redirect url is used to prevent the hackom direct access of page using page url."
+msgstr "Redirect url is used to prevent the hackom direct access of page using page url."
+
+# @ rulesengine
+#: includes/page-rules-edit.php:176
+msgid "Enter url for redirection"
+msgstr "Enter url for redirection"
+
+# @ rulesengine
+# @ default
+#: includes/page-rules-edit.php:210 includes/post-rules-add.php:153
+#: includes/post-rules-edit.php:32
+msgid "Enter dynamic content, HTML tags also supported."
+msgstr "Enter dynamic content, HTML tags also supported."
+
+# @ rulesengine
+#: includes/page-rules-list.php:11 rules-engine-index.php:72
+msgid "Page Rules"
+msgstr "Page Rules"
+
+# @ rulesengine
+#: includes/page-rules-list.php:65
+msgid "Pages"
+msgstr "Pages"
+
+# @ rulesengine
+#: includes/page-rules-list.php:68 includes/post-rules-list.php:70
+msgid "Action / Location"
+msgstr "Action / Location"
+
+# @ rulesengine
+#: includes/page-rules-list.php:82
+msgid "Page Rule"
+msgstr "Page Rule"
+
+# @ rulesengine
+#: includes/post-rules-add.php:7
+msgid "Add Post Rule"
+msgstr "Add Post Rule"
+
+# @ rulesengine
+#: includes/post-rules-add.php:84 includes/post-rules-edit.php:129
+msgid "Enter post rule description"
+msgstr "Enter post rule description"
+
+# @ rulesengine
+#: includes/post-rules-add.php:88 includes/post-rules-edit.php:133
+msgid "Select Posts"
+msgstr "Select Posts"
+
+# @ rulesengine
+#: includes/post-rules-add.php:91 includes/post-rules-edit.php:136
+msgid "Type two letters in text box and select postom the list. You can select multiple posts."
+msgstr "Type two letters in text box and select postom the list. You can select multiple posts."
+
+# @ rulesengine
+#: includes/post-rules-add.php:99 includes/post-rules-edit.php:145
+msgid "Enter post name"
+msgstr "Enter post name"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:36 includes/page-rules-add.php:248
+#: includes/page-rules-edit.php:331 includes/post-rules-add.php:238
+#: includes/post-rules-edit.php:328
+msgid "Select location"
+msgstr "Select location"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:34 includes/page-rules-add.php:257
+#: includes/page-rules-edit.php:319 includes/post-rules-add.php:271
+#: includes/post-rules-edit.php:321
+msgid "Select image"
+msgstr "Select image"
+
+# @ rulesengine
+#: includes/page-rules-add.php:242 includes/page-rules-edit.php:325
+#: includes/post-rules-add.php:277 includes/post-rules-edit.php:334
+msgid "Select size"
+msgstr "Select size"
+
+# @ rulesengine
+#: includes/page-rules-add.php:305 includes/page-rules-edit.php:305
+#: includes/post-rules-add.php:290 includes/post-rules-edit.php:298
+msgid "Invalid Shortcode, Please enter a valid Shortcode."
+msgstr "Invalid Shortcode, Please enter a valid Shortcode."
+
+# @ rulesengine
+#: includes/page-rules-add.php:303 includes/page-rules-edit.php:303
+#: includes/post-rules-add.php:292 includes/post-rules-edit.php:296
+msgid "Shortcode not found, Please enter an existing Shortcode."
+msgstr "Shortcode not found, Please enter an existing Shortcode."
+
+# @ rulesengine
+#: includes/post-rules-edit.php:65
+msgid "Enter a Third-Party shortcode"
+msgstr "Enter a Third-Party shortcode"
+
+# @ rulesengine
+#: includes/post-rules-edit.php:76
+msgid "Edit Post Rule"
+msgstr "Edit Post Rule"
+
+# @ rulesengine
+#: includes/post-rules-edit.php:88 includes/theme-rules-edit.php:36
+msgid "Rule Name is required and should be unique."
+msgstr "Rule Name is required and should be unique."
+
+# @ rulesengine
+#: includes/post-rules-edit.php:294
+msgid "Duplicate Post Rule name, Post Rule exists with same name."
+msgstr "Duplicate Post Rule name, Post Rule exists with same name."
+
+# @ rulesengine
+#: includes/post-rules-edit.php:300
+msgid "Error occurred while creating post rule."
+msgstr "Error occurred while creating post rule."
+
+# @ rulesengine
+#: includes/post-rules-list.php:12 rules-engine-index.php:73
+msgid "Post Rules"
+msgstr "Post Rules"
+
+# @ rulesengine
+#: includes/post-rules-list.php:67
+msgid "Posts"
+msgstr "Posts"
+
+# @ rulesengine
+#: includes/post-rules-list.php:85
+msgid "Post Rule"
+msgstr "Post Rule"
+
+# @ rulesengine
+#: includes/redirect-rule-edit.php:16
+msgid "Edit Redirect Rule"
+msgstr "Edit Redirect Rule"
+
+# @ rulesengine
+#: includes/redirect-rule-edit.php:25
+msgid "Warning: Be careful while updating redirect rule. Make sure that your rule update do not create redirect loop with existing redirect rules."
+msgstr "Warning: Be careful while updating redirect rule. Make sure that your rule update do not create redirect loop with existing redirect rules."
+
+# @ rulesengine
+#: includes/redirect-rule-edit.php:76 includes/redirect-rules-add.php:64
+msgid "Target URL"
+msgstr "Target URL"
+
+# @ rulesengine
+#: includes/redirect-rule-edit.php:79 includes/redirect-rules-add.php:67
+msgid "Target URL is required and is used for redirection if rule is satisfied."
+msgstr "Target URL is required and is used for redirection if rule is satisfied."
+
+# @ rulesengine
+#: includes/redirect-rule-edit.php:85 includes/redirect-rules-add.php:73
+msgid "Enter Redirect URL"
+msgstr "Enter Redirect URL"
+
+# @ rulesengine
+#: includes/redirect-rule-edit.php:92 includes/redirect-rules-add.php:80
+msgid "Redirect Type"
+msgstr "Redirect Type"
+
+# @ rulesengine
+#: includes/redirect-rule-edit.php:179 includes/redirect-rules-add.php:167
+msgid "Duplicate Redirect Rule name, Redirect Rule name should be unique."
+msgstr "Duplicate Redirect Rule name, Redirect Rule name should be unique."
+
+# @ rulesengine
+#: includes/redirect-rule-edit.php:181 includes/redirect-rules-add.php:169
+msgid "Error occurred while creating Redirect rule"
+msgstr "Error occurred while creating Redirect rule"
+
+# @ rulesengine
+#: includes/redirect-rules-add.php:7
+msgid "New Redirect Rule"
+msgstr "New Redirect Rule"
+
+# @ rulesengine
+#: includes/redirect-rules-list.php:11 rules-engine-index.php:77
+msgid "Redirect Rules"
+msgstr "Redirect Rules"
+
+# @ rulesengine
+#: includes/redirect-rules-list.php:63
+msgid "Redirect Path"
+msgstr "Redirect Path"
+
+# @ rulesengine
+#: includes/redirect-rules-list.php:78
+msgid "Redirect Rule"
+msgstr "Redirect Rule"
+
+# @ rulesengine
+#: includes/rules-settings.php:21
+msgid "Rules Engine Settings"
+msgstr "Rules Engine Settings"
+
+# @ rulesengine
+#: includes/rules-settings.php:36
+msgid "Delete plugin-in tables on plugin uninstall or delete. Uncheck checkbox before plugin-in upgrade."
+msgstr "Delete plugin-in tables on plugin uninstall or delete. Uncheck checkbox before plugin-in upgrade."
+
+# @ rulesengine
+#: includes/rules-settings.php:48
+msgid "Version"
+msgstr "Version"
+
+# @ rulesengine
+#: includes/rules-settings.php:57
+msgid "Allowable tags"
+msgstr "Allowable tags"
+
+# @ rulesengine
+#: includes/rules-settings.php:59
+msgid "Enter allowable tags"
+msgstr "Enter allowable tags"
+
+# @ rulesengine
+#: includes/rules-settings.php:73
+msgid "Save Settings"
+msgstr "Save Settings"
+
+# @ rulesengine
+#: includes/rules-settings.php:105
+msgid "Plugin settings saved successfully"
+msgstr "Plugin settings saved successfully"
+
+# @ rulesengine
+#: includes/rules-settings.php:107
+msgid "Error occured while saving Plugin settings"
+msgstr "Error occured while saving Plugin settings"
+
+# @ rulesengine
+#: includes/theme-rules-add.php:6
+msgid "Add Theme Rule"
+msgstr "Add Theme Rule"
+
+# @ rulesengine
+#: includes/theme-rules-add.php:24
+msgid "Enter theme rule name"
+msgstr "Enter theme rule name"
+
+# @ rulesengine
+#: includes/theme-rules-add.php:32 includes/theme-rules-edit.php:52
+msgid "Enter theme rule description"
+msgstr "Enter theme rule description"
+
+# @ rulesengine
+#: includes/theme-rules-add.php:37 includes/theme-rules-add.php:140
+#: includes/theme-rules-edit.php:57 includes/theme-rules-edit.php:172
+msgid "Select Theme"
+msgstr "Select Theme"
+
+# @ rulesengine
+#: includes/theme-rules-add.php:171 includes/theme-rules-edit.php:158
+msgid "Duplicate theme rule name, Theme Rule name should be unique."
+msgstr "Duplicate theme rule name, Theme Rule name should be unique."
+
+# @ rulesengine
+#: includes/theme-rules-add.php:173
+msgid "Error occurred while creating theme rule."
+msgstr "Error occurred while creating theme rule."
+
+# @ rulesengine
+#: includes/theme-rules-edit.php:24
+msgid "Edit Theme Rule"
+msgstr "Edit Theme Rule"
+
+# @ rulesengine
+#: includes/theme-rules-edit.php:160
+msgid "Error occurred while updating theme rule."
+msgstr "Error occurred while updating theme rule."
+
+# @ rulesengine
+#: includes/theme-rules-list.php:11 rules-engine-index.php:76
+msgid "Theme Rules"
+msgstr "Theme Rules"
+
+# @ rulesengine
+#: includes/theme-rules-list.php:64
+msgid "Themes"
+msgstr "Themes"
+
+# @ rulesengine
+#: includes/theme-rules-list.php:79
+msgid "Theme Rule"
+msgstr "Theme Rule"
+
+# @ rulesengine
+#: includes/widget-rules-add.php:12
+msgid "Add widget Rule"
+msgstr "Add widget Rule"
+
+# @ rulesengine
+#: includes/widget-rules-add.php:43 includes/widget-rules-edit.php:59
+msgid "Select Sidebar"
+msgstr "Select Sidebar"
+
+# @ rulesengine
+#: includes/widget-rules-add.php:58
+msgid "Select Widgets"
+msgstr "Select Widgets"
+
+# @ rulesengine
+#: includes/widget-rules-add.php:97 includes/widget-rules-edit.php:111
+msgid "Hide Widget"
+msgstr "Hide Widget"
+
+# @ rulesengine
+#: includes/widget-rules-add.php:230
+msgid "Select Page"
+msgstr "Select Page"
+
+# @ rulesengine
+#: includes/widget-rules-add.php:261 includes/widget-rules-edit.php:244
+msgid "Duplicate widget rule name, Widget Rule name should be unique."
+msgstr "Duplicate widget rule name, Widget Rule name should be unique."
+
+# @ rulesengine
+#: includes/widget-rules-add.php:263
+msgid "Error occurred while creating widget rule."
+msgstr "Error occurred while creating widget rule."
+
+# @ rulesengine
+#: includes/widget-rules-edit.php:26
+msgid "Edit Widget Rule"
+msgstr "Edit Widget Rule"
+
+# @ rulesengine
+#: includes/widget-rules-edit.php:54
+msgid "Enter widget rule description"
+msgstr "Enter widget rule description"
+
+# @ rulesengine
+#: includes/widget-rules-add.php:178 includes/widget-rules-add.php:194
+#: includes/widget-rules-edit.php:73 includes/widget-rules-edit.php:197
+#: includes/widget-rules-edit.php:210
+msgid "Select Widget"
+msgstr "Select Widget"
+
+# @ rulesengine
+#: includes/widget-rules-edit.php:187
+msgid "No widgets found"
+msgstr "No widgets found"
+
+# @ rulesengine
+#: includes/widget-rules-edit.php:246
+msgid "Error occurred while updating widget rule."
+msgstr "Error occurred while updating widget rule."
+
+# @ rulesengine
+#: includes/widget-rules-list.php:11 rules-engine-index.php:75
+msgid "Widget Rules"
+msgstr "Widget Rules"
+
+# @ rulesengine
+#: includes/widget-rules-list.php:64
+msgid "Sidebar"
+msgstr "Sidebar"
+
+# @ rulesengine
+#: includes/widget-rules-list.php:65
+msgid "Widgets"
+msgstr "Widgets"
+
+# @ rulesengine
+#: includes/widget-rules-list.php:82
+msgid "Widget Rule"
+msgstr "Widget Rule"
+
+# @ rulesengine
+#: includes/config-rules.php:25 includes/config-rules.php:26
+msgid "Help"
+msgstr "Help"
+
+# @ rulesengine
+#: includes/config-rules.php:24
+msgid "Click here to know more about rules engine."
+msgstr "Click here to know more about rules engine."
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:16
+msgid "Action hook should not contain spaces, use single word"
+msgstr ""
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:17
+msgid "Action hook should not contain special characters."
+msgstr "Action hook should not contain special characters."
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:18
+msgid "Select value for criteria "
+msgstr "Select value for criteria "
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:19
+msgid "Select value for sub criteria "
+msgstr "Select value for sub criteria"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:20
+msgid "Select value for condition "
+msgstr "Select value for condition"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:21
+msgid "Enter criteria value"
+msgstr "Enter criteria value"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:22
+msgid "Missing right brackets"
+msgstr "Missing right brackets"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:23
+msgid "Missing left brackets"
+msgstr "Missing left brackets"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:24
+msgid "Rule name should not contain special characters."
+msgstr "Rule name should not contain special characters."
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:27
+msgid "Enter Target URL"
+msgstr "Enter Target URL"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:28
+msgid "Select logical rule"
+msgstr "Select logical rule"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:29
+msgid "Select theme"
+msgstr "Select theme"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:30
+msgid "Select widgets"
+msgstr "Select widgets"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:31
+msgid "Select sidebar"
+msgstr "Select sidebar"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:33
+msgid "Select category"
+msgstr "Select category"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:35
+msgid "Select image size"
+msgstr "Select image size"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:37
+msgid "Enter shortcode"
+msgstr "Enter shortcode"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:38
+msgid "Enter content body"
+msgstr "Enter content body"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:39
+msgid "Enter posts"
+msgstr "Enter posts"
+
+# @ rulesengine
+#: common/bis-rules-engine-localization.php:40
+msgid "Select pages"
+msgstr "Select pages"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:232
+msgid "None"
+msgstr "None"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:485 includes/logical-rules-add.php:535
+msgid "Enter a value"
+msgstr "Enter a value"
+
+# @ rulesengine
+#: includes/logical-rules-add.php:501
+msgid "Enter date"
+msgstr "Enter date"
+
+# @ rulesengine
+#: includes/page-rules-add.php:301 includes/page-rules-edit.php:301
+msgid "Duplicate Page Rule name, Page Rule exists with same name"
+msgstr "Duplicate Page Rule name, Page Rule exists with same name"
+
+# @ rulesengine
+#: includes/page-rules-add.php:307 includes/page-rules-edit.php:307
+msgid "Error occurred while creating page rule"
+msgstr "Error occurred while creating page rule"
+
+# @ rulesengine
+#: includes/redirect-rules-add.php:16
+msgid "Warning: Be careful while creating new redirect rule. Make sure that your new redirect rule do not create redirect loop with existing redirect rules."
+msgstr "Warning: Be careful while creating new redirect rule. Make sure that your new redirect rule do not create redirect loop with existing redirect rules."
+
+# @ rulesengine
+#: rules-engine-index.php:78
+msgid "Settings"
+msgstr "Settings"
+
+# @ rulesengine
+msgid "Enter post rule name"
+msgstr "Enter post rule name"
+
+# @ rulesengine
+msgid "Missing operator (And/Or) for row "
+msgstr "Missing operator (And/Or) for row "
+
+# Metadata
+# @ rulesengine
+msgid "IOS"
+msgstr "IOS"
+
+# @ rulesengine
+msgid "Andriod"
+msgstr "Andriod"
+
+# @ rulesengine
+msgid "Windows"
+msgstr "Windows"
+
+# @ rulesengine
+msgid "iPhone"
+msgstr "iPhone"
+
+# @ rulesengine
+msgid "Andriod Phone"
+msgstr "Andriod Phone"
+
+# @ rulesengine
+msgid "BlackBerry Phone"
+msgstr "BlackBerry Phone"
+
+# @ rulesengine
+msgid "iPad"
+msgstr "iPad"
+
+# @ rulesengine
+msgid "Andriod Tablet"
+msgstr "Andriod Tablet"
+
+# @ rulesengine
+msgid "BlackBerry Tablet"
+msgstr "BlackBerry Tablet"
+
+# @ rulesengine
+msgid "HP TouchPad"
+msgstr "HP TouchPad"
+
+# @ rulesengine
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+# @ rulesengine
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+# @ rulesengine
+msgid "Firefox"
+msgstr "Firefox"
+
+# @ rulesengine
+msgid "Safari"
+msgstr "Safari"
+
+# @ rulesengine
+msgid "200 - OK"
+msgstr "200 - OK"
+
+# @ rulesengine
+msgid "301 - Moved Permanently"
+msgstr "301 - Moved Permanently"
+
+# @ rulesengine
+msgid "500 - Internal Server Error"
+msgstr "500 - Internal Server Error"
+
+# @ rulesengine
+msgid "400 - Bad Request"
+msgstr "400 - Bad Request"
+
+# @ rulesengine
+msgid "401 - Unauthorized"
+msgstr "401 - Unauthorized"
+
+# @ rulesengine
+msgid "403 - Forbidden"
+msgstr "403 - Forbidden"
+
+# @ rulesengine
+msgid "404 - Not Found"
+msgstr "404 - Not Found"
+
+# @ rulesengine
+msgid "302 - Found"
+msgstr "302 - Found"
+
+# @ rulesengine
+msgid "307 - Temporary Redirect"
+msgstr "307 - Temporary Redirect"
+
+# @ rulesengine
+msgid "Unregistered User"
+msgstr "Unregistered User"
+
+# @ rulesengine
+msgid "Mobile"
+msgstr "Mobile"
+
+# @ rulesengine
+msgid "Tablet"
+msgstr "Tablet"
+
+# @ rulesengine
+msgid "Smart Phone"
+msgstr "Smart Phone"
+
+# @ rulesengine
+msgid "Windows Phone"
+msgstr "Windows Phone"
+
+# @ rulesengine
+msgid "Opera"
+msgstr "Opera"
+
+# @ rulesengine
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+# @ rulesengine
+msgid "Albania"
+msgstr "Albania"
+
+# @ rulesengine
+msgid "Algeria"
+msgstr "Algeria"
+
+# @ rulesengine
+msgid "American Samoa"
+msgstr "American Samoa"
+
+# @ rulesengine
+msgid "Andorra"
+msgstr "Andorra"
+
+# @ rulesengine
+msgid "Angola"
+msgstr "Angola"
+
+# @ rulesengine
+msgid "Anguilla"
+msgstr "Anguilla"
+
+# @ rulesengine
+msgid "Antigua and Barbuda"
+msgstr "Antigua and Barbuda"
+
+# @ rulesengine
+msgid "Argentina"
+msgstr "Argentina"
+
+# @ rulesengine
+msgid "Armenia"
+msgstr "Armenia"
+
+# @ rulesengine
+msgid "Aruba"
+msgstr "Aruba"
+
+# @ rulesengine
+msgid "Australia"
+msgstr "Australia"
+
+# @ rulesengine
+msgid "Austria"
+msgstr "Austria"
+
+# @ rulesengine
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+# @ rulesengine
+msgid "Bahrain"
+msgstr "Bahrain"
+
+# @ rulesengine
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+# @ rulesengine
+msgid "Barbados"
+msgstr "Barbados"
+
+# @ rulesengine
+msgid "Belarus"
+msgstr "Belarus"
+
+# @ rulesengine
+msgid "Belgium"
+msgstr "Belgium"
+
+# @ rulesengine
+msgid "Belize"
+msgstr "Belize"
+
+# @ rulesengine
+msgid "Benin"
+msgstr "Benin"
+
+# @ rulesengine
+msgid "Bermuda"
+msgstr "Bermuda"
+
+# @ rulesengine
+msgid "Bhutan"
+msgstr "Bhutan"
+
+# @ rulesengine
+msgid "Bolivia"
+msgstr "Bolivia"
+
+# @ rulesengine
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia and Herzegovina"
+
+# @ rulesengine
+msgid "Botswana"
+msgstr "Botswana"
+
+# @ rulesengine
+msgid "Brazil"
+msgstr "Brazil"
+
+# @ rulesengine
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Ocean Territory"
+
+# @ rulesengine
+msgid "British Virgin Islands"
+msgstr "British Virgin Islands"
+
+# @ rulesengine
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+# @ rulesengine
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+# @ rulesengine
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+# @ rulesengine
+msgid "Burma"
+msgstr "Burma"
+
+# @ rulesengine
+msgid "Burundi"
+msgstr "Burundi"
+
+# @ rulesengine
+msgid "Cambodia"
+msgstr "Cambodia"
+
+# @ rulesengine
+msgid "Cameroon"
+msgstr "Cameroon"
+
+# @ rulesengine
+msgid "Canada"
+msgstr "Canada"
+
+# @ rulesengine
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+# @ rulesengine
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+# @ rulesengine
+msgid "Central African Republic"
+msgstr "Central African Republic"
+
+# @ rulesengine
+msgid "Chad"
+msgstr "Chad"
+
+# @ rulesengine
+msgid "Chile"
+msgstr "Chile"
+
+# @ rulesengine
+msgid "China"
+msgstr "China"
+
+# @ rulesengine
+msgid "Christmas Island"
+msgstr "Christmas Island"
+
+# @ rulesengine
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocos (Keeling) Islands"
+
+# @ rulesengine
+msgid "Colombia"
+msgstr "Colombia"
+
+# @ rulesengine
+msgid "Comoros"
+msgstr "Comoros"
+
+# @ rulesengine
+msgid "Congo, Democratic Republic of the"
+msgstr "Congo, Democratic Republic of the"
+
+# @ rulesengine
+msgid "Congo, Republic of the"
+msgstr "Congo, Republic of the"
+
+# @ rulesengine
+msgid "Cook Islands"
+msgstr "Cook Islands"
+
+# @ rulesengine
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+# @ rulesengine
+msgid "Croatia"
+msgstr "Croatia"
+
+# @ rulesengine
+msgid "Cuba"
+msgstr "Cuba"
+
+# @ rulesengine
+msgid "Cyprus"
+msgstr "Cyprus"
+
+# @ rulesengine
+msgid "Czech Republic"
+msgstr "Czech Republic"
+
+# @ rulesengine
+msgid "Denmark"
+msgstr "Denmark"
+
+# @ rulesengine
+msgid "Djibouti"
+msgstr "Djibouti"
+
+# @ rulesengine
+msgid "Dominica"
+msgstr "Dominica"
+
+# @ rulesengine
+msgid "Dominican Republic"
+msgstr "Dominican Republic"
+
+# @ rulesengine
+msgid "Ecuador"
+msgstr "Ecuador"
+
+# @ rulesengine
+msgid "Egypt"
+msgstr "Egypt"
+
+# @ rulesengine
+msgid "El Salvador"
+msgstr "El Salvador"
+
+# @ rulesengine
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+# @ rulesengine
+msgid "Eritrea"
+msgstr "Eritrea"
+
+# @ rulesengine
+msgid "Estonia"
+msgstr "Estonia"
+
+# @ rulesengine
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+# @ rulesengine
+msgid "Falkland Islands (Islas Malvinas)"
+msgstr "Falkland Islands (Islas Malvinas)"
+
+# @ rulesengine
+msgid "Faroe Islands"
+msgstr "Faroe Islands"
+
+# @ rulesengine
+msgid "Fiji"
+msgstr "Fiji"
+
+# @ rulesengine
+msgid "Finland"
+msgstr "Finland"
+
+# @ rulesengine
+msgid "France"
+msgstr "France"
+
+# @ rulesengine
+msgid "French Polynesia"
+msgstr "French Polynesia"
+
+# @ rulesengine
+msgid "Gabon"
+msgstr "Gabon"
+
+# @ rulesengine
+msgid "Georgia"
+msgstr "Georgia"
+
+# @ rulesengine
+msgid "Germany"
+msgstr "Germany"
+
+# @ rulesengine
+msgid "Ghana"
+msgstr "Ghana"
+
+# @ rulesengine
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+# @ rulesengine
+msgid "Greece"
+msgstr "Greece"
+
+# @ rulesengine
+msgid "Greenland"
+msgstr "Greenland"
+
+# @ rulesengine
+msgid "Grenada"
+msgstr "Grenada"
+
+# @ rulesengine
+msgid "Guam"
+msgstr "Guam"
+
+# @ rulesengine
+msgid "Guatemala"
+msgstr "Guatemala"
+
+# @ rulesengine
+msgid "Guinea"
+msgstr "Guinea"
+
+# @ rulesengine
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+# @ rulesengine
+msgid "Guyana"
+msgstr "Guyana"
+
+# @ rulesengine
+msgid "Haiti"
+msgstr "Haiti"
+
+# @ rulesengine
+msgid "Holy See (Vatican City)"
+msgstr "Holy See (Vatican City)"
+
+# @ rulesengine
+msgid "Honduras"
+msgstr "Honduras"
+
+# @ rulesengine
+msgid "Hong Kong (SAR)"
+msgstr "Hong Kong (SAR)"
+
+# @ rulesengine
+msgid "Hungary"
+msgstr "Hungary"
+
+# @ rulesengine
+msgid "Iceland"
+msgstr "Iceland"
+
+# @ rulesengine
+msgid "India"
+msgstr "India"
+
+# @ rulesengine
+msgid "Indonesia"
+msgstr "Indonesia"
+
+# @ rulesengine
+msgid "Iran"
+msgstr "Iran"
+
+# @ rulesengine
+msgid "Iraq"
+msgstr "Iraq"
+
+# @ rulesengine
+msgid "Ireland"
+msgstr "Ireland"
+
+# @ rulesengine
+msgid "Israel"
+msgstr "Israel"
+
+# @ rulesengine
+msgid "Italy"
+msgstr "Italy"
+
+# @ rulesengine
+msgid "Jamaica"
+msgstr "Jamaica"
+
+# @ rulesengine
+msgid "Japan"
+msgstr "Japan"
+
+# @ rulesengine
+msgid "Jersey"
+msgstr "Jersey"
+
+# @ rulesengine
+msgid "Jordan"
+msgstr "Jordan"
+
+# @ rulesengine
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+# @ rulesengine
+msgid "Kenya"
+msgstr "Kenya"
+
+# @ rulesengine
+msgid "Kiribati"
+msgstr "Kiribati"
+
+# @ rulesengine
+msgid "Korea, North"
+msgstr "Korea, North"
+
+# @ rulesengine
+msgid "Korea, South"
+msgstr "Korea, South"
+
+# @ rulesengine
+msgid "Kuwait"
+msgstr "Kuwait"
+
+# @ rulesengine
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+# @ rulesengine
+msgid "Laos"
+msgstr "Laos"
+
+# @ rulesengine
+msgid "Latvia"
+msgstr "Latvia"
+
+# @ rulesengine
+msgid "Lebanon"
+msgstr "Lebanon"
+
+# @ rulesengine
+msgid "Lesotho"
+msgstr "Lesotho"
+
+# @ rulesengine
+msgid "Liberia"
+msgstr "Liberia"
+
+# @ rulesengine
+msgid "Libya"
+msgstr "Libya"
+
+# @ rulesengine
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+# @ rulesengine
+msgid "Lithuania"
+msgstr "Lithuania"
+
+# @ rulesengine
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+# @ rulesengine
+msgid "Macao"
+msgstr "Macao"
+
+# @ rulesengine
+msgid "Macedonia, The Former Yugoslav Republic of"
+msgstr "Macedonia, The Former Yugoslav Republic of"
+
+# @ rulesengine
+msgid "Madagascar"
+msgstr "Madagascar"
+
+# @ rulesengine
+msgid "Malawi"
+msgstr "Malawi"
+
+# @ rulesengine
+msgid "Malaysia"
+msgstr "Malaysia"
+
+# @ rulesengine
+msgid "Maldives"
+msgstr "Maldives"
+
+# @ rulesengine
+msgid "Mali"
+msgstr "Mali"
+
+# @ rulesengine
+msgid "Malta"
+msgstr "Malta"
+
+# @ rulesengine
+msgid "Marshall Islands"
+msgstr "Marshall Islands"
+
+# @ rulesengine
+msgid "Mauritania"
+msgstr "Mauritania"
+
+# @ rulesengine
+msgid "Mauritius"
+msgstr "Mauritius"
+
+# @ rulesengine
+msgid "Mayotte"
+msgstr "Mayotte"
+
+# @ rulesengine
+msgid "Mexico"
+msgstr "Mexico"
+
+# @ rulesengine
+msgid "Micronesia, Federated States of"
+msgstr "Micronesia, Federated States of"
+
+# @ rulesengine
+msgid "Moldova"
+msgstr "Moldova"
+
+# @ rulesengine
+msgid "Monaco"
+msgstr "Monaco"
+
+# @ rulesengine
+msgid "Mongolia"
+msgstr "Mongolia"
+
+# @ rulesengine
+msgid "Montenegro"
+msgstr "Montenegro"
+
+# @ rulesengine
+msgid "Montserrat"
+msgstr "Montserrat"
+
+# @ rulesengine
+msgid "Morocco"
+msgstr "Morocco"
+
+# @ rulesengine
+msgid "Mozambique"
+msgstr "Mozambique"
+
+# @ rulesengine
+msgid "Myanmar"
+msgstr "Myanmar"
+
+# @ rulesengine
+msgid "Namibia"
+msgstr "Namibia"
+
+# @ rulesengine
+msgid "Nauru"
+msgstr "Nauru"
+
+# @ rulesengine
+msgid "Nepal"
+msgstr "Nepal"
+
+# @ rulesengine
+msgid "Netherlands"
+msgstr "Netherlands"
+
+# @ rulesengine
+msgid "Netherlands Antilles"
+msgstr "Netherlands Antilles"
+
+# @ rulesengine
+msgid "New Caledonia"
+msgstr "New Caledonia"
+
+# @ rulesengine
+msgid "New Zealand"
+msgstr "New Zealand"
+
+# @ rulesengine
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+# @ rulesengine
+msgid "Niger"
+msgstr "Niger"
+
+# @ rulesengine
+msgid "Nigeria"
+msgstr "Nigeria"
+
+# @ rulesengine
+msgid "Niue"
+msgstr "Niue"
+
+# @ rulesengine
+msgid "Northern Mariana Islands"
+msgstr "Northern Mariana Islands"
+
+# @ rulesengine
+msgid "Norway"
+msgstr "Norway"
+
+# @ rulesengine
+msgid "Oman"
+msgstr "Oman"
+
+# @ rulesengine
+msgid "Pakistan"
+msgstr "Pakistan"
+
+# @ rulesengine
+msgid "Palau"
+msgstr "Palau"
+
+# @ rulesengine
+msgid "Panama"
+msgstr "Panama"
+
+# @ rulesengine
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+# @ rulesengine
+msgid "Paraguay"
+msgstr "Paraguay"
+
+# @ rulesengine
+msgid "Peru"
+msgstr "Peru"
+
+# @ rulesengine
+msgid "Philippines"
+msgstr "Philippines"
+
+# @ rulesengine
+msgid "Pitcairn Islands"
+msgstr "Pitcairn Islands"
+
+# @ rulesengine
+msgid "Poland"
+msgstr "Poland"
+
+# @ rulesengine
+msgid "Portugal"
+msgstr "Portugal"
+
+# @ rulesengine
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+# @ rulesengine
+msgid "Qatar"
+msgstr "Qatar"
+
+# @ rulesengine
+msgid "Romania"
+msgstr "Romania"
+
+# @ rulesengine
+msgid "Russia"
+msgstr "Russia"
+
+# @ rulesengine
+msgid "Rwanda"
+msgstr "Rwanda"
+
+# @ rulesengine
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+# @ rulesengine
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts and Nevis"
+
+# @ rulesengine
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+# @ rulesengine
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre and Miquelon"
+
+# @ rulesengine
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent and the Grenadines"
+
+# @ rulesengine
+msgid "Samoa"
+msgstr "Samoa"
+
+# @ rulesengine
+msgid "San Marino"
+msgstr "San Marino"
+
+# @ rulesengine
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome and Principe"
+
+# @ rulesengine
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+# @ rulesengine
+msgid "Senegal"
+msgstr "Senegal"
+
+# @ rulesengine
+msgid "Serbia"
+msgstr "Serbia"
+
+# @ rulesengine
+msgid "Seychelles"
+msgstr "Seychelles"
+
+# @ rulesengine
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+# @ rulesengine
+msgid "Singapore"
+msgstr "Singapore"
+
+# @ rulesengine
+msgid "Slovakia"
+msgstr "Slovakia"
+
+# @ rulesengine
+msgid "Slovenia"
+msgstr "Slovenia"
+
+# @ rulesengine
+msgid "Solomon Islands"
+msgstr "Solomon Islands"
+
+# @ rulesengine
+msgid "Somalia"
+msgstr "Somalia"
+
+# @ rulesengine
+msgid "South Africa"
+msgstr "South Africa"
+
+# @ rulesengine
+msgid "Spain"
+msgstr "Spain"
+
+# @ rulesengine
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+# @ rulesengine
+msgid "Sudan"
+msgstr "Sudan"
+
+# @ rulesengine
+msgid "Suriname"
+msgstr "Suriname"
+
+# @ rulesengine
+msgid "Svalbard"
+msgstr "Svalbard"
+
+# @ rulesengine
+msgid "Swaziland"
+msgstr "Swaziland"
+
+# @ rulesengine
+msgid "Sweden"
+msgstr "Sweden"
+
+# @ rulesengine
+msgid "Switzerland"
+msgstr "Switzerland"
+
+# @ rulesengine
+msgid "Syria"
+msgstr "Syria"
+
+# @ rulesengine
+msgid "Taiwan"
+msgstr "Taiwan"
+
+# @ rulesengine
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+# @ rulesengine
+msgid "Tanzania"
+msgstr "Tanzania"
+
+# @ rulesengine
+msgid "Thailand"
+msgstr "Thailand"
+
+# @ rulesengine
+msgid "Trinidad and Tobago"
+msgstr "Trinidad and Tobago"
+
+# @ rulesengine
+msgid "Tunisia"
+msgstr "Tunisia"
+
+# @ rulesengine
+msgid "Turkey"
+msgstr "Turkey"
+
+# @ rulesengine
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+# @ rulesengine
+msgid "Turks and Caicos Islands"
+msgstr "Turks and Caicos Islands"
+
+# @ rulesengine
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+# @ rulesengine
+msgid "Uganda"
+msgstr "Uganda"
+
+# @ rulesengine
+msgid "Ukraine"
+msgstr "Ukraine"
+
+# @ rulesengine
+msgid "United Arab Emirates"
+msgstr "United Arab Emirates"
+
+# @ rulesengine
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+# @ rulesengine
+msgid "United States"
+msgstr "United States"
+
+# @ rulesengine
+msgid "Uruguay"
+msgstr "Uruguay"
+
+# @ rulesengine
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+# @ rulesengine
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+# @ rulesengine
+msgid "Venezuela"
+msgstr "Venezuela"
+
+# @ rulesengine
+msgid "Vietnam"
+msgstr "Vietnam"
+
+# @ rulesengine
+msgid "Wallis and Futuna"
+msgstr "Wallis and Futuna"
+
+# @ rulesengine
+msgid "Western Sahara"
+msgstr "Western Sahara"
+
+# @ rulesengine
+msgid "Yemen"
+msgstr "Yemen"
+
+# @ rulesengine
+msgid "Zambia"
+msgstr "Zambia"
+
+# @ rulesengine
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+# @ rulesengine
+msgid "Indian Rupee"
+msgstr "Indian Rupee"
+
+# @ rulesengine
+msgid "Australian Dollar"
+msgstr "Australian Dollar"
+
+# @ rulesengine
+msgid "Euro"
+msgstr "Euro"
+
+# @ rulesengine
+msgid "Brazilian Real"
+msgstr "Brazilian Real"
+
+# @ rulesengine
+msgid "Canadian Dollar"
+msgstr "Canadian Dollar"
+
+# @ rulesengine
+msgid "Yuan Renminbi"
+msgstr "Yuan Renminbi"
+
+# @ rulesengine
+msgid "Danish Krone"
+msgstr "Danish Krone"
+
+# @ rulesengine
+msgid "Hong Kong Dollar"
+msgstr "Hong Kong Dollar"
+
+# @ rulesengine
+msgid "Iranian Rial"
+msgstr "Iranian Rial"
+
+# @ rulesengine
+msgid "Israeli New Shekel"
+msgstr "Israeli New Shekel"
+
+# @ rulesengine
+msgid "Japanese Yen"
+msgstr "Japanese Yen"
+
+# @ rulesengine
+msgid "\tKorean Won"
+msgstr "\tKorean Won"
+
+# @ rulesengine
+msgid "New Zealand Dollar"
+msgstr "New Zealand Dollar"
+
+# @ rulesengine
+msgid "Singapore Dollar"
+msgstr "Singapore Dollar"
+
+# @ rulesengine
+msgid "South African Rand"
+msgstr "South African Rand"
+
+# @ rulesengine
+msgid "Swedish Krona"
+msgstr "Swedish Krona"
+
+# @ rulesengine
+msgid "Swissanc"
+msgstr "Swissanc"
+
+# @ rulesengine
+msgid "Taiwan Dollar"
+msgstr "Taiwan Dollar"
+
+# @ rulesengine
+msgid "Turkish Lira"
+msgstr "Turkish Lira"
+
+# @ rulesengine
+msgid "Pound Sterling"
+msgstr "Pound Sterling"
+
+# @ rulesengine
+msgid "US Dollar"
+msgstr "US Dollar"
+
+# @ rulesengine
+msgid "Arab Emirates Dirham"
+msgstr "Arab Emirates Dirham"
+
+# @ rulesengine
+msgid "Africa"
+msgstr "Africa"
+
+# @ rulesengine
+msgid "Antarctica"
+msgstr "Antarctica"
+
+# @ rulesengine
+msgid "Asia"
+msgstr "Asia"
+
+# @ rulesengine
+msgid "Europe"
+msgstr "Europe"
+
+# @ rulesengine
+msgid "North america"
+msgstr "North america"
+
+# @ rulesengine
+msgid "Oceania"
+msgstr "Oceania"
+
+# @ rulesengine
+msgid "South america"
+msgstr "South america"
+
+# @ rulesengine
+msgid "Sunday"
+msgstr "Sunday"
+
+# @ rulesengine
+msgid "Monday"
+msgstr "Monday"
+
+# @ rulesengine
+msgid "Tuesday"
+msgstr "Tuesday"
+
+# @ rulesengine
+msgid "Wednesday"
+msgstr "Wednesday"
+
+# @ rulesengine
+msgid "Thrusday"
+msgstr "Thrusday"
+
+# @ rulesengine
+msgid "Friday"
+msgstr "Friday"
+
+# @ rulesengine
+msgid "Saturday"
+msgstr "Saturday"
+
+# @ rulesengine
+msgid "January"
+msgstr "January"
+
+# @ rulesengine
+msgid "February"
+msgstr "February"
+
+# @ rulesengine
+msgid "March"
+msgstr "March"
+
+# @ rulesengine
+msgid "April"
+msgstr "April"
+
+# @ rulesengine
+msgid "May"
+msgstr "May"
+
+# @ rulesengine
+msgid "June"
+msgstr "June"
+
+# @ rulesengine
+msgid "July"
+msgstr "July"
+
+# @ rulesengine
+msgid "August"
+msgstr "August"
+
+# @ rulesengine
+msgid "September"
+msgstr "September"
+
+# @ rulesengine
+msgid "October"
+msgstr "October"
+
+# @ rulesengine
+msgid "November"
+msgstr "November"
+
+# @ rulesengine
+msgid "December"
+msgstr "December"
+
+# @ rulesengine
+msgid "Hide Page"
+msgstr "Hide Page"
+
+# @ rulesengine
+msgid "Replace Page Content"
+msgstr "Replace Page Content"
+
+# @ rulesengine
+msgid "Append content to Page"
+msgstr "Append content to Page"
+
+# @ rulesengine
+msgid "Append image to Page"
+msgstr "Append image to Page"
+
+# @ rulesengine
+msgid "Top of Page"
+msgstr "Top of Page"
+
+# @ rulesengine
+msgid "Bottom of Page"
+msgstr "Bottom of Page"
+
+# @ rulesengine
+msgid "Show as Dialog"
+msgstr "Show as Dialog"
+
+# @ rulesengine
+msgid "Large"
+msgstr "Large"
+
+# @ rulesengine
+msgid "Medium"
+msgstr "Medium"
+
+# @ rulesengine
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+# @ rulesengine
+msgid "Full"
+msgstr "Full"
+
+# @ rulesengine
+msgid "Generate Short Code"
+msgstr "Generate Short Code"
+
+# @ rulesengine
+msgid "Append content with image background"
+msgstr "Append content with image background"
+
+# @ rulesengine
+msgid "Hide Post"
+msgstr "Hide Post"
+
+# @ rulesengine
+msgid "Replace Post Content"
+msgstr "Replace Post Content"
+
+# @ rulesengine
+msgid "Append content to Post"
+msgstr "Append content to Post"
+
+# @ rulesengine
+msgid "Append image to Post"
+msgstr "Append image to Post"
+
+# @ rulesengine
+msgid "Top of Post"
+msgstr "Top of Post"
+
+# @ rulesengine
+msgid "Bottom of Post"
+msgstr "Bottom of Post"
+
+# @ rulesengine
+msgid "Append Third-Party Shortcode"
+msgstr "Append Third-Party Shortcode"
+
+# @ rulesengine
+msgid "User Role"
+msgstr "User Role"
+
+# @ rulesengine
+msgid "User Profile"
+msgstr "User Profile"
+
+# @ rulesengine
+msgid "Request"
+msgstr "Request"
+
+# @ rulesengine
+msgid "Mobile Device"
+msgstr "Mobile Device"
+
+# @ rulesengine
+msgid "Geo Location"
+msgstr "Geo Location"
+
+# @ rulesengine
+msgid "Date and Time"
+msgstr "Date and Time"
+
+# @ rulesengine
+msgid "Browser"
+msgstr "Browser"
+
+# @ rulesengine
+msgid "Page"
+msgstr "Page"
+
+# @ rulesengine
+msgid "Post"
+msgstr "Post"
+
+# @ rulesengine
+msgid "User Role Name"
+msgstr "User Role Name"
+
+# @ rulesengine
+msgid "Email"
+msgstr "Email"
+
+# @ rulesengine
+msgid "Registered Date"
+msgstr "Registered Date"
+
+# @ rulesengine
+msgid "Country"
+msgstr "Country"
+
+# @ rulesengine
+msgid "Currency"
+msgstr "Currency"
+
+# @ rulesengine
+msgid "URL"
+msgstr "URL"
+
+# @ rulesengine
+msgid "Browser Name"
+msgstr "Browser Name"
+
+# @ rulesengine
+msgid "Date"
+msgstr "Date"
+
+# @ rulesengine
+msgid "Time"
+msgstr "Time"
+
+# @ rulesengine
+msgid "Mobile Operating System"
+msgstr "Mobile Operating System"
+
+# @ rulesengine
+msgid "User Id"
+msgstr "User Id"
+
+# @ rulesengine
+msgid "Unregistered(Not Logged In)"
+msgstr "Unregistered(Not Logged In)"
+
+# @ rulesengine
+msgid "Continent"
+msgstr "Continent"
+
+# @ rulesengine
+msgid "Page Title"
+msgstr "Page Title"
+
+# @ rulesengine
+msgid "Post Title"
+msgstr "Post Title"
+
+# @ rulesengine
+msgid "Day of Week"
+msgstr "Day of Week"
+
+# @ rulesengine
+msgid "Month"
+msgstr "Month"
+
+# @ rulesengine
+msgid "Mobile Device Type"
+msgstr "Mobile Device Type"
+
+# @ rulesengine
+msgid "equal to"
+msgstr "equal to"
+
+# @ rulesengine
+msgid "not equal to"
+msgstr "not equal to"
+
+# @ rulesengine
+msgid "begins with"
+msgstr "begins with"
+
+# @ rulesengine
+msgid "contains"
+msgstr "contains"
+
+# @ rulesengine
+msgid "does not contain"
+msgstr "does not contain"
+
+# @ rulesengine
+msgid "greater than"
+msgstr "greater than"
+
+# @ rulesengine
+msgid "less than"
+msgstr "less than"
+
+# @ rulesengine
+msgid "domain is"
+msgstr "domain is"
+
+# @ rulesengine
+msgid "Dashboard"
+msgstr "Dashboard"
+
+# @ rulesengine
+msgid "Parent rule for Page, Posts, Categories, Widgets, Themes and URL Redirection."
+msgstr "Parent rule for Page, Posts, Categories, Widgets, Themes and URL Redirection."
+
+# @ rulesengine
+msgid "Define rules for hiding, appending and replacing content for pages."
+msgstr "Define rules for hiding, appending and replacing content for pages."
+
+# @ rulesengine
+msgid "Define rules for hiding, appending and replacing content for posts."
+msgstr "Define rules for hiding, appending and replacing content for posts."
+
+# @ rulesengine
+msgid "Define rules for show or hide categories."
+msgstr "Define rules for show or hide categories."
+
+# @ rulesengine
+msgid "Define rules for show or hide widgets."
+msgstr "Define rules for show or hide widgets."
+
+# @ rulesengine
+msgid "Define rules for switching themes."
+msgstr "Define rules for switching themes."
+
+# @ rulesengine
+msgid "Define rules for url redirection."
+msgstr "Define rules for url redirection."
+
+# @ rulesengine
+msgid "Configure settings for Rules Engine."
+msgstr "Configure settings for Rules Engine."
+
+# @ rulesengine
+msgid "Edit"
+msgstr "Edit"
+
+# @ rulesengine
+msgid "Delete"
+msgstr "Delete"
+
+# @ rulesengine
+msgid "Enter a valid IP Address."
+msgstr "Enter a valid IP Address."
+
+# @ rulesengine
+msgid "Invalid IP Address, should contain only numbers and dots."
+msgstr "Invalid IP Address, should contain only numbers and dots."

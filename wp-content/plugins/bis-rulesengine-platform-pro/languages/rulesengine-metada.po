@@ -1,0 +1,1415 @@
+# @ rulesengine
+msgid "IOS"
+msgstr "IOS_FR"
+
+# @ rulesengine
+msgid "Andriod"
+msgstr "Andriod_FR"
+
+# @ rulesengine
+msgid "Windows"
+msgstr "Windows_FR"
+
+# @ rulesengine
+msgid "iPhone"
+msgstr "iPhone_FR"
+
+# @ rulesengine
+msgid "Andriod Phone"
+msgstr "Andriod Phone_FR"
+
+# @ rulesengine
+msgid "BlackBerry Phone"
+msgstr "BlackBerry Phone_FR"
+
+# @ rulesengine
+msgid "iPad"
+msgstr "iPad_FR"
+
+# @ rulesengine
+msgid "Andriod Tablet"
+msgstr "Andriod Tablet_FR"
+
+# @ rulesengine
+msgid "BlackBerry Tablet"
+msgstr "BlackBerry Tablet_FR"
+
+# @ rulesengine
+msgid "HP TouchPad"
+msgstr "HP TouchPad_FR"
+
+# @ rulesengine
+msgid "Internet Explorer"
+msgstr "Internet Explorer_FR"
+
+# @ rulesengine
+msgid "Google Chrome"
+msgstr "Google Chrome_FR"
+
+# @ rulesengine
+msgid "Firefox"
+msgstr "Firefox_FR"
+
+# @ rulesengine
+msgid "Safari"
+msgstr "Safari_FR"
+
+# @ rulesengine
+msgid "200 - OK"
+msgstr "200 - OK_FR"
+
+# @ rulesengine
+msgid "301 - Moved Permanently"
+msgstr "301 - Moved Permanently_FR"
+
+# @ rulesengine
+msgid "500 - Internal Server Error"
+msgstr "500 - Internal Server Error_FR"
+
+# @ rulesengine
+msgid "400 - Bad Request"
+msgstr "400 - Bad Request_FR"
+
+# @ rulesengine
+msgid "401 - Unauthorized"
+msgstr "401 - Unauthorized_FR"
+
+# @ rulesengine
+msgid "403 - Forbidden"
+msgstr "403 - Forbidden_FR"
+
+# @ rulesengine
+msgid "404 - Not Found"
+msgstr "404 - Not Found_FR"
+
+# @ rulesengine
+msgid "302 - Found"
+msgstr "302 - Found_FR"
+
+# @ rulesengine
+msgid "307 - Temporary Redirect"
+msgstr "307 - Temporary Redirect_FR"
+
+# @ rulesengine
+msgid "Unregistered User"
+msgstr "Unregistered User_FR"
+
+# @ rulesengine
+msgid "Mobile"
+msgstr "Mobile_FR"
+
+# @ rulesengine
+msgid "Tablet"
+msgstr "Tablet_FR"
+
+# @ rulesengine
+msgid "Smart Phone"
+msgstr "Smart Phone_FR"
+
+# @ rulesengine
+msgid "Windows Phone"
+msgstr "Windows Phone_FR"
+
+# @ rulesengine
+msgid "Opera"
+msgstr "Opera_FR"
+
+# @ rulesengine
+msgid "Afghanistan"
+msgstr "Afghanistan_FR"
+
+# @ rulesengine
+msgid "Albania"
+msgstr "Albania_FR"
+
+# @ rulesengine
+msgid "Algeria"
+msgstr "Algeria_FR"
+
+# @ rulesengine
+msgid "American Samoa"
+msgstr "American Samoa_FR"
+
+# @ rulesengine
+msgid "Andorra"
+msgstr "Andorra_FR"
+
+# @ rulesengine
+msgid "Angola"
+msgstr "Angola_FR"
+
+# @ rulesengine
+msgid "Anguilla"
+msgstr "Anguilla_FR"
+
+# @ rulesengine
+msgid "Antigua and Barbuda"
+msgstr "Antigua and Barbuda_FR"
+
+# @ rulesengine
+msgid "Argentina"
+msgstr "Argentina_FR"
+
+# @ rulesengine
+msgid "Armenia"
+msgstr "Armenia_FR"
+
+# @ rulesengine
+msgid "Aruba"
+msgstr "Aruba_FR"
+
+# @ rulesengine
+msgid "Australia"
+msgstr "Australia_FR"
+
+# @ rulesengine
+msgid "Austria"
+msgstr "Austria_FR"
+
+# @ rulesengine
+msgid "Azerbaijan"
+msgstr "Azerbaijan_FR"
+
+# @ rulesengine
+msgid "Bahrain"
+msgstr "Bahrain_FR"
+
+# @ rulesengine
+msgid "Bangladesh"
+msgstr "Bangladesh_FR"
+
+# @ rulesengine
+msgid "Barbados"
+msgstr "Barbados_FR"
+
+# @ rulesengine
+msgid "Belarus"
+msgstr "Belarus_FR"
+
+# @ rulesengine
+msgid "Belgium"
+msgstr "Belgium_FR"
+
+# @ rulesengine
+msgid "Belize"
+msgstr "Belize_FR"
+
+# @ rulesengine
+msgid "Benin"
+msgstr "Benin_FR"
+
+# @ rulesengine
+msgid "Bermuda"
+msgstr "Bermuda_FR"
+
+# @ rulesengine
+msgid "Bhutan"
+msgstr "Bhutan_FR"
+
+# @ rulesengine
+msgid "Bolivia"
+msgstr "Bolivia_FR"
+
+# @ rulesengine
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia and Herzegovina_FR"
+
+# @ rulesengine
+msgid "Botswana"
+msgstr "Botswana_FR"
+
+# @ rulesengine
+msgid "Brazil"
+msgstr "Brazil_FR"
+
+# @ rulesengine
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Ocean Territory_FR"
+
+# @ rulesengine
+msgid "British Virgin Islands"
+msgstr "British Virgin Islands_FR"
+
+# @ rulesengine
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam_FR"
+
+# @ rulesengine
+msgid "Bulgaria"
+msgstr "Bulgaria_FR"
+
+# @ rulesengine
+msgid "Burkina Faso"
+msgstr "Burkina Faso_FR"
+
+# @ rulesengine
+msgid "Burma"
+msgstr "Burma_FR"
+
+# @ rulesengine
+msgid "Burundi"
+msgstr "Burundi_FR"
+
+# @ rulesengine
+msgid "Cambodia"
+msgstr "Cambodia_FR"
+
+# @ rulesengine
+msgid "Cameroon"
+msgstr "Cameroon_FR"
+
+# @ rulesengine
+msgid "Canada"
+msgstr "Canada_FR"
+
+# @ rulesengine
+msgid "Cape Verde"
+msgstr "Cape Verde_FR"
+
+# @ rulesengine
+msgid "Cayman Islands"
+msgstr "Cayman Islands_FR"
+
+# @ rulesengine
+msgid "Central African Republic"
+msgstr "Central African Republic_FR"
+
+# @ rulesengine
+msgid "Chad"
+msgstr "Chad_FR"
+
+# @ rulesengine
+msgid "Chile"
+msgstr "Chile_FR"
+
+# @ rulesengine
+msgid "China"
+msgstr "China_FR"
+
+# @ rulesengine
+msgid "Christmas Island"
+msgstr "Christmas Island_FR"
+
+# @ rulesengine
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocos (Keeling) Islands_FR"
+
+# @ rulesengine
+msgid "Colombia"
+msgstr "Colombia_FR"
+
+# @ rulesengine
+msgid "Comoros"
+msgstr "Comoros_FR"
+
+# @ rulesengine
+msgid "Congo, Democratic Republic of the"
+msgstr "Congo, Democratic Republic of the_FR"
+
+# @ rulesengine
+msgid "Congo, Republic of the"
+msgstr "Congo, Republic of the_FR"
+
+# @ rulesengine
+msgid "Cook Islands"
+msgstr "Cook Islands_FR"
+
+# @ rulesengine
+msgid "Costa Rica"
+msgstr "Costa Rica_FR"
+
+# @ rulesengine
+msgid "Croatia"
+msgstr "Croatia_FR"
+
+# @ rulesengine
+msgid "Cuba"
+msgstr "Cuba_FR"
+
+# @ rulesengine
+msgid "Cyprus"
+msgstr "Cyprus_FR"
+
+# @ rulesengine
+msgid "Czech Republic"
+msgstr "Czech Republic_FR"
+
+# @ rulesengine
+msgid "Denmark"
+msgstr "Denmark_FR"
+
+# @ rulesengine
+msgid "Djibouti"
+msgstr "Djibouti_FR"
+
+# @ rulesengine
+msgid "Dominica"
+msgstr "Dominica_FR"
+
+# @ rulesengine
+msgid "Dominican Republic"
+msgstr "Dominican Republic_FR"
+
+# @ rulesengine
+msgid "Ecuador"
+msgstr "Ecuador_FR"
+
+# @ rulesengine
+msgid "Egypt"
+msgstr "Egypt_FR"
+
+# @ rulesengine
+msgid "El Salvador"
+msgstr "El Salvador_FR"
+
+# @ rulesengine
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea_FR"
+
+# @ rulesengine
+msgid "Eritrea"
+msgstr "Eritrea_FR"
+
+# @ rulesengine
+msgid "Estonia"
+msgstr "Estonia_FR"
+
+# @ rulesengine
+msgid "Ethiopia"
+msgstr "Ethiopia_FR"
+
+# @ rulesengine
+msgid "Falkland Islands (Islas Malvinas)"
+msgstr "Falkland Islands (Islas Malvinas)_FR"
+
+# @ rulesengine
+msgid "Faroe Islands"
+msgstr "Faroe Islands_FR"
+
+# @ rulesengine
+msgid "Fiji"
+msgstr "Fiji_FR"
+
+# @ rulesengine
+msgid "Finland"
+msgstr "Finland_FR"
+
+# @ rulesengine
+msgid "France"
+msgstr "France_FR"
+
+# @ rulesengine
+msgid "French Polynesia"
+msgstr "French Polynesia_FR"
+
+# @ rulesengine
+msgid "Gabon"
+msgstr "Gabon_FR"
+
+# @ rulesengine
+msgid "Georgia"
+msgstr "Georgia_FR"
+
+# @ rulesengine
+msgid "Germany"
+msgstr "Germany_FR"
+
+# @ rulesengine
+msgid "Ghana"
+msgstr "Ghana_FR"
+
+# @ rulesengine
+msgid "Gibraltar"
+msgstr "Gibraltar_FR"
+
+# @ rulesengine
+msgid "Greece"
+msgstr "Greece_FR"
+
+# @ rulesengine
+msgid "Greenland"
+msgstr "Greenland_FR"
+
+# @ rulesengine
+msgid "Grenada"
+msgstr "Grenada_FR"
+
+# @ rulesengine
+msgid "Guam"
+msgstr "Guam_FR"
+
+# @ rulesengine
+msgid "Guatemala"
+msgstr "Guatemala_FR"
+
+# @ rulesengine
+msgid "Guinea"
+msgstr "Guinea_FR"
+
+# @ rulesengine
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau_FR"
+
+# @ rulesengine
+msgid "Guyana"
+msgstr "Guyana_FR"
+
+# @ rulesengine
+msgid "Haiti"
+msgstr "Haiti_FR"
+
+# @ rulesengine
+msgid "Holy See (Vatican City)"
+msgstr "Holy See (Vatican City)_FR"
+
+# @ rulesengine
+msgid "Honduras"
+msgstr "Honduras_FR"
+
+# @ rulesengine
+msgid "Hong Kong (SAR)"
+msgstr "Hong Kong (SAR)_FR"
+
+# @ rulesengine
+msgid "Hungary"
+msgstr "Hungary_FR"
+
+# @ rulesengine
+msgid "Iceland"
+msgstr "Iceland_FR"
+
+# @ rulesengine
+msgid "India"
+msgstr "India_FR"
+
+# @ rulesengine
+msgid "Indonesia"
+msgstr "Indonesia_FR"
+
+# @ rulesengine
+msgid "Iran"
+msgstr "Iran_FR"
+
+# @ rulesengine
+msgid "Iraq"
+msgstr "Iraq_FR"
+
+# @ rulesengine
+msgid "Ireland"
+msgstr "Ireland_FR"
+
+# @ rulesengine
+msgid "Israel"
+msgstr "Israel_FR"
+
+# @ rulesengine
+msgid "Italy"
+msgstr "Italy_FR"
+
+# @ rulesengine
+msgid "Jamaica"
+msgstr "Jamaica_FR"
+
+# @ rulesengine
+msgid "Japan"
+msgstr "Japan_FR"
+
+# @ rulesengine
+msgid "Jersey"
+msgstr "Jersey_FR"
+
+# @ rulesengine
+msgid "Jordan"
+msgstr "Jordan_FR"
+
+# @ rulesengine
+msgid "Kazakhstan"
+msgstr "Kazakhstan_FR"
+
+# @ rulesengine
+msgid "Kenya"
+msgstr "Kenya_FR"
+
+# @ rulesengine
+msgid "Kiribati"
+msgstr "Kiribati_FR"
+
+# @ rulesengine
+msgid "Korea, North"
+msgstr "Korea, North_FR"
+
+# @ rulesengine
+msgid "Korea, South"
+msgstr "Korea, South_FR"
+
+# @ rulesengine
+msgid "Kuwait"
+msgstr "Kuwait_FR"
+
+# @ rulesengine
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan_FR"
+
+# @ rulesengine
+msgid "Laos"
+msgstr "Laos_FR"
+
+# @ rulesengine
+msgid "Latvia"
+msgstr "Latvia_FR"
+
+# @ rulesengine
+msgid "Lebanon"
+msgstr "Lebanon_FR"
+
+# @ rulesengine
+msgid "Lesotho"
+msgstr "Lesotho_FR"
+
+# @ rulesengine
+msgid "Liberia"
+msgstr "Liberia_FR"
+
+# @ rulesengine
+msgid "Libya"
+msgstr "Libya_FR"
+
+# @ rulesengine
+msgid "Liechtenstein"
+msgstr "Liechtenstein_FR"
+
+# @ rulesengine
+msgid "Lithuania"
+msgstr "Lithuania_FR"
+
+# @ rulesengine
+msgid "Luxembourg"
+msgstr "Luxembourg_FR"
+
+# @ rulesengine
+msgid "Macao"
+msgstr "Macao_FR"
+
+# @ rulesengine
+msgid "Macedonia, The Former Yugoslav Republic of"
+msgstr "Macedonia, The Former Yugoslav Republic of_FR"
+
+# @ rulesengine
+msgid "Madagascar"
+msgstr "Madagascar_FR"
+
+# @ rulesengine
+msgid "Malawi"
+msgstr "Malawi_FR"
+
+# @ rulesengine
+msgid "Malaysia"
+msgstr "Malaysia_FR"
+
+# @ rulesengine
+msgid "Maldives"
+msgstr "Maldives_FR"
+
+# @ rulesengine
+msgid "Mali"
+msgstr "Mali_FR"
+
+# @ rulesengine
+msgid "Malta"
+msgstr "Malta_FR"
+
+# @ rulesengine
+msgid "Marshall Islands"
+msgstr "Marshall Islands_FR"
+
+# @ rulesengine
+msgid "Mauritania"
+msgstr "Mauritania_FR"
+
+# @ rulesengine
+msgid "Mauritius"
+msgstr "Mauritius_FR"
+
+# @ rulesengine
+msgid "Mayotte"
+msgstr "Mayotte_FR"
+
+# @ rulesengine
+msgid "Mexico"
+msgstr "Mexico_FR"
+
+# @ rulesengine
+msgid "Micronesia, Federated States of"
+msgstr "Micronesia, Federated States of_FR"
+
+# @ rulesengine
+msgid "Moldova"
+msgstr "Moldova_FR"
+
+# @ rulesengine
+msgid "Monaco"
+msgstr "Monaco_FR"
+
+# @ rulesengine
+msgid "Mongolia"
+msgstr "Mongolia_FR"
+
+# @ rulesengine
+msgid "Montenegro"
+msgstr "Montenegro_FR"
+
+# @ rulesengine
+msgid "Montserrat"
+msgstr "Montserrat_FR"
+
+# @ rulesengine
+msgid "Morocco"
+msgstr "Morocco_FR"
+
+# @ rulesengine
+msgid "Mozambique"
+msgstr "Mozambique_FR"
+
+# @ rulesengine
+msgid "Myanmar"
+msgstr "Myanmar_FR"
+
+# @ rulesengine
+msgid "Namibia"
+msgstr "Namibia_FR"
+
+# @ rulesengine
+msgid "Nauru"
+msgstr "Nauru_FR"
+
+# @ rulesengine
+msgid "Nepal"
+msgstr "Nepal_FR"
+
+# @ rulesengine
+msgid "Netherlands"
+msgstr "Netherlands_FR"
+
+# @ rulesengine
+msgid "Netherlands Antilles"
+msgstr "Netherlands Antilles_FR"
+
+# @ rulesengine
+msgid "New Caledonia"
+msgstr "New Caledonia_FR"
+
+# @ rulesengine
+msgid "New Zealand"
+msgstr "New Zealand_FR"
+
+# @ rulesengine
+msgid "Nicaragua"
+msgstr "Nicaragua_FR"
+
+# @ rulesengine
+msgid "Niger"
+msgstr "Niger_FR"
+
+# @ rulesengine
+msgid "Nigeria"
+msgstr "Nigeria_FR"
+
+# @ rulesengine
+msgid "Niue"
+msgstr "Niue_FR"
+
+# @ rulesengine
+msgid "Northern Mariana Islands"
+msgstr "Northern Mariana Islands_FR"
+
+# @ rulesengine
+msgid "Norway"
+msgstr "Norway_FR"
+
+# @ rulesengine
+msgid "Oman"
+msgstr "Oman_FR"
+
+# @ rulesengine
+msgid "Pakistan"
+msgstr "Pakistan_FR"
+
+# @ rulesengine
+msgid "Palau"
+msgstr "Palau_FR"
+
+# @ rulesengine
+msgid "Panama"
+msgstr "Panama_FR"
+
+# @ rulesengine
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea_FR"
+
+# @ rulesengine
+msgid "Paraguay"
+msgstr "Paraguay_FR"
+
+# @ rulesengine
+msgid "Peru"
+msgstr "Peru_FR"
+
+# @ rulesengine
+msgid "Philippines"
+msgstr "Philippines_FR"
+
+# @ rulesengine
+msgid "Pitcairn Islands"
+msgstr "Pitcairn Islands_FR"
+
+# @ rulesengine
+msgid "Poland"
+msgstr "Poland_FR"
+
+# @ rulesengine
+msgid "Portugal"
+msgstr "Portugal_FR"
+
+# @ rulesengine
+msgid "Puerto Rico"
+msgstr "Puerto Rico_FR"
+
+# @ rulesengine
+msgid "Qatar"
+msgstr "Qatar_FR"
+
+# @ rulesengine
+msgid "Romania"
+msgstr "Romania_FR"
+
+# @ rulesengine
+msgid "Russia"
+msgstr "Russia_FR"
+
+# @ rulesengine
+msgid "Rwanda"
+msgstr "Rwanda_FR"
+
+# @ rulesengine
+msgid "Saint Helena"
+msgstr "Saint Helena_FR"
+
+# @ rulesengine
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts and Nevis_FR"
+
+# @ rulesengine
+msgid "Saint Lucia"
+msgstr "Saint Lucia_FR"
+
+# @ rulesengine
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre and Miquelon_FR"
+
+# @ rulesengine
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent and the Grenadines_FR"
+
+# @ rulesengine
+msgid "Samoa"
+msgstr "Samoa_FR"
+
+# @ rulesengine
+msgid "San Marino"
+msgstr "San Marino_FR"
+
+# @ rulesengine
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome and Principe_FR"
+
+# @ rulesengine
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia_FR"
+
+# @ rulesengine
+msgid "Senegal"
+msgstr "Senegal_FR"
+
+# @ rulesengine
+msgid "Serbia"
+msgstr "Serbia_FR"
+
+# @ rulesengine
+msgid "Seychelles"
+msgstr "Seychelles_FR"
+
+# @ rulesengine
+msgid "Sierra Leone"
+msgstr "Sierra Leone_FR"
+
+# @ rulesengine
+msgid "Singapore"
+msgstr "Singapore_FR"
+
+# @ rulesengine
+msgid "Slovakia"
+msgstr "Slovakia_FR"
+
+# @ rulesengine
+msgid "Slovenia"
+msgstr "Slovenia_FR"
+
+# @ rulesengine
+msgid "Solomon Islands"
+msgstr "Solomon Islands_FR"
+
+# @ rulesengine
+msgid "Somalia"
+msgstr "Somalia_FR"
+
+# @ rulesengine
+msgid "South Africa"
+msgstr "South Africa_FR"
+
+# @ rulesengine
+msgid "Spain"
+msgstr "Spain_FR"
+
+# @ rulesengine
+msgid "Sri Lanka"
+msgstr "Sri Lanka_FR"
+
+# @ rulesengine
+msgid "Sudan"
+msgstr "Sudan_FR"
+
+# @ rulesengine
+msgid "Suriname"
+msgstr "Suriname_FR"
+
+# @ rulesengine
+msgid "Svalbard"
+msgstr "Svalbard_FR"
+
+# @ rulesengine
+msgid "Swaziland"
+msgstr "Swaziland_FR"
+
+# @ rulesengine
+msgid "Sweden"
+msgstr "Sweden_FR"
+
+# @ rulesengine
+msgid "Switzerland"
+msgstr "Switzerland_FR"
+
+# @ rulesengine
+msgid "Syria"
+msgstr "Syria_FR"
+
+# @ rulesengine
+msgid "Taiwan"
+msgstr "Taiwan_FR"
+
+# @ rulesengine
+msgid "Tajikistan"
+msgstr "Tajikistan_FR"
+
+# @ rulesengine
+msgid "Tanzania"
+msgstr "Tanzania_FR"
+
+# @ rulesengine
+msgid "Thailand"
+msgstr "Thailand_FR"
+
+# @ rulesengine
+msgid "Trinidad and Tobago"
+msgstr "Trinidad and Tobago_FR"
+
+# @ rulesengine
+msgid "Tunisia"
+msgstr "Tunisia_FR"
+
+# @ rulesengine
+msgid "Turkey"
+msgstr "Turkey_FR"
+
+# @ rulesengine
+msgid "Turkmenistan"
+msgstr "Turkmenistan_FR"
+
+# @ rulesengine
+msgid "Turks and Caicos Islands"
+msgstr "Turks and Caicos Islands_FR"
+
+# @ rulesengine
+msgid "Tuvalu"
+msgstr "Tuvalu_FR"
+
+# @ rulesengine
+msgid "Uganda"
+msgstr "Uganda_FR"
+
+# @ rulesengine
+msgid "Ukraine"
+msgstr "Ukraine_FR"
+
+# @ rulesengine
+msgid "United Arab Emirates"
+msgstr "United Arab Emirates_FR"
+
+# @ rulesengine
+msgid "United Kingdom"
+msgstr "United Kingdom_FR"
+
+# @ rulesengine
+msgid "United States"
+msgstr "United States_FR"
+
+# @ rulesengine
+msgid "Uruguay"
+msgstr "Uruguay_FR"
+
+# @ rulesengine
+msgid "Uzbekistan"
+msgstr "Uzbekistan_FR"
+
+# @ rulesengine
+msgid "Vanuatu"
+msgstr "Vanuatu_FR"
+
+# @ rulesengine
+msgid "Venezuela"
+msgstr "Venezuela_FR"
+
+# @ rulesengine
+msgid "Vietnam"
+msgstr "Vietnam_FR"
+
+# @ rulesengine
+msgid "Wallis and Futuna"
+msgstr "Wallis and Futuna_FR"
+
+# @ rulesengine
+msgid "Western Sahara"
+msgstr "Western Sahara_FR"
+
+# @ rulesengine
+msgid "Yemen"
+msgstr "Yemen_FR"
+
+# @ rulesengine
+msgid "Zambia"
+msgstr "Zambia_FR"
+
+# @ rulesengine
+msgid "Zimbabwe"
+msgstr "Zimbabwe_FR"
+
+# @ rulesengine
+msgid "Indian Rupee"
+msgstr "Indian Rupee_FR"
+
+# @ rulesengine
+msgid "Australian Dollar"
+msgstr "Australian Dollar_FR"
+
+# @ rulesengine
+msgid "Euro"
+msgstr "Euro_FR"
+
+# @ rulesengine
+msgid "Brazilian Real"
+msgstr "Brazilian Real_FR"
+
+# @ rulesengine
+msgid "Canadian Dollar"
+msgstr "Canadian Dollar_FR"
+
+# @ rulesengine
+msgid "Yuan Renminbi"
+msgstr "Yuan Renminbi_FR"
+
+# @ rulesengine
+msgid "Danish Krone"
+msgstr "Danish Krone_FR"
+
+# @ rulesengine
+msgid "Hong Kong Dollar"
+msgstr "Hong Kong Dollar_FR"
+
+# @ rulesengine
+msgid "Iranian Rial"
+msgstr "Iranian Rial_FR"
+
+# @ rulesengine
+msgid "Israeli New Shekel"
+msgstr "Israeli New Shekel_FR"
+
+# @ rulesengine
+msgid "Japanese Yen"
+msgstr "Japanese Yen_FR"
+
+# @ rulesengine
+msgid "\tKorean Won"
+msgstr "\tKorean Won_FR"
+
+# @ rulesengine
+msgid "New Zealand Dollar"
+msgstr "New Zealand Dollar_FR"
+
+# @ rulesengine
+msgid "Singapore Dollar"
+msgstr "Singapore Dollar_FR"
+
+# @ rulesengine
+msgid "South African Rand"
+msgstr "South African Rand_FR"
+
+# @ rulesengine
+msgid "Swedish Krona"
+msgstr "Swedish Krona_FR"
+
+# @ rulesengine
+msgid "Swiss Franc"
+msgstr "Swiss Franc_FR"
+
+# @ rulesengine
+msgid "Taiwan Dollar"
+msgstr "Taiwan Dollar_FR"
+
+# @ rulesengine
+msgid "Turkish Lira"
+msgstr "Turkish Lira_FR"
+
+# @ rulesengine
+msgid "Pound Sterling"
+msgstr "Pound Sterling_FR"
+
+# @ rulesengine
+msgid "US Dollar"
+msgstr "US Dollar_FR"
+
+# @ rulesengine
+msgid "Arab Emirates Dirham"
+msgstr "Arab Emirates Dirham_FR"
+
+# @ rulesengine
+msgid "Africa"
+msgstr "Africa_FR"
+
+# @ rulesengine
+msgid "Antarctica"
+msgstr "Antarctica_FR"
+
+# @ rulesengine
+msgid "Asia"
+msgstr "Asia_FR"
+
+# @ rulesengine
+msgid "Europe"
+msgstr "Europe_FR"
+
+# @ rulesengine
+msgid "North america"
+msgstr "North america_FR"
+
+# @ rulesengine
+msgid "Oceania"
+msgstr "Oceania_FR"
+
+# @ rulesengine
+msgid "South america"
+msgstr "South america_FR"
+
+# @ rulesengine
+msgid "Sunday"
+msgstr "Sunday_FR"
+
+# @ rulesengine
+msgid "Monday"
+msgstr "Monday_FR"
+
+# @ rulesengine
+msgid "Tuesday"
+msgstr "Tuesday_FR"
+
+# @ rulesengine
+msgid "Wednesday"
+msgstr "Wednesday_FR"
+
+# @ rulesengine
+msgid "Thrusday"
+msgstr "Thrusday_FR"
+
+# @ rulesengine
+msgid "Friday"
+msgstr "Friday_FR"
+
+# @ rulesengine
+msgid "Saturday"
+msgstr "Saturday_FR"
+
+# @ rulesengine
+msgid "January"
+msgstr "January_FR"
+
+# @ rulesengine
+msgid "February"
+msgstr "February_FR"
+
+# @ rulesengine
+msgid "March"
+msgstr "March_FR"
+
+# @ rulesengine
+msgid "April"
+msgstr "April_FR"
+
+# @ rulesengine
+msgid "May"
+msgstr "May_FR"
+
+# @ rulesengine
+msgid "June"
+msgstr "June_FR"
+
+# @ rulesengine
+msgid "July"
+msgstr "July_FR"
+
+# @ rulesengine
+msgid "August"
+msgstr "August_FR"
+
+# @ rulesengine
+msgid "September"
+msgstr "September_FR"
+
+# @ rulesengine
+msgid "October"
+msgstr "October_FR"
+
+# @ rulesengine
+msgid "November"
+msgstr "November_FR"
+
+# @ rulesengine
+msgid "December"
+msgstr "December_FR"
+
+# @ rulesengine
+msgid "Hide Page"
+msgstr "Hide Page_FR"
+
+# @ rulesengine
+msgid "Replace Page Content"
+msgstr "Replace Page Content_FR"
+
+# @ rulesengine
+msgid "Append content to Page"
+msgstr "Append content to Page_FR"
+
+# @ rulesengine
+msgid "Append image to Page"
+msgstr "Append image to Page_FR"
+
+# @ rulesengine
+msgid "Top of Page"
+msgstr "Top of Page_FR"
+
+# @ rulesengine
+msgid "Bottom of Page"
+msgstr "Bottom of Page_FR"
+
+# @ rulesengine
+msgid "Show as Dialog"
+msgstr "Show as Dialog_FR"
+
+# @ rulesengine
+msgid "Large"
+msgstr "Large_FR"
+
+# @ rulesengine
+msgid "Medium"
+msgstr "Medium_FR"
+
+# @ rulesengine
+msgid "Thumbnail"
+msgstr "Thumbnail_FR"
+
+# @ rulesengine
+msgid "Full"
+msgstr "Full_FR"
+
+# @ rulesengine
+msgid "Generate Short Code"
+msgstr "Generate Short Code_FR"
+
+# @ rulesengine
+msgid "Append content with image background"
+msgstr "Append content with image background_FR"
+
+# @ rulesengine
+msgid "Hide Post"
+msgstr "Hide Post_FR"
+
+# @ rulesengine
+msgid "Replace Post Content"
+msgstr "Replace Post Content_FR"
+
+# @ rulesengine
+msgid "Append content to Post"
+msgstr "Append content to Post_FR"
+
+# @ rulesengine
+msgid "Append image to Post"
+msgstr "Append image to Post_FR"
+
+# @ rulesengine
+msgid "Top of Post"
+msgstr "Top of Post_FR"
+
+# @ rulesengine
+msgid "Bottom of Post"
+msgstr "Bottom of Post_FR"
+
+# @ rulesengine
+msgid "Append Third-Party Shortcode"
+msgstr "Append Third-Party Shortcode_FR"
+
+# @ rulesengine
+msgid "User Role"
+msgstr "User Role_FR"
+
+# @ rulesengine
+msgid "User Profile"
+msgstr "User Profile_FR"
+
+# @ rulesengine
+msgid "Request"
+msgstr "Request_FR"
+
+# @ rulesengine
+msgid "Mobile Device"
+msgstr "Mobile Device_FR"
+
+# @ rulesengine
+msgid "Geo Location"
+msgstr "Geo Location_FR"
+
+# @ rulesengine
+msgid "Date and Time"
+msgstr "Date and Time_FR"
+
+# @ rulesengine
+msgid "Browser"
+msgstr "Browser_FR"
+
+# @ rulesengine
+msgid "Page"
+msgstr "Page_FR"
+
+# @ rulesengine
+msgid "Post"
+msgstr "Post_FR"
+
+# @ rulesengine
+msgid "User Role Name"
+msgstr "User Role Name_FR"
+
+# @ rulesengine
+msgid "Email"
+msgstr "Email_FR"
+
+# @ rulesengine
+msgid "Registered Date"
+msgstr "Registered Date_FR"
+
+# @ rulesengine
+msgid "Country"
+msgstr "Country_FR"
+
+# @ rulesengine
+msgid "Currency"
+msgstr "Currency_FR"
+
+# @ rulesengine
+msgid "URL"
+msgstr "URL_FR"
+
+# @ rulesengine
+msgid "Browser Name"
+msgstr "Browser Name_FR"
+
+# @ rulesengine
+msgid "Date"
+msgstr "Date_FR"
+
+# @ rulesengine
+msgid "Time"
+msgstr "Time_FR"
+
+# @ rulesengine
+msgid "Mobile Operating System"
+msgstr "Mobile Operating System_FR"
+
+# @ rulesengine
+msgid "User Id"
+msgstr "User Id_FR"
+
+# @ rulesengine
+msgid "Unregistered(Not Logged In)"
+msgstr "Unregistered(Not Logged In)_FR"
+
+# @ rulesengine
+msgid "Continent"
+msgstr "Continent_FR"
+
+# @ rulesengine
+msgid "Page Title"
+msgstr "Page Title_FR"
+
+# @ rulesengine
+msgid "Post Title"
+msgstr "Post Title_FR"
+
+# @ rulesengine
+msgid "Day of Week"
+msgstr "Day of Week_FR"
+
+# @ rulesengine
+msgid "Month"
+msgstr "Month_FR"
+
+# @ rulesengine
+msgid "Mobile Device Type"
+msgstr "Mobile Device Type_FR"
+
+# @ rulesengine
+msgid "equal to"
+msgstr "equal to_FR"
+
+# @ rulesengine
+msgid "not equal to"
+msgstr "not equal to_FR"
+
+# @ rulesengine
+msgid "begins with"
+msgstr "begins with_FR"
+
+# @ rulesengine
+msgid "contains"
+msgstr "contains_FR"
+
+# @ rulesengine
+msgid "does not contain"
+msgstr "does not contain_FR"
+
+# @ rulesengine
+msgid "greater than"
+msgstr "greater than_FR"
+
+# @ rulesengine
+msgid "less than"
+msgstr "less than_FR"
+
+# @ rulesengine
+msgid "domain is"
+msgstr "domain is_FR"

@@ -1,0 +1,89 @@
+Version 2.0.1, 2 November 2015
+------------------------------------------------------------------------------------
+[+] Variations of product now can be added to conditions
+[+] Added a label attribute to the text for the checkout checkbox
+[*] Fixed issue with sets not saving correctly on "Automatic" tab
+[*] Fixed bug which was affecting new sets with "Products in cart" condition
+[*] Other minor bug fixes
+
+Version 2.0, 24 September 2015
+------------------------------------------------------------------------------------
+[+] "Checkout" tab got split into two independent tabs - "Checkbox" and "Automatic"
+[+] Order Meta and Static Values now supported in fields for both checkout tabs
+[+] Added new conditions related to customer role
+[+] On checkout it's now possible to select interest groups
+[+] New option "Subscribe on payment received" added
+[+] Ecommerce 360: new option to delete cancelled/refunded orders
+[*] Product lists on settings page are loaded via AJAX search now
+[*] WooChimp Log added to store errors returned from MailChimp's requests
+[*] Other minor bug fixes and cosmetic changes
+
+Version 1.4.3, 25 February 2015
+------------------------------------------------------------------------------------
+[+] Added Checkout checkbox position woocommerce_after_checkout_billing_form
+[-] Removed "Above checkout form" and "Below checkout form" checkbox positions
+[*] Order date is now passed to MailChimp correctly (added property order_date)
+[*] Fixed subscribe on checkout bug related to WordPress User ID field
+[*] Improved performance on stores with thousands of products
+[*] Fixed interest group selection bug
+[*] Other minor bug fixes
+
+Version 1.4.2, 20 August 2014
+------------------------------------------------------------------------------------
+[*] Minor bug fixes
+
+Version 1.4.1, 19 August 2014
+------------------------------------------------------------------------------------
+[*] Fixed a bug with related to mc_cid and mc_eid cookies
+
+Version 1.4, 13 August 2014
+------------------------------------------------------------------------------------
+[+] Added more checkout opt-in checkbox positioning options
+[*] Fixed Ecommerce360 functionality to associate orders with campaigns
+[*] Increased MailChimp list limit that can be loaded
+[*] Fixed infinite loop issue when 'ghost' categories are present
+
+Version 1.3, 13 March 2014
+------------------------------------------------------------------------------------
+[+] Implemented custom MailChimp API wrapper class
+[+] Option to choose different checkout page checkbox position
+[+] Option to subscribe users after order is marked as completed
+[-] Removed standard MailChimp API wrapper which caused conflicts with other plugins
+[*] JS/CSS file version numbers now automatically follow plugin version number
+
+Version 1.2.1, 17 January 2014
+------------------------------------------------------------------------------------
+[-] Removed "Emails left" field from status page
+[*] Minor bug fixes
+
+Version 1.2, 14 January 2014
+------------------------------------------------------------------------------------
+[+] Added support for conditional list and group selection
+[+] Added PHP function to display signup forms
+[*] Improved compatibility with other plugins
+[*] Other minor bug fixes and improvements
+
+Version 1.1, 8 November 2013
+------------------------------------------------------------------------------------
+[+] Support for multiple groups for all subscription options
+[+] Option to choose whether groups should be added or replaced
+[+] Support for custom form fields that are linked with MailChimp's merge tags
+[+] Option to pass customer details to MailChimp's merge tags on checkout
+[+] Support for MailChimp Webhooks
+[+] Option to skip subscription if user has unsubscribed from the same list
+[+] Displaying more MailChimp status fields
+[-] Removed first name and last name fields in favor of custom fields
+[*] Fixed issues with frontend Ajax calls
+[*] Improved admin interface usability
+
+Version 1.0.1, 6 November 2013
+------------------------------------------------------------------------------------
+[+] Added powerful styling features - skins, theme override and custom CSS
+[*] Fixed a bug related to MailChimp API class loading
+[*] Fixed several styling issues for signup forms
+[*] Fixed a bug that prevented customers from using spaces in names when signing up
+[*] Renamed plugin to WooChimp
+
+Version 1.0, 5 November 2013
+------------------------------------------------------------------------------------
+[+] Initial release

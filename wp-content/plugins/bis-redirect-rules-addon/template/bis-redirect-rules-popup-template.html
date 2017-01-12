@@ -1,0 +1,37 @@
+<script id = "bis_redirect_popup_template" type = "text/x-handlebars-template">
+   <div class="redirect-popup-content" data-remodal-id = "modal" id="bis_re_redirect_modal" role = "dialog" aria-labelledby = "modal1Title" aria-describedby = "modal1Desc">
+    <span data-remodal-action = "close" id="bis_re_close_btn" class = "remodal-close" aria-label = "Close"></span>
+    <div>
+        <div class="redirect-div-padding">
+            <span class="redirect-popup-title" id="modal1Title">{{popup_data.title}}</span>
+        </div>
+        {{#compare popup_data.imageOneUrl null operator="!="}}
+        <span>
+            <img src="{{popup_data.imageOneUrl}}" />
+        </span>
+        {{/compare}}
+        <div class="redirect-popup-heading redirect-div-padding">
+            {{popup_data.headingOne}}
+        </div>
+        <div class="redirect-popup-subheading redirect-div-padding">
+            {{popup_data.headingTwo}}
+        </div>
+        {{#compare popup_data.autoCloseTime 0 operator="!="}}
+        <div class="redirect-popup-timer">
+            <label> {{popup_data.timerMsg}} <span id="bis_stimer"></span> {{popup_data.secMsg}}</label>
+        </div>
+        {{/compare}}
+    </div>
+    <div class="redirect-popup-checkbox-label">
+        <label >
+            <input type="checkbox" id="bis_red_remem" name="bis_red_remem">
+            <span id="bis_red_msg">{{popup_data.donot_show_msg}}</span>
+        </label>
+    </div>
+    <div>
+        <button data-remodal-action="cancel" id="bis_re_cancel_red" class="remodal-cancel">{{popup_data.buttonLabelTwo}}</button>
+        <span style = "padding:10px"></span>
+        <button data-remodal-action="confirm" id="bis_confirm_redirect" class="remodal-confirm">{{popup_data.buttonLabelOne}}</button>
+    </div>
+</div>
+</script>

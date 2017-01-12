@@ -1,0 +1,18 @@
+<wpml-config>
+    <admin-texts>
+        <key name="woocommerce_email_mbc_cpo_intro" />
+        <key name="woocommerce_email_mbc_cco_intro" />
+        <key name="woocommerce_email_mbc_cna_intro" />
+        <key name="woocommerce_email_mbc_cn_intro" />
+        <key name="woocommerce_email_mbc_extra_link_one" />
+        <key name="woocommerce_email_mbc_extra_link_two" />
+        <key name="woocommerce_email_mbc_extra_link_three" />
+        <key name="woocommerce_email_mbc_cpo_intro_banner" />
+        <key name="woocommerce_email_mbc_cpo_intro_banner_link" />
+        <key name="woocommerce_email_mbc_cco_intro_banner" />
+        <key name="woocommerce_email_mbc_cco_intro_banner_link" />
+        <key name="woocommerce_email_mbc_coh_intro" />
+        <key name="woocommerce_email_mbc_cpo_attachment" />
+        <key name="woocommerce_email_mbc_cco_attachment" />
+    </admin-texts>
+</wpml-config>
