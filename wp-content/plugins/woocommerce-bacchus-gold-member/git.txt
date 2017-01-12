@@ -41,3 +41,4 @@ git pull
 git push origin HEAD
 git commit -m "01.12"
 git push origin HEAD
+git commit
