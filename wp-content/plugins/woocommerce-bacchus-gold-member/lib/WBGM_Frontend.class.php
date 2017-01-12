@@ -470,6 +470,9 @@ class WBGM_Frontend
 	    if(! is_cart()) {
             return $return;
         }
+        if( !(isset($_COOKIE['wbgm_ac_info'])) ){
+	        return $return;
+        }
 	    $is_plugin_wbgm = false;
 	    foreach (WC()->cart->get_cart() as $key => $item){
 	        if( $product->variation_id == $item->variation_id) {
