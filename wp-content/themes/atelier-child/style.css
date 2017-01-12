@@ -1,0 +1,314 @@
+/* LICENSE & DETAILS
+   ==================================================
+
+	Theme Name: Atelier Child Theme
+	Theme URI: http://atelier.swiftideas.com
+	Description: An Incredible Responsive Multi-Purpose WordPress WooCommerce Theme - Designed & Developed by Swift Ideas ( www.swiftideas.com )
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Template: atelier
+	Version: 1.0
+	Author: Swift Ideas
+	Author URI: www.swiftideas.com
+
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+   ==================================================
+*/
+
+/* --------------------------------------------
+	CHILD THEME CSS
+-------------------------------------------- */
+
+.price.price-custom {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.price.price-unit.smaller.preis,.related-products .price.price-unit.smaller.related-preis {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 1em !important;
+}
+
+p.entspricht {
+    font-size: 12px;
+    margin: 0;
+}
+
+.price.price-custom .price-von {
+    font-weight: 600;
+}
+del.del-old-price {
+    color: #444444;
+    opacity: .5;
+    display: inline !important;
+}
+
+/* --------------------------------------------
+	QUIZ CSS
+-------------------------------------------- */
+.presentation{
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+}
+.gform_button{
+    position: absolute;
+    bottom: -30px;
+    margin: inherit;
+    float: right;
+}
+#gform_submit_button_9,
+#gform_submit_button_10{
+    margin-bottom: 60px;
+}
+.gform_wrapper .top_label input.medium{
+    width:100%!important;
+}
+.next-quiz-step,
+.back-quiz-step{
+    color: #952522;
+    text-decoration: none;
+    font-weight: bold;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+}
+.next-quiz-step{
+    float: right;
+}
+.back-quiz-step-custom{
+    margin-bottom: 50px;
+}
+.gform_wrapper{
+    position: relative;
+}
+.next-quiz-step:hover,
+.back-quiz-step:hover{
+    text-decoration: underline;
+}
+.progress-bar{
+    margin: auto;
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.session-incomplete{
+    background-image: url(./img/SessionIncomplete.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 70px;
+}
+.quiz-incomplete{
+    background-image: url(./img/QuizIncomplete.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 95px;
+    height: 70px;
+}
+.session-complete{
+    background-image: url(./img/SessionComplete.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 70px;
+}
+.quiz-complete{
+    background-image: url(./img/QuizComplete.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 95px;
+    height: 70px;
+}
+.progress-box{
+    width: 64px;
+    float: left;
+    display: block;
+}
+.progress-box p{
+    text-align: left;
+    width: 100px;
+    padding: 5px;
+    font-size: 12px;
+    margin: auto;
+}
+.progress-box-quiz{
+    width: 98px;
+    float: left;
+    display: block;
+    text-align: center;
+}
+.progress-box-quiz p{
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    font-size: 12px;
+    margin: auto;
+}
+
+.quiz_header{
+    clear: both;
+}
+.quiz_rezult{
+    color: #952522;
+}
+.gquiz-field-label {
+    color: #952522;
+}
+.gquiz-field-choice {
+    display: none;
+}
+
+#gform_fields_13 label.gfield_label,
+#gform_fields_14 label.gfield_label,
+#gform_fields_15 label.gfield_label,
+#gform_fields_16 label.gfield_label,
+#gform_fields_17 label.gfield_label,
+#gform_fields_18 label.gfield_label {
+    background-color: #a4a5a5;
+    color: #f7f2f2;
+    height: 35px;
+    padding: 0 0 0 10px;
+    margin-right: -15px;
+    line-height: 35px!important;
+    display: block!important;
+}
+#gform_fields_13 label.gfield_label span,
+#gform_fields_14 label.gfield_label span,
+#gform_fields_15 label.gfield_label span,
+#gform_fields_16 label.gfield_label span,
+#gform_fields_17 label.gfield_label span,
+#gform_fields_18 label.gfield_label span{
+    display: none;
+}
+#gform_fields_13,
+#gform_fields_14,
+#gform_fields_15,
+#gform_fields_16,
+#gform_fields_17,
+#gform_fields_18{
+    background-color: #f1f1f2;
+}
+#gform_fields_13 .ginput_container.ginput_container_radio,
+#gform_fields_14 .ginput_container.ginput_container_radio,
+#gform_fields_15 .ginput_container.ginput_container_radio,
+#gform_fields_16 .ginput_container.ginput_container_radio,
+#gform_fields_17 .ginput_container.ginput_container_radio,
+#gform_fields_18 .ginput_container.ginput_container_radio{
+    padding: 10px;
+}
+#gform_fields_13 .gform_body ul,
+#gform_fields_14 .gform_body ul,
+#gform_fields_15 .gform_body ul,
+#gform_fields_16 .gform_body ul,
+#gform_fields_17 .gform_body ul,
+#gform_fields_18 .gform_body ul{
+    background-color: #f1f1f2!important;
+}
+#gform_save_11_link{
+    display: none;
+}
+#gform_submit_button_11{
+    margin-bottom: 50px;
+}
+.page-password input[type=submit]{
+    margin-top: 25px!important;
+}
+.single-product .aux-item section{
+    width: auto;
+}
+
+#quantity > input {
+    height: 60px!important;
+    font-size: 22px!important;
+    border-color: rgb(242, 242, 242);
+    border-size: 2px;
+}
+
+@media screen and (min-width: 768px) {
+
+    #default-accordion {
+        display: block;
+    }
+
+    #accordion {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #default-accordion {
+        display: none;
+    }
+
+    #accordion {
+        display: block;
+    }
+
+    #accordion div.list-group {
+        padding: 10px;
+    }
+
+    @media screen and (max-width: 500px) {
+        #accordion tr {
+            width: 100%;
+        }
+        #accordion tr th,
+        #accordion tr td {
+            width: 50%;
+        }
+
+        #accordion tr,
+        #accordion tr th,
+        #accordion tr td,
+        #accordion tr th p,
+        #accordion tr td p {
+            padding-right: 0;
+            margin-right: 0;
+            padding-left: 0;
+            margin-left: 0;
+        }
+    }
+
+
+    #accordion a span.glyphicon-menu-down {
+        position: relative;
+        top: -15px;
+    }
+}
+
+#products > li > div.product-details > span.posted_in > a {
+    color: rgb(171, 68, 95)!important;
+}
+
+#products > li > div.product-details > div.star-rating > span {
+    line-height: 16px;
+    font-size: 16px;
+}
+
+#products > li > div.product-details > div.star-rating {
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    top: 8px!important;
+}
+
+#products > li > div.product-details > p.price.price-unit.smaller.related-preis {
+    display: block;
+    width: 100%!important;
+    margin: 0 auto;
+    text-align: center!important;
+    font-size: 16px!important;
+    line-height: 20px!important;
+}
+
+/* star link to #tab-reviews */
+div.container.product-main > div.summary.entry-summary > div.product-price-wrap.clearfix > div.star-rating:hover {
+    cursor: pointer;
+}
