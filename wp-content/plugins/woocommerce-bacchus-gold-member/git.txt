@@ -1,0 +1,43 @@
+git init
+git status
+git add -A
+git status
+git commit -m "untracked"
+git status
+git add -A
+git status
+git commit -m "untracked 2"
+git status
+git remote add origin git@github.com:malyarevich/bacchus.git
+git remote
+git push origin HEAD
+git push origin HEAD -f
+git checkout -b work
+git status
+git add -A
+git commit -m "work"
+git push origin HEAD
+git checkout master
+git add .
+git commit -m "master"
+git push origin HEAD
+git checkout work
+git add .
+git commit -m "work 3333"
+git push origin HEAD
+git checkout master
+git pull origin master
+git push origin HEAD
+git add .
+git commit -m "merge"
+git push origin HEAD
+git checkout work
+git pull
+git pull origin HEAD
+git add -A
+git status
+git checkout work
+git pull
+git push origin HEAD
+git commit -m "01.12"
+git push origin HEAD
