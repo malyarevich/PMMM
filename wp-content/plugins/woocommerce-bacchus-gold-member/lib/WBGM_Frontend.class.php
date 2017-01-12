@@ -261,7 +261,7 @@ class WBGM_Frontend
                 }
                 break;
             case 'add':
-                $so_congrat = WBGM_Settings_Helper::get('so_congrat', false, 'global_options');
+                /*$so_congrat = WBGM_Settings_Helper::get('so_congrat', false, 'global_options');
                 if($so_congrat) {
                     $so_congrat = '{Y} x {title} wurde als Gold Artikel hinzugefügt.';
                 }
@@ -274,7 +274,7 @@ class WBGM_Frontend
                     '<a href="' . $link . '">' . $title . '</a>',
                     $so_congrat);
                 $this->_wbgm_added_gifts[$product_id] = ['message' => $so_congrat, 'type' => 'success'];
-                $this->wbgm_custom_notice();
+                $this->wbgm_custom_notice();*/
                 break;
             default:
         }
@@ -326,6 +326,40 @@ class WBGM_Frontend
      *
      * @since  0.0.0
      * @access public
+     * @param  int $product_id noticed item id
+     *
+     * @return string
+     */
+    public function wbgm_return_notice_add($product_id)
+    {
+        $_product = wc_get_product($product_id);
+        $link = $_product->post->guid;
+        $title = $_product->post->post_title;
+
+        $so_congrat = WBGM_Settings_Helper::get('so_congrat', false, 'global_options');
+        if($so_congrat) {
+            $so_congrat = '{Y} x {title} wurde als Gold Artikel hinzugefügt.';
+        }
+        $so_congrat = str_replace(
+            '{Y}',
+            1,
+            $so_congrat);
+        $so_congrat = str_replace(
+            '{title}',
+            '<a href="' . $link . '">' . $title . '</a>',
+            $so_congrat);
+        $this->_wbgm_added_gifts[$product_id] = ['message' => $so_congrat, 'type' => 'success'];
+
+
+        $this->wbgm_custom_notice();
+    }
+
+
+    /**
+     * Add free item to cart.
+     *
+     * @since  0.0.0
+     * @access public
      *
      * @return void
      */
@@ -341,6 +375,8 @@ class WBGM_Frontend
                     WC()->cart->set_quantity( $content->product_id, $content->quantity + 1 );
                     $is_added = true;
 
+                    $this->wbgm_return_notice_add($content->product_id);
+                    echo json_decode();
                     $this->create_notice($content->product_id, $content->quantity + 1, 'add');
                 }
             }
@@ -467,7 +503,10 @@ class WBGM_Frontend
 	 */
 	public function wbgm_disallow_qty_update( $return, $product )
 	{
-	    if(! is_cart()) {
+	    if( ! is_cart() ) {
+            return $return;
+        }
+        if( ! WBGM_Settings_Helper::get( 'global_enabled', true, 'global_options' ) ) {
             return $return;
         }
         if( !(isset($_COOKIE['wbgm_ac_info'])) ){
