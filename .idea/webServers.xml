@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="34a8fe9f-e5c7-4d56-aadb-94f76bd3cc3d" name="bacchus.de" url="http://p277497.webspaceconfig.de">
+        <fileTransfer host="p277497.webspaceconfig.de" port="22" rootFolder="/html/wordpress" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
