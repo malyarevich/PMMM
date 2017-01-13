@@ -54,7 +54,7 @@ class WBGM_Admin
 			WBGM_Common_Helper::translate( 'Gift Criteria' ),
 			'manage_options',
 			'woocommerce-bacchus-gold-member-criteria',
-			array( $this, 'wbgm_criteria_template' )
+			array( $this, '_wbgm_criteria_template' )
 		);*/
 
 		add_submenu_page(
@@ -111,7 +111,7 @@ class WBGM_Admin
 	public function main_menu_template()
 	{
 		if( ( isset($_POST['_wbgm_global_hidden']) && 'Y' == $_POST['_wbgm_global_hidden'] )
-				&& wp_verify_nonce( $_POST['_wbgm_global_nonce'], 'wbgm_global_settings' ) ) {
+				&& wp_verify_nonce( $_POST['_wbgm_global_nonce'], '_wbgm_global_settings' ) ) {
 
 			$wbgm_globally_enabled = isset( $_POST['wbgm_globally_enabled'] ) ? true : false;
 			$enabled = update_option( '_wbgm_global_enabled', $wbgm_globally_enabled );
@@ -165,10 +165,10 @@ class WBGM_Admin
 		include 'pages/main_menu_page.php';
 	}
 
-	public function wbgm_criteria_template()
+	public function _wbgm_criteria_template()
 	{
 		if( ( isset($_POST['_wbgm_criteria_hidden']) && $_POST['_wbgm_criteria_hidden'] == 'Y' )
-				&& wp_verify_nonce( $_POST['_wbgm_criteria_nonce'], 'wbgm_criteria_settings' ) ) {
+				&& wp_verify_nonce( $_POST['_wbgm_criteria_nonce'], '_wbgm_criteria_settings' ) ) {
 
 			if( isset($_POST['_wbgm_criteria']) ) {
 				$user_criteria = $_POST['_wbgm_criteria'];
@@ -264,10 +264,10 @@ class WBGM_Admin
             $type = update_option( '_wbgm_type_text', $type_text );
             $free_item = update_option( '_wbgm_free_item_text', $free_item_text );
 
-			if( $overlay || $heading || $heading_msg || $invalid || $add_gift || $ok || $cancel || $so_product_page || $so_product_page_enabled ||
-                $so_add_more || $so_add_more_enabled || $so_congrat || $so_congrat_enabled || $so_congrat_save_money ||
-                $so_congrat_save_money_enabled || $so_deleted_gift || $so_deleted_gift_enabled ||
-                $type || $free_item ) {
+			if( $overlay || $heading || $heading_msg || $invalid || $add_gift || $cancel || $ok || $type || $free_item
+                || $so_product_page || $so_product_page_enabled || $so_add_more || $so_add_more_enabled || $so_congrat
+                || $so_congrat_enabled || $so_congrat_save_money || $so_congrat_save_money_enabled || $so_deleted_gift
+                || $so_deleted_gift_enabled ) {
 				wbgm_Common_Helper::success_notice(
 					wbgm_Common_Helper::translate(
 						'Settings saved successfully'

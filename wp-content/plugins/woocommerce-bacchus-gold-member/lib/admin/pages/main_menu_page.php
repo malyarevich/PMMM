@@ -13,7 +13,7 @@
     <div id="wbgm_free_gift_global_settings">
         <form name="wbgm_main_menu_form" method="post" action="">
             <h2></h2>
-            <?php wp_nonce_field( 'wbgm_global_settings','_wbgm_global_nonce' ); ?>
+            <?php wp_nonce_field( '_wbgm_global_settings','_wbgm_global_nonce' ); ?>
             <?php if( $products->have_posts() ): ?>
                 <div class="options_group">
                     <p class="form-field wbgm_form_field switcher ">
@@ -34,8 +34,8 @@
 
                 <div class="wbgm-main-settings-wrapper">
                     <?php
-                    $wbgm_global_settings = WBGM_Settings_Helper::get( '', false, 'global_settings', false );
-                    $condition = isset($wbgm_global_settings['criteria-1']) ? $wbgm_global_settings['criteria-1'] : null;
+                    $_wbgm_global_settings = WBGM_Settings_Helper::get( '', false, 'global_settings', false );
+                    $condition = isset($_wbgm_global_settings['criteria-1']) ? $_wbgm_global_settings['criteria-1'] : null;
                     ?>
                     <div class="wbgm-settings-repeater shadow" data-id="1">
                         <div class="wbgm-draggable">

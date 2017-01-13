@@ -192,7 +192,7 @@ class WBGM_Product_Helper
 		//check if product variation already exists
 		$product_variation = get_posts( array(
 								'post_parent' => $product_id,
-								's' => 'wbgm_gift_product',
+								's' => '_wbgm_gift_product',
 								'post_type' => 'product_variation',
 								'posts_per_page' => 1
 							)
@@ -214,7 +214,7 @@ class WBGM_Product_Helper
 			'post_status' => 'publish',
 			'post_name' => 'product-' . $product_id . '-variation',
 			'post_parent' => $product_id,
-			'post_title' => 'wbgm_gift_product',
+			'post_title' => '_wbgm_gift_product',
 			'post_type' => 'product_variation',
 			'comment_status' => 'closed',
 			'ping_status' => 'closed',

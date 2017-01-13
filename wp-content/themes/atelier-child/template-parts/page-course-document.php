@@ -1,2 +1,2 @@
 <h1 class="quiz_header">„Geluk“ (Gratulation)!</h1>
-<h4>Sie haben unser Bacchus-Seminar „Weinland Südafrika“ erfolgreich abgeschlossen. Ihr persönliches Zertifikat wurde an Ihre Mailadresse zugesendet. Um das Zertifikat direkt herunterzuladen, klicken Sie <a href='<?php echo generate_quiz_certificate()?>'>HIER</a>.</h4>
+<h4>Sie haben unser Bacchus-Seminar „Weinland Südafrika“ erfolgreich abgeschlossen. Um das Zertifikat direkt herunterzuladen, klicken Sie <a href='<?php echo generate_quiz_certificate()?>'>HIER</a>.</h4>

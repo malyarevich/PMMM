@@ -1,9 +1,11 @@
 <?php
 /***
  Plugin Name: Woocommerce Bacchus Gold Loyalty Program Plugin
- Description: WooCommerce giveaway made easy.
+ Plugin URI:
+ Description: WooCommerce plugin special for bacchus.de.
  Version: 0.0.0
  Author: Yevgen
+ Author URI: http://bacchus.de/
  Text Domain: woocommerce-bacchus-gold-member
  Domain Path: /languages
 

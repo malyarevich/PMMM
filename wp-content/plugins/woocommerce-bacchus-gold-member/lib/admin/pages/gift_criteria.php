@@ -17,7 +17,7 @@
     <div id="wbgm_free_gift_global_settings">
         <form name="wbgm_main_menu_form" method="post" action="">
             <h2></h2>
-            <?php wp_nonce_field( 'wbgm_criteria_settings', '_wbgm_criteria_nonce' ); ?>
+            <?php wp_nonce_field( '_wbgm_criteria_settings', '_wbgm_criteria_nonce' ); ?>
             <div class="_wbgm-criteria-wrap">
                 <div class="wbgm-criteria">
                     <?php

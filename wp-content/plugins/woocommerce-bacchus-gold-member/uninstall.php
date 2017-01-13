@@ -9,7 +9,7 @@
 	    $wpdb->prepare
         (
             "DELETE FROM $wpdb->posts WHERE post_title=%s AND post_type=%s",
-            'wbgm_gift_product',
+            '_wbgm_gift_product',
             'product_variation'
         )
     );
@@ -32,3 +32,16 @@
 	delete_option( '_wbgm_type_text' );
 	delete_option( '_wbgm_free_item_text' );
 	delete_option( '_wbgm_ok_text' );
+	delete_option( '_wbgm_type_text' );
+	delete_option( '_wbgm_free_item_text' );
+
+	delete_option( '_wbgm_so_product_page' );
+	delete_option( '_wbgm_so_product_page_enabled' );
+	delete_option( '_wbgm_so_add_more' );
+	delete_option( '_wbgm_so_add_more_enabled' );
+	delete_option( '_wbgm_so_congrat' );
+	delete_option( '_wbgm_so_congrat_enabled' );
+	delete_option( '_wbgm_so_congrat_save_money' );
+	delete_option( '_wbgm_so_congrat_save_money_enabled' );
+	delete_option( '_wbgm_so_deleted_gift' );
+	delete_option( '_wbgm_so_deleted_gift_enabled' );

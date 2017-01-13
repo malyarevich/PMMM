@@ -145,8 +145,8 @@ class WBGM_Single_Gift
 	 */
 	public function process_wbgm_tab( $post_id )
 	{
-		$wbgm_enabled = ( isset($_POST['wbgm_single_gift_enabled']) && $_POST['wbgm_single_gift_enabled'] ) ? 1 : 0;
-		$wbgm_gifts_allowed = ( isset($_POST['wbgm_single_gift_allowed']) && $_POST['wbgm_single_gift_allowed'] >= 0 ) ? $_POST['wbgm_single_gift_allowed'] : 1;
+		$wbgm_enabled = ( isset($_POST['_wbgm_single_gift_enabled']) && $_POST['_wbgm_single_gift_enabled'] ) ? 1 : 0;
+		$wbgm_gifts_allowed = ( isset($_POST['_wbgm_single_gift_allowed']) && $_POST['_wbgm_single_gift_allowed'] >= 0 ) ? $_POST['_wbgm_single_gift_allowed'] : 1;
 		if( ! (bool) $wbgm_enabled ) {
 			delete_post_meta( $post_id, '_wbgm_single_gift_enabled' );
 		} else {

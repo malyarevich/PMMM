@@ -193,7 +193,7 @@
                     <?php
                     $so_deleted_gift = WBGM_Settings_Helper::get( 'so_deleted_gift', false, 'global_options' );
                     if( false === $so_deleted_gift ) {
-                        $so_deleted_gift = WBGM_Common_Helper::translate( '{Y} x {title} were deleted from your cart.' );
+                        $so_deleted_gift = WBGM_Common_Helper::translate( '{Y} x {title} wurde(n) aus dem Warenkorb entfernt.' );
                     }
                     ?>
                     <input type="text" name="_wbgm_so_deleted_gift" id="so_deleted_gift" class="regular-text"
@@ -262,7 +262,7 @@
                     <?php
                     $add_gift_text = WBGM_Settings_Helper::get( 'btn_adding_to_cart_text', false, 'global_options' );
                     if( false === $add_gift_text ) {
-                        $add_gift_text = WBGM_Common_Helper::translate( 'Adding to cart...' );
+                        $add_gift_text = WBGM_Common_Helper::translate( 'Bonus-Artikel wird hinzugefügt' );
                     }
                     ?>
                     <input type="text" name="_wbgm_btn_adding_to_cart_text" id="btn_adding_to_cart_text" class="regular-text" value="<?php echo $add_gift_text ?>" />
@@ -278,7 +278,7 @@
                     <?php
                     $cancel_text = WBGM_Settings_Helper::get( 'popup_cancel_text', false, 'global_options' );
                     if( false === $cancel_text ) {
-                        $cancel_text = WBGM_Common_Helper::translate( 'No Thanks' );
+                        $cancel_text = WBGM_Common_Helper::translate( 'Nein danke' );
                     }
                     ?>
                     <input type="text" name="_wbgm_popup_cancel_text" id="popup_cancel_text" class="regular-text" value="<?php echo $cancel_text ?>" />

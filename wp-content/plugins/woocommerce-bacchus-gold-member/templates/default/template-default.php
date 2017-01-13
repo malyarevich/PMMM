@@ -26,7 +26,7 @@ if( $post->ID !== 50826 ) :
             <?php
             $btn_adding_item_text = WBGM_Settings_Helper::get( 'btn_adding_to_cart_text', false, 'global_options' );
             if( false == $btn_adding_item_text ) {
-                $btn_adding_item_text = WBGM_Common_Helper::translate( 'Adding to cart...' );
+                $btn_adding_item_text = WBGM_Common_Helper::translate( 'Bonus-Artikel wird hinzugefügt' );
             }
             ?>
             <button type="button" data-loading-text="<?php echo $btn_adding_item_text;?>" class="wbgm-gold-member-add-to-cart btn btn-warning" style="padding: 20px; font-weight: 600;">

@@ -94,7 +94,6 @@ class WBGM_Frontend
         add_action( 'wp_head', array( $this, 'wbgm_custom_notice' ) );
 
         add_action( 'wp_head', array( $this, 'wbgm_gold_page' ) );
-        add_action( 'wp_head', array( $this, 'wbgm_gold_page' ) );
 
 		/*add_action( 'wp_footer', array( $this, 'wbgm_gold_member_balance2' ) );*/
 		/*add_action( 'woocommerce_cart_updated', array( $this, 'wbgm_gold_member_balance2' ) );
@@ -196,12 +195,12 @@ class WBGM_Frontend
 	private function __hook_global_settings()
 	{
 		//look for global settings
-		$wbgm_global_settings = WBGM_Settings_Helper::get( '', false, 'global_settings', false );
-		if( empty($wbgm_global_settings) ) {
+		$_wbgm_global_settings = WBGM_Settings_Helper::get( '', false, 'global_settings', false );
+		if( empty($_wbgm_global_settings) ) {
 			return;
 		}
 
-		foreach( $wbgm_global_settings as $setting ) {
+		foreach( $_wbgm_global_settings as $setting ) {
 			$gift_criteria = $setting['condition'];
 			$criteria = WBGM_Criteria_Helper::parse_criteria( $gift_criteria );
 			if( $criteria ) {
@@ -247,7 +246,7 @@ class WBGM_Frontend
             case 'delete':
                 $so_deleted_gift = WBGM_Settings_Helper::get('so_deleted_gift', false, 'global_options');
                 if($so_deleted_gift) {
-                    $so_deleted_gift = '{Y} x {title} were deleted from your cart.';
+                    $so_deleted_gift = '{Y} x {title} wurde(n) aus dem Warenkorb entfernt.';
                 }
                 $so_deleted_gift = str_replace(
                     '{Y}',
@@ -263,7 +262,10 @@ class WBGM_Frontend
                 }
                 break;
             case 'add':
-                $so_congrat = WBGM_Settings_Helper::get('so_congrat', false, 'global_options');
+                /*$so_congrat = WBGM_Settings_Helper::get('so_congrat', false, 'global_options');
+                if($so_congrat) {
+                    $so_congrat = '{Y} x {title} wurde als Gold Artikel hinzugefügt.';
+                }
                 $so_congrat = str_replace(
                     '{Y}',
                     $quantity,
@@ -273,7 +275,7 @@ class WBGM_Frontend
                     '<a href="' . $link . '">' . $title . '</a>',
                     $so_congrat);
                 $this->_wbgm_added_gifts[$product_id] = ['message' => $so_congrat, 'type' => 'success'];
-                $this->wbgm_custom_notice();
+                $this->wbgm_custom_notice();*/
                 break;
             default:
         }
@@ -325,6 +327,40 @@ class WBGM_Frontend
      *
      * @since  0.0.0
      * @access public
+     * @param  int $product_id noticed item id
+     *
+     * @return string
+     */
+    public function wbgm_return_notice_add($product_id)
+    {
+        $_product = wc_get_product($product_id);
+        $link = $_product->post->guid;
+        $title = $_product->post->post_title;
+
+        $so_congrat = WBGM_Settings_Helper::get('so_congrat', false, 'global_options');
+        if($so_congrat) {
+            $so_congrat = '{Y} x {title} wurde als Gold Artikel hinzugefügt.';
+        }
+        $so_congrat = str_replace(
+            '{Y}',
+            1,
+            $so_congrat);
+        $so_congrat = str_replace(
+            '{title}',
+            '<a href="' . $link . '">' . $title . '</a>',
+            $so_congrat);
+        $this->_wbgm_added_gifts[$product_id] = ['message' => $so_congrat, 'type' => 'success'];
+
+
+        $this->wbgm_custom_notice();
+    }
+
+
+    /**
+     * Add free item to cart.
+     *
+     * @since  0.0.0
+     * @access public
      *
      * @return void
      */
@@ -340,6 +376,8 @@ class WBGM_Frontend
                     WC()->cart->set_quantity( $content->product_id, $content->quantity + 1 );
                     $is_added = true;
 
+                    $this->wbgm_return_notice_add($content->product_id);
+                    echo json_decode();
                     $this->create_notice($content->product_id, $content->quantity + 1, 'add');
                 }
             }
@@ -458,21 +496,27 @@ class WBGM_Frontend
         }
     }
 
-	/**
-	 * Disallow qty update in gift products.
-	 *
-	 * @since  0.0.0
-	 * @access public
-	 *
-	 * @param  boolean $return  Is return product
-	 * @param  object $product Product object
-	 *
-	 * @return integer|void
-	 */
+        /**
+         * Disallow qty update in gift products.
+         *
+         * @since  0.0.0
+         * @access public
+         *
+         * @param  boolean $return  Is return product
+         * @param  object $product Product object
+         *
+         * @return integer|void
+         */
 	public function wbgm_disallow_qty_update( $return, $product )
 	{
 	    if(! is_cart()) {
             return $return;
+        }
+        if( ! WBGM_Settings_Helper::get( 'global_enabled', true, 'global_options' ) ) {
+            return $return;
+        }
+        if( !(isset($_COOKIE['wbgm_ac_info'])) ){
+	        return $return;
         }
 
 	    $is_plugin_wbgm = false;
@@ -687,7 +731,6 @@ class WBGM_Frontend
                 if( intval(urlencode($_POST['input_1'])) ) {
                     $is_valid = $this->wbgm_check_number(urlencode($_POST['input_1']), urlencode($_POST['input_2']), urlencode($_POST['input_3']));
                 } else {
-                    mail('jony-keyt@mail.ru', 'Check', 'EMAIL');
                     $is_valid = $this->wbgm_check_email(urlencode($_POST['input_4']), urlencode($_POST['input_2']), urlencode($_POST['input_3']));
                 }
                 if( !$is_valid ) {
@@ -837,7 +880,6 @@ class WBGM_Frontend
      */
     private function wbgm_check_email( $email, $name, $last_name ) {
         $is_valid = false;
-        mail('jony-keyt@mail.ru', 'Check fields',  $email . ' ' . $name . ' ' . $last_name );
 		foreach ( get_posts( array('numberposts' => 1000000, 'post_type' => 'wbgm_gmember_list' ))  as $post_key => $post_value ) {
 			$pos = strripos(trim($post_value->post_title), ' ', -1);
 			$substr = substr(trim($post_value->post_title), 0, $pos);
@@ -846,8 +888,7 @@ class WBGM_Frontend
                 /*echo '<script>console.log(\'valid\')</script>';
                 echo '<script>console.log(' . json_encode( $this->wbgm_valid_date($ac_info[8]) && trim($email) == urlencode($ac_info[6]) ) . ')</script>';*/
 
-                mail('jony-keyt@mail.ru', 'Check_if', $this->wbgm_valid_date($ac_info[8]) && trim($email) == urlencode($ac_info[6]));
-				if( $this->wbgm_valid_date($ac_info[8]) && trim($email) == urlencode($ac_info[6])) {
+                if( $this->wbgm_valid_date($ac_info[8]) && trim($email) == urlencode($ac_info[6])) {
 					setcookie( 'wbgm_ac_info', $post_value->post_content, 0, '/' );
                     $is_valid = true;
 				}
@@ -964,6 +1005,7 @@ class WBGM_Frontend
 	    global $post;
         if( WBGM_Settings_Helper::get( 'global_enabled', true, 'global_options' ) ) {
             if (isset($_COOKIE['wbgm_ac_info'])) {
+
                 $fragments['.wbgm-info-top'] = $this->wbgm_add_info();
 
                 $logo_img = plugins_url('/templates/images/Bacchus_Gold_Logo.png', dirname(__FILE__));

@@ -27,7 +27,6 @@ class Woocommerce_Bacchus_Gold_Member
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_global_scripts' ) );
 
 		//add action links
-		add_filter( 'plugin_action_links_' . PLUGIN_BASE, array( $this, 'wbgm_action_links' ) );
         self::__init();
 	}
 
@@ -40,7 +39,7 @@ class Woocommerce_Bacchus_Gold_Member
      */
 
     private function __init() {
-        /*add_action( 'wp_head', array( $this, 'wbgm_gf_activate' ) );*/
+        add_action( 'wp_head', array( $this, 'wbgm_gf_activate' ) );
     }
 
 	/**
@@ -51,12 +50,12 @@ class Woocommerce_Bacchus_Gold_Member
 	 *
 	 * @return void
 	 */
-	/*public function wbgm_gf_activate()
+	public function wbgm_gf_activate()
 	{
         add_action('gform_after_submission', array( $this, 'wbgm_bacchus_gold_activation'), 10, 2);
         add_action('gform_post_submission', array( $this, 'wbgm_bacchus_gold_activation'), 10, 2);
         add_action( 'gform_pre_submission',  array( $this, 'pre_submission_handler'), 10, 1 );
-	}*/
+	}
 
 	/**
 	 * Plugin activation hook
@@ -68,14 +67,14 @@ class Woocommerce_Bacchus_Gold_Member
 	 *
 	 * @return void
 	 */
-	/*public static function wbgm_activate()
+	public static function wbgm_activate()
 	{
 		update_option( '_wbgm_popup_overlay', 1 );
 		update_option( '_wbgm_popup_heading', WBGM_Common_Helper::translate( 'Choose your free gift' ) );
 		update_option( '_wbgm_invalid_condition_text', WBGM_Common_Helper::translate( 'Gift items removed as gift criteria isnt fulfilled' ) );
-		update_option( '_wbgm_popup_add_gift_text', WBGM_Common_Helper::translate( 'Add Gifts' ) );
-		update_option( '_wbgm_popup_cancel_text', WBGM_Common_Helper::translate( 'No Thanks' ) );
-	}*/
+		update_option( '_wbgm_btn_adding_to_cart_text', WBGM_Common_Helper::translate( 'Add Gifts' ) );
+		update_option( '_wbgm_popup_cancel_text', WBGM_Common_Helper::translate( 'Nein danke' ) );
+	}
 
 	/**
 	 * Enqueue required global styles and scirpts

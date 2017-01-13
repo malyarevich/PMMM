@@ -31,6 +31,16 @@ jQuery(document).ready(function() {
 	});
 
 	jQuery('.wbgm-gold-member-add-to-cart').click(function(e) {
+
+		if(/*jQuery( "#NoticeAddGold" ).length*/ true)   {
+
+            /*jQuery("#main-container > div > div > div > div.woo-aux-options.clearfix").*/
+		} else {
+        	/*<ul class="woocommerce-message">
+                <li>1 x <a href="https://www.bacchus.de/shop/dornfelder-traubenlikoer-18-vol/">Dornfelder Traubenlikör 18 % Vol.</a> wurde als Gold Artikel hinzugefügt.</li>
+            </ul>*/
+		}
+
 		e.preventDefault();
 		var form = jQuery(this).closest('form');
         var $btn = jQuery(this);
@@ -50,6 +60,7 @@ jQuery(document).ready(function() {
                 $btn.button('reset');
             }
 		});
+
 	});
 
 	var wbgmCheckboxes = jQuery('.wbgm-checkbox');
