@@ -14,7 +14,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="git.txt" pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;34a8fe9f-e5c7-4d56-aadb-94f76bd3cc3d&gt;/wp-content/plugins/woocommerce-bacchus-gold-member/git.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -173,12 +184,12 @@
       <workItem from="1484155921673" duration="4408000" />
       <workItem from="1484252167762" duration="2388000" />
       <workItem from="1484263982094" duration="893000" />
-      <workItem from="1484264904644" duration="962000" />
+      <workItem from="1484264904644" duration="1497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17493000" />
+    <option name="totallyTimeSpent" value="18028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
