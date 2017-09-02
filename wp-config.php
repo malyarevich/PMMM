@@ -34,23 +34,11 @@ define('W3TC_EDGE_MODE', true); // Added by W3 Total Cache
  * Ersetze datenbankname_hier_einfuegen mit dem Namen
  * mit dem Namen der Datenbank, die du verwenden möchtest.
  */
-define('DB_NAME', 'usr_p277497_1');
 
 /**
  * Ersetze benutzername_hier_einfuegen
  * mit deinem MySQL-Datenbank-Benutzernamen.
  */
-define('DB_USER', 'p277497');
-
-/**
- * Ersetze passwort_hier_einfuegen mit deinem MySQL-Passwort.
- */
-define('DB_PASSWORD', 'afeqetIf-289');
-
-/**
- * Ersetze localhost mit der MySQL-Serveradresse.
- */
-define('DB_HOST', 'db3642.mydbserver.com');
 
 /**
  * Der Datenbankzeichensatz, der beim Erstellen der
@@ -74,17 +62,7 @@ define('DB_COLLATE', 'utf8_general_ci');
  * Benutzer müssen sich danach erneut anmelden.
  *
  * @since 2.6.0
- */
-define('AUTH_KEY',         'GdawYX1UfThMwFGzQYyJhLAqKo5NE2NM');
-define('SECURE_AUTH_KEY',  'g7dyisCyoL1PxBFOGUvP82kzSOErQj5P');
-define('LOGGED_IN_KEY',    '5j3/HJKMQUZnxo4UuidcfknqxQ5BniS1');
-define('NONCE_KEY',        'uX2RebxxxLTQ7+JCkC2f4xiusqastPnq');
-define('AUTH_SALT',        'gMD/9jNuJVHsqA+nH5irK+fCXSd2GujI');
-define('SECURE_AUTH_SALT', 'OrHZfBjdPdA9IuI2lIYCxRUB2xqOjB9T');
-define('LOGGED_IN_SALT',   'Gzw8EqnjcOvX3PrV0wdd923XwJaNtOGw');
-define('NONCE_SALT',       'rjGjr2PMqNYMBx2Ng+VdUtflsvEv7Tvu');
-define( 'WP_MEMORY_LIMIT', '256M' );
-
+*/
 /**#@-*/
 
 /**
